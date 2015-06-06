@@ -1,0 +1,159 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.ocl;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.emf.ecore;bundle-version="[2.5.0,3.0.0)",org.eclipse.m2
+ m.qvt.oml;bundle-version="[3.0.0,4.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.ocl.OclQvtoPlugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.ocl;x-internal:=true,
+ org.eclipse.m2m.internal.qvt.oml.ocl.metainfo;x-internal:=true,org.ec
+ lipse.m2m.internal.qvt.oml.ocl.transformations;x-internal:=true
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/messages.pr
+ operties
+SHA1-Digest: KbhAsZqIwD0Bwz6j4L8l9aIlX28=
+
+Name: org/eclipse/m2m/qvt/oml/ocl/legacy/libraries/StringLibrary$Metai
+ nfo.class
+SHA1-Digest: UD7G4eUIVyS3DtA+SIEtdhqKqNs=
+
+Name: org/eclipse/m2m/qvt/oml/ocl/legacy/libraries/Logger.class
+SHA1-Digest: AC3b78URT1MfOpi3wxhpczkVtHE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfoNamed.c
+ lass
+SHA1-Digest: gOHvoVQp0TboZyV4TJn+kjQMobI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/OclQvtoPlugin.class
+SHA1-Digest: 8yYu0Ot/46GgNbdUV4i5CdBglhU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfo.class
+SHA1-Digest: 3fVdSXOChN8qWdojNd9833VqI3c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LegacyNativ
+ eLibSupport.class
+SHA1-Digest: QGEHF4QEQ1Wh20J3tiMRQ5l8uiU=
+
+Name: org/eclipse/m2m/qvt/oml/ocl/legacy/libraries/StringLibrary.class
+SHA1-Digest: u5USswIVjVm7C+7GMxrZJNDYDRE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfoClassLa
+ zyLoader.class
+SHA1-Digest: ncryhqOjihBLc/bOKxXF405KJak=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/Logger.class
+SHA1-Digest: k4jqCCohlHIVeWF87kWTqJfJxYI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibrariesRe
+ gistry.class
+SHA1-Digest: DSRFFqsShIYkWnvz7QZ5Hwh4HEU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibrariesRe
+ gistryImpl.class
+SHA1-Digest: C91qrY35S8iEZgeNZvUv8EQ4mus=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibraryOper
+ ation.class
+SHA1-Digest: vPStVwLp4NStMD6RLl40P6PhTAg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibraryOper
+ ationImpl.class
+SHA1-Digest: 7lPrQ0hOPuwUyCUNr287MWhpx6s=
+
+Name: plugin.properties
+SHA1-Digest: /4RCNvlJ4FTabervP1IQ5xpgNjk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LegacyNativ
+ eLibSupport$Handler.class
+SHA1-Digest: nltApse10S0+Q5JXJ14W0hEJG3A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/QvtLibraryO
+ peration.class
+SHA1-Digest: 1+Ir/AdH7H3RWxU6nmr6Qaxyzog=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/Library.cla
+ ss
+SHA1-Digest: cb0577hl9uCkT41FvSdwma7Cu+U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibraryImpl
+ .class
+SHA1-Digest: h2DbIIhw+0hgoN/pDscxlQPmyW4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibraryCrea
+ tionException.class
+SHA1-Digest: nMud4G13BtAp7zBheP2vFTtIH8o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfo$LazyLo
+ ader.class
+SHA1-Digest: d7/HbbmpT37cm6NTpPa6TBugUCw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LibraryOper
+ ationException.class
+SHA1-Digest: 4ahEMd4tkDIeSLGErnriDaX9QG4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfoNamedTy
+ ped.class
+SHA1-Digest: EkCpFRJQfSLHyqZD4b6AR2LMObA=
+
+Name: plugin.xml
+SHA1-Digest: 9Tw+poMYLJoadqsTqRdwuFNaqzA=
+
+Name: org/eclipse/m2m/qvt/oml/ocl/legacy/libraries/EmfToolsLibrary.cla
+ ss
+SHA1-Digest: t0Sr3XLbH71ZIF0+84o5hDrKgw0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclReflectiveMetai
+ nfoConstants.class
+SHA1-Digest: PSOWfzXTYfj0XRYdi8faw8oI9j4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LegacyNativ
+ eLibraryProviderAdapter.class
+SHA1-Digest: wefMz740DSNhvDGLlQEv+V9jXjc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: schema/libraries.exsd
+SHA1-Digest: rUBYuKc/J4TL0E4XPxXynzQ38ig=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/LegacyNativ
+ eLibraryProviderAdapter$LibraryDescriptor.class
+SHA1-Digest: nHnTPE1TJzg8uL3tUJp/G5BQWNA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/transformations/Messages.cl
+ ass
+SHA1-Digest: xzjqvwUX8nHaoy+6C5g2QEsVp4w=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/OclQvtoPlugin$PluginLogHand
+ ler.class
+SHA1-Digest: OW/2bvJAIGl8seBJ5KWv9MErleI=
+
+Name: org/eclipse/m2m/qvt/oml/ocl/legacy/libraries/EmfToolsLibrary$Met
+ ainfo.class
+SHA1-Digest: IdgcNhttIuVORCgjTltvVFzpxqc=
+
+Name: .options
+SHA1-Digest: I+olFJPuKn5+j7y1756bZTmgQwA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfoOperati
+ on.class
+SHA1-Digest: QJr7ifupoB+AUXP3vauIu1PIIRI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ocl/metainfo/OclMetainfo$Visito
+ r.class
+SHA1-Digest: aGRGOOQHXPWekdlqHopIQ0H/iTg=
+
+Name: org/eclipse/m2m/qvt/oml/ocl/legacy/libraries/Libraries.class
+SHA1-Digest: vWiq7VtIXuZuR6B97r9qJa9q1oU=
+

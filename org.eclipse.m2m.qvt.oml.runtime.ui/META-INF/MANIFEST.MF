@@ -1,0 +1,506 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.runtime.ui;singleton:=tru
+ e
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.emf.ecore.xmi;bundle-version="[2.5.0,3.0.0)",org.eclips
+ e.debug.ui;bundle-version="[3.4.0,4.0.0)",org.eclipse.ui.ide;bundle-v
+ ersion="[3.4.0,4.0.0)",org.eclipse.ui.workbench.texteditor;bundle-ver
+ sion="[3.5.0,4.0.0)",org.eclipse.jface.text;bundle-version="[3.4.0,4.
+ 0.0)",org.eclipse.m2m.qvt.oml;bundle-version="[3.0.0,4.0.0)",org.ecli
+ pse.m2m.qvt.oml.common;bundle-version="[3.1.0,4.0.0)",org.eclipse.m2m
+ .qvt.oml.common.ui;bundle-version="[3.0.0,4.0.0)";visibility:=reexpor
+ t,org.eclipse.m2m.qvt.oml.emf.util;bundle-version="[3.0.0,4.0.0)",org
+ .eclipse.m2m.qvt.oml.emf.util.ui;bundle-version="[3.0.0,4.0.0)",org.e
+ clipse.m2m.qvt.oml.runtime;bundle-version="[3.0.0,4.0.0)",org.eclipse
+ .m2m.qvt.oml.project;bundle-version="[3.0.0,4.0.0)",org.eclipse.emf.e
+ dit.ui;bundle-version="[2.5.0,3.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.runtime.ui.QvtRunti
+ meUIPlugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.runtime.ui;x-internal
+ :=true,org.eclipse.m2m.internal.qvt.oml.runtime.ui.launch;x-internal:
+ =true,org.eclipse.m2m.internal.qvt.oml.runtime.ui.trace.common; x-fri
+ ends:="org.eclipse.m2m.qvt.oml.debug.ui",org.eclipse.m2m.qvt.oml.runt
+ ime.ui.wizards
+Bundle-Version: 3.3.0.v20130527-0728
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$4.class
+SHA1-Digest: Zmi/NVF5eevIQRjKHGWfXu8Z2Hc=
+
+Name: icons/dlcl16/collapseall.gif
+SHA1-Digest: DmG1zTSG03qEYwtYvoTZqwQmdDA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLaunchConf
+ igurationTabGroup$1.class
+SHA1-Digest: FOSvcPZDrsmUG56CRrJaadD1EcE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/Messages.cla
+ ss
+SHA1-Digest: +tTnTxqlz/aBvvEEubNypqwzEFw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtRuntimePluginImag
+ es.class
+SHA1-Digest: C4ht2e/+KIrLIMj3r35/HdP1ZMU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/Transformati
+ onParametersPage$1.class
+SHA1-Digest: yaLsqGNPfzr4duMjH3W/jNXAgRI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$2.class
+SHA1-Digest: Yxaj4nOWKv4DbTyRMukhbF48WvM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtTransforma
+ tionConfigurationTab.class
+SHA1-Digest: o1mxHQvwkij1/iFXTM+aju7IgO4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Transformatio
+ nSignatureLaunchControl$ModelParameterInfo.class
+SHA1-Digest: qpqDkpIeIfeR4hX6uFJT/FB7Whs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/actions/ShowQu
+ alifiedNamesAction.class
+SHA1-Digest: meUytC0kTNkr0+oyr4X3I2D8jxA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CreateQvtoAntTas
+ kWizard.class
+SHA1-Digest: GCQ0pfGuiD0RvOGa5Ng9rfTa2qI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/AbstractComposit
+ eWizardPage.class
+SHA1-Digest: eQ/xTBafn2k7Op8xkFmQ51j3q/4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtBuilderLau
+ nchConfigurationTabGroup.class
+SHA1-Digest: nAMHtt37ZvKB7ixm/nSmrHVzSOE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/presentation/E
+ StructuralFeatureNode.class
+SHA1-Digest: V55R7+vHmyG4o3CVwHGp3ju7qp0=
+
+Name: icons/cat-method.gif
+SHA1-Digest: H7HC7zLxTBLGBfiC13PLLI2aao4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/NewCompositeTran
+ sformationWizard$1.class
+SHA1-Digest: nhrqsTu3pse51LM5XdPZZPjXFsQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/QvtTransform
+ ationConfigurationPage.class
+SHA1-Digest: dAMwjlIcr7cXY5DdAyX4kpGUc10=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/Messages.class
+SHA1-Digest: PWN8hWTx8ujYtcqIYRSKzQHGtzI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/actions/Collap
+ seAllAction.class
+SHA1-Digest: xeM0hw5Tvs0L5OTFApxxofVS+D0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ChooseDataSource
+ Page$TypeNamesWithTaskTypes.class
+SHA1-Digest: 1h2vQCvTiJLUsf4LYwpEzfTY+b0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$3$1$1.class
+SHA1-Digest: njPRogIrR2t551//MwzZZhjE3BM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/presentation/N
+ odeContentProvider.class
+SHA1-Digest: lOlkLpn/qsmP46h1azknKKGDFc0=
+
+Name: icons/anttasks.gif
+SHA1-Digest: 2usgLQPNncQRtb16yssQBHGPc9Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage.class
+SHA1-Digest: RQgVI4HHjiP0j7f/vz2y9bVvP8o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/QvtTransform
+ ationConfigurationPage$1.class
+SHA1-Digest: 6OwRt91ArNwS/g2apWl+Ql9NRDU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ChooseDataSource
+ Page$2.class
+SHA1-Digest: LgdQVmZFC+qmQHOSihBq+ZcVjPM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationModel.class
+SHA1-Digest: YZovz6OSiUh/0pEluaRy0k3y0tY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$ConfigurationPropertyValue.class
+SHA1-Digest: nSZcaagwY3YN9tqRwhqp4DmK8cQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/TaskModel.class
+SHA1-Digest: U6kyQXx9Dn4bwx5qx3/JBbDW4qI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/Transformati
+ onParametersPage.class
+SHA1-Digest: DzMRBYPpYTkFn7kWiSlFvUVahT8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/SelectInterp
+ retedTransformationPage.class
+SHA1-Digest: inHHNv2EVARD4ciGD95OoJzhkXU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/editor/TraceEd
+ itorPart.class
+SHA1-Digest: FW7QZTyN4EZ6RlLzYO7EoisWTPI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$1.class
+SHA1-Digest: qKsvv2qDcXR5LYIehxhMB58KKpc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/messages.propert
+ ies
+SHA1-Digest: uixK02RyaWrObmsZ0h8phqh9dpo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/messages.prop
+ erties
+SHA1-Digest: 5srKVbH8iR0K8uGItk+8Kr8biiw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtRuntimeUIPlugin.c
+ lass
+SHA1-Digest: +59ZV0S5iB0sWrXGjNAa0A0MUcM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$5.class
+SHA1-Digest: Qm35qmQIcqk6/noluIM54NPlQQg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLaunchConf
+ igurationTabGroup$2.class
+SHA1-Digest: H2yEJfIY/CM56BSGkyM9X++D3Jk=
+
+Name: icons/qvt-compiled-transformation.gif
+SHA1-Digest: 1F4crtLCC6++FH5GdPfE62dO6eI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/Transformati
+ onParametersPage$2.class
+SHA1-Digest: 1zQXf2T1n+nw3wxFfCNGjqM0daw=
+
+Name: icons/show-source.gif
+SHA1-Digest: NgfFSPKzaDx0fewiMXPt4k5aTq4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/actions/messag
+ es.properties
+SHA1-Digest: pz7rUGHRFhDm/Pf1LlxEadiPMdc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$3.class
+SHA1-Digest: M0VVaqPz/ERIXLhXcrFJA+8siFg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$1.class
+SHA1-Digest: 2t+pkOa7jcHaswm7MZ0J08nRTnY=
+
+Name: templates/qvtoant.xml
+SHA1-Digest: 2Mtix9Gf4+BnodIGJ0yXOYSn8Hc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtTransforma
+ tionConfigurationTab$1.class
+SHA1-Digest: XoXi0jC7usFuJoYL6hke85HX6wQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/actions/ShowQu
+ alifiedNamesAction$1.class
+SHA1-Digest: Ph6qR9cUjLQSSP1GvkwTSEI0Cxc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ChooseDataSource
+ Page$AntFilter.class
+SHA1-Digest: tTG23Eve/NC27rkLDPGWkdduB6Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Transformatio
+ nSignatureLaunchControl$1.class
+SHA1-Digest: Lcp1X/0gfIpkK6ahB6hKzxNfO0Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/NewCompositeTran
+ sformationWizard$2.class
+SHA1-Digest: qozhfT3ea5p3atTjns/aa0/u+eI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/actions/RunInterpret
+ edTransformationAction.class
+SHA1-Digest: HKwlLTaXDYjDZy09HGvEXRhEjbQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ResultPage.class
+SHA1-Digest: 4ryhVm3xvM3xR9E6d4++dmaKIBs=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: icons/launch_config.gif
+SHA1-Digest: Wa2HVndjaIc3wx+wKYQcZ72KdNo=
+
+Name: icons/elcl16/th_showqualified.gif
+SHA1-Digest: dnWksgvFQSudK3lk7HV4q5VBr9Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/QvtTransform
+ ationConfigurationPage$2.class
+SHA1-Digest: BaS2rkd4kXaGfDXhDhnpRpI6XQQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ChooseDataSource
+ Page$3.class
+SHA1-Digest: biXOlfSqcCdlP54ADbULkyR3twY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Transformatio
+ nJobDoneHandler$1.class
+SHA1-Digest: Kkq3RrtXd9IoWx2vK34sh3aSt5c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/presentation/S
+ tringNode.class
+SHA1-Digest: L3vPSwTZJgBhmoECpv+WHIJfxR0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$DataProvider.class
+SHA1-Digest: uky7OhD6/tVSP3Hnh7C7OvgUn+g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/Messages.class
+SHA1-Digest: g5kjsSyMBNzaWQ6VsoGKHmAnrlI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$2.class
+SHA1-Digest: AbFGJIHcaKEY+06bbh+w/jsXZIE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$6.class
+SHA1-Digest: pqzuyNP1Ib1rOX//o21cfckxhGU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/presentation/N
+ ode.class
+SHA1-Digest: dq4h/fUEcL1ghDpI0NJm7ZnhDEs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/Transformati
+ onParametersPage$3.class
+SHA1-Digest: t7dGxASgnXbjv/AvnLenBKdEXD0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/SelectInterp
+ retedTransformationPage$1.class
+SHA1-Digest: CZA9Nui/tAvUHGBzsQ5m+fE9FFU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$4.class
+SHA1-Digest: dU9DTwcQ3F1fhWpYzriAMYvsRzQ=
+
+Name: org/eclipse/m2m/qvt/oml/runtime/ui/wizards/RunInterpretedTransfo
+ rmationWizardDelegate.class
+SHA1-Digest: 87Ry1wTgwFnHTC2jkf92m76v/ZE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$2.class
+SHA1-Digest: uc3OwPqK6jlinAurwilUXM2CHbU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Transformatio
+ nSignatureLaunchControl.class
+SHA1-Digest: UJZfNX8h93K/KWpAHJ4z5o8vvLg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/TraceViewLabel
+ Provider.class
+SHA1-Digest: 2ssjc7/btvtU1ck4szOpEEZtlxA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/actions/Messag
+ es.class
+SHA1-Digest: 0pyROvXCzWpBsSzYUJ+H8YvC524=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$4$1.class
+SHA1-Digest: HlUfkdwjwrzFmmpluSHJALcSjII=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtTransforma
+ tionConfigurationTab$2.class
+SHA1-Digest: MikW9EYaK9lR6fFeDE/sv8n284c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/TraceViewConte
+ ntProvider.class
+SHA1-Digest: hdjhOryYyRIl9W+E4o7RKZPsfus=
+
+Name: icons/trace-editor.gif
+SHA1-Digest: VTLA52girXG4DKckbohWtOk98Ck=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$3$1.class
+SHA1-Digest: BpbmCS0OL1g1pelBq3PokpViNes=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/elcl16/collapseall.gif
+SHA1-Digest: lLQ3zHD8+td65WxRKfB1kMRzOqQ=
+
+Name: icons/pr-Model_to_model.gif
+SHA1-Digest: y8m16caxT1ZPrDM1Jij/8UL/30A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ChooseDataSource
+ Page.class
+SHA1-Digest: UFizp0sJulAzqLW2O8d1QHhrn5Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/editor/TraceEd
+ itorActionBarContributor.class
+SHA1-Digest: 4cfxSqPSJwYOkB5A4DvDIdKF1XY=
+
+Name: icons/dlcl16/th_showqualified.gif
+SHA1-Digest: Yl7KLteXjnYs0FJRdjuw7+GPvyc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/presentation/E
+ ObjectNode.class
+SHA1-Digest: pdd4qtxNJSxqAxtuCwpHn5RHnYc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/common/TraceWo
+ rkbenchPart$1.class
+SHA1-Digest: Ilui87bV1Aor7j2dsUv9aTOIL5Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/ApplyTransfo
+ rmationData.class
+SHA1-Digest: n9R43XC11Gn2pIhyQWdyGIyyA5s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Transformatio
+ nJobDoneHandler$2.class
+SHA1-Digest: 31hnIJr2ARF1fpmO8zcET4HqAms=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b.class
+SHA1-Digest: 75DknOvgBqs1s+UIsmhKEDmqxtw=
+
+Name: icons/show-target.gif
+SHA1-Digest: 22X0KhsiCf5dv8eM8P8KIWEupHc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/messages.pro
+ perties
+SHA1-Digest: ua/QQBghmTq6SiL/JULH28f/y+M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$3.class
+SHA1-Digest: 5zSt76PO5sG2Xzbve0r3ZRM/H1c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI.class
+SHA1-Digest: ULW/1brKqNgYKZHuZETz5NY7W1s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/editor/message
+ s.properties
+SHA1-Digest: YWvV1FRwLCN7FU78KRXuNltJ4m4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/CompositeTransfo
+ rmationContentPage$7.class
+SHA1-Digest: MEPn2JxwVPgU2w3nyo/Zwql3g/E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/Transformati
+ onParametersPage$4.class
+SHA1-Digest: UApjjEbrSZQu4KiFJlGB82pvqC8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/SelectInterp
+ retedTransformationPage$2.class
+SHA1-Digest: D2HGqrSnUxmbjPZTh5lI4mIegkc=
+
+Name: plugin.properties
+SHA1-Digest: olkJKe4tWU5To6BB15YZ6YdRSlk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$1.class
+SHA1-Digest: nU4ZiGrEtenB8h7a4U0wWfN/040=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/RunInterpret
+ edTransformationWizard.class
+SHA1-Digest: xY2sOTyER9n28j2hKm+eyCAKxmM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Configuration
+ ErrorHandler.class
+SHA1-Digest: JlTh+wpCvZ00qpKvmS/n5ful+vI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$5.class
+SHA1-Digest: l1EM+i6+7GufgxcE5Xbp5dxrg5M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/actions/OpenEO
+ bjectAction.class
+SHA1-Digest: jKrCvPa7XHyHjPRusvpBOKgCGHg=
+
+Name: icons/apply-wizard.gif
+SHA1-Digest: UgjeeKT+hYhARMA40UM0TS8OvWQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$3.class
+SHA1-Digest: muK3ur7dCX5bdO9CelXHf7q7TUQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/NewCompositeTran
+ sformationWizard.class
+SHA1-Digest: J3UT+BtlYVdgwDXznbEWcuj0nKs=
+
+Name: plugin.xml
+SHA1-Digest: giLNqou0gybt2BZTSCAFcj1f/kA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/RunInterpret
+ edTransformationWizard$1.class
+SHA1-Digest: 87HXdjn+Z74NxRejrDgzoaPiFGg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Configuration
+ ErrorHandler$1.class
+SHA1-Digest: sPOJSL25kETE+Ji76YHhgL8F/Yk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/common/TraceAc
+ tionBarContributor.class
+SHA1-Digest: akpYqfaM8SE0+MoPfTvkF9ebjQk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLauncherTa
+ b$4$2.class
+SHA1-Digest: WKj4JNIDUBPjFGTm7bQbJVjFMSg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtBuilderLau
+ ncherTab.class
+SHA1-Digest: PUPYezen3gde8fpi4XZAWxZdj1U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/editor/Message
+ s.class
+SHA1-Digest: WBaiseQuXKQOE/od4oFMa3nPlCI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/trace/common/TraceWo
+ rkbenchPart.class
+SHA1-Digest: sDU5rX+pkXMmTnLEc7RrgbEHZqc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/LaunchConfigurat
+ ionTreeContentProvider.class
+SHA1-Digest: 3XRtxsAhMqnsnKaiLk6avo6Xzko=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Messages.clas
+ s
+SHA1-Digest: GPFvxlgdbkdHmruQcBd6O8xdj+k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$PropertyChangeListener.class
+SHA1-Digest: oSFa32NZHIYZiL8it5hA5+WJvAU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/messages.properties
+SHA1-Digest: 07+J/6HX6WinnnzQvxfK81cL6Ok=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/LaunchConfigurat
+ ionTreeContentProvider$LaunchConfigurationTypeContribution.class
+SHA1-Digest: pWjRAPExGilQxahsicOrZqElf5c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/Transformatio
+ nJobDoneHandler.class
+SHA1-Digest: UYBFFlt0mg8yg36Tb/3btA80rlg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/ant/ChooseDataSource
+ Page$1.class
+SHA1-Digest: eYN6b2pRMe4taFdJE2X8EZF1liI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$ConfigurationPropertyValueList.class
+SHA1-Digest: Osjs/1W3Q3mXpLSbqCogVmSEBtg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/wizards/QvtCompiledT
+ ransformationLabelProvider.class
+SHA1-Digest: 38vZtKQYGc7orkXBmmsdrv5RTSU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/launch/QvtLaunchConf
+ igurationTabGroup.class
+SHA1-Digest: pAcFPzOM8kolucDfuHPYNlftvtA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/runtime/ui/QvtTransformationCon
+ figurationUI$MyLabelProvider.class
+SHA1-Digest: SNhYtQK37L9K4xaK4PE5HxLvwsM=
+

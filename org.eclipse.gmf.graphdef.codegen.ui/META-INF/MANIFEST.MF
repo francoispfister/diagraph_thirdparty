@@ -1,0 +1,108 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.graphdef.codegen.ui;singleton:=tr
+ ue
+Require-Bundle: org.eclipse.pde.ui;bundle-version="[3.3.0,4.0.0)",org.
+ eclipse.jface;bundle-version="[3.3.0,4.0.0)",org.eclipse.core.runtime
+ ;bundle-version="[3.3.0,4.0.0)",org.eclipse.pde.core;bundle-version="
+ [3.3.0,4.0.0)",org.eclipse.core.resources;bundle-version="[3.3.0,4.0.
+ 0)",org.eclipse.gmf.graphdef.codegen;bundle-version="[2.9.0,4.0.0)",o
+ rg.eclipse.emf.ecore;bundle-version="[2.3.0,3.0.0)",org.eclipse.gmf.c
+ ommon;bundle-version="[1.1.0,2.0.0)",org.eclipse.ui;bundle-version="[
+ 3.3.0,4.0.0)",org.eclipse.jdt.core;bundle-version="[3.3.0,4.0.0)",org
+ .eclipse.ui.forms;bundle-version="[3.3.0,4.0.0)"
+Export-Package: org.eclipse.gmf.internal.graphdef.codegen.ui;x-friends
+ :="org.eclipse.gmf.codegen.ui"
+Bundle-Version: 1.3.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/GeneratePluginActio
+ n$StandaloneGeneratorOptionsDialog.class
+SHA1-Digest: T6AClvoFn/srReuCGMJofOl8WHQ=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/ConverterOutcome.cl
+ ass
+SHA1-Digest: 2ZAgg7C2s2AtbVW4JLpLMhiTIvU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: icons/obj16/GMFGraphModelFile.gif
+SHA1-Digest: WXy0hphLgh6luC81dyehrtZ0zIM=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/FigureGeneratorOpti
+ onsDialog.class
+SHA1-Digest: n+QslwLpY1g/RoMHirDigX+3RJo=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/FileNameOption.clas
+ s
+SHA1-Digest: /KpCnC/9tN4vFnCQhH+tG1GULXw=
+
+Name: plugin.properties
+SHA1-Digest: Wm9uNJn6X18BcTW1b9ln3YMhqlc=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/GeneratePluginActio
+ n$StandaloneGeneratorOptionsDialog$1.class
+SHA1-Digest: SVZ7jaG6gofjpJxh3bNAsBKTA70=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/GeneratePluginActio
+ n.class
+SHA1-Digest: 9wH+UKBYb2ONz9axuIAQ/5GuNU4=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/ConverterOptions.cl
+ ass
+SHA1-Digest: ZapX6s+9hLsumqM+Aqy/qGu/euc=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/ConverterSection$In
+ putValidationState.class
+SHA1-Digest: LRZfG+bIWOgRf6NYtKRPpRpxwLY=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/StandaloneGenerator
+ ConfigAdapter.class
+SHA1-Digest: vmX/sE6Orf23tldth9XofbZIqm8=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef.codegen.ui/pom.xml
+SHA1-Digest: 8+UMHQxFDRtAJmSMevGyLUsPINE=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/FigureGeneratorOpti
+ onsDialog$1.class
+SHA1-Digest: hxLlq+HXPiQtiXFlwWG5GTDGGlw=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef.codegen.ui/pom.properties
+SHA1-Digest: ytRCMDCv1cSDBP50gnk/tW/CES4=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/ConverterSection.cl
+ ass
+SHA1-Digest: zTIEEzXC2bULOsALorUiNb6QZ0k=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/FileNameOption$1.cl
+ ass
+SHA1-Digest: 5yR+/XBbcKF5uhGgzlao5uW6mP8=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/FileNameOption$2.cl
+ ass
+SHA1-Digest: 2FJkaZqzbNkLulrb2/mb5jwf/ww=
+
+Name: plugin.xml
+SHA1-Digest: UMUCIUFiWfxMQehxAzNoVT0PzcE=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/GeneratePluginActio
+ n$1.class
+SHA1-Digest: 6h43MxfImKo59Y/Bs6vtQ/U6e60=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/ui/FigureGeneratorWiza
+ rd.class
+SHA1-Digest: D71Bei7oGK4mSljbWI1K5CnEMO8=
+

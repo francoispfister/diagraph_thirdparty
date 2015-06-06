@@ -1,0 +1,66 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.xpand.qvtlibrary;singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ocl.ecore,org.ecl
+ ipse.m2m.qvt.oml
+Export-Package: org.eclipse.gmf.internal.xpand.qvtlibraries;x-friends:
+ ="org.eclipse.gmf.xpand"
+Bundle-Version: 1.1.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/xpand/qvtlibraries/XpandStringOperation
+ s.class
+SHA1-Digest: a23EfqeUTumDfI5RYjNqAJqWQ98=
+
+Name: about.ini
+SHA1-Digest: t0FfqhXQ1DOntXUimIG6MWb0U1g=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/xpand/qvtlibraries/XpandOclAnyOperation
+ s.class
+SHA1-Digest: fohU/if28nTzDlPJ4K65hagh8KA=
+
+Name: about.mappings
+SHA1-Digest: 2i3U+TMQjhdckFFP2STM1Ra+xzE=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.x
+ pand.qvtlibrary/pom.xml
+SHA1-Digest: wpfhB+0RWZL1rbZbA/zDKAXW3D0=
+
+Name: plugin.properties
+SHA1-Digest: xYXscpT1VNvT0bJe4W9H2/sgmI8=
+
+Name: org/eclipse/gmf/internal/xpand/qvtlibraries/XpandGlobalVars.clas
+ s
+SHA1-Digest: KXQwXyH3gK9ALnZb1A6QjuLhy28=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: about.properties
+SHA1-Digest: 6QanIqkQILxj9Yt0EkCXScI58zY=
+
+Name: org/eclipse/gmf/internal/xpand/qvtlibraries/XpandIntegerOperatio
+ ns.class
+SHA1-Digest: 3VaFFDH131IJPWVjKDD4c//KHVo=
+
+Name: plugin.xml
+SHA1-Digest: VXHvcskRAsu1ZdCIx64oTTKBrn4=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.x
+ pand.qvtlibrary/pom.properties
+SHA1-Digest: rij1L44/XPxJUI+1DM4QK9bHdyk=
+

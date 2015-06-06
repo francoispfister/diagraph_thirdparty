@@ -1,0 +1,735 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.map.edit; singleton:=true
+Bundle-Activator: org.eclipse.gmf.mappings.provider.GMFMapEditPlugin$I
+ mplementation
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.3.0,4.0.0)";visibilit
+ y:=reexport,org.eclipse.emf.edit;bundle-version="[2.4.0,3.0.0)";visib
+ ility:=reexport,org.eclipse.emf.ecore.xmi;bundle-version="[2.4.0,3.0.
+ 0)";visibility:=reexport,org.eclipse.emf.edit.ui;bundle-version="[2.4
+ .0,3.0.0)";visibility:=reexport,org.eclipse.ui.ide;bundle-version="[3
+ .3.0,4.0.0)";visibility:=reexport,org.eclipse.gmf.common;bundle-versi
+ on="[1.1.0,2.0.0)";visibility:=reexport,org.eclipse.gmf.map;bundle-ve
+ rsion="[2.9.0,4.0.0)";visibility:=reexport,org.eclipse.gmf.graphdef.e
+ dit;bundle-version="[2.9.0,4.0.0)",org.eclipse.gmf.tooldef.edit;bundl
+ e-version="[2.0.0,3.0.0)",org.eclipse.emf.ecore.edit;bundle-version="
+ [2.4.0,3.0.0)"
+Export-Package: org.eclipse.gmf.mappings.presentation,org.eclipse.gmf.
+ mappings.provider
+Bundle-Version: 2.9.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: icons/full/ctool16/CreateLinkConstraints_targetEnd_Constraint.gi
+ f
+SHA1-Digest: JkoFn1Kjen5DuQSlkQFXcNFMBn0=
+
+Name: icons/full/obj16/ValueExpression.gif
+SHA1-Digest: zGsVzige34RisrKC51p5TwyPbZU=
+
+Name: icons/full/obj16/ChildNodeMapping.gif
+SHA1-Digest: iNVc3fEIjB2HS0NQ8OuRztfxmsU=
+
+Name: icons/full/ctool16/CreateLinkConstraints_sourceEnd_Constraint.gi
+ f
+SHA1-Digest: JkoFn1Kjen5DuQSlkQFXcNFMBn0=
+
+Name: icons/full/obj16/LinkMapping.gif
+SHA1-Digest: 3tSIQxXAglA1xvvIMtamKKK3OIM=
+
+Name: icons/full/ctool16/CreateMetricRule_target_DomainElementTarget.g
+ if
+SHA1-Digest: +wdSsAXGXJBXJdDYWba5SqRKFlk=
+
+Name: org/eclipse/gmf/mappings/provider/GMFMapEditPlugin$Implementatio
+ n.class
+SHA1-Digest: vu/a1CZfNfGIrJhmrRLwU/JetvE=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureSeqInitializerItemProvi
+ der.class
+SHA1-Digest: Chef9jmqCN6SNFungaIUzFh3Gks=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapActionBarContributor
+ .class
+SHA1-Digest: iHV2Ia57Y92Y2/YUTTcsydwYXW8=
+
+Name: icons/full/ctool16/CreateMappingEntry_labelMappings_DesignLabelM
+ apping.gif
+SHA1-Digest: eufXOEA+KxrbIwOJflkbHw7k3hk=
+
+Name: icons/full/ctool16/CreateMappingEntry_domainInitializer_FeatureS
+ eqInitializer.gif
+SHA1-Digest: I1tMHsgoGGXip3RC5uq5KDh+huM=
+
+Name: org/eclipse/gmf/mappings/provider/NodeReferenceItemProvider$2.cl
+ ass
+SHA1-Digest: woMxeDR+UAF2kSpu7KJgS3g+O6I=
+
+Name: icons/full/obj16/Constraint.gif
+SHA1-Digest: zQtjXniQvLE/hL1niFuMWxxoe0o=
+
+Name: org/eclipse/gmf/mappings/provider/NodeMappingItemProvider$2.clas
+ s
+SHA1-Digest: 9p2eHOk/0MGyUGwo5eT84m3+JKQ=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$7.class
+SHA1-Digest: yip8c5sqSzlXfJQ2ESfLN3ipcEw=
+
+Name: org/eclipse/gmf/mappings/provider/DesignLabelMappingItemProvider
+ .class
+SHA1-Digest: S1wov11axlbeyd+jK0CJGFN3+s4=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$15.class
+SHA1-Digest: +7og5EE9GEwshHqEst6Yfr3VsWw=
+
+Name: org/eclipse/gmf/mappings/provider/DomainElementTargetItemProvide
+ r.class
+SHA1-Digest: vIb6RqJBHzJ6tlOCROLiU5u8SxE=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapModelWizard$2.class
+SHA1-Digest: /qh+Cj1Fc/4DO/tWmXpNv1GKHpE=
+
+Name: icons/full/ctool16/CreateFeatureSeqInitializer_initializers_Refe
+ renceNewElementSpec.gif
+SHA1-Digest: CGIM4ZyWyFaPpfn7QmDQ5OzsxNI=
+
+Name: icons/full/ctool16/CreateNodeMapping_compartments_CompartmentMap
+ ping.gif
+SHA1-Digest: ohyxUVy+wD9NHvKGG50SnbgBpYw=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.m
+ ap.edit/pom.xml
+SHA1-Digest: 90QBNdIhJPprt3asKkYXWraHzW8=
+
+Name: icons/full/ctool16/CreateTopNodeReference_ownedChild_NodeMapping
+ .gif
+SHA1-Digest: z6FeDCfoDoS7mO6n1dx4fXXxsBM=
+
+Name: icons/full/ctool16/CreateRuleBase_target_NotationElementTarget.g
+ if
+SHA1-Digest: t2+64/Yxv62vMwj5qf0cBps1h2I=
+
+Name: icons/full/ctool16/CreateMetricRule_rule_ValueExpression.gif
+SHA1-Digest: uYwJ2RuDxusNQ4GTNWVcFhqGPdA=
+
+Name: icons/full/ctool16/CreateMappingEntry_labelMappings_FeatureLabel
+ Mapping.gif
+SHA1-Digest: UWydetNtFuAn7h4N3MfPuqfvDuM=
+
+Name: icons/full/ctool16/CreateOclChoiceLabelMapping_itemsExpression_C
+ onstraint.gif
+SHA1-Digest: WHbjdKipscvFNUdwWNNx00lk84g=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapActionBarContributor
+ $2.class
+SHA1-Digest: xhpcNXwwKer7AreANLfXoPkPcNk=
+
+Name: org/eclipse/gmf/mappings/provider/DomainAttributeTargetItemProvi
+ der.class
+SHA1-Digest: LNHJEFih/DeIjDTqR9mXPXw7jyU=
+
+Name: icons/full/ctool16/CreateMapping_metrics_MetricContainer.gif
+SHA1-Digest: 6PqFdSBpe06iSbGuyx2G6BC3JzA=
+
+Name: icons/full/obj16/TopNodeReference.gif
+SHA1-Digest: rZbVBuo8iXeZvxa4z6ndRpKrJg4=
+
+Name: org/eclipse/gmf/mappings/presentation/FilterUtil$EObjectsCompara
+ tor.class
+SHA1-Digest: 3v0TBMJa9YIXgUBKBoUECz0BK8g=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$4.class
+SHA1-Digest: SHqT9PQuCHmK5zV19TFndzDt5GY=
+
+Name: icons/full/ctool16/CreateAuditRule_target_NotationElementTarget.
+ gif
+SHA1-Digest: t2+64/Yxv62vMwj5qf0cBps1h2I=
+
+Name: icons/full/ctool16/CreateMetricRule_rule_FeatureValueSpec.gif
+SHA1-Digest: l8oFdej+y9IjPCkqBvf1sGpPrlM=
+
+Name: icons/full/ctool16/CreateChildReference_ownedChild_NodeMapping.g
+ if
+SHA1-Digest: 5ddwtJgR+/NHuXhna1uva/PuBto=
+
+Name: org/eclipse/gmf/mappings/provider/EcoreItemProviderAdapterFactor
+ yEx$1.class
+SHA1-Digest: FHUk32k8r2mZRCvI+UemlNsT7Zo=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$12.class
+SHA1-Digest: R5BrCjL+mgh4xQr7f1CrQrgbsdE=
+
+Name: org/eclipse/gmf/mappings/presentation/MapRefModelPages$4.class
+SHA1-Digest: kdGdZarN/j2Fs3l+Hzsy5b+b7VY=
+
+Name: icons/full/ctool16/CreateExpressionLabelMapping_editExpression_V
+ alueExpression.gif
+SHA1-Digest: iEXSQcqIuXnUoSfafS/G7O734gQ=
+
+Name: org/eclipse/gmf/mappings/provider/LinkMappingItemProvider$3.clas
+ s
+SHA1-Digest: Yt8qUmiXHwngXxelmpRAHOhSb10=
+
+Name: icons/full/ctool16/CreateMappingEntry_labelMappings_LabelMapping
+ .gif
+SHA1-Digest: w9BioIM2g5NRqKrEH6W5Snllxzk=
+
+Name: icons/full/ctool16/CreateExpressionLabelMapping_viewExpression_C
+ onstraint.gif
+SHA1-Digest: dTToXHUcz18a/LudZngmHkvZRb4=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureLabelMappingItemProvide
+ r.class
+SHA1-Digest: MNTcBOuak4h70ujhiDsNTSHx3p8=
+
+Name: org/eclipse/gmf/mappings/provider/AuditContainerItemProvider.cla
+ ss
+SHA1-Digest: Y7fQ8UVXhAOXsaaFx5R0n72Y/Bc=
+
+Name: org/eclipse/gmf/mappings/provider/CompartmentMappingItemProvider
+ $1.class
+SHA1-Digest: qvws3UdLxGp9SXfGl+rcPFAxjqw=
+
+Name: icons/full/ctool16/CreateAuditRule_target_DomainAttributeTarget.
+ gif
+SHA1-Digest: TCwcaa45+c+NUogt3DBnuJ/xV8E=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapActionBarContributor
+ $ToggleQualifiedLabels.class
+SHA1-Digest: nxW0MnlnPErFOa2v4/9K51CVFpA=
+
+Name: org/eclipse/gmf/mappings/provider/VisualEffectMappingItemProvide
+ r.class
+SHA1-Digest: yYe/Q7hXxtxcHPa8ICCHB1GaABA=
+
+Name: org/eclipse/gmf/mappings/provider/ExpressionLabelMappingItemProv
+ ider.class
+SHA1-Digest: QgFqYpSZ82tee4BRoUwzCAF3Q9M=
+
+Name: org/eclipse/gmf/mappings/provider/GMFMapEditPlugin.class
+SHA1-Digest: xy3O90k9ncadrlDxVeepJ6k506U=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureValueSpecItemProvider.c
+ lass
+SHA1-Digest: YOa5LIqApABkFC6K1DiqKEI1X1s=
+
+Name: org/eclipse/gmf/mappings/provider/CanvasMappingItemProvider$2.cl
+ ass
+SHA1-Digest: Mea/xlW1T8NTULf4vDfdwIW8+g4=
+
+Name: icons/full/ctool16/CreateFeatureValueSpec_value_ValueExpression.
+ gif
+SHA1-Digest: QiqWNlsxps+nb5G8q3Ol/RkTI1k=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/mappings/provider/NodeMappingItemProvider.class
+SHA1-Digest: yi3xz2VKFLCFf6phlOkCK25Allg=
+
+Name: icons/full/obj16/LinkLabelMapping.gif
+SHA1-Digest: CAPyOkGpEey0FGNKjB35mmhLhN4=
+
+Name: org/eclipse/gmf/mappings/provider/MetricContainerItemProvider.cl
+ ass
+SHA1-Digest: QH2vnGi4Xf4MSMQRkrZ+n4TsPhE=
+
+Name: org/eclipse/gmf/mappings/provider/OclChoiceLabelMappingItemProvi
+ der.class
+SHA1-Digest: ZmWeYxldfbso4N8nBp9J4cH2huQ=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$1.class
+SHA1-Digest: Gu5D4kaiHciHFAE1XyMxb8lTLfc=
+
+Name: icons/full/ctool16/CreateExpressionLabelMapping_validateExpressi
+ on_Constraint.gif
+SHA1-Digest: dTToXHUcz18a/LudZngmHkvZRb4=
+
+Name: icons/full/obj16/NodeLabelMapping.gif
+SHA1-Digest: zZKriD2tvFNl9gXo4VTok78u59w=
+
+Name: org/eclipse/gmf/mappings/provider/AuditedMetricTargetItemProvide
+ r.class
+SHA1-Digest: 0rXDfdNHZjxVyIEsG/DmV/mjffo=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapModelWizard$GMFMapMo
+ delWizardNewFileCreationPage.class
+SHA1-Digest: 66T4SClANqtloCeypJdqzN1b9eA=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$9.class
+SHA1-Digest: 1ITPkem9Vo/aWqJzuSyxIslTd20=
+
+Name: icons/full/obj16/VisualEffectMapping.gif
+SHA1-Digest: 0gvIhMSrhltUsML916LcDVM3JLc=
+
+Name: org/eclipse/gmf/mappings/presentation/MapRefModelPages$1.class
+SHA1-Digest: QqibtuT80u0WK7uVpUGoX20BGsw=
+
+Name: icons/full/ctool16/CreateOclChoiceLabelMapping_itemsExpression_V
+ alueExpression.gif
+SHA1-Digest: 49o+9BbBVRpNFri6XsxYVDaEaPY=
+
+Name: org/eclipse/gmf/mappings/provider/TopNodeReferenceItemProvider.c
+ lass
+SHA1-Digest: dj/Q93LMTIsRSU+vx5AS2INuIO8=
+
+Name: icons/full/ctool16/CreateExpressionLabelMapping_editExpression_C
+ onstraint.gif
+SHA1-Digest: dTToXHUcz18a/LudZngmHkvZRb4=
+
+Name: icons/full/ctool16/CreateOclChoiceLabelMapping_showExpression_Co
+ nstraint.gif
+SHA1-Digest: WHbjdKipscvFNUdwWNNx00lk84g=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$3$1.class
+SHA1-Digest: FT+7gKXM5eZMaGp8v0UybkRC7XQ=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$17.class
+SHA1-Digest: 0R88ZlDZYeeFr9prFSycA3rQeeQ=
+
+Name: org/eclipse/gmf/mappings/provider/ConstraintItemProvider.class
+SHA1-Digest: LapjnKgAg/QhPttt0oxEJUFmBKA=
+
+Name: org/eclipse/gmf/mappings/provider/ChildReferenceItemProvider$2.c
+ lass
+SHA1-Digest: GOwX7/svQDCa2c+C9fTaTKKrF2Q=
+
+Name: org/eclipse/gmf/mappings/provider/NotationElementTargetItemProvi
+ der.class
+SHA1-Digest: 66OGgN33ofKfkfTmDDYJQLwu+N8=
+
+Name: icons/full/obj16/ExpressionLabelMapping.gif
+SHA1-Digest: vrP+1C0UunkUsRvKI4Cq3vFpDX0=
+
+Name: plugin.properties
+SHA1-Digest: NRVNJ2xvbZEn2TUCJOznKIfFtBA=
+
+Name: icons/full/ctool16/CreateMetricRule_target_NotationElementTarget
+ .gif
+SHA1-Digest: y+S6bxzzQbuQfxyrbwY1PvzguSA=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$1MyContentOut
+ linePage.class
+SHA1-Digest: F5keJ3d++5+Mz3cjNOe5CHqLNlU=
+
+Name: icons/full/ctool16/CreateLinkMapping_labelMappings_LinkLabelMapp
+ ing.gif
+SHA1-Digest: ItJNRFvSg9iZY79Otbhb+EMQJI0=
+
+Name: icons/full/ctool16/CreateMetricRule_rule_Constraint.gif
+SHA1-Digest: ZYu2yFxWBz9KfNMhSNJbuPpUpPU=
+
+Name: icons/full/ctool16/CreateMapping_diagram_CanvasMapping.gif
+SHA1-Digest: mrcooRtQeXsZyXGRmctm5XkCmfE=
+
+Name: plugin.xml
+SHA1-Digest: iywXADfQEz3Sz6uoLjObvJZcs+E=
+
+Name: icons/full/ctool16/CreateFeatureSeqInitializer_initializers_Feat
+ ureValueSpec.gif
+SHA1-Digest: uz11fMdAvouNqe/e1yTv19u1a6c=
+
+Name: icons/full/obj16/FeatureInitializer.gif
+SHA1-Digest: 6zAHWDfUJyjeg2mlOpuGFoGqSOM=
+
+Name: org/eclipse/gmf/mappings/provider/ValueExpressionItemProvider.cl
+ ass
+SHA1-Digest: VyYoZYlqMsfcilrQfRjPXZGPnac=
+
+Name: icons/full/ctool16/CreateMetricRule_target_DiagramElementTarget.
+ gif
+SHA1-Digest: +wdSsAXGXJBXJdDYWba5SqRKFlk=
+
+Name: icons/full/ctool16/CreateMetricContainer_metrics_MetricRule.gif
+SHA1-Digest: ekFR/eJNdi7ubmbxMPBjjjCKdQQ=
+
+Name: icons/full/obj16/DesignLabelMapping.gif
+SHA1-Digest: yQylxqJ853oWhMeXjjRsP+WaWf4=
+
+Name: org/eclipse/gmf/mappings/provider/NodeReferenceItemProvider$1.cl
+ ass
+SHA1-Digest: noGqj73lSrq4islxVNVrnwMtpzY=
+
+Name: icons/full/obj16/CompartmentMapping.gif
+SHA1-Digest: XF2Fupen6ASt8Zy7hPnNMIxpNL0=
+
+Name: org/eclipse/gmf/mappings/provider/NodeMappingItemProvider$1.clas
+ s
+SHA1-Digest: UKTu/Jb+1z2la8vE3rsIMy2FZSs=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$6.class
+SHA1-Digest: cBFq92VbBTilDy4yS5DoPGvNbOA=
+
+Name: org/eclipse/gmf/mappings/provider/ChildReferenceItemProvider.cla
+ ss
+SHA1-Digest: 9sCvaYwl9nCwC0jglMl2YlLaLy0=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapModelWizard.class
+SHA1-Digest: NmxGa/E86fp7WFpqHDAjmquc3o8=
+
+Name: org/eclipse/gmf/mappings/provider/ReferenceNewElementSpecItemPro
+ vider.class
+SHA1-Digest: tQGJZrjjdcnmWbMMz36e+wCGygE=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$14.class
+SHA1-Digest: rFP1r/R6M1HHSeoKIXzaUNBmz3c=
+
+Name: org/eclipse/gmf/mappings/provider/LinkMappingItemProvider$5.clas
+ s
+SHA1-Digest: Tj6QlxkWrXnQRd3s+h06yEHduR8=
+
+Name: icons/full/ctool16/CreateMappingEntry_labelMappings_OclChoiceLab
+ elMapping.gif
+SHA1-Digest: nT4uLjFz+YaN5nsbN3U5W2iMwWE=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapModelWizard$1.class
+SHA1-Digest: g/3OTQp7EeTRGL581HkNG6zNsjU=
+
+Name: icons/full/obj16/NodeMapping.gif
+SHA1-Digest: Gmy+epGGHtf633XHNOpQ7ARDHXI=
+
+Name: icons/full/ctool16/CreateNodeMapping_visualEffects_VisualEffectM
+ apping.gif
+SHA1-Digest: YpGS9FYB5k0UOUrTjmRPfMKfm50=
+
+Name: icons/full/obj16/AuditRule.gif
+SHA1-Digest: rw4VY33aZuUltGDueBzQiVgy5M0=
+
+Name: org/eclipse/gmf/mappings/provider/LinkConstraintsItemProvider.cl
+ ass
+SHA1-Digest: m9I6BtkAyvDf6CuTo0w87+I9eUY=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.m
+ ap.edit/pom.properties
+SHA1-Digest: Q5CEuOvLch8kPjM1KRjPL+4EvW0=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureSeqInitializerItemProvi
+ der$1.class
+SHA1-Digest: sSdmlqyFJWkZYmzdYWSoiP/MbCs=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapActionBarContributor
+ $1.class
+SHA1-Digest: txsQuDSOHodTKfXpj/sr0Xv+Ya0=
+
+Name: org/eclipse/gmf/mappings/provider/CanvasMappingItemProvider$4.cl
+ ass
+SHA1-Digest: HodQKRROIU8/B3VQI9D16y0Tq30=
+
+Name: icons/full/ctool16/CreateAuditRule_target_DiagramElementTarget.g
+ if
+SHA1-Digest: pFDFq19CGHWc4svvJwLUwssecvk=
+
+Name: org/eclipse/gmf/mappings/provider/LabelMappingItemProvider$1.cla
+ ss
+SHA1-Digest: lyA+mVGknOgySWvVmmtPKg4O9oc=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$3.class
+SHA1-Digest: PDfJ5OgDZARtynTEBIzRjU0YNWw=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureInitializerItemProvider
+ .class
+SHA1-Digest: elqmTNkWkoek8otV1eQ12EF2Ihg=
+
+Name: icons/full/obj16/FeatureSeqInitializer.gif
+SHA1-Digest: BJCtscbUk19s32t6I6uea8UxX3Q=
+
+Name: org/eclipse/gmf/mappings/provider/MappingEntryItemProvider$1.cla
+ ss
+SHA1-Digest: 6u9IXQlQe6a/8uCveoF1Vz9ybfM=
+
+Name: org/eclipse/gmf/mappings/provider/OclChoiceLabelMappingItemProvi
+ der$1.class
+SHA1-Digest: h2ledcXzuJxdFDPV7vh5sb1wUlg=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$11.class
+SHA1-Digest: QE/Hi8vtCPi5e22aa4BCSzvlAmo=
+
+Name: org/eclipse/gmf/mappings/presentation/MapRefModelPages$3.class
+SHA1-Digest: C26HeGup3NLTfzFPTQWzZBcm+0Y=
+
+Name: org/eclipse/gmf/mappings/provider/LinkMappingItemProvider$2.clas
+ s
+SHA1-Digest: yDfO0ZL2CFTGuQxlVlngcMA4rmA=
+
+Name: org/eclipse/gmf/mappings/provider/GMFMapItemProviderAdapterFacto
+ ry.class
+SHA1-Digest: Sk2Yz8wDjIhyZcsSYPBv+mnXcWI=
+
+Name: org/eclipse/gmf/mappings/provider/CompartmentMappingItemProvider
+ .class
+SHA1-Digest: 5GLjcxmHmSGnf+tsR4MQ4SB0FCw=
+
+Name: icons/full/ctool16/CreateLinkMapping_creationConstraints_LinkCon
+ straints.gif
+SHA1-Digest: Li77tWvuGhNKfrhpIMY3wLmknwI=
+
+Name: icons/full/ctool16/CreateAuditContainer_audits_AuditRule.gif
+SHA1-Digest: rePzlLG7pLjA65Wt0p2IfUQ4VwU=
+
+Name: icons/full/obj16/OclChoiceLabelMapping.gif
+SHA1-Digest: hkJ/Ly9VuzhlYKKoibkfrlXZeyE=
+
+Name: icons/full/ctool16/CreateMapping_nodes_NodeMapping.gif
+SHA1-Digest: 1eUVnZcHDgWzgAkIvSBDGddisWs=
+
+Name: icons/full/ctool16/CreateRuleBase_target_DomainElementTarget.gif
+SHA1-Digest: pFDFq19CGHWc4svvJwLUwssecvk=
+
+Name: icons/full/ctool16/CreateMappingEntry_visualEffects_VisualEffect
+ Mapping.gif
+SHA1-Digest: 5++d09LJrlNotvWhRSm+D7394Gg=
+
+Name: icons/full/obj16/AuditedMetricTarget.gif
+SHA1-Digest: 5s2tkcFEwBdYJd1Q2aqbgzSkZuA=
+
+Name: icons/full/wizban/NewGMFMap.gif
+SHA1-Digest: /OUZCI0lYd4/EsMfJx6ApKdscbA=
+
+Name: org/eclipse/gmf/mappings/provider/CanvasMappingItemProvider$1.cl
+ ass
+SHA1-Digest: GibOBkBIcfGo1+tWaJH0hXieY5U=
+
+Name: icons/full/ctool16/CreateMapping_links_LinkMapping.gif
+SHA1-Digest: CGY+Mq66BihZoMhr83IvhYNwKnE=
+
+Name: org/eclipse/gmf/mappings/provider/LabelMappingItemProvider.class
+SHA1-Digest: ntSvrCdvvG4F6ISB5bVFrPWXMtY=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor.class
+SHA1-Digest: qcY6fH/TF9Rkg0aSGK2mikCJ4Q0=
+
+Name: icons/full/obj16/DomainElementTarget.gif
+SHA1-Digest: wQKL22COEhLmMXT5IfdlC2Of2TA=
+
+Name: icons/full/obj16/NotationElementTarget.gif
+SHA1-Digest: zZKriD2tvFNl9gXo4VTok78u59w=
+
+Name: icons/full/obj16/Mapping.gif
+SHA1-Digest: geCi1ofnq5obJShghQN1sk0ACoI=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureValueSpecItemProvider$1
+ .class
+SHA1-Digest: MyrmjAVS04oD0l5/9CeczUSh+Mc=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: icons/full/obj16/CanvasMapping.gif
+SHA1-Digest: Yn0UzolvM2tFNV4hAReIIQanmkY=
+
+Name: org/eclipse/gmf/mappings/provider/AuditRuleItemProvider.class
+SHA1-Digest: tGP2nH7g4UFjNPVLlmqeSZfcUCI=
+
+Name: icons/full/ctool16/CreateMappingEntry_labelMappings_ExpressionLa
+ belMapping.gif
+SHA1-Digest: pnkMwzuJGSKG58FAajzlKJ21mhg=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$8.class
+SHA1-Digest: MR0f/jsaKOBVy6zyTWypfme3bns=
+
+Name: icons/full/ctool16/CreateFeatureValueSpec_value_Constraint.gif
+SHA1-Digest: O6uJDx16IIkbNY/7KolYq1CMBBw=
+
+Name: icons/full/obj16/LinkConstraints.gif
+SHA1-Digest: B+jg93rgQRB9oABTjUOTS3rSA/4=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$16.class
+SHA1-Digest: mVX7A10599sa7lnY0SqS0a44TAc=
+
+Name: org/eclipse/gmf/mappings/provider/ChildReferenceItemProvider$1.c
+ lass
+SHA1-Digest: D0guCiD37+BJN5tTKrQ60asvV1c=
+
+Name: icons/full/ctool16/CreateMapping_appearanceStyles_GenericStyleSe
+ lector.gif
+SHA1-Digest: GarGqeyUwi/fVyL/X2e1OKTN6NA=
+
+Name: icons/full/obj16/DomainAttributeTarget.gif
+SHA1-Digest: HkztcHenka8VEe7RvgSXDldhBSA=
+
+Name: icons/full/ctool16/CreateRuleBase_target_DiagramElementTarget.gi
+ f
+SHA1-Digest: pFDFq19CGHWc4svvJwLUwssecvk=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$ReverseAdapte
+ rFactoryContentProvider.class
+SHA1-Digest: 0h7EdBpWBvXKAY00ZLvJ5CNX+R8=
+
+Name: org/eclipse/gmf/mappings/provider/MappingItemProvider.class
+SHA1-Digest: FgBE0jTufWCA1NiR5lyyW7IO8e0=
+
+Name: org/eclipse/gmf/mappings/provider/CanvasMappingItemProvider.clas
+ s
+SHA1-Digest: l7d5iYMOMEc/ndHbAFJU741ja2k=
+
+Name: icons/full/obj16/LabelMapping.gif
+SHA1-Digest: yQylxqJ853oWhMeXjjRsP+WaWf4=
+
+Name: icons/full/ctool16/CreateAuditRule_rule_Constraint.gif
+SHA1-Digest: 9ew8TQaKSCr5ebuMrARQaF1fx94=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapActionBarContributor
+ $3.class
+SHA1-Digest: bb6vpbgJ0U7w1b8MZuKVOgXue2E=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$3$1ResourceDe
+ ltaVisitor.class
+SHA1-Digest: aW3y4ncDFoeYol74iwVSf5cvQnQ=
+
+Name: icons/full/obj16/MetricRule.gif
+SHA1-Digest: EizJcIkJg98p73F6F5ja5Zj11jU=
+
+Name: org/eclipse/gmf/mappings/presentation/MapRefModelPages.class
+SHA1-Digest: rt+eUcPX/Ksvkn4PcMJ3wHzKRUA=
+
+Name: org/eclipse/gmf/mappings/provider/EcoreItemProviderAdapterFactor
+ yEx.class
+SHA1-Digest: nSbmvHBKQEW3fv/XNRRpEedyang=
+
+Name: org/eclipse/gmf/mappings/provider/LinkMappingItemProvider.class
+SHA1-Digest: YX4tw3o+Cpo0hsPcNXz2oC58KUE=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$5.class
+SHA1-Digest: u5/JCIgPkRrjm20BIl7avXvEWRA=
+
+Name: icons/full/ctool16/CreateOclChoiceLabelMapping_showExpression_Va
+ lueExpression.gif
+SHA1-Digest: 49o+9BbBVRpNFri6XsxYVDaEaPY=
+
+Name: org/eclipse/gmf/mappings/provider/EcoreItemProviderAdapterFactor
+ yEx$2.class
+SHA1-Digest: QyzRixbvWai/FIqjGBwUNj4gFFQ=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$13.class
+SHA1-Digest: 5Fz1HnyJGEWns9dystxhE/dyBBM=
+
+Name: org/eclipse/gmf/mappings/presentation/MapRefModelPages$5.class
+SHA1-Digest: YkNjjzuukOPktCKl1SPidW7esCo=
+
+Name: icons/full/obj16/AuditContainer.gif
+SHA1-Digest: iG4JDPNm+kWXZYgAfvzrknXDKVg=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$2$1.class
+SHA1-Digest: FP4f9J3VyzsGgNJbrxrc+tfCLO0=
+
+Name: org/eclipse/gmf/mappings/provider/LinkMappingItemProvider$4.clas
+ s
+SHA1-Digest: DMzEEBHGAUllll6P7lY2Sx8+FMY=
+
+Name: icons/full/ctool16/CreateMapping_audits_AuditContainer.gif
+SHA1-Digest: mHS1O5FUTUQZ9+pd83bRvUBD2bg=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$4$1.class
+SHA1-Digest: hwXlZJ1hw51lxEtRtBrKff4Rv9g=
+
+Name: org/eclipse/gmf/mappings/provider/DiagramElementTargetItemProvid
+ er.class
+SHA1-Digest: o8Nabo0WrEuVJ5EApqHqpdrquyU=
+
+Name: icons/full/ctool16/CreateMapping_nodes_TopNodeReference.gif
+SHA1-Digest: 5zn2ude2wTKRFGpN5a400qu6iyA=
+
+Name: icons/full/obj16/GMFMapModelFile.gif
+SHA1-Digest: bo82GqOxNWN/BGxKolLnbEIflNM=
+
+Name: org/eclipse/gmf/mappings/provider/ReferenceNewElementSpecItemPro
+ vider$1.class
+SHA1-Digest: PoQk3r8O42qng7twmmxW2dOfhOQ=
+
+Name: icons/full/obj16/MetricContainer.gif
+SHA1-Digest: eNtcdZQNPwQhrG2rgRpclYKXImU=
+
+Name: icons/full/obj16/FeatureValueSpec.gif
+SHA1-Digest: iG4JDPNm+kWXZYgAfvzrknXDKVg=
+
+Name: org/eclipse/gmf/mappings/provider/CompartmentMappingItemProvider
+ $2.class
+SHA1-Digest: l/tvqOcsury20dFm48VfxAagI4E=
+
+Name: icons/full/ctool16/CreateAuditContainer_childContainers_AuditCon
+ tainer.gif
+SHA1-Digest: c4Tl2wESLYaIeJOGO7sivwXbawM=
+
+Name: icons/full/ctool16/CreateExpressionLabelMapping_viewExpression_V
+ alueExpression.gif
+SHA1-Digest: iEXSQcqIuXnUoSfafS/G7O734gQ=
+
+Name: org/eclipse/gmf/mappings/provider/FeatureLabelMappingItemProvide
+ r$1.class
+SHA1-Digest: lzNj7iAZARCGFUJbdyxYVXBk0Wc=
+
+Name: icons/full/obj16/ReferenceNewElementSpec.gif
+SHA1-Digest: B+jg93rgQRB9oABTjUOTS3rSA/4=
+
+Name: icons/full/ctool16/CreateNodeMapping_children_ChildReference.gif
+SHA1-Digest: CvZBumVOAV/HRwvnqXoyyZzZn6g=
+
+Name: org/eclipse/gmf/mappings/provider/CanvasMappingItemProvider$3.cl
+ ass
+SHA1-Digest: Ez5x5obH1+cngFqP/teDxo+I+zA=
+
+Name: org/eclipse/gmf/mappings/provider/NodeReferenceItemProvider.clas
+ s
+SHA1-Digest: ZK/6g7LTYqNhQc4n/+dJaWDfl0M=
+
+Name: icons/full/ctool16/CreateAuditRule_target_AuditedMetricTarget.gi
+ f
+SHA1-Digest: ByrYkz1vIsg7uvUkFB8t4FCnP/A=
+
+Name: icons/full/obj16/ChildReference.gif
+SHA1-Digest: rZbVBuo8iXeZvxa4z6ndRpKrJg4=
+
+Name: org/eclipse/gmf/mappings/provider/MappingEntryItemProvider.class
+SHA1-Digest: Kmnhz6v7WBBSuHdJGhgEyd4KbTM=
+
+Name: icons/full/obj16/FeatureLabelMapping.gif
+SHA1-Digest: yQylxqJ853oWhMeXjjRsP+WaWf4=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$2.class
+SHA1-Digest: aDdLu5F67dRZevV3TBgF7sjPmvE=
+
+Name: icons/full/obj16/DiagramElementTarget.gif
+SHA1-Digest: wQKL22COEhLmMXT5IfdlC2Of2TA=
+
+Name: icons/full/ctool16/CreateAuditRule_target_DomainElementTarget.gi
+ f
+SHA1-Digest: pFDFq19CGHWc4svvJwLUwssecvk=
+
+Name: org/eclipse/gmf/mappings/provider/MetricRuleItemProvider.class
+SHA1-Digest: uqVEbqGLawrUp6jTKu9p4Au21es=
+
+Name: icons/full/ctool16/CreateReferenceNewElementSpec_newElementIniti
+ alizers_FeatureSeqInitializer.gif
+SHA1-Digest: oAq2OZIqnWak7RwuORToeI5eMcI=
+
+Name: org/eclipse/gmf/mappings/presentation/FilterUtil.class
+SHA1-Digest: 7mIdBkIchItzuAWZdIi2mmn8Drc=
+
+Name: org/eclipse/gmf/mappings/presentation/MapRefModelPages$2.class
+SHA1-Digest: p389MeiZh0nHAPtphoWGNY+yw/w=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$10.class
+SHA1-Digest: oxCzS7lxU/87huuLOHw5b8rUIQ8=
+
+Name: org/eclipse/gmf/mappings/provider/LinkMappingItemProvider$1.clas
+ s
+SHA1-Digest: yxxMeZddEQ9NxICCbGaTKpo4Xds=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$3$2.class
+SHA1-Digest: 1nvafniHSJ6GoXw3cyJwWzpG01U=
+
+Name: icons/full/ctool16/CreateMappingEntry_domainSpecialization_Const
+ raint.gif
+SHA1-Digest: 2jvNY26XzzsjK1yBGuGoxL9EJP8=
+
+Name: org/eclipse/gmf/mappings/presentation/GMFMapEditor$18.class
+SHA1-Digest: peuy7v1MAL0w1m76G7nDslH43h8=
+

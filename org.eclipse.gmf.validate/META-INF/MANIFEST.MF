@@ -1,0 +1,263 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.validate;singleton:=true
+Bundle-Activator: org.eclipse.gmf.internal.validate.GMFValidationPlugi
+ n
+Require-Bundle: org.eclipse.emf.validation;bundle-version="[1.1.0,2.0.
+ 0)",org.eclipse.emf.ecore.edit;bundle-version="[2.3.0,3.0.0)",org.ecl
+ ipse.emf.codegen.ecore;bundle-version="[2.3.0,3.0.0)",org.eclipse.cor
+ e.runtime;bundle-version="[3.3.0,4.0.0)",org.eclipse.ocl.ecore;bundle
+ -version="[3.0.0,4.0.0)"
+Export-Package: org.eclipse.gmf.internal.validate;x-friends:="org.ecli
+ pse.gmf.tests",org.eclipse.gmf.internal.validate.expressions;x-friend
+ s:="org.eclipse.gmf.tests",org.eclipse.gmf.validate
+Bundle-Version: 1.2.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/validate/ValidatorChain.class
+SHA1-Digest: f3DC13T6Uhv7cbrHIMTsZGjyxVg=
+
+Name: org/eclipse/gmf/internal/validate/AnnotatedDefinitionValidator$D
+ efData.class
+SHA1-Digest: t14yUxOzrbO0TRgYq8F6S2Fxy1o=
+
+Name: org/eclipse/gmf/internal/validate/LabelProvider.class
+SHA1-Digest: 4s2rfMpJkkByKKVR6Fx/a7q2X7s=
+
+Name: org/eclipse/gmf/internal/validate/IDefElementProvider$TypeProvid
+ er.class
+SHA1-Digest: wNdkHzEftYzkGbe4CB2+G+LVGDY=
+
+Name: org/eclipse/gmf/internal/validate/AbstractValidator.class
+SHA1-Digest: W8hAVBjtK8knl1J2DbdjcUdLzdY=
+
+Name: org/eclipse/gmf/internal/validate/AnnotatedOclValidator.class
+SHA1-Digest: qNm7F/KVgfXowt+bEvXEjIJCh6Q=
+
+Name: org/eclipse/gmf/validate/ValidationOptions.class
+SHA1-Digest: bRqUu3iIp9wdPWUOqTEv/OkXDsA=
+
+Name: org/eclipse/gmf/internal/validate/ExpressionCache$Validator.clas
+ s
+SHA1-Digest: svZRDu4RJchGiaViJcJrLEO+kDY=
+
+Name: org/eclipse/gmf/internal/validate/expressions/EnvironmentProvide
+ r$EnvImpl.class
+SHA1-Digest: 0I0oiLq0xiOshZ5pqeqkp3DcxmM=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils.class
+SHA1-Digest: IEdwhgrDLuI+Gjy8a8kC7jAEHEA=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$ContextTypeAdapter.cl
+ ass
+SHA1-Digest: OAn+83V3Gzp1b4S6O2XlwI6MDHs=
+
+Name: org/eclipse/gmf/internal/validate/expressions/IModelExpression.c
+ lass
+SHA1-Digest: T33ZDANONyNc3HVnf4GZxm4eeXw=
+
+Name: org/eclipse/gmf/internal/validate/regexp/RegularExpressionAdapte
+ r.class
+SHA1-Digest: b4Ro7yKBJpf4n/KZIbyovAZRTwo=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.tests/org.eclipse.gmf.val
+ idate/pom.properties
+SHA1-Digest: woFYckTiBIqMY2DWlRuh31AumY4=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$ExpressionContextProv
+ ider.class
+SHA1-Digest: VeCeiVrQfZjruBtQ1cXNdw5QwjU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/validate/Annotations.class
+SHA1-Digest: xSGHLQ9vkUKts55tMs99BhHLQfE=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.tests/org.eclipse.gmf.val
+ idate/pom.xml
+SHA1-Digest: 4U91viFGxjAXL6atNUEEuCNpIOY=
+
+Name: org/eclipse/gmf/internal/validate/ConstraintDef.class
+SHA1-Digest: NXGdG4MF2oGsu7mHS4zR3xScuIc=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$GenClassifierContextA
+ dapter.class
+SHA1-Digest: vjBPPR6dZYM1ZH48ap0QOgGAlt0=
+
+Name: org/eclipse/gmf/internal/validate/ExternModelImport.class
+SHA1-Digest: NrOe+lzlY320Ts2v8ABrgxuWPcY=
+
+Name: org/eclipse/gmf/internal/validate/AnnotatedDefinitionValidator$C
+ ontextData.class
+SHA1-Digest: mjh0a5laBxcCRLC53xMg977Ax3U=
+
+Name: org/eclipse/gmf/internal/validate/IDefElementProvider$StringValP
+ rovider.class
+SHA1-Digest: bSjkcBZ2gvcy8c7vhA/vRwQLWJQ=
+
+Name: .options
+SHA1-Digest: nV0JSbF5EfJ06kyqJTvDHxT4doE=
+
+Name: org/eclipse/gmf/internal/validate/regexp/RegularExpressionProvid
+ er$Negated.class
+SHA1-Digest: yXTO0fwNdZSkwb7Ph0+hLzfxZE4=
+
+Name: org/eclipse/gmf/internal/validate/expressions/NoProviderExpressi
+ on.class
+SHA1-Digest: Rwvuia0OosjEvNxo5pc3+qhYoOQ=
+
+Name: org/eclipse/gmf/internal/validate/expressions/IEvaluationEnviron
+ ment.class
+SHA1-Digest: okGff0GJ+jA7v9sZ2HUbLSh8BiA=
+
+Name: org/eclipse/gmf/internal/validate/ConstraintDef$1.class
+SHA1-Digest: MQoKi57/IOfJsxwZwUN6AbKtzik=
+
+Name: org/eclipse/gmf/internal/validate/expressions/IParseEnvironment.
+ class
+SHA1-Digest: VyL+nzuf26T66b262eSy7X5YCRo=
+
+Name: org/eclipse/gmf/internal/validate/expressions/messages.propertie
+ s
+SHA1-Digest: ajpR2uYEgOa1arDEaBaAPlPbi3c=
+
+Name: org/eclipse/gmf/internal/validate/AnnotatedDefinitionValidator.c
+ lass
+SHA1-Digest: bkIQH2NkTDzi4mT+5OUGqsUPTX8=
+
+Name: org/eclipse/gmf/internal/validate/expressions/ExpressionProvider
+ Registry$Descriptor.class
+SHA1-Digest: Js4sBAaySzfddhGlpsaqsIO3VnE=
+
+Name: org/eclipse/gmf/internal/validate/ExternModelImport$1.class
+SHA1-Digest: LW0buU7LF+ksEWol5Q/7FYknaY8=
+
+Name: org/eclipse/gmf/internal/validate/Messages.class
+SHA1-Digest: 15c8BllCFPlEGMP07WbpnzeleaE=
+
+Name: org/eclipse/gmf/internal/validate/EDataTypeConversion.class
+SHA1-Digest: SbozUEeJbeuIDJ5ryQIHEq6s30o=
+
+Name: org/eclipse/gmf/internal/validate/expressions/AbstractExpression
+ .class
+SHA1-Digest: kSTyr97CIcFwenYprwHazT+36NM=
+
+Name: org/eclipse/gmf/internal/validate/Trace.class
+SHA1-Digest: cyIegplXH9cne1990Ejzd6GXfXw=
+
+Name: org/eclipse/gmf/internal/validate/ExpressionCache.class
+SHA1-Digest: /CzWs2IbXBtwZSWOMcYI6BbSS5s=
+
+Name: org/eclipse/gmf/internal/validate/ValueSpecDef.class
+SHA1-Digest: KIa6B9+J6XT0/K8RVArstVng4L4=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$AbstractProvider.clas
+ s
+SHA1-Digest: BfL9rX8eOSYv0sjg8u9voO6ZzvI=
+
+Name: plugin.properties
+SHA1-Digest: DNiNA7Q+944N3jpTdTbtklwmDh0=
+
+Name: org/eclipse/gmf/internal/validate/IDefElementProvider$ContextPro
+ vider.class
+SHA1-Digest: X3fhdMkW4qtHcjfjBeBYM0k5O1c=
+
+Name: org/eclipse/gmf/internal/validate/regexp/RegularExpressionProvid
+ er.class
+SHA1-Digest: 5CYGs0RyOcrxl+agMXAnNe4aLeE=
+
+Name: org/eclipse/gmf/internal/validate/IDefElementProvider.class
+SHA1-Digest: g4DoItog6wnk5P2KgJIsU2s+yyE=
+
+Name: org/eclipse/gmf/internal/validate/StatusCodes.class
+SHA1-Digest: J1OOD4Yjq935L4PGLDEsMh6ou5g=
+
+Name: org/eclipse/gmf/internal/validate/Annotations$Meta.class
+SHA1-Digest: YTBz4PRnNUnplUqZZqH3np1RN/Q=
+
+Name: plugin.xml
+SHA1-Digest: xEYAfKDk3YI/m8s1CGkAkSG6N/Q=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$TypedElementProvider.
+ class
+SHA1-Digest: lWn35DwvEpEdaVNZ73MME5fUM68=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$ExpressionTypeProvide
+ r.class
+SHA1-Digest: cK3zTAPdoHU6hbf+uJbT0/8g1As=
+
+Name: org/eclipse/gmf/internal/validate/expressions/EnvironmentProvide
+ r$EvalEnvImpl.class
+SHA1-Digest: YIFfIaB4gvhcVBuo1N3YdrW2SjY=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$LookupByNameContextPr
+ ovider.class
+SHA1-Digest: Il6R3jzPXdCyqQxG6Ih7TUKed5o=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$ReferencedContextProv
+ ider.class
+SHA1-Digest: 0xY6ln3YyybUnT/jl+5+V3d7BRA=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$ExpressionBasedProvid
+ er.class
+SHA1-Digest: EEUsReN1M8soBi91qAk79nwivyA=
+
+Name: org/eclipse/gmf/validate/GMFValidator$DelegateRegistry.class
+SHA1-Digest: ZTbCoeyAvYM49fR7tq/f4QXBnWE=
+
+Name: org/eclipse/gmf/internal/validate/ocl/OCLExpressionAdapter.class
+SHA1-Digest: HPXgvnUcvbzeDzTTdTU5QsOI7Dw=
+
+Name: org/eclipse/gmf/validate/package.html
+SHA1-Digest: qjeToWstkGkeSXomebipNsIKzgY=
+
+Name: org/eclipse/gmf/internal/validate/ocl/OCLExpressionProvider.clas
+ s
+SHA1-Digest: PkGL4jCTyZWQ8hPdg0jwqTlRka4=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/internal/validate/messages.properties
+SHA1-Digest: DYrtPtjxr98YoAXWIfiHXU0/19k=
+
+Name: org/eclipse/gmf/internal/validate/expressions/ExpressionProvider
+ Registry.class
+SHA1-Digest: ZuyKBcijWFEhk+ZZajpCmRKEhHY=
+
+Name: org/eclipse/gmf/internal/validate/GMFValidationPlugin.class
+SHA1-Digest: vs6K0NkVX6U/jH50VmqFyVFQAE8=
+
+Name: org/eclipse/gmf/internal/validate/expressions/IModelExpressionPr
+ ovider.class
+SHA1-Digest: p5YHeg/cZSKRnZ/cIzmJTNdDhFs=
+
+Name: org/eclipse/gmf/internal/validate/expressions/EnvironmentProvide
+ r.class
+SHA1-Digest: AT9T/weFWEqRoMKTvuF8+2maT7I=
+
+Name: org/eclipse/gmf/validate/GMFValidator.class
+SHA1-Digest: BCeahESMvqwmgn0JjrJbaEXXGoA=
+
+Name: org/eclipse/gmf/internal/validate/ConstraintAdapter.class
+SHA1-Digest: bRHpsCwwMwOz+pVYmZ/p8gK76E4=
+
+Name: org/eclipse/gmf/internal/validate/expressions/Messages.class
+SHA1-Digest: 3xmKwQr1qTcCL4veMUThUbdKi8s=
+
+Name: org/eclipse/gmf/internal/validate/DefUtils$FeatureValProvider.cl
+ ass
+SHA1-Digest: WQcklCBC7xWA4yYqZNsMFlV+5Lk=
+
+Name: org/eclipse/gmf/internal/validate/DebugOptions.class
+SHA1-Digest: LsWWwcC8xIXCp6ZZhUYD1jTeyLY=
+

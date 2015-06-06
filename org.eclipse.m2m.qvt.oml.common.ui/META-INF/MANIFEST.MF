@@ -1,0 +1,537 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.common.ui;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.ui.ide;bundle-version="[3.4.0,4.0.0)",org.eclipse.debug
+ .ui;bundle-version="[3.4.0,4.0.0)",org.eclipse.emf.edit.ui;bundle-ver
+ sion="[2.5.0,3.0.0)",org.eclipse.m2m.qvt.oml.common;bundle-version="[
+ 3.1.0,4.0.0)",org.eclipse.m2m.qvt.oml.emf.util;bundle-version="[3.0.0
+ ,4.0.0)",org.eclipse.m2m.qvt.oml.emf.util.ui;bundle-version="[3.0.0,4
+ .0.0)",org.eclipse.core.expressions;bundle-version="[3.4.0,4.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.common.ui.QvtCommon
+ UIPlugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.common.ui;x-friends:=
+ "org.eclipse.m2m.qvt.oml.runtime.ui,org.eclipse.m2m.qvt.oml.ui",org.e
+ clipse.m2m.internal.qvt.oml.common.ui.action;x-friends:="org.eclipse.
+ m2m.qvt.oml.runtime.ui",org.eclipse.m2m.internal.qvt.oml.common.ui.co
+ ntrols;x-friends:="org.eclipse.m2m.qvt.oml.runtime.ui",org.eclipse.m2
+ m.internal.qvt.oml.common.ui.launch;x-friends:="org.eclipse.m2m.qvt.o
+ ml.runtime.ui",org.eclipse.m2m.internal.qvt.oml.common.ui.views;x-fri
+ ends:="org.eclipse.m2m.qvt.oml.editor.ui",org.eclipse.m2m.internal.qv
+ t.oml.common.ui.wizards;x-friends:="org.eclipse.m2m.qvt.oml.runtime.u
+ i",org.eclipse.m2m.internal.qvt.oml.common.ui.wizards.choosers;x-inte
+ rnal:=true
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/messages.prop
+ erties
+SHA1-Digest: zeGoK+GCF3DpMCORhYivuovq68c=
+
+Name: icons/showfullq.gif
+SHA1-Digest: q+L2MBoGXDUzbFHpO2jr8sJW0co=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$IResourceFilter.class
+SHA1-Digest: BgX1ccw3kwAmb0Y+D+YG6Ioo4qM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/Messages.clas
+ s
+SHA1-Digest: Zvt/VhwrBe5JWrK+ZveGfg6MBbc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$ClassifierContentsFilter.class
+SHA1-Digest: aGmCPhn4HfSvp5305xQRDz7RAag=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$ILabelProviderEx.class
+SHA1-Digest: DNDsgDUBU9xP/RLq4Inwp3nCNJ0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/IUriGroup$IMod
+ ifyListener.class
+SHA1-Digest: dMjVQlwjM4a3Ixh/n2fvF+Ek7CU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/ReferenceSelec
+ tionDialog$2.class
+SHA1-Digest: 1vGi6K+nea9OjrsS7Lm8L0R9TJI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/WorkspaceMetamo
+ delsDelta.class
+SHA1-Digest: J6qVg8HMp+BWbjCC8dPBB57Fpus=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/IClassifierPr
+ ovider.class
+SHA1-Digest: kyoRaRL/VD2Zl8nBo71ed4hWo7k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/IModelParameterInfo.c
+ lass
+SHA1-Digest: O9QpJSbnjjcQMj83yHM7NyXRVZk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/StatusInfo.class
+SHA1-Digest: AdOHsUiewhBbEYE6kPIdsnlDT34=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$12.class
+SHA1-Digest: GIUUe9ejD/MdOpA1pgE/Wu4uEYg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl.class
+SHA1-Digest: sLLE4UeLBd97/2fcYU2Dl3Jwf4Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/action/WindowActionDe
+ legate.class
+SHA1-Digest: GivDvrTTtlx7eYbynhdQS2hOpGc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$CompositeContentProvider.class
+SHA1-Digest: 1WldAbNqdHXJoO8spHcehi7vhFE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/Messages.class
+SHA1-Digest: eVMU9GifG29Zv4SKL9gsgHYYdYg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/choosers/Tree
+ ChooserPage$1.class
+SHA1-Digest: pNvdtId91ERZTM3+DnWswc7Om2E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/BrowserNode.cla
+ ss
+SHA1-Digest: 5CZW/j6xzB0F2etxcthz/wvT71M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelContai
+ nerNode$1.class
+SHA1-Digest: kMf7z92TcwrP6Mx7TjmXpRWM4BA=
+
+Name: icons/warning-co.gif
+SHA1-Digest: 76fAklsFV/Jw7hyoXj0qFN8pgPQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupOut$4.
+ class
+SHA1-Digest: o9yE6C9sFz5nvt3x449TgI4HofQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$3.class
+SHA1-Digest: S+BEgNh327EGANpnu/lj5bY9M+0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/FolderSelectionDialog
+ $1.class
+SHA1-Digest: G3UWEO37wDHc5FKDeuNkhJL2coU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$2.class
+SHA1-Digest: rQoBYw5kRfRCaFs6UgTiSsM9QBQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/MdaLaunchTab.c
+ lass
+SHA1-Digest: AZ+g1vJ7kyuTBOjifHt6Z6Qru5s=
+
+Name: icons/opentype.gif
+SHA1-Digest: C6QxIalu+c0nwvdQc/taH2lWlcY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ rView$1.class
+SHA1-Digest: LJskNFVLYJTX7DYZK2+XhZbijr0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$6.class
+SHA1-Digest: kFSSmQwMcVOZnShd3cTpDnz0Je0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$CompiledTransfContentProvider.class
+SHA1-Digest: ZsGapbo0NgXrMIZf8nrkju1IE68=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/BaseUriGroup.c
+ lass
+SHA1-Digest: OV/rSNa/csvSLjOCql9hOG4Ykb8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/action/Messages.class
+SHA1-Digest: 44P93Fui+SgHRp/bcNmcYM8A/hM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/ReferenceSelec
+ tionDialog.class
+SHA1-Digest: 59NiOuzxlyS7OlJ57UZ3l7cRzOQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/OpenClassifie
+ rDialog$3.class
+SHA1-Digest: Z13l42I5F6D9mcpz3TU4xmvZXU4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/action/EObjectWindowA
+ ctionDelegate.class
+SHA1-Digest: Hn0h4gX6gMcOGlWOjrt3Gw6/2Fs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/TypedElementSelection
+ Validator.class
+SHA1-Digest: hVS2M0Eq1ruSsaVXWre+lrouYtQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$ISelectionListener.class
+SHA1-Digest: lfOqlPJjynC37ibDOmgubGmm528=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/BrowseInterp
+ retedTransformationDialog.class
+SHA1-Digest: kHuKvu8pyiHV7hbXxaK08MVlyvo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/choosers/Tree
+ ChooserPage.class
+SHA1-Digest: D6UN+8O/jlEaWnkJezOrMLyGH7U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/ComplexClassi
+ fierProvider.class
+SHA1-Digest: Dp6FQWMl2GkVgtR727OHF2wWi+A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupOut.cl
+ ass
+SHA1-Digest: 6Aa5oLaBfTuX/BFcZ0OQkZguBUI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelContai
+ nerNode.class
+SHA1-Digest: QHPyMwMWu7usNmxubnFAfFHSwdM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$CompositeLabelProvider.class
+SHA1-Digest: u4ys94NtTYNHk2eVj/7AzLYx524=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$13.class
+SHA1-Digest: eLkMCMdl36WheaVS3Oaq9jLw0ms=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r.class
+SHA1-Digest: uVuGBVeRwob2IdW3Eci8S64kTJA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/OptionalFileGr
+ oup.class
+SHA1-Digest: JRKpkexpYNjpiuwkLSxLwAEk3mQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/ITransformati
+ onSelector.class
+SHA1-Digest: VkBlxI3RmPxU89YvDtmCm3u8yuk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupOut$1.
+ class
+SHA1-Digest: EcNL2WBgHWEnyGoLMCJ01snN8a0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/Messages.class
+SHA1-Digest: xd8N+ELxhuvLvkziNGa8xYAL32s=
+
+Name: icons/registry.gif
+SHA1-Digest: Bp8ccvfaBXt+G4toQ5MdHF9tv78=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupOut$5.
+ class
+SHA1-Digest: 71Deu0IWxTZrO/SV+eMUAfFYCcc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$4.class
+SHA1-Digest: xWDOoPAb6HPtzHZZxkfS1ncxlps=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/CommonUIUtils.class
+SHA1-Digest: 6yE+91WkwgeO5NqG7YTl0p9JJgE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/TypedViewerFilter.cla
+ ss
+SHA1-Digest: TV6FI5zzwVBRWhtbBwpw6OfguZ8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/OptionalFileGr
+ oup$1.class
+SHA1-Digest: wb9PX2KZnkY5n1utYvFJ0CSMcSU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$3.class
+SHA1-Digest: fLwUSn92oMlAFYQRsqzRqAqK3Ig=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ rView$2.class
+SHA1-Digest: MB87VUl7F+sm7pwVJ7/Cse/kEiw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$7.class
+SHA1-Digest: F8FQya82p1zGQSxlJF0Hw/hbsDw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupInOut.
+ class
+SHA1-Digest: ltrniVRZuBt7tSyCjWW5aW3FMx8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/Transformation
+ Controls.class
+SHA1-Digest: FFM0EkfXCdSsCeWcT+CWl8Xa13E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/BrowseInterp
+ retedTransformationDialog$ISelectionListener.class
+SHA1-Digest: IXKgSLp1DUyL5/O488TDSvOAa/Q=
+
+Name: icons/error-co.gif
+SHA1-Digest: 837WZOYq5P1nCsjer7IptxeeAX0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelNode.c
+ lass
+SHA1-Digest: Ank6qK4C2PpcDBnKyhzOGDcQnqo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/AbstractClass
+ ifierProvider$1.class
+SHA1-Digest: iQADc+yypuY2zgFLfjIOgVvURUU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/OpenClassifie
+ rDialog$4.class
+SHA1-Digest: G/22QMRLeLwWLUaB0720nrAFMIw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/ResourceModelNo
+ de$1.class
+SHA1-Digest: RBIQDsUPG4Fd26XV6iO2QUBbx/8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/ReferenceSelec
+ tionDialog$IRefFilter$1.class
+SHA1-Digest: Gtwd3xyh5Jw7Dleqy5TPITHhD5Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/AbstractCompo
+ siteWizardPage.class
+SHA1-Digest: F5QWXekEzmkMW7bNIxV7xtCv5Gc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$ITreeContentProviderEx.class
+SHA1-Digest: pXPALV+2OY3qMUM7yabq3O0diqc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/choosers/mess
+ ages.properties
+SHA1-Digest: QmuJvmiDjs/NsBC3U2RXwm5zRAE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$10.class
+SHA1-Digest: H0Q6u0JyzO3HLIZwneIaowIQc1Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$CompiledTransformationRoot.class
+SHA1-Digest: DFIpKsaK57Ucg7GqUfxtpunK0fg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriChooserList
+ ener.class
+SHA1-Digest: cd1N3seGwyVi/s4g6e4hXcNVIU8=
+
+Name: icons/metamodels.gif
+SHA1-Digest: NVB6w6cnP8STvSb+vN341VVON60=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/QvtCommonUIPlugin.cla
+ ss
+SHA1-Digest: P8SN+nvZwCmStROdqHb8ZQj/8SM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupIn$1.c
+ lass
+SHA1-Digest: frBGHCshbabcE0jbM8B78jKHObg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$14.class
+SHA1-Digest: IiMGDtf0Lz2nSC1iI9gTltFLm0w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/BrowseInterp
+ retedTransformationDialog$1.class
+SHA1-Digest: +qAR+uaTZxLHaiubXqR3Y/ARyIM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/PluginImages.class
+SHA1-Digest: 9eUFVLHnrBamz0JyBd59dcMxL6w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/Messages.class
+SHA1-Digest: 56Vz/Px5OwQnysc8hG1o+eU0stA=
+
+Name: icons/pr-Model_to_model.gif
+SHA1-Digest: y8m16caxT1ZPrDM1Jij/8UL/30A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupOut$2.
+ class
+SHA1-Digest: QUuuTLowSNZb9nntjsmt+YR9OQ0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$1.class
+SHA1-Digest: +gwIuZ6w/6zY4kzqOA+lzUJHV64=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$5.class
+SHA1-Digest: Onp7hwTRZX9W3PZDjjQ0MnitJOA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/OptionalFileGr
+ oup$2.class
+SHA1-Digest: ApeEZ4GZCY+7NzKr5AXO2wjDvIA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$4.class
+SHA1-Digest: W/WGOmvK1Xuc56oLGfRBkPK3IoA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/OpenClassifie
+ rDialog.class
+SHA1-Digest: nlPsRjwy9JjYIMJ+jAG66Mxpp3g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/AbstractClass
+ ifierProvider.class
+SHA1-Digest: PZlzQuzD+Pt43DL1hDU7xpvg+7A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ rView$3.class
+SHA1-Digest: KueR6zEHiA91TP+USI8V5dZhp+A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$8.class
+SHA1-Digest: ollJ8tGGgNFIjnlNaxZxbzEjNBU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/OptionalFileGr
+ oup$IModifyListener.class
+SHA1-Digest: kpiwAJngaXLp2C0dESKa8e8tnGM=
+
+Name: icons/collapseall.gif
+SHA1-Digest: X2SYkCGSP2jr+iOlYBLU19jEd4Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/ResourceModelNo
+ de.class
+SHA1-Digest: BeBUXXig6/kqQizgIftfLioOsHU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/CommonUIUtils$1.class
+SHA1-Digest: yaQQLrB49bWAo4rCpXMrgmgDvbA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/IUriGroup.clas
+ s
+SHA1-Digest: 1k66Qm3xQ1pfsYrCbShi7raY7us=
+
+Name: icons/showinherf.gif
+SHA1-Digest: ac9HAAH3DIjVPVhmb9IV+yw7w+E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/OpenClassifie
+ rDialog$1.class
+SHA1-Digest: MFdAGIyJYUthC92saXtKH9R2Jdk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$LabelProviderDelegate.class
+SHA1-Digest: OGABxUzo1gP8DDjizR+5WHuRuMk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/OpenClassifie
+ rDialog$5.class
+SHA1-Digest: Z4tNeTqyToVGp0QlMIzxfVGVvY4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/messages.proper
+ ties
+SHA1-Digest: eukMZuibCnZ/75fIR1xlBh25jzo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$DelegatingDesc.class
+SHA1-Digest: pGLcibFs6E57FJ6cdtUzoIJ2N1k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/IModelParameterInfo$D
+ irection.class
+SHA1-Digest: ukJ3Ugq8h3bG700We2Fx280FtYQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/ReferenceSelec
+ tionDialog$1.class
+SHA1-Digest: 1Lg4580QtYLWfBxKpHn5L/q4hOA=
+
+Name: plugin.properties
+SHA1-Digest: 5BRpLKWJg8LnTDecYBtbRAvswNQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupIn.cla
+ ss
+SHA1-Digest: 3mZg2SyhoDKM1VbT0apU5iio0f8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/PersistedValu
+ esWizard.class
+SHA1-Digest: KGeoL2bNf0AyCmYDmaZcJirpslA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/PersistedValu
+ esWizard$PreferenceSection.class
+SHA1-Digest: jvTyR/INKN4W6k9bmBIM7H18t8M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$11.class
+SHA1-Digest: /nDEKS7wm4UiVUQarDh6AY/mSf4=
+
+Name: plugin.xml
+SHA1-Digest: whx47x75/ewRYYII9/YL8B5iY/8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupIn$2.c
+ lass
+SHA1-Digest: yzXKqozd3bzX0y56NxC+i3WUb0A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/FolderSelectionDialog
+ .class
+SHA1-Digest: zclcJIQqYIM5o7rqLaSyR5Y3qF0=
+
+Name: icons/metamodelfile.gif
+SHA1-Digest: dRrJG8PwCUKRRd6pGp/TfHNJ27A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/BrowseInterp
+ retedTransformationDialog$2.class
+SHA1-Digest: NCx93HC29pPehns+TktTj3416uA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ rView.class
+SHA1-Digest: Jnm3mjQh2djGZnR1JRliBve6PKQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/messages.properties
+SHA1-Digest: aLcGfsgIm/kmaHfgZL1NZtVRmME=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$11$1.class
+SHA1-Digest: Vuo7sI5uIhvWW4vHq4TrvttpMPk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/UriGroupOut$3.
+ class
+SHA1-Digest: RRWk8J+eEUzkI5Z38maUaBHSR00=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$2.class
+SHA1-Digest: JEdYG0vbOrRosO84FTyX2DMTovU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/messages.prope
+ rties
+SHA1-Digest: 7RESxBLpLBaM7D01Jt653PVJX6k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/action/messages.prope
+ rties
+SHA1-Digest: CAzcML/KoNkzfjFYwrL9b/Klzmk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$1.class
+SHA1-Digest: 09Ktfx1ArkyWPkBlesBGmTk1+48=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/controls/UniSelectTra
+ nsformationControl$6.class
+SHA1-Digest: 25WQlACiXoZg6hK2muCCbbzjrAY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/CommonPluginImages.cl
+ ass
+SHA1-Digest: 1m4ySTGgB5EAHh2nEL03oURCFIc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/OptionalFileGr
+ oup$3.class
+SHA1-Digest: 8Ewq/Kr+Ros94ZMUB8XRsUQzlDk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$5.class
+SHA1-Digest: RxS6CEoW86pNjFM2cB61tpK7W5g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$PackageContentsFilter.class
+SHA1-Digest: TrrVR/5l3KlWdS2HUCJaMx+3Yo4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/views/MetamodelBrowse
+ r$9.class
+SHA1-Digest: 8USnnY0sbDo8ef5qHp+1UhUZow0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/wizards/choosers/Mess
+ ages.class
+SHA1-Digest: VULUZRU942OoF3pWNxzSPPHXCBA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/launch/ReferenceSelec
+ tionDialog$IRefFilter.class
+SHA1-Digest: OpQibWw43zOsvld7mKkioYkeHLA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/ui/dialogs/OpenClassifie
+ rDialog$2.class
+SHA1-Digest: GYN3FOa6rbJEIJfUkcKMM2ydplI=
+

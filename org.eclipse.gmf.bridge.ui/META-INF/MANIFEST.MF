@@ -1,0 +1,586 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.bridge.ui;singleton:=true
+Bundle-Activator: org.eclipse.gmf.internal.bridge.ui.Plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.3.0,4.0.0)",org.eclip
+ se.ui;bundle-version="[3.3.0,4.0.0)",org.eclipse.ui.ide;bundle-versio
+ n="[3.3.0,4.0.0)",org.eclipse.jdt.ui;bundle-version="[3.3.0,4.0.0)",o
+ rg.eclipse.emf.common;bundle-version="[2.3.0,3.0.0)",org.eclipse.emf.
+ ecore.edit;bundle-version="[2.3.0,3.0.0)",org.eclipse.gmf.bridge;bund
+ le-version="[1.1.0,2.0.0)",org.eclipse.gmf.graphdef.edit;bundle-versi
+ on="[2.0.0,3.1.0)",org.eclipse.gmf.tooldef.edit;bundle-version="[2.0.
+ 0,3.1.0)",org.eclipse.gmf.map.edit;bundle-version="[2.0.0,3.1.0)",org
+ .eclipse.emf.codegen.ecore.ui;bundle-version="[2.3.0,3.0.0)",org.ecli
+ pse.emf.importer;bundle-version="[2.3.0,3.0.0)",org.eclipse.m2m.qvt.o
+ ml;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.runtime;bun
+ dle-version="[2.0.0,4.0.0)"
+Export-Package: org.eclipse.gmf.internal.bridge.resolver;x-internal:=t
+ rue,org.eclipse.gmf.internal.bridge.transform; x-friends:="  org.ecli
+ pse.gmf.bridge.ui.dashboard,  org.eclipse.gmf.codegen.ui,  org.eclips
+ e.gmf.tests,  org.eclipse.gmf.codegen.lite.ui,  org.eclipse.gmf.tooli
+ ng.simplemap.bridge.ui",org.eclipse.gmf.internal.bridge.ui;x-friends:
+ ="org.eclipse.gmf.bridge.ui.dashboard,org.eclipse.gmf.doc.ui,org.ecli
+ pse.gmf.codegen.ui",org.eclipse.gmf.internal.bridge.wizards;x-friends
+ :="org.eclipse.gmf.bridge.ui.dashboard,org.eclipse.gmf.doc.ui,org.ecl
+ ipse.gmf.codegen.ui",org.eclipse.gmf.internal.bridge.wizards.pages;x-
+ friends:="org.eclipse.gmf.doc.ui",org.eclipse.gmf.internal.bridge.wiz
+ ards.pages.simple;x-internal:=true,org.eclipse.gmf.internal.bridge.wi
+ zards.strategy;x-internal:=true
+Bundle-Version: 1.5.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/Hierarchy.class
+SHA1-Digest: QLJ37yuOqtKn1Zm5naS1Nu6WVCw=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/WizardUtil$1.class
+SHA1-Digest: Wqy5wHYY8QGAQhEornSZ23eqg+I=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DefinitionP
+ age.class
+SHA1-Digest: jTqGbV2WU5iQb35nRlKuhdh4srs=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GenModelDetector.class
+SHA1-Digest: jJpwhxGkF/XP1G6PX+zw07QViFI=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/GraphDefLookup.cla
+ ss
+SHA1-Digest: yc0KUIZ85zaAr1e35wNoqHitkWQ=
+
+Name: org/eclipse/gmf/internal/bridge/transform/MapModelDiagnosticPage
+ .class
+SHA1-Digest: tWImVqLqQ9ZtuAi7ErhMQchbfZ0=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelWiz
+ ard$1.class
+SHA1-Digest: WWXBIFUT1O72WKrxVdrVEAkEKcM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/Messages.cl
+ ass
+SHA1-Digest: jg5aXLXe2jQxZIvF+NiBkkHZMFA=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GenModelConfigurationP
+ age$3.class
+SHA1-Digest: f2qPqcH7GExhVl4wHRhZqVKPpyY=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/WizardOperationMode.clas
+ s
+SHA1-Digest: TqSycTlI76LSVNanfuFR0sM6ggY=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/ToolDefBuil
+ der.class
+SHA1-Digest: 8apMmEP1+nxCVWzvEHb0RVy25RA=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ValidationHelper$GMFMa
+ rkerHelper.class
+SHA1-Digest: GXr0VakapZ02Tiy1caqNdhL8gZ8=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DefinitionP
+ age$1.class
+SHA1-Digest: lPHBudfeKgPlHwMFKQsQEOOgds0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.b
+ ridge.ui/pom.properties
+SHA1-Digest: dplHu7vxpNVkPPi9KLPHhT6LraU=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age.class
+SHA1-Digest: f3o7v/SVIbtPXJZAPsvT5Ex78AU=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelOpe
+ ration$1.class
+SHA1-Digest: fSeJeLP3J2vlEs0RHpQjH3QfTaM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$1.class
+SHA1-Digest: gfdIo0VOcgj044k49qB74DVFvKc=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$5.class
+SHA1-Digest: Kw8h//oanm/CmGTSF8/bFccyxKw=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/AccessibleClass
+ NodeStrategy.class
+SHA1-Digest: +6Ej8Zd8WtVnIG1TxAUAfEYXVI0=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$4.class
+SHA1-Digest: LLtHpOQj8guiYZ0y38OexHUnSGs=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/CompositeStrate
+ gy.class
+SHA1-Digest: m62cmMVWHVii8XrR7RPoUsFz6i0=
+
+Name: icons/cview16/checked.gif
+SHA1-Digest: Ka6cTIH6PVjzjBFO5FbyHku+EDU=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/ExcludeDiagramC
+ ontainerNodeStrategy.class
+SHA1-Digest: 3D1cuVucnUrgZMOuvE+rpySGcMg=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$8.class
+SHA1-Digest: G+NuIaeDjILpy8vCEuJgUSmdiZQ=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$2
+ .class
+SHA1-Digest: XpkdLyRRwgXLfN6k5g5eT+IKeVg=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/ResolvedIte
+ m.class
+SHA1-Digest: UDvllfBm9sft5xYPzzleIyo1wHo=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$6
+ .class
+SHA1-Digest: I8riceP41DgkctHf9KFdo9e8niE=
+
+Name: org/eclipse/gmf/internal/bridge/resolver/StructureResolver.class
+SHA1-Digest: Ui/lr90EBg/uFzGbY2YnHe2WqRQ=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ ViewerFactory$ResolverContentProvider.class
+SHA1-Digest: ++Pn8o6G3P6aPczbDlQ/pYwbFwI=
+
+Name: icons/cview16/label.gif
+SHA1-Digest: vYKW3R5sEQPj2Vu88vA5goIxH44=
+
+Name: org/eclipse/gmf/internal/bridge/resolver/TypeLinkPattern.class
+SHA1-Digest: Q1n0Bt4ZeZgP2i1yFkm5aFHkt6Y=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DiagramElem
+ entSelector$1.class
+SHA1-Digest: Ct3qs4KylKFfTQ1MKB8qj4VkDq4=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ Source.class
+SHA1-Digest: 8Zx7udUSdAdVQ2mPbMwXH6xw4xA=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.b
+ ridge.ui/pom.xml
+SHA1-Digest: rOdiyIOhSRvJ6J6LJcdUu69v3Qo=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/LeafNodeStrateg
+ y.class
+SHA1-Digest: 96B3mT3LnzZoxEIVts4eV3LjCvw=
+
+Name: org/eclipse/gmf/internal/bridge/transform/messages.properties
+SHA1-Digest: 1jQI//SR1r71f+2iIGFTEVyFGho=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ModelDiagnosticPage$1.
+ class
+SHA1-Digest: 9xCW53I185vMksb0ekuKsPUlmQA=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/WizardUtil$2.class
+SHA1-Digest: hjb61U3ltr+kNDZIYECiW26G4jc=
+
+Name: icons/obj16/GMFGraphModelFile.gif
+SHA1-Digest: la9gxaDrz0ghpatARchRdXPaLcA=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ ViewerFactory$ResolverCellModifier.class
+SHA1-Digest: mCms9+FIu3+S0mjsiPxL2iPuAf8=
+
+Name: org/eclipse/gmf/internal/bridge/resolver/ContainmentClosure.clas
+ s
+SHA1-Digest: etyLrEnOEyjGRPC6IV7E2dMLgvI=
+
+Name: icons/cview16/link.gif
+SHA1-Digest: pmQtC3cQrxhTA+ROSciWcT+G4ww=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelAct
+ ion.class
+SHA1-Digest: 0lWDSthSoN/NsCnnJg11T908eb0=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/ShowDashboardPage.
+ class
+SHA1-Digest: SgR/RYpPplgTx5P2mhcfFffs0x4=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelOpe
+ ration.class
+SHA1-Digest: xGVBtHSLuj+nJTqjY+yUms+0wyM=
+
+Name: icons/cview16/node.gif
+SHA1-Digest: XTZAfsT+QqIEXNkIWrG5llgxN9E=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DefinitionP
+ age$2.class
+SHA1-Digest: htL9JRoxvK9z6FXQnuO/LR8BmVQ=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ ViewerFactory.class
+SHA1-Digest: ukAkHGfUmQ9IUTxxfCXfchDoVA4=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelOpe
+ ration$2.class
+SHA1-Digest: wA5ccYguKGy6RnJJkAY+WRjC7ps=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$2.class
+SHA1-Digest: 7aB/Y+VuIcRHdLKpatoeuplmcFY=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard.c
+ lass
+SHA1-Digest: eU29FTdG/KrOrKh5NFhGn0zD5GM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$6.class
+SHA1-Digest: y21bZyJPmjAv8LRcrS93PC2bV54=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ModelConfigurationPage
+ .class
+SHA1-Digest: iMxsIjDqOPvDzzK6rZmqh5Adhzs=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$1.class
+SHA1-Digest: h9D1P5v42WESBFcbORUC2fWguJg=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/WizardInput.class
+SHA1-Digest: ggnE889YgWPsFcmY3BhOXp0hhOE=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$5.class
+SHA1-Digest: yMyz2XjCtEqiZy5xXku92DWVrlw=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/StructureBu
+ ilder.class
+SHA1-Digest: mvbVumINeuoxaPr8UBBKlVlIdjk=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$9.class
+SHA1-Digest: nKNZx367Ii5TCxH18jKoyZGVqHU=
+
+Name: org/eclipse/gmf/internal/bridge/transform/StaleGenModelDetector.
+ class
+SHA1-Digest: J/hs/PNJOWNK3P/eMfJ5rPEeeYk=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/ToolDefLookup.clas
+ s
+SHA1-Digest: 046wT59eXMrcJbs5SLgoAItYVcY=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$3
+ .class
+SHA1-Digest: 4gEGGGi0szRieEGQcLvf0DY2Jlc=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/StrategyDescrip
+ tor.class
+SHA1-Digest: Vv48syYAWJyuxS7LnPrHENalJQg=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GMFGenNewFileCreationP
+ age.class
+SHA1-Digest: eE4RBGFmIwc5bGfsfKMs0G/jZSM=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$8$1.class
+SHA1-Digest: qE3KXeob/FPfJ/0el/MC3BDiJ0I=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$7
+ .class
+SHA1-Digest: zVnF2pem1IzEK+H94GCj+LhhL94=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/CreateToolDef.clas
+ s
+SHA1-Digest: ivB0HjFCGNnSD3c0humyY+T+hQw=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DiagramElem
+ entSelector$2.class
+SHA1-Digest: OWtt3osIj2o3wbyUA/Ron21MxZs=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/NewMapFileCreation
+ Page.class
+SHA1-Digest: jOv8/Y0TMmcSu5zBsT5FU5PgAhM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/GraphDefBui
+ lder.class
+SHA1-Digest: 1K592tRUHZIHszXl/oPuTESQ574=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFGraphSimpleModelWizar
+ d$1$1.class
+SHA1-Digest: 2RvnHdy19r1frNGVlMae2je+Z9o=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GenModelConfigurationP
+ age.class
+SHA1-Digest: 8/gWGlUoYFKAvEKvaBb2SfwkIII=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ITransformToGenModelOp
+ eration.class
+SHA1-Digest: aYtkmvhClAhxRts3qXYAsqEx8ow=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage.class
+SHA1-Digest: 97lANDWn0N5CV7ubKabS2R+mPBA=
+
+Name: org/eclipse/gmf/internal/bridge/ui/Plugin.class
+SHA1-Digest: QpPElqzRSDOTPnxoXW+Vv4mgBr8=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/WizardUtil$3.class
+SHA1-Digest: 7zt3DFJE4q2EPtlFIaZojfBggaE=
+
+Name: org/eclipse/gmf/internal/bridge/transform/MapModelConfigurationP
+ age.class
+SHA1-Digest: 6DjBZ/CYXxbNqYZDQ1NX5y5TXNQ=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GenModelConfigurationP
+ age$1.class
+SHA1-Digest: YzQ18Lft6jnLAYTFSQJc4dykwUc=
+
+Name: icons/obj16/GMFToolModelFile.gif
+SHA1-Digest: KmqNUgjj7UhrGdQ4lHMjpXTMyM4=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol.class
+SHA1-Digest: MgzWKiSJnXqOkwU4JB2neEIb5j4=
+
+Name: org/eclipse/gmf/internal/bridge/resolver/TypePattern.class
+SHA1-Digest: afkevLpcIxAYRFiuuoNqBqXLi6Q=
+
+Name: org/eclipse/gmf/internal/bridge/transform/VisualIdentifierDispen
+ serProvider.class
+SHA1-Digest: g8tABXspR7wBd05605DgTzVqe44=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DefinitionP
+ age$3.class
+SHA1-Digest: vsXG9nsr4uTlk+7NxTU9pnQiPWI=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/NewGMFProjectWizard.clas
+ s
+SHA1-Digest: x+HXzMEogk0CW2rkFNIKiK4xyf8=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/MapDefFeeder$1.cla
+ ss
+SHA1-Digest: 8c2y12xWK5Jsg9d+ATn3nEyAu64=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/ShowDashboardPage$
+ 1.class
+SHA1-Digest: QXVB2MqslcIlq614mZ+O0gI0ksU=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelOpe
+ ration$3.class
+SHA1-Digest: iDQ8vuX1guRiQo0TVjgldyf89ZM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$3.class
+SHA1-Digest: fHXf4oi/KFHPgwV/Zewxdgu+gGk=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/Strategy.class
+SHA1-Digest: wHeHpwYwJGDYHUDUr7f2+e249UY=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/NewGMFProjectWizard$1.cl
+ ass
+SHA1-Digest: +zPx712afnOMjszpFCJ6aBJW+zk=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$7.class
+SHA1-Digest: Cnr605xFEUdC0wj1Ce7MVbNdpnc=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/strategy/NameFilterStrat
+ egy.class
+SHA1-Digest: tXgE7+cWYsxPBSt5Ie4Bqq4caFo=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GMFGenModelDiagnosticP
+ age.class
+SHA1-Digest: RZtWwTbuutlvLAF+XdGl+zp1GE0=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/messages.pr
+ operties
+SHA1-Digest: JgTFr3L3AoUxHB9QhfB+oF7XAUs=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFGraphSimpleModelWizar
+ d.class
+SHA1-Digest: 6tGGNZ8wDHEix+e7/jEOmT7OdcQ=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$2.class
+SHA1-Digest: 2ZNLuLBC7wGYcE5q89/s5SuX9a0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$6.class
+SHA1-Digest: 2FBkGN7jTInDbVPbRhL7p0kmRNk=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DiagramElem
+ entSelector.class
+SHA1-Digest: +Bv+xpcicL7mbpkuIsGRcYQChJA=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$4
+ .class
+SHA1-Digest: 1CbFCKnb27Dko2i33IwEreSSVCs=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFToolReconcileModelWiz
+ ard.class
+SHA1-Digest: 0xLHTv7hfk+AHeuxnoQWR/mv5T4=
+
+Name: icons/cview16/unchecked.gif
+SHA1-Digest: VTkpSjZcroZuvSbxIu8jegoPCj8=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GMFGenNewFileCreationP
+ age$ResourceGroupEmulator.class
+SHA1-Digest: GYfonCXxHKG8fVpTLL31yZuCNsg=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/messages.propertie
+ s
+SHA1-Digest: D/kNtOrVH1gvl6OpgQVVBGLh5ks=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFGraphSimpleModelWizar
+ d$1.class
+SHA1-Digest: ee/qhB2W1m0GEwD6SjTbXZIgsXE=
+
+Name: .options
+SHA1-Digest: 9ZqZgHE8iXsZ2JybD7JsbI5cWTc=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/WizardUtil.class
+SHA1-Digest: VqPp4O/OZUkFkoFxtJ8FVrNQrqg=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformOptions.class
+SHA1-Digest: 96h4ssAJ+kGJ8YdX/ioKtVmpiyc=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ SelectionPage.class
+SHA1-Digest: qB9KxpiPIoINrTMxSTbtOwZKdW8=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/messages.properties
+SHA1-Digest: j40Wczbt4sxfMESrxFsDCe/hKJU=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelWiz
+ ard.class
+SHA1-Digest: 4cCFSOuU2fjPx5c/HVv0GnZh93M=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ValidationHelper$Diagn
+ osticMarkerMap.class
+SHA1-Digest: WQ6HnyJkZYF96d/1Y/lVfpI8P/I=
+
+Name: org/eclipse/gmf/internal/bridge/resolver/Vocabulary.class
+SHA1-Digest: H3i6EB22g141wdNPs5j1rbXn7M0=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$10.class
+SHA1-Digest: g5u0Kytp5jpvNManGG8xSX0Ce2I=
+
+Name: org/eclipse/gmf/internal/bridge/resolver/NodePattern.class
+SHA1-Digest: J0ybxCOByA/SqLSZKRm1CDcZRs0=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/MapDefFeeder.class
+SHA1-Digest: a496Cv562NHhxPAK3aezeG6VT+g=
+
+Name: icons/obj16/NewGMFProject.gif
+SHA1-Digest: mVKMki/A72Ns62RD6zRPlwHXgMQ=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFToolSimpleModelWizard
+ $1$1.class
+SHA1-Digest: SJbqOJR0yDpn+Ab5u8BDRq2yEm0=
+
+Name: org/eclipse/gmf/internal/bridge/transform/GenModelConfigurationP
+ age$2.class
+SHA1-Digest: U57cim+kPKwDcDU5Mc5gaRgvWOs=
+
+Name: plugin.properties
+SHA1-Digest: fUodJ1L0HylHJfAfeoE8hXp0GIw=
+
+Name: icons/cview16/grayed.gif
+SHA1-Digest: zTeW8er+F5PMw44T0fnE5IfS00g=
+
+Name: org/eclipse/gmf/internal/bridge/transform/TransformToGenModelOpe
+ ration$4.class
+SHA1-Digest: N4c2m5R/2XHYk5bcwFShQabWWJo=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/ResolvedIte
+ m$Resolution.class
+SHA1-Digest: 37s6TtLxUsgVeSA50yGtK6Mv7j8=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$4.class
+SHA1-Digest: MftZMVDrIkwpUGP+MJoprwAx/3U=
+
+Name: plugin.xml
+SHA1-Digest: Y5fAo68GhUS/Pi6UDJSjFgks7TE=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/Messages.class
+SHA1-Digest: l53InxRwqaNJEZf3GAOjtyQ8VdA=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$PageCo
+ ntrol$8.class
+SHA1-Digest: C0hWsu3QiMU4VKlZ8I5X7NYGkkM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/EntriesPage$Change
+ PropertiesDialog.class
+SHA1-Digest: +ZIFSnn4nXgl3pAFeIx0qFC27iM=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$3.class
+SHA1-Digest: JzdLnLODTetIOjl7b0O9ul4whKI=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ViewmapProducerWizardP
+ age$7.class
+SHA1-Digest: 5jZOt7POmmxQPL6abY1T/kKPn6Q=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$1
+ .class
+SHA1-Digest: khISLfPXKFT+bZRS0Ieh4MzXk7Y=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ValidationHelper.class
+SHA1-Digest: el2MLxgrrdJk8Vhg4KNaEKEYaa8=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ModelConfigurationPage
+ $1.class
+SHA1-Digest: dbqSAzjzukj+wpya1w9AD4MRcig=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFMapGuideModelWizard$5
+ .class
+SHA1-Digest: YjicoKyQkOKV2INNlYxqKYRAiL0=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DiagramElem
+ entSelectorExtension.class
+SHA1-Digest: 1On19MYVgkvdFvpJsGbvcV5D1QQ=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ ViewerFactory$ResolverLabelProvider.class
+SHA1-Digest: gcqTUyqIhYCCm34KSKWQFU97ovw=
+
+Name: org/eclipse/gmf/internal/bridge/transform/Messages.class
+SHA1-Digest: 4Rcme3EuqyIS2eFvHvF6RgtAgdI=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ModelDiagnosticPage.cl
+ ass
+SHA1-Digest: YvtrhnNSXQcrJmPIe2nx06ObTp4=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFToolSimpleModelWizard
+ .class
+SHA1-Digest: 7jnMyRRhpkObe5NdNojOqmwLU2s=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/Messages.class
+SHA1-Digest: ckZPpRaOn/9sSSz68BbPwHEls2s=
+
+Name: org/eclipse/gmf/internal/bridge/transform/ValidationHelper$Smart
+ Diagnostician.class
+SHA1-Digest: 2lt0NSqnDbIHmf78W8mbbLQkewk=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/simple/DomainModel
+ SourceImpl.class
+SHA1-Digest: uHwpbZTmnm19dG8PGQeyYVNh8t8=
+
+Name: icons/obj16/GMFMapModelFile.gif
+SHA1-Digest: bo82GqOxNWN/BGxKolLnbEIflNM=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFGraphReconcileModelWi
+ zard.class
+SHA1-Digest: ugudVQ1KJ150LiGAQlYLKBlDfRY=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/pages/ToolDefSupplier.cl
+ ass
+SHA1-Digest: 1baDgQdv96SscYAl4su9iapyKsQ=
+
+Name: org/eclipse/gmf/internal/bridge/wizards/GMFToolSimpleModelWizard
+ $1.class
+SHA1-Digest: 9hBog4fx3V4gOu+H/KG2IETyWoE=
+

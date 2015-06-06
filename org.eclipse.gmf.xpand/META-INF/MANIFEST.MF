@@ -1,0 +1,604 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.xpand;singleton:=true
+Bundle-Activator: org.eclipse.gmf.internal.xpand.Activator
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.2.0,3.0.0)";v
+ isibility:=reexport,org.eclipse.core.resources;bundle-version="[3.2.0
+ ,4.0.0)",org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",org.
+ eclipse.m2m.qvt.oml;bundle-version="[3.0.0,4.0.0)";visibility:=reexpo
+ rt,org.eclipse.m2m.qvt.oml.common;bundle-version="[2.1.0,4.0.0)",org.
+ eclipse.m2m.qvt.oml.project;bundle-version="[2.1.0,4.0.0)",org.eclips
+ e.m2m.qvt.oml.runtime;bundle-version="[2.1.0,4.0.0)",org.eclipse.gmf.
+ xpand.qvtlibrary;bundle-version="[1.0.0,2.0.0)",lpg.runtime.java;bund
+ le-version="[2.0.17,3.0.0)";visibility:=reexport
+Export-Package: org.eclipse.gmf.internal.xpand; x-friends:="org.eclips
+ e.gmf.xpand.editor,  org.eclipse.gmf.tests.xpand,  org.eclipse.gmf.gr
+ aphdef.codegen,  org.eclipse.gmf.codegen,  org.eclipse.gmf.codegen.li
+ te,  org.eclipse.gmf.common,  org.eclipse.gmf.xpand.debug,  org.eclip
+ se.gmf.xpand.ant,  org.eclipse.gmf.codegen.ui",org.eclipse.gmf.intern
+ al.xpand.ast;x-friends:="org.eclipse.gmf.xpand.editor,org.eclipse.gmf
+ .tests.xpand,org.eclipse.gmf.xpand.debug",org.eclipse.gmf.internal.xp
+ and.build;x-friends:="org.eclipse.gmf.xpand.editor",org.eclipse.gmf.i
+ nternal.xpand.eval;x-friends:="org.eclipse.gmf.xpand.debug,org.eclips
+ e.gmf.tests.xpand",org.eclipse.gmf.internal.xpand.expression.ast;x-fr
+ iends:="org.eclipse.gmf.xpand.editor,org.eclipse.gmf.tests.xpand,org.
+ eclipse.gmf.xpand.debug",org.eclipse.gmf.internal.xpand.expression.pa
+ rser;x-friends:="org.eclipse.gmf.tests.xpand,org.eclipse.gmf.xpand.ed
+ itor",org.eclipse.gmf.internal.xpand.inactive;x-internal:=true,org.ec
+ lipse.gmf.internal.xpand.model; x-friends:="org.eclipse.gmf.graphdef.
+ codegen,  org.eclipse.gmf.tests.xpand,  org.eclipse.gmf.xpand.editor,
+   org.eclipse.gmf.common,  org.eclipse.gmf.xpand.debug,  org.eclipse.
+ gmf.xpand.ant",org.eclipse.gmf.internal.xpand.ocl;x-friends:="org.ecl
+ ipse.gmf.tests.xpand",org.eclipse.gmf.internal.xpand.parser;x-friends
+ :="org.eclipse.gmf.tests.xpand",org.eclipse.gmf.internal.xpand.util; 
+ x-friends:="org.eclipse.gmf.xpand.editor,  org.eclipse.gmf.tests.xpan
+ d,  org.eclipse.gmf.graphdef.codegen,  org.eclipse.gmf.codegen,  org.
+ eclipse.gmf.codegen.lite,  org.eclipse.gmf.common,  org.eclipse.gmf.x
+ pand.debug,  org.eclipse.gmf.tests,  org.eclipse.gmf.xpand.ant",org.e
+ clipse.gmf.internal.xpand.xtend.ast; x-friends:="org.eclipse.gmf.xpan
+ d.editor,  org.eclipse.gmf.tests.xpand,  org.eclipse.gmf.xpand.debug,
+   org.eclipse.gmf.xpand.ant"
+Bundle-Version: 2.1.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy; exclude:="org.eclipse.gmf.internal.xpan
+ d.inactive"
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Eclipse-ExtensibleAPI: true
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandDefinitionWrap.class
+SHA1-Digest: 3kAuOwsox06LygRfm4pc/JTMwoo=
+
+Name: org/eclipse/gmf/internal/xpand/ast/analyze/UnusedMetamodelsColle
+ ctor.class
+SHA1-Digest: Ds9vWzZRe2kCspOvlHgpaWBKyTw=
+
+Name: about.ini
+SHA1-Digest: t0FfqhXQ1DOntXUimIG6MWb0U1g=
+
+Name: org/eclipse/gmf/internal/xpand/XpandFacade.class
+SHA1-Digest: wLiJMOW321XOGoOHq5vLdTO5LzE=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParsersym.class
+SHA1-Digest: k17rznX0ZAg7I4CM6vfKzn8iWwc=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$IsKeyword.c
+ lass
+SHA1-Digest: lG789gwy9EtFFjnxRF8zv2inf9E=
+
+Name: org/eclipse/gmf/internal/xpand/expression/parser/LexerBasicMapF.
+ gi
+SHA1-Digest: UN+cKZ1AdOqbJhgGJBSAwYYSHpU=
+
+Name: org/eclipse/gmf/internal/xpand/RootManager$RootDescription.class
+SHA1-Digest: fyeHIQxklVCxsNNduyn8o88UKCk=
+
+Name: org/eclipse/gmf/internal/xpand/util/TypesComparator.class
+SHA1-Digest: mSt4xdLyBVxudWUPa5h9wo/NX+0=
+
+Name: org/eclipse/gmf/internal/xpand/ast/Statement.class
+SHA1-Digest: pHeNL0xIWarIdZeVfCy+PQHdfOM=
+
+Name: org/eclipse/gmf/internal/xpand/util/ParserException.class
+SHA1-Digest: ScOTuPSoke1eaq0+lBh9ZadTH9Y=
+
+Name: org/eclipse/gmf/internal/xpand/ast/Advice.class
+SHA1-Digest: ZCrj3P/PgaBug1P5Eub7OX/e6Uo=
+
+Name: org/eclipse/gmf/internal/xpand/model/Output.class
+SHA1-Digest: GijA4hq9GSzoiDwU9SCeSI8AIgM=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$ProsthesesIn
+ dex.class
+SHA1-Digest: ueFbv7IWReR8Or0AmghYKuUK71s=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$Name.class
+SHA1-Digest: dpMaC6l/AYILvjYNA7P49TfYI+Q=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandDefinition.class
+SHA1-Digest: Xv1cViNpq1NA49ow2cnfudkZg0w=
+
+Name: org/eclipse/gmf/internal/xpand/xtend/ast/QvtExtension.class
+SHA1-Digest: 4IsUq6mjAkkyPoWAgloMt5GwRxw=
+
+Name: org/eclipse/gmf/internal/xpand/util/XpandMarkerManager$1.class
+SHA1-Digest: wS/lb3nC+DmWnW3bOhWGeHxCKpg=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexer.class
+SHA1-Digest: vOADBYi2WILjcIf+aSeJqVl3Fxg=
+
+Name: org/eclipse/gmf/internal/xpand/util/StreamConverter.class
+SHA1-Digest: xD/UdncI3ngj1LI5GzrMexlM7Vg=
+
+Name: org/eclipse/gmf/internal/xpand/util/TypeNameUtil.class
+SHA1-Digest: VDyossMfYWt5CMUTYig0GXd3Pok=
+
+Name: org/eclipse/gmf/internal/xpand/ast/ErrorStatement.class
+SHA1-Digest: RIXO7NHf2oKGbih0ywpSBtaB/MA=
+
+Name: org/eclipse/gmf/internal/xpand/ast/AstVisitor.class
+SHA1-Digest: whvDbi5oJOH63pw3ErSHtuxQJl4=
+
+Name: org/eclipse/gmf/internal/xpand/model/AdvicedDefinition.class
+SHA1-Digest: uITueEswKVsDBM5i8pRwrP6UCtM=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/EmbeddedOCLAnalyzer.class
+SHA1-Digest: QYGJoA3k0CDOtdshJzXU3/P7sKA=
+
+Name: org/eclipse/gmf/internal/xpand/util/XpandStreamOperations.class
+SHA1-Digest: sD0w6Sl9eX/XvjKZ0XZQ71TFWJ4=
+
+Name: org/eclipse/gmf/internal/xpand/util/XpandResourceParser.class
+SHA1-Digest: jZma2JD0tYaIy1SV65sEw0LLPDI=
+
+Name: org/eclipse/gmf/internal/xpand/BuiltinMetaModel.class
+SHA1-Digest: 9M4qmyNkdt74/E141anqKf/ZbOo=
+
+Name: org/eclipse/gmf/internal/xpand/model/AnalysationIssue$Type.class
+SHA1-Digest: +ry+cSPKiRxK90R8l7xOXNOY/Xs=
+
+Name: org/eclipse/gmf/internal/xpand/ast/AstIterator.class
+SHA1-Digest: bnrUfHlo/bo8w5m2NHUxvJlctn0=
+
+Name: org/eclipse/gmf/internal/xpand/AbstractOutput.class
+SHA1-Digest: p0+04xIeo+dI45Y9fvPCfPhXA+A=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopeStateS
+ et.class
+SHA1-Digest: wNjh/DWYvaL1A8ml+qA7O53mcQI=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopeSuffix
+ .class
+SHA1-Digest: MOKuO1adKp86lBS/jImEhlh8/gA=
+
+Name: org/eclipse/gmf/internal/xpand/util/XpandMarkerManager$MarkerDat
+ a.class
+SHA1-Digest: gPm6Vq4CT9UPFv0BuYt3FKh25HI=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandIterator.class
+SHA1-Digest: OPaCGybS6Sx5W1hKkuYZXatP+tE=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$BaseAction.
+ class
+SHA1-Digest: JHj76y3mdT8W//aOIxdHyvXHwpw=
+
+Name: about.properties
+SHA1-Digest: kF7fLbjtHFZfd5DORraZBa6D+So=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexersym.class
+SHA1-Digest: I+gp++17Nqj4eL13wv0MfNqX0Js=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$BaseAction
+ .class
+SHA1-Digest: rAUtNDEwN0KR9oED0fmKkIPH3bg=
+
+Name: org/eclipse/gmf/internal/xpand/ast/ProtectStatement.class
+SHA1-Digest: 0YdnPjnICZFztlf90rVe83109aI=
+
+Name: org/eclipse/gmf/internal/xpand/expression/parser/LexerTemplateF.
+ gi
+SHA1-Digest: RmNeoEY6psaMBqEGOmqm3pON1qQ=
+
+Name: org/eclipse/gmf/internal/xpand/model/EvaluationException.class
+SHA1-Digest: GOaHeAnyEdCTAhpIHBMfUKAuSEc=
+
+Name: org/eclipse/gmf/internal/xpand/ast/ForEachStatement.class
+SHA1-Digest: co+oQUErRTtApFEr2BEM4PgofPk=
+
+Name: org/eclipse/gmf/internal/xpand/build/EcoreModelResourceVisitor.c
+ lass
+SHA1-Digest: RKjzRhfyfuBMGz73PMe2fbwowrM=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexer.class
+SHA1-Digest: sExQqWU8BLMqYQuC92QsGBLHXZ8=
+
+Name: org/eclipse/gmf/internal/xpand/model/ExecutionContextImpl.class
+SHA1-Digest: IzCOKXFdZjJFEhDn8PjMEy1/Jmo=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/TypeHelper.class
+SHA1-Digest: zoEbHnNaI2MJOm6cDhnJJQO02hk=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs.class
+SHA1-Digest: mfpDebN4NDERAqLGatdG5tNaFrI=
+
+Name: org/eclipse/gmf/internal/xpand/model/StatefulResource.class
+SHA1-Digest: lPvOjVJO/+kaZL5X8+ERmin1388=
+
+Name: org/eclipse/gmf/internal/xpand/BufferOutput.class
+SHA1-Digest: Xd0IRlPPPQYBw/GNF8eTDAR7w9c=
+
+Name: org/eclipse/gmf/internal/xpand/Activator$1.class
+SHA1-Digest: ZMS1iosAYAQAjNnTz5aH5ZH843U=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$TermAction.
+ class
+SHA1-Digest: iMT3cwpS/5Oj6iBA8OMp/O6Afx0=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$TermAction
+ .class
+SHA1-Digest: zPYsUabqIJrW8/xbWT1KR54fF5M=
+
+Name: org/eclipse/gmf/internal/xpand/ast/CompositeAstVisitor.class
+SHA1-Digest: 5KfO/hDBbhfyJaa6R3ibw5yaYDc=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$BaseCheck.cl
+ ass
+SHA1-Digest: SIdgw4pFHmxdqlCJoeRlsMoKfGI=
+
+Name: org/eclipse/gmf/internal/xpand/build/WorkspaceResourceManager.cl
+ ass
+SHA1-Digest: ahUt7BOub8scrlnE/U7KiuPLIiQ=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandEvaluatable.class
+SHA1-Digest: /wyh76Xd8al7WMDPPCiMZqXAWDc=
+
+Name: org/eclipse/gmf/internal/xpand/util/XpandMarkerManager$2.class
+SHA1-Digest: M0xJQ9eKN+IgyY87d2qKC/D0keI=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$BaseCheck.c
+ lass
+SHA1-Digest: W3pqD3ZR/a9vF8/Pu7VzntAlWXE=
+
+Name: org/eclipse/gmf/internal/xpand/RootManager$IRootChangeListener.c
+ lass
+SHA1-Digest: 5DHg1mGupyfdHoyxIzYTToxUGmc=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$BaseAction.c
+ lass
+SHA1-Digest: gv+nQqhpi3Alrs809UUB8jJLlOE=
+
+Name: org/eclipse/gmf/internal/xpand/build/WorkspaceResourceManager$1.
+ class
+SHA1-Digest: yaLyE8Fxit16qcCWg3j9dsKXTRY=
+
+Name: org/eclipse/gmf/internal/xpand/ast/AbstractAstVisitor.class
+SHA1-Digest: G2EV3/SpuqMVsvI/16Mjem25AtU=
+
+Name: org/eclipse/gmf/internal/xpand/model/AnalysationIssue.class
+SHA1-Digest: 70OoPXE4LIUb079x96BgSLjUUtE=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/ExpressionHelper.class
+SHA1-Digest: L339t5qmk8YTgZB//lr48tk6NWQ=
+
+Name: org/eclipse/gmf/internal/xpand/inactive/StreamDecoder.class
+SHA1-Digest: RNcDZ4eF2ZytZUVUUe4PapmVPEI=
+
+Name: org/eclipse/gmf/internal/xpand/build/WorkspaceModelRegistry$Desc
+ riptor.class
+SHA1-Digest: Eea2aqdFOYda/2K+YNGF2HfO3+4=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs.class
+SHA1-Digest: kyPSuly+X94g21kF1MMIC09cb5M=
+
+Name: org/eclipse/gmf/internal/xpand/ast/IfStatement.class
+SHA1-Digest: d+yDZXrMlVBLh8d+Kqp/e5W5gOk=
+
+Name: org/eclipse/gmf/internal/xpand/ast/FileStatement.class
+SHA1-Digest: crLuXH7WEfSFqM5a06ujr56aB/A=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: org/eclipse/gmf/internal/xpand/util/ParserException$ErrorLocatio
+ nInfo.class
+SHA1-Digest: Ys0Rr6FeQzIm7DAH09Zbisn2DFI=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$IsNullable.
+ class
+SHA1-Digest: VxNOJRQ5PAyXvE7+9DP5fy+vUyM=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$IsNullable
+ .class
+SHA1-Digest: NkbqZ0jSrC+AUn4oXnBlgVVz+0I=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandAdvice.class
+SHA1-Digest: /OC9dLaN8UWLJ3arfQZ7KjlIzsg=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$TermAction.c
+ lass
+SHA1-Digest: FYhxb8m4XonFOXxZtdmtVhgvjrM=
+
+Name: org/eclipse/gmf/internal/xpand/ast/NamespaceImport.class
+SHA1-Digest: i4mK1xJKycgtHxSdanf++XZIgPY=
+
+Name: org/eclipse/gmf/internal/xpand/parser/AbstractParser.gi
+SHA1-Digest: 24uHd43nBXFpHRNBXdPz+wfcxRo=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$TermCheck.
+ class
+SHA1-Digest: xmUwnGbKlgsEqij5hFkfrxEVUxQ=
+
+Name: org/eclipse/gmf/internal/xpand/util/DefinitionSignature.class
+SHA1-Digest: /+jKnXUfNV+0ZltTQscyh9C1Zjc=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandFactory.class
+SHA1-Digest: Bwt5qsAL+E6um6QULmL/kiuQ+nc=
+
+Name: org/eclipse/gmf/internal/xpand/model/ExecutionContext.class
+SHA1-Digest: t8l1nv+9UIb3ONaQWVJmlt5ccxM=
+
+Name: org/eclipse/gmf/internal/xpand/StringHelper.class
+SHA1-Digest: zy11QGsd145VBezBn0pwIgmifjs=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexer.g
+SHA1-Digest: 9RcCJYhLnBVtH+FhWhDJrriZ9UI=
+
+Name: org/eclipse/gmf/internal/xpand/util/XpandMarkerManager.class
+SHA1-Digest: 3PyBO3wGpbp+ECIo7kfvYPrS5CE=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/EmbeddedQVTAnalyzer$1.class
+SHA1-Digest: tdOPwD7bLi8LngXUf599qt3Rp2U=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.x
+ pand/pom.properties
+SHA1-Digest: e7WnKnlnbXVFGv6fGyaXRLtPrOE=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$Nasb.class
+SHA1-Digest: BLm4/yn2W/1wB46uDMQkEOHMT+Q=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopeLhs.cl
+ ass
+SHA1-Digest: U77+VeWaoOBdmepg2Wi+5Qyy9rc=
+
+Name: org/eclipse/gmf/internal/xpand/parser/Keyw.class
+SHA1-Digest: iA6HaDwLWZg9nSZOFr18s0J05KQ=
+
+Name: org/eclipse/gmf/internal/xpand/ResourceMarker.class
+SHA1-Digest: ySJcIy+yJdrLUygFY83a3JxNrSE=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$Nonterminal
+ Index.class
+SHA1-Digest: ijJplqg4zZVOHuiEpEHEv5ogi58=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopeRhs.cl
+ ass
+SHA1-Digest: Nc5VrBeU5je9nbAcq+Gqdbf9J14=
+
+Name: org/eclipse/gmf/internal/xpand/ast/ExpressionStatement.class
+SHA1-Digest: bd4a43FW3tHrX3nxcyFJw8Hu/4Y=
+
+Name: org/eclipse/gmf/internal/xpand/RootManager.class
+SHA1-Digest: XJcyLrgpsu9Fyw4DGI3dh7dDNkk=
+
+Name: org/eclipse/gmf/internal/xpand/expression/ast/Identifier.class
+SHA1-Digest: wc8Az/2+35kcTxSA5mchW7baKJc=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$Asb.class
+SHA1-Digest: roNxn1bcZLHrpMRYHrWyRF7XPp4=
+
+Name: org/eclipse/gmf/internal/xpand/util/PolymorphicResolver.class
+SHA1-Digest: gaB9UlpEUB2uKr0klY79Xj+LkCI=
+
+Name: org/eclipse/gmf/internal/xpand/expression/parser/dtParserTemplat
+ eD.g
+SHA1-Digest: qGSm4czeg6o8aXzBFsdLUcTrx4Y=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$Nasr.class
+SHA1-Digest: WIGDBfenMhi2YLdSq8BPQ4fKfvQ=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs.class
+SHA1-Digest: KLWWT5wk5mPnyX/i/OXtXq0j58M=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$TerminalInd
+ ex.class
+SHA1-Digest: jl+w45aGNX5lTr1OXw8OZDz4uHs=
+
+Name: org/eclipse/gmf/internal/xpand/ast/TextStatement.class
+SHA1-Digest: S0jDSRYTyuoSXawdPLPsJcKrRuA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$IsNullable.c
+ lass
+SHA1-Digest: Hq8/0JS5/4iTDvVhV0e3/m/eITg=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$IsKeyword.
+ class
+SHA1-Digest: 57+6kAt3hxS0EoVr1A3BGZUXY0E=
+
+Name: about.mappings
+SHA1-Digest: 2i3U+TMQjhdckFFP2STM1Ra+xzE=
+
+Name: org/eclipse/gmf/internal/xpand/util/PolymorphicResolver$1.class
+SHA1-Digest: okTCDnuCdTy4V/TQeYN0oj912tA=
+
+Name: org/eclipse/gmf/internal/xpand/build/XpandBuilder.class
+SHA1-Digest: ztvpBm1JDaUa+PXTgwLJeuDcA0o=
+
+Name: org/eclipse/gmf/internal/xpand/build/MetaModelSource.class
+SHA1-Digest: q1uXAkeBo8gsOrkTVYM7bqhbHeo=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$Asr.class
+SHA1-Digest: Dei0OAbkWkZFcMFmNyntoZQ1s8Y=
+
+Name: org/eclipse/gmf/internal/xpand/StreamsHolder.class
+SHA1-Digest: 5Rs/KRa0Jx06qXkZmscicchRTWE=
+
+Name: org/eclipse/gmf/internal/xpand/ast/Definition.class
+SHA1-Digest: 6SELbhAmiF5zA8dtZpdklQkmdqo=
+
+Name: org/eclipse/gmf/internal/xpand/parser/AbstractOCLParser.gi
+SHA1-Digest: RNnKBBfpl65ptzDMIk+b3rQmxdg=
+
+Name: org/eclipse/gmf/internal/xpand/expression/parser/errorHandling.g
+SHA1-Digest: ulEH7lP00oQEMW7s0dy3Bq+H9ck=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopePrefix
+ .class
+SHA1-Digest: b/K0D/aVGb7Yqv50vE2V2eF/EVc=
+
+Name: org/eclipse/gmf/internal/xpand/xtend/ast/GenericExtension.class
+SHA1-Digest: 1yJMH06qzHAfdtZYBVjnV21HaOA=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandStreamsHolder.class
+SHA1-Digest: Ntqlo6yl+WQwArJhH2jGK6GSg3k=
+
+Name: org/eclipse/gmf/internal/xpand/util/ContextFactory.class
+SHA1-Digest: f4MmPkXSp4f9B4Oc/ec3jmQVIJM=
+
+Name: org/eclipse/gmf/internal/xpand/ast/ImportDeclaration.class
+SHA1-Digest: MA3Btzdd8yMGGGOmHuPtxdJ7z4w=
+
+Name: org/eclipse/gmf/internal/xpand/build/XpandBuilder$XpandResourceV
+ isitor.class
+SHA1-Digest: C6KS9zZaxjQeAUzEGPSe4GV+nTE=
+
+Name: org/eclipse/gmf/internal/xpand/parser/AbstractQVTParser.gi
+SHA1-Digest: BoIL2xBBRKB7SRcqZZ5+FqXkeXE=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/EmbeddedOCLAnalyzer$1.class
+SHA1-Digest: 6VwBMl15vF5qGYlNLQmi6EQXWSw=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexer.g
+SHA1-Digest: P+IJ841iNXMd9imribeqMvclh5w=
+
+Name: org/eclipse/gmf/internal/xpand/ast/analyze/UnusedModulesCollecto
+ r.class
+SHA1-Digest: zXd/VSeaCfe3WL9I5To6BjVxyPQ=
+
+Name: org/eclipse/gmf/internal/xpand/xtend/ast/QvtFile.class
+SHA1-Digest: rJ1bX5a1OXGzJUQZc+xAEtmPEcU=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/EmbeddedQVTAnalyzer.class
+SHA1-Digest: 5aGmrAq658CE/MNYxUPm58PzCgE=
+
+Name: org/eclipse/gmf/internal/xpand/Activator.class
+SHA1-Digest: Ot+CIA6YIPSjH1s2vzLCGbbP/8g=
+
+Name: org/eclipse/gmf/internal/xpand/expression/ast/SyntaxElement.clas
+ s
+SHA1-Digest: nocx5riLZLCWooUAKSuhjzsPwKk=
+
+Name: org/eclipse/gmf/internal/xpand/EPackageRegistryBasedURIResourceM
+ ap.class
+SHA1-Digest: UhiNOQautDUY5YNITlMFW4e7AYU=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$Prostheses
+ Index.class
+SHA1-Digest: wvRnN6Za/oVv+R3SScKs4+EZM7I=
+
+Name: org/eclipse/gmf/internal/xpand/ocl/DeclaredParameter.class
+SHA1-Digest: oys8kNoJUvIazHsoZvymZZP60Rw=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParser.g
+SHA1-Digest: WmxCldcPqXM1uGpGnoonK7nLD5A=
+
+Name: org/eclipse/gmf/internal/xpand/EPackageRegistryBasedURIResourceM
+ ap$Handler.class
+SHA1-Digest: quOCXd1QOAOJS7I0ySjUaFgez54=
+
+Name: org/eclipse/gmf/internal/xpand/xtend/ast/QvtResource.class
+SHA1-Digest: aQRX61ZOB7ANh9lXWXaFR6OOxgA=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$InSymb.clas
+ s
+SHA1-Digest: Ou6XD7foVBHjNS1RKncTuaAYMFk=
+
+Name: org/eclipse/gmf/internal/xpand/model/Variable.class
+SHA1-Digest: EOXqrGqwF0i51J6Wd7vhBNUhj+M=
+
+Name: org/eclipse/gmf/internal/xpand/eval/EvaluationListener.class
+SHA1-Digest: PN6NxC4PoZ1UBy6m45m0WKgdX1w=
+
+Name: plugin.properties
+SHA1-Digest: NxK6LtL52lIe434TwsDvEzPPMWY=
+
+Name: org/eclipse/gmf/internal/xpand/ast/Template.class
+SHA1-Digest: VeWwULT97FmIdddM7qnaU9I0u9I=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandResource.class
+SHA1-Digest: 2nfHi07daangbpTbx4zzm+Z6Kgw=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopeLa.cla
+ ss
+SHA1-Digest: DbqmgJJS6rZ/CfbfR379P7jSZJY=
+
+Name: org/eclipse/gmf/internal/xpand/ast/ExpandStatement.class
+SHA1-Digest: xu5T8WiRHMK+6oEEnvSJAEEh1QM=
+
+Name: org/eclipse/gmf/internal/xpand/expression/parser/KeywordTemplate
+ F.gi
+SHA1-Digest: f87rGCjaBiNrYIJ4isbWkiFg8uA=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$TermCheck.cl
+ ass
+SHA1-Digest: gSs51kMZIqCVpxNHByGu2ohoLhU=
+
+Name: org/eclipse/gmf/internal/xpand/model/XpandAnalyzable.class
+SHA1-Digest: 4SsDlsE6epBuBXmjYSMO4ukx+e8=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParser.class
+SHA1-Digest: vPdCLwn2d1EWHnQLJ6Dg3WBMSEI=
+
+Name: org/eclipse/gmf/internal/xpand/model/Scope.class
+SHA1-Digest: +gURHRzPvZxAkMrodq30NtDFUWI=
+
+Name: plugin.xml
+SHA1-Digest: QCIIf8uEjNRbHynX/MLSiN7QeWk=
+
+Name: org/eclipse/gmf/internal/xpand/inactive/ContentDescriber.class
+SHA1-Digest: ZqaW+IYzWL0N10S8x1bjFaadaZ0=
+
+Name: org/eclipse/gmf/internal/xpand/util/ResourceManagerImpl.class
+SHA1-Digest: 5UhMa3IKCIoquJtx3S7yn9ortFo=
+
+Name: org/eclipse/gmf/internal/xpand/build/WorkspaceModelRegistry.clas
+ s
+SHA1-Digest: URlvQcXF990VP2zRzy8nQh6YpTc=
+
+Name: org/eclipse/gmf/internal/xpand/util/CompositeXpandResource.class
+SHA1-Digest: fJJuglgg7LCSpI0hbFJznnbxYI0=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexersym.class
+SHA1-Digest: nNzNKEh56s1erx54aHz8gDWrfx0=
+
+Name: org/eclipse/gmf/internal/xpand/model/AmbiguousDefinitionExceptio
+ n.class
+SHA1-Digest: T3WU+2mROlLjW7iO2x2fGpPzR9o=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ProsthesesI
+ ndex.class
+SHA1-Digest: 1JwgQL58kBmUpHflJ/sYo96oxEQ=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$TermCheck.c
+ lass
+SHA1-Digest: 4kUHbqw1Zs7brm7Z+CKxxFGXcro=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandParserprs$ScopeState.
+ class
+SHA1-Digest: KDwUUhuuyEOQzMTz3eKQPYWUdag=
+
+Name: org/eclipse/gmf/internal/xpand/ResourceManager.class
+SHA1-Digest: 1ih/YhEFHW42jAwgGSzxq0NqbQI=
+
+Name: org/eclipse/gmf/internal/xpand/ast/LetStatement.class
+SHA1-Digest: IFLBd796zpZG3G260sqtC7iOM9k=
+
+Name: org/eclipse/gmf/internal/xpand/ast/AbstractDefinition.class
+SHA1-Digest: zSVA+mb5mFtt46EKx6DbNYu2nV0=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandLexerprs$IsKeyword.cl
+ ass
+SHA1-Digest: m2E22E34llTY/pBWcPD1ZkPa53c=
+
+Name: org/eclipse/gmf/internal/xpand/util/BundleResourceManager.class
+SHA1-Digest: QPBbtAAm29ZpA2FYQkzBcjjFxJM=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.x
+ pand/pom.xml
+SHA1-Digest: QMpTE5rAzYVhVd4MgZvF9hSK64I=
+
+Name: org/eclipse/gmf/internal/xpand/parser/XpandKWLexerprs$BaseCheck.
+ class
+SHA1-Digest: zut0H2jm4cPa1Zvr07g0354NfMU=
+

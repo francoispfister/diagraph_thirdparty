@@ -1,0 +1,373 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.tooldef.edit; singleton:=true
+Bundle-Activator: org.eclipse.gmf.tooldef.provider.GMFToolEditPlugin$I
+ mplementation
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.3.0,4.0.0)";visibilit
+ y:=reexport,org.eclipse.gmf.tooldef;bundle-version="[2.0.0,3.0.0)";vi
+ sibility:=reexport,org.eclipse.emf.edit;bundle-version="[2.3.0,3.0.0)
+ ";visibility:=reexport,org.eclipse.emf.ecore.xmi;bundle-version="[2.3
+ .0,3.0.0)";visibility:=reexport,org.eclipse.emf.edit.ui;bundle-versio
+ n="[2.3.0,3.0.0)";visibility:=reexport,org.eclipse.ui.ide;bundle-vers
+ ion="[3.3.0,4.0.0)";visibility:=reexport
+Export-Package: org.eclipse.gmf.tooldef.presentation,org.eclipse.gmf.t
+ ooldef.provider
+Bundle-Version: 2.3.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: icons/full/obj16/GMFToolModelFile.gif
+SHA1-Digest: KmqNUgjj7UhrGdQ4lHMjpXTMyM4=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolModelWizard$1.class
+SHA1-Digest: XtB4pa6Kx6KnnFpl6N+b7AILlUI=
+
+Name: org/eclipse/gmf/tooldef/provider/GMFToolItemProviderAdapterFacto
+ ry.class
+SHA1-Digest: Dp10pUUBYgkXc2duw6XKGU3n8h0=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$ReverseAdapte
+ rFactoryContentProvider.class
+SHA1-Digest: sH3cjqJcu87wk+dfnGnTs9ywtpY=
+
+Name: org/eclipse/gmf/tooldef/provider/MenuItemProvider.class
+SHA1-Digest: 2KuasrIXc0TkMoxKY/fX3i4Nl1A=
+
+Name: icons/full/obj16/MainMenu.gif
+SHA1-Digest: ExDwgmzoyWIpYPfyaPhwa/4HL9E=
+
+Name: icons/full/ctool16/CreateToolContainer_tools_PaletteSeparator.gi
+ f
+SHA1-Digest: D7gDSH+kKmFtDujssLT+xD8Hw9k=
+
+Name: icons/full/obj16/BundleImage.gif
+SHA1-Digest: Bss8mGIBHqWtp7K3IB7x/w27ZmI=
+
+Name: icons/full/obj16/ItemRef.gif
+SHA1-Digest: BJCtscbUk19s32t6I6uea8UxX3Q=
+
+Name: org/eclipse/gmf/tooldef/provider/SeparatorItemProvider.class
+SHA1-Digest: FEsEdO96logjgRYjKNZzvQCe05A=
+
+Name: org/eclipse/gmf/tooldef/provider/StandardToolItemProvider.class
+SHA1-Digest: CfNHEiRAB2nfZ9+hwwXkjRt9d/g=
+
+Name: org/eclipse/gmf/tooldef/provider/MenuActionItemProvider.class
+SHA1-Digest: zBFHxAmfQG/w9L/6k00cAXa8yCo=
+
+Name: org/eclipse/gmf/tooldef/provider/ToolRegistryItemProvider.class
+SHA1-Digest: 9jAXO1c8Toet/mXHkd7e8v8VmN4=
+
+Name: org/eclipse/gmf/tooldef/provider/MainMenuItemProvider.class
+SHA1-Digest: B9CuSXlPXPOkTDYTWVn7aP84Dzo=
+
+Name: org/eclipse/gmf/tooldef/provider/ContextMenuItemProvider.class
+SHA1-Digest: +dC4VR273OkZZ5WgHcxbjwGvto8=
+
+Name: icons/full/ctool16/CreateMenu_items_PredefinedMenu.gif
+SHA1-Digest: /d608Gj4d9ITk6IVshYFKPVE6co=
+
+Name: icons/full/obj16/GenericTool.gif
+SHA1-Digest: PPUFAE880RSD976rLpKMgWi8tP0=
+
+Name: org/eclipse/gmf/tooldef/provider/PredefinedMenuItemProvider.clas
+ s
+SHA1-Digest: mwOEFRXvolDfwFY5bAs52V1l0YM=
+
+Name: icons/full/ctool16/CreateMenu_items_ItemRef.gif
+SHA1-Digest: FimpQo2AAJ6Q/bXJpkep+mnhJ6E=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$4.class
+SHA1-Digest: FD2f8G4cxEgZm9yiPQiLLAAwW+M=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$8.class
+SHA1-Digest: rqDBgH4YZHcrngEk9Nyrsgq9ZS4=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$11.class
+SHA1-Digest: FXLa7EEy8mBfa7BUn7xc4kgnhYU=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$3$2.class
+SHA1-Digest: sWTmSYim5+AmB/hhCah4URHAOBg=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$15.class
+SHA1-Digest: 2EVzeN8nYldMekdlCS3K8DUoyYo=
+
+Name: icons/full/ctool16/CreateAbstractTool_smallIcon_DefaultImage.gif
+SHA1-Digest: 3aCzL676iBVvYWwEDgc0D6WLvis=
+
+Name: org/eclipse/gmf/tooldef/provider/GenericStyleSelectorItemProvide
+ r.class
+SHA1-Digest: sLAX7SYCvT6po15y9lD1F2e19RI=
+
+Name: icons/full/ctool16/CreateToolContainer_tools_Palette.gif
+SHA1-Digest: biCx9HQt8LFNInAWUWiO2HoZOi4=
+
+Name: org/eclipse/gmf/tooldef/provider/GenericToolItemProvider.class
+SHA1-Digest: Lu1rbMeHL6TmVG+Z6L6U1JkxAbQ=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolModelWizard$2.class
+SHA1-Digest: hxvxC8Xu35iRw3iG6R428aFrrIs=
+
+Name: icons/full/obj16/ContextMenu.gif
+SHA1-Digest: Bss8mGIBHqWtp7K3IB7x/w27ZmI=
+
+Name: icons/full/ctool16/CreateContributionItem_icon_BundleImage.gif
+SHA1-Digest: ngfxrm7hb/5n/HCuM7HJZLyqKw8=
+
+Name: icons/full/ctool16/CreateMenu_items_Separator.gif
+SHA1-Digest: Nzp7ZkNhLlsYxOHBnmU9MEuADEU=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolActionBarContributor
+ $1.class
+SHA1-Digest: GRonX90C1LY2+UyxQM0SDQfm5Dw=
+
+Name: icons/full/obj16/ToolGroup.gif
+SHA1-Digest: iNVc3fEIjB2HS0NQ8OuRztfxmsU=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolModelWizard$GMFToolM
+ odelWizardNewFileCreationPage.class
+SHA1-Digest: hdOWAh2IQVHkHEh4rR2HE5i728I=
+
+Name: org/eclipse/gmf/tooldef/provider/GMFToolEditPlugin.class
+SHA1-Digest: D3ItRzzGpkR4Ztem07Zm8R819G0=
+
+Name: icons/full/ctool16/CreateToolRegistry_allMenus_PopupMenu.gif
+SHA1-Digest: w9/Oe3OMdbBrmt1TRyrFLx84nX8=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$1.class
+SHA1-Digest: vVL+cfAPPbucPsAf6cG74glUBEc=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: icons/full/ctool16/CreateToolRegistry_allMenus_ContextMenu.gif
+SHA1-Digest: JFKj0H8qRfVWr8kMd7a35RDgzzM=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$5.class
+SHA1-Digest: mR7yqSIEiDi1cPcEhJ4jtdURR6E=
+
+Name: icons/full/ctool16/CreateContributionItem_icon_DefaultImage.gif
+SHA1-Digest: WsNVNVOyd5MNIOeYXAwDC/4D/YU=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$9.class
+SHA1-Digest: Nc6QE60jO3HBkGsvfNuYrTZ9FP4=
+
+Name: org/eclipse/gmf/tooldef/provider/ItemRefItemProvider.class
+SHA1-Digest: XxValfHC3kNdq/BK2plejNh9K4k=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolModelWizard.class
+SHA1-Digest: 3bqLDZ7+l0mWUvOTBc12sZlBQKA=
+
+Name: org/eclipse/gmf/tooldef/provider/ToolGroupItemProvider.class
+SHA1-Digest: 1+Qcbn/Ts769t4ybAgBEWaRQuu0=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$12.class
+SHA1-Digest: kNAll2Mc3AFGZ6DWD1fbyRQvtgM=
+
+Name: icons/full/obj16/Separator.gif
+SHA1-Digest: anDrqczTKuP24CH3saEL4lXNjT4=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$16.class
+SHA1-Digest: qVUohwSYSYmV75ehpofSLx5KT9Y=
+
+Name: org/eclipse/gmf/tooldef/provider/DefaultImageItemProvider.class
+SHA1-Digest: Q8twaZm3s7qTxeQwy/v36j88+Vw=
+
+Name: icons/full/ctool16/CreateAbstractTool_largeIcon_DefaultImage.gif
+SHA1-Digest: 3aCzL676iBVvYWwEDgc0D6WLvis=
+
+Name: icons/full/obj16/PredefinedItem.gif
+SHA1-Digest: ExDwgmzoyWIpYPfyaPhwa/4HL9E=
+
+Name: icons/full/ctool16/CreateToolContainer_tools_ToolGroup.gif
+SHA1-Digest: A8kfloRQQnmoBNVCQtl6OaGu20Q=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$1MyContentOut
+ linePage.class
+SHA1-Digest: /r49rwuMf7qRJpo0icmyPQXJaso=
+
+Name: org/eclipse/gmf/tooldef/provider/PaletteSeparatorItemProvider.cl
+ ass
+SHA1-Digest: oSQHvdrYjwIPx2B4cuUCzckKoNo=
+
+Name: icons/full/obj16/Toolbar.gif
+SHA1-Digest: Xg/E1wMKhipTUi/PMzIB+6ZHmyc=
+
+Name: icons/full/obj16/Palette.gif
+SHA1-Digest: WEEoQs/XQ97IllfkBAVfbW+GrKk=
+
+Name: icons/full/ctool16/CreateMenu_items_MenuAction.gif
+SHA1-Digest: 8Gxv3JCncCvVUtaqXztwK2+DUlQ=
+
+Name: icons/full/ctool16/CreateMenu_items_PopupMenu.gif
+SHA1-Digest: w9/Oe3OMdbBrmt1TRyrFLx84nX8=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolActionBarContributor
+ $2.class
+SHA1-Digest: AoHBLDaGhzIfvvpma12o6z5UhQk=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor.class
+SHA1-Digest: 7ETTmx9jKHo+C/ZclDZDDxc9Dkw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: icons/full/ctool16/CreateToolRegistry_allMenus_MainMenu.gif
+SHA1-Digest: /fTVmMceZG4sCK0DuaNBozBXLlE=
+
+Name: icons/full/ctool16/CreateToolRegistry_sharedActions_MenuAction.g
+ if
+SHA1-Digest: 8Gxv3JCncCvVUtaqXztwK2+DUlQ=
+
+Name: icons/full/wizban/NewGMFTool.gif
+SHA1-Digest: +8FW4DfH1ZINmKn50gUMsRFzd7A=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$2.class
+SHA1-Digest: pZeNKhJzFlLp8YIcYiTphoP6zVk=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.t
+ ooldef.edit/pom.properties
+SHA1-Digest: UKaQkLlwD8bryjkznQqULXYKJBU=
+
+Name: org/eclipse/gmf/tooldef/provider/BundleImageItemProvider.class
+SHA1-Digest: v54b+e0hDhtE8HzIwZZK2jIJexw=
+
+Name: org/eclipse/gmf/tooldef/provider/PaletteItemProvider.class
+SHA1-Digest: wWSVqvqMk5BZS4a426qNgADKQgQ=
+
+Name: org/eclipse/gmf/tooldef/provider/ToolbarItemProvider.class
+SHA1-Digest: pKhOQB7JZ0mYlw8nQXGHLnL/LwE=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$6.class
+SHA1-Digest: ebzLKFlp5K27ESev/CJ3Kj8UON0=
+
+Name: icons/full/ctool16/CreateToolRegistry_allMenus_Toolbar.gif
+SHA1-Digest: TT+6mSRBXtgPn8/u1+YsVEZ7IHs=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$13.class
+SHA1-Digest: kxW7DbA13q/3Hh/2ZNqAd1XooQM=
+
+Name: org/eclipse/gmf/tooldef/provider/CreationToolItemProvider.class
+SHA1-Digest: L4c7K6BfP3XRxSZjvtWXKdE4ltw=
+
+Name: icons/full/ctool16/CreateAbstractTool_smallIcon_BundleImage.gif
+SHA1-Digest: TDyodNrI/JltjjeSF4vjTtT8mvY=
+
+Name: org/eclipse/gmf/tooldef/provider/AbstractToolItemProvider.class
+SHA1-Digest: IgRtzfPjDZw/goLyKWQuGAMRQl4=
+
+Name: icons/full/obj16/PopupMenu.gif
+SHA1-Digest: vrP+1C0UunkUsRvKI4Cq3vFpDX0=
+
+Name: org/eclipse/gmf/tooldef/provider/GMFToolEditPlugin$Implementatio
+ n.class
+SHA1-Digest: uakaDcLvltaZBj9m4h97pX8BmhI=
+
+Name: icons/full/obj16/StandardTool.gif
+SHA1-Digest: sp33IwukHB8+lYxsOTbjRb/sMDI=
+
+Name: icons/full/obj16/ToolRegistry.gif
+SHA1-Digest: BJCtscbUk19s32t6I6uea8UxX3Q=
+
+Name: icons/full/obj16/MenuAction.gif
+SHA1-Digest: vZ1a624msmwR47nBzw3lzfZbPfU=
+
+Name: plugin.properties
+SHA1-Digest: rKKU621Z/7FqpQFxQJy6r+koTRw=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolActionBarContributor
+ .class
+SHA1-Digest: ss6Hy/6h2ug/FdT0yfgKH9DfUZU=
+
+Name: icons/full/ctool16/CreateToolContainer_tools_GenericTool.gif
+SHA1-Digest: 6aZjwz0vr+mH2fa0+gGwRHWcMp4=
+
+Name: icons/full/ctool16/CreateMenu_items_PredefinedItem.gif
+SHA1-Digest: /fTVmMceZG4sCK0DuaNBozBXLlE=
+
+Name: icons/full/obj16/PredefinedMenu.gif
+SHA1-Digest: yRtIW2Gtqc3RabP3cax2nwuHtn8=
+
+Name: icons/full/ctool16/CreateToolContainer_tools_StandardTool.gif
+SHA1-Digest: D7gDSH+kKmFtDujssLT+xD8Hw9k=
+
+Name: plugin.xml
+SHA1-Digest: P/GnvItg2Cr+s6J+Af7DxEJN61Q=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.t
+ ooldef.edit/pom.xml
+SHA1-Digest: /bNUbq+MszylJYKzok9OmivySw4=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$3$1ResourceDe
+ ltaVisitor.class
+SHA1-Digest: tBvQECEqJCeIO/nPV60s9CT3FxI=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolActionBarContributor
+ $3.class
+SHA1-Digest: 0o/tRqRjqfhJF5rVdJxv8MGLFyY=
+
+Name: org/eclipse/gmf/tooldef/provider/PopupMenuItemProvider.class
+SHA1-Digest: dnCpTmBBPxCQrRfBYSisUlo0aOQ=
+
+Name: org/eclipse/gmf/tooldef/provider/PredefinedItemItemProvider.clas
+ s
+SHA1-Digest: QcdoDdfv7ekQ61sibkcL5qzkpcM=
+
+Name: icons/full/obj16/CreationTool.gif
+SHA1-Digest: lWmo7ZrF8xnTWBuI04DT2NWotWo=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$3.class
+SHA1-Digest: dm5Nsk2LrgBOKYBSOj93Ruu6Uys=
+
+Name: icons/full/obj16/GenericStyleSelector.gif
+SHA1-Digest: vZ1a624msmwR47nBzw3lzfZbPfU=
+
+Name: icons/full/obj16/DefaultImage.gif
+SHA1-Digest: 6zAHWDfUJyjeg2mlOpuGFoGqSOM=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$7.class
+SHA1-Digest: p8IZB/004a2lvDupcgix7FnuG5U=
+
+Name: icons/full/ctool16/CreateToolRegistry_allMenus_PredefinedMenu.gi
+ f
+SHA1-Digest: /d608Gj4d9ITk6IVshYFKPVE6co=
+
+Name: icons/full/ctool16/CreateAbstractTool_largeIcon_BundleImage.gif
+SHA1-Digest: TDyodNrI/JltjjeSF4vjTtT8mvY=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$10.class
+SHA1-Digest: 5XJ+efIVYkBVKTe3DoRhJ1dGUVI=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$2$1.class
+SHA1-Digest: AWE2+giYPN1L3NtpWUKfQQjQsq0=
+
+Name: icons/full/ctool16/CreateToolRegistry_palette_Palette.gif
+SHA1-Digest: vWLOSP89eLwYzoGtQDbUIveuCgQ=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$3$1.class
+SHA1-Digest: /T3CU0Yevvcc/CqBYRYSOHcRYG8=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$4$1.class
+SHA1-Digest: /wMaDrK4iAfe9osA+9/MtLoWYDE=
+
+Name: org/eclipse/gmf/tooldef/provider/ToolContainerItemProvider.class
+SHA1-Digest: NTaGTu3Dvqo6N7+ClN7bZhFoNIA=
+
+Name: org/eclipse/gmf/tooldef/presentation/GMFToolEditor$14.class
+SHA1-Digest: g46RRQSdqCmXMIihAK78/r+My9U=
+
+Name: icons/full/ctool16/CreateToolContainer_tools_CreationTool.gif
+SHA1-Digest: OQL6uRmHSxaKqJDqcSBSWcLsgDA=
+
+Name: icons/full/obj16/PaletteSeparator.gif
+SHA1-Digest: sp33IwukHB8+lYxsOTbjRb/sMDI=
+

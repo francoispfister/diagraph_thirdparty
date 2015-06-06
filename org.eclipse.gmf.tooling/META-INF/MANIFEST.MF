@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.gmf.tooling
+Bundle-Version: 2.1.0.201306121424
+Bundle-ClassPath: org.eclipse.gmf.tooling_2.1.0.201306121424.jar
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Created-By: Apache Maven
+Bundle-ActivationPolicy: lazy
+Build-Jdk: 1.6.0_21
+Archiver-Version: Plexus Archiver
+Built-By: hudsonbuild

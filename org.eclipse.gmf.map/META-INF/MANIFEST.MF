@@ -1,0 +1,304 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.map; singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.emf.ecore;bundle-version="[2.4.0,3.0.0)";visibility:=re
+ export,org.eclipse.gmf.common;bundle-version="[1.1.0,2.0.0)",org.ecli
+ pse.gmf.graphdef;bundle-version="[2.9.0,4.0.0)";visibility:=reexport,
+ org.eclipse.gmf.tooldef;bundle-version="[2.0.0,3.0.0)";visibility:=re
+ export,org.eclipse.gmf.validate;bundle-version="[1.1.0,2.0.0)"
+Export-Package: org.eclipse.gmf.internal.map.util;x-internal:=true,org
+ .eclipse.gmf.mappings,org.eclipse.gmf.mappings.impl,org.eclipse.gmf.m
+ appings.util
+Bundle-Version: 2.9.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/mappings/impl/VisualEffectMappingImpl.class
+SHA1-Digest: DbXAOdqlQQ2bI5L6V6LDG5G7nZs=
+
+Name: org/eclipse/gmf/mappings/ReferenceNewElementSpec.class
+SHA1-Digest: NJJa87neCiaB8Js6cT0QuLcYl8Y=
+
+Name: org/eclipse/gmf/mappings/impl/FeatureValueSpecImpl.class
+SHA1-Digest: W3cmJuMY3t9RYLgrWnNATRkYRW8=
+
+Name: org/eclipse/gmf/mappings/LabelTextAccessMethod.class
+SHA1-Digest: g4A6Qh1/77/8V70eghRBypMgUiI=
+
+Name: org/eclipse/gmf/mappings/LabelMapping.class
+SHA1-Digest: M6gjUUbfIFnzNCczp0Y46Dur2+A=
+
+Name: org/eclipse/gmf/mappings/impl/DomainAttributeTargetImpl.class
+SHA1-Digest: k7mpWJo7kLkFkrHFT++/GkcOZNw=
+
+Name: org/eclipse/gmf/mappings/impl/NodeReferenceImpl.class
+SHA1-Digest: zolw0o7oy9ch99BUoVBD54KxAAc=
+
+Name: org/eclipse/gmf/mappings/impl/GMFMapPackageImpl.class
+SHA1-Digest: BMWs/vnBRPiVcBrINRVNFlc0WDs=
+
+Name: org/eclipse/gmf/mappings/Severity.class
+SHA1-Digest: /iClg7TGTzSB9BnUjUgaV60NM0k=
+
+Name: org/eclipse/gmf/mappings/impl/NodeMappingImpl.class
+SHA1-Digest: Z0/wsfQLcQ8uRXeIDj4Dd8YhaK8=
+
+Name: org/eclipse/gmf/mappings/Mapping.class
+SHA1-Digest: 8F6ei/7yXqinNLMt/S3GondiiRE=
+
+Name: org/eclipse/gmf/mappings/FeatureLabelMapping.class
+SHA1-Digest: gGKfHjFOaFDMt+TN+6zJul8qcNA=
+
+Name: org/eclipse/gmf/mappings/util/GMFMapAdapterFactory$1.class
+SHA1-Digest: k2z92Qguisu+1rHecSx622c2Dzk=
+
+Name: org/eclipse/gmf/mappings/impl/MetricContainerImpl.class
+SHA1-Digest: HvkhMmtQaXIbghZyJbmb13PE6WQ=
+
+Name: org/eclipse/gmf/mappings/MappingEntry.class
+SHA1-Digest: fVDn0C1ID04R/bPhBX5ve9GBwbM=
+
+Name: org/eclipse/gmf/mappings/impl/LinkMappingImpl.class
+SHA1-Digest: LQCqVs7i6WpRHOFujJSvR+PDISc=
+
+Name: org/eclipse/gmf/mappings/ElementInitializer.class
+SHA1-Digest: fmbtW2EEF5BlzcyJSkxYPF5Hf2c=
+
+Name: org/eclipse/gmf/mappings/CanvasMapping.class
+SHA1-Digest: a8R+Y743gjjwy2z68u6ihK2E85E=
+
+Name: org/eclipse/gmf/mappings/impl/AuditRuleImpl.class
+SHA1-Digest: F540JFeV7duwbYH+SiNIt4rU2ag=
+
+Name: org/eclipse/gmf/mappings/FeatureSeqInitializer.class
+SHA1-Digest: crQqiIC5BhFLEafA20bHHyEVS70=
+
+Name: org/eclipse/gmf/mappings/impl/MetricRuleImpl.class
+SHA1-Digest: jfCCqTPsnZ5EiHYBVZUxbXqzO04=
+
+Name: org/eclipse/gmf/mappings/MetricRule.class
+SHA1-Digest: /QtTi3T+rpHLTmcMbamVV4kp5Mo=
+
+Name: org/eclipse/gmf/mappings/impl/AuditedMetricTargetImpl.class
+SHA1-Digest: omA1lJmO2cESTJppKu9d437FLP8=
+
+Name: org/eclipse/gmf/mappings/LinkConstraints.class
+SHA1-Digest: w+GcMWs+0MjfaU3Z3/BwY21rOEM=
+
+Name: org/eclipse/gmf/mappings/VisualEffectMapping.class
+SHA1-Digest: IgLoGnB9GKO3ak5uOlCfpHY01Mg=
+
+Name: org/eclipse/gmf/mappings/impl/ChildReferenceImpl.class
+SHA1-Digest: AI2OE85pH+m3cAfddBjJuHItaCE=
+
+Name: org/eclipse/gmf/mappings/ChildReference.class
+SHA1-Digest: Hqsh8SJ5GPeBkHQx8KuuvrVC1D4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/mappings/impl/TopNodeReferenceImpl.class
+SHA1-Digest: OqZTHXIp2J//nlNVCt+GnB6W69Y=
+
+Name: org/eclipse/gmf/mappings/Language.class
+SHA1-Digest: 0zq1b8FMtfH2uA1KX74285EDBh0=
+
+Name: org/eclipse/gmf/mappings/impl/DiagramElementTargetImpl.class
+SHA1-Digest: B5Tw7yQF2LtF7QjVve0s4Hiv42o=
+
+Name: org/eclipse/gmf/mappings/impl/DomainElementTargetImpl.class
+SHA1-Digest: a+YJrLG9eLjbzqpvSC0dY95/WP4=
+
+Name: org/eclipse/gmf/mappings/NodeMapping.class
+SHA1-Digest: dlpJece4GtxMTKTIMQ4gWJLC6ZQ=
+
+Name: org/eclipse/gmf/mappings/GMFMapFactory.class
+SHA1-Digest: UtBO3zgiOX6mCpJzhCPsNJE32/U=
+
+Name: models/gmfmap.emf
+SHA1-Digest: wITHrzYmoRVQ49IyKEeeuxQRsrM=
+
+Name: org/eclipse/gmf/internal/map/util/MigrationDelegate.class
+SHA1-Digest: pJgxnmwj/vFpxEjjLx32gGjqXC8=
+
+Name: org/eclipse/gmf/mappings/MetricContainer.class
+SHA1-Digest: UalrDL+1rq+xO1HAsE7pO4ro0P0=
+
+Name: org/eclipse/gmf/mappings/OclChoiceLabelMapping.class
+SHA1-Digest: EQxvDcMY3CnWer7oDV6FT3XmOik=
+
+Name: org/eclipse/gmf/mappings/LinkMapping.class
+SHA1-Digest: RvuyMAMMuXzzzJFilN4QP3XFVho=
+
+Name: models/gmfmap.ecore
+SHA1-Digest: eW5ABDdPmmOCchXt4YR7gLTmV1A=
+
+Name: org/eclipse/gmf/mappings/Auditable.class
+SHA1-Digest: 9iU0QUKmUJBXgMI6MUI+mnsDTSA=
+
+Name: org/eclipse/gmf/mappings/impl/AuditContainerImpl.class
+SHA1-Digest: u0GySMTzCQdy9UR8DEEwDmbSUQU=
+
+Name: org/eclipse/gmf/mappings/AuditContainer.class
+SHA1-Digest: EX0aQ+M4DNcfD9YN7CxrP8lKhMQ=
+
+Name: models/gmfmap_2007.ecore
+SHA1-Digest: ftlKqUJXkYj5GW7uYAFiFypsYBE=
+
+Name: org/eclipse/gmf/mappings/impl/CanvasMappingImpl.class
+SHA1-Digest: /679qFQQdvjYIP4OwgOm1cyeljU=
+
+Name: org/eclipse/gmf/mappings/impl/FeatureSeqInitializerImpl.class
+SHA1-Digest: KubUQ3KX4fj4fARHhJNw5L53uEc=
+
+Name: org/eclipse/gmf/mappings/AuditedMetricTarget.class
+SHA1-Digest: LcXqm4FtXGgTdvQa2ChZoBuRDYE=
+
+Name: org/eclipse/gmf/mappings/impl/ExpressionLabelMappingImpl.class
+SHA1-Digest: 4MMqx9XQipD5FbDp7Gm5nYKevLU=
+
+Name: org/eclipse/gmf/internal/map/util/GMFMapResource$Factory.class
+SHA1-Digest: PbomHjZtg1ftPYDDR1aNfubiVDk=
+
+Name: org/eclipse/gmf/mappings/ExpressionLabelMapping.class
+SHA1-Digest: 8AeZxNH7eLRiEIPPueJk4U2fJ9A=
+
+Name: models/gmfmap.genmodel
+SHA1-Digest: Nnd58a4A2DQkt0oaUqbhryEAcGc=
+
+Name: org/eclipse/gmf/mappings/util/GMFMapAdapterFactory.class
+SHA1-Digest: pJ1IyW1C11Dy4wWrPjTtOCJO9Vw=
+
+Name: org/eclipse/gmf/mappings/FeatureValueSpec.class
+SHA1-Digest: r0e+06k9YOQ3DNywrtk6RMgJpw4=
+
+Name: org/eclipse/gmf/mappings/DomainElementTarget.class
+SHA1-Digest: PnS+/wg/TWH71zL282Jl2KeL5is=
+
+Name: org/eclipse/gmf/mappings/impl/LabelMappingImpl.class
+SHA1-Digest: epAB2sbVGfwJlOzGMP7tGH0Zqa8=
+
+Name: org/eclipse/gmf/mappings/impl/ValueExpressionImpl.class
+SHA1-Digest: 9f5QzwjelMUmQbW9qV4jqoAMzgg=
+
+Name: org/eclipse/gmf/mappings/NotationElementTarget.class
+SHA1-Digest: UWljJOCfXBY4lJyh2BFwzLFpOKk=
+
+Name: plugin.properties
+SHA1-Digest: 1tqIYrbp1kqF63NbNdkRpXPUBiI=
+
+Name: org/eclipse/gmf/mappings/impl/GMFMapFactoryImpl.class
+SHA1-Digest: bOspB7qaFKA9v+a85d1wUpX6N/0=
+
+Name: org/eclipse/gmf/mappings/Measurable.class
+SHA1-Digest: OyGkACsPTWy/EcMbyZ6Tg4MqoSI=
+
+Name: org/eclipse/gmf/mappings/impl/MappingEntryImpl.class
+SHA1-Digest: tRJPLGReIhWjA0njGB7D+uDwkoM=
+
+Name: org/eclipse/gmf/mappings/MenuOwner.class
+SHA1-Digest: M6JnCvgskedcrYgWgMe3+s1UBcQ=
+
+Name: org/eclipse/gmf/mappings/impl/OclChoiceLabelMappingImpl.class
+SHA1-Digest: KuVpPaGrxO1d3nYO42riHV3jL7Y=
+
+Name: plugin.xml
+SHA1-Digest: n5e9pLCbTVchNSptYtk4IzF7ccs=
+
+Name: org/eclipse/gmf/mappings/impl/FeatureInitializerImpl.class
+SHA1-Digest: v1F1z1p9Q8EDzyFuXUe/6rkRL94=
+
+Name: org/eclipse/gmf/mappings/FeatureInitializer.class
+SHA1-Digest: AAcfQ2LlZEQuBpjcoHHZyDT3iEI=
+
+Name: org/eclipse/gmf/mappings/AppearanceSteward.class
+SHA1-Digest: OepHcwE0LrNU4QnfZEq7N+SrhZw=
+
+Name: org/eclipse/gmf/mappings/impl/ReferenceNewElementSpecImpl.class
+SHA1-Digest: EBvxuSYtf2BY2xjQczXXIkhFJ3o=
+
+Name: org/eclipse/gmf/mappings/TopNodeReference.class
+SHA1-Digest: oiN59846DQ5AMftyTQ4ElY7Fanc=
+
+Name: org/eclipse/gmf/mappings/NeedsContainment.class
+SHA1-Digest: pkPBG+Rgu/Int5ATknjYjkg6mI0=
+
+Name: org/eclipse/gmf/mappings/impl/DesignLabelMappingImpl.class
+SHA1-Digest: FqIsBpMbIL6zePmgWESIRBNi8CY=
+
+Name: org/eclipse/gmf/mappings/DesignLabelMapping.class
+SHA1-Digest: 5cyVr7h/YBtX8ZwGSjHkp5OD0qQ=
+
+Name: org/eclipse/gmf/mappings/ValueExpression.class
+SHA1-Digest: usi5GMuVg13dgftICezaWfOKHZw=
+
+Name: org/eclipse/gmf/mappings/NodeReference.class
+SHA1-Digest: HbKfz6riMyUPr2GEK3QCGtXTwFI=
+
+Name: org/eclipse/gmf/mappings/DomainAttributeTarget.class
+SHA1-Digest: yaihwYF1A+idm/mffklQyVBlGC0=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/mappings/DiagramElementTarget.class
+SHA1-Digest: vFPRe2I0FWhCPQDJrPv0KBing1U=
+
+Name: org/eclipse/gmf/mappings/GMFMapPackage.class
+SHA1-Digest: Mv7Lr4k7RcL+vbAkQYiNvWfCsfQ=
+
+Name: org/eclipse/gmf/mappings/impl/CompartmentMappingImpl.class
+SHA1-Digest: Cop2da2L77TmIzbVA/LzIhHy/xc=
+
+Name: org/eclipse/gmf/mappings/CompartmentMapping.class
+SHA1-Digest: C844LHkP7Ax8rr85lk2nMWf8zjk=
+
+Name: org/eclipse/gmf/mappings/impl/NotationElementTargetImpl.class
+SHA1-Digest: HDgD89TtFiyxJeuVDpU6whw+FzY=
+
+Name: org/eclipse/gmf/mappings/impl/ConstraintImpl.class
+SHA1-Digest: 3YY0DNjLgGGwh9Ci5zkutSzcohk=
+
+Name: org/eclipse/gmf/mappings/Constraint.class
+SHA1-Digest: ph1ktMjlO+WvBMqfZ9z+KLWrluY=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.m
+ ap/pom.properties
+SHA1-Digest: L4zIVTw08NVX++FBtBaG+0PIT7I=
+
+Name: org/eclipse/gmf/mappings/impl/MappingImpl.class
+SHA1-Digest: M5eGQKmgP93/YeqwWQAbPuOdOi4=
+
+Name: org/eclipse/gmf/mappings/impl/FeatureLabelMappingImpl.class
+SHA1-Digest: X1QFVfmw2iLydCbfxADGmi1ibuM=
+
+Name: org/eclipse/gmf/mappings/AuditRule.class
+SHA1-Digest: /Bq3Vrq/DsNfdFxwBF2/I11+BDg=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.m
+ ap/pom.xml
+SHA1-Digest: UJtWB9HAd/X6k2alaMgoS7ejL3c=
+
+Name: org/eclipse/gmf/mappings/ToolOwner.class
+SHA1-Digest: aSah9UzamC/oupzOkbjT/kgdT7w=
+
+Name: org/eclipse/gmf/internal/map/util/GMFMapResource.class
+SHA1-Digest: 8xMpNs6VnrRrCuIIk5yOMKLrVg0=
+
+Name: org/eclipse/gmf/mappings/impl/LinkConstraintsImpl.class
+SHA1-Digest: hAjqNKicm+XGS5zgbYCmTB/uJFo=
+
+Name: org/eclipse/gmf/mappings/util/GMFMapSwitch.class
+SHA1-Digest: S57CYd8LcsOmvRAOI4gAbvoobjc=
+
+Name: org/eclipse/gmf/mappings/RuleBase.class
+SHA1-Digest: ahnbVntPLsOPmpBj6ehoYJheYf8=
+

@@ -1,0 +1,487 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.debug.core;singleton:=tru
+ e
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.6.0,4.0.0)
+ ",org.eclipse.pde.launching;bundle-version="[3.6.0,4.0.0)",org.eclips
+ e.debug.core;bundle-version="[3.6.0,4.0.0)",org.eclipse.m2m.qvt.oml.r
+ untime;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml;bundle-
+ version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.common;bundle-version
+ ="[3.1.0,4.0.0)",org.eclipse.m2m.qvt.oml.emf.util;bundle-version="[3.
+ 0.0,4.0.0)",org.eclipse.m2m.qvt.oml.editor.ui;bundle-version="[3.0.0,
+ 4.0.0)"
+Bundle-Activator: org.eclipse.m2m.qvt.oml.debug.core.QVTODebugCore
+Export-Package: org.eclipse.m2m.qvt.oml.debug.core,org.eclipse.m2m.qvt
+ .oml.debug.core.app,org.eclipse.m2m.qvt.oml.debug.core.launch,org.ecl
+ ipse.m2m.qvt.oml.debug.core.vm,org.eclipse.m2m.qvt.oml.debug.core.vm.
+ protocol,org.eclipse.m2m.qvt.oml.debug.core.srclookup
+Bundle-Version: 1.3.0.v20130611-0213
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOBreakpoint$1.class
+SHA1-Digest: cgO9tV0gBkav37vegw4B369pn88=
+
+Name: about.ini
+SHA1-Digest: t0FfqhXQ1DOntXUimIG6MWb0U1g=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMSuspendRequest.
+ class
+SHA1-Digest: EGdQ8lmrye5l70zb/2bRFwKLKIs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMEventDispatcher$Dispatc
+ hJob.class
+SHA1-Digest: Ye4b/6xeOHHjRBNnK5FrmO6NhXQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/DebugEvaluationEnvironment
+ .class
+SHA1-Digest: 7Cu7Wso8HWXTt9axM8pSv7S4lgs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugCore$1.class
+SHA1-Digest: tR6f0s/TA7nJGwny1G5VZ/4WquM=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/QVTOApplication.class
+SHA1-Digest: iZ74OwBj4c303sNAJJIek75ICHs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/QVTOApplicationConfigu
+ ration.class
+SHA1-Digest: B5ClxTlNfkuKllGn7m1y+U+zmvY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMDetailRequest.c
+ lass
+SHA1-Digest: kCPxgSwiqgE9LZ+w3plDeCn3X0s=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMConnectRequest.
+ class
+SHA1-Digest: b3VdEm7JUdniG99QNA24TJgQRsY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/ASTElementContextEnv.class
+SHA1-Digest: KUyJrtiCKeyikmVFT6zdc9Znt2M=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/QVTOApplicationConfigu
+ ration$3.class
+SHA1-Digest: H/i2ErZPkbtmXWokwMnij/N/dDE=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTODebugEvaluator$DebugIn
+ terceptor.class
+SHA1-Digest: mQIylL4pep2RfZ6n77uJBG3O8wY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/ASTElementContextEnv$EnvVa
+ riableCollector$1.class
+SHA1-Digest: oyDfvaRf+3okTJai9VUU7jr6gDY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VariableFinder.class
+SHA1-Digest: 1T72YLnjoh+g/GKt0Y7ltugvzKg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/QVTODebugApplication.clas
+ s
+SHA1-Digest: 6njaEdGL4IGQbSF0HosvKDL0ua8=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/srclookup/QVTOSourcePathCompu
+ ter.class
+SHA1-Digest: VUZcBnLAqo+3gmqk/JwEv8FZsIA=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/SequentialSchedulingRule.clas
+ s
+SHA1-Digest: EiHvG0FRZ2qBVl8CV7y/72sJ1ig=
+
+Name: about.properties
+SHA1-Digest: a5aWdesBaztZ42PhPyEoXyeFbg4=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/srclookup/QVTOSourceLookupDir
+ ector.class
+SHA1-Digest: Lt8io9NAgsPC70bN1DqAv05Vz28=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/DebugRunnerFactory.class
+SHA1-Digest: pfFnDHhXmBIY5NnX+F+kohq3YTg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMDisconnectEvent
+ .class
+SHA1-Digest: i7tlsiXtaikQV1BwmUxAyNZF44o=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/DebugTransformationRunner
+ $2.class
+SHA1-Digest: pQwqlc3OQD25+qhjD1HPi/e0b7Q=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTOVirtualMachineProxy.cl
+ ass
+SHA1-Digest: DDSVk3HgBxLzL/VSQw4gpEhOSlo=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOVariable.class
+SHA1-Digest: j9zC+7zjD9BC5/HJh4k2q7VUXjg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMEventDispatcher$Termina
+ tionListener.class
+SHA1-Digest: Y8q+zJUOAJ6FKVse9vO5xjW5LeA=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/UnitLocation.class
+SHA1-Digest: cnYHPVoF4r7TLw4mB4TN0doANi0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMTerminateReques
+ t.class
+SHA1-Digest: kPNPzOWjzt5myiNrtYTwLOK7LAo=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMRequestProcessor.class
+SHA1-Digest: 0MyxlwXg63nhc9m7dzn2+c8jGmY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMServer.class
+SHA1-Digest: 9ISBk0Ul8v/8RqUTmXU/udMzNRU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/DebugMessages.class
+SHA1-Digest: hIJDkKBnZg8tHwWLZaoVMbGzSSw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugUtil$EnvAdapter.clas
+ s
+SHA1-Digest: lqKY6nPikAMKKPTXQNEci7/01LU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/UnitManager.class
+SHA1-Digest: zzzGDLAmABZBl2JokjE1RaHtgAg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/AbstractRequestProcessor.
+ class
+SHA1-Digest: lt03n9/wmXaCouhhi/KwwktXjng=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/Trace.class
+SHA1-Digest: iXdDZ7sWl4Guwy9xUK8bxiGNbUg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/Value$Type.class
+SHA1-Digest: hgN5gIfKUU8Ob2ZVsNHxwN15lGo=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/SourceModificationList
+ ener.class
+SHA1-Digest: jhoqzF4svTcGeKxajuMAa4u7I3M=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMResponse.class
+SHA1-Digest: CdR/7w7BiYI8wIynLJVSYf0068Q=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/DebugMessages.properties
+SHA1-Digest: bck5g9GinqLUQYqzbEcRHWH48is=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMVariable.class
+SHA1-Digest: 8W1toBsKRAg1mcURfbb0Ek3eHQU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/BreakpointData.cl
+ ass
+SHA1-Digest: /WtxIRk0eZ4EqsGnODTodCKRK0s=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/IQVTODebugTarget.class
+SHA1-Digest: BnDftAta9HNish8O5hPUkmDDozA=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMStackFrame$Loc.class
+SHA1-Digest: ZF+vZntXKIA3jwwg3U1OPyCwU6c=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMStackFrame.class
+SHA1-Digest: jgj+rgv5ALJM7cdNutGXKpcit6s=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMStartRequest.cl
+ ass
+SHA1-Digest: ybW6dx7N4GmUMMUWDVDkpdRwDWE=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMConnectResponse
+ .class
+SHA1-Digest: mR9UxK4I3SyCO5rm+mj8EEH8cBQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/BreakpointError.class
+SHA1-Digest: nUPCwDd+kYkqlr1Kdk310TzXwDk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMBreakpointReque
+ st$ActionKind.class
+SHA1-Digest: H3/6Q17QDYA6epkPreLyaCAl3Zs=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugTarget$EventDispatch
+ Job.class
+SHA1-Digest: Ist5gL5tNyxQ2srjZMO2VUhbvu4=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/NewBreakpointData
+ .class
+SHA1-Digest: 3ee5TjlmPBIN5X0IovhdT4VJm0Q=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/DebugTransformationRunner
+ .class
+SHA1-Digest: bc/tElWVfXpmutHnLXUUY5a7Ubg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/QVTODebugConfiguration
+ .class
+SHA1-Digest: 5Tob3UljR0zZpQ7M8W8KX+DmUY8=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMBreakpointManager.class
+SHA1-Digest: Ndc8FQAZaxb1WZABBv6bK+fU+sE=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMStartEvent.clas
+ s
+SHA1-Digest: uNWveYxWxjeaLeD2FBKIM49oiRU=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugTarget.class
+SHA1-Digest: LogK5rJRlQ4Z1YixRNSBR6dz69I=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOLocalValue$LocalValue.cla
+ ss
+SHA1-Digest: vHikaCitBT9Bf0ybEzZmcbU/sF0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/TransformationRunnerFa
+ ctory.class
+SHA1-Digest: d6r50E0gJd/b+Vbl8e+0QZk69C8=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugTarget$1.class
+SHA1-Digest: wDUHUqmifCow2lffeR/CBOY+Y9g=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugCore.class
+SHA1-Digest: tUfv9tT4PDiV0NatfhrxJnpa5x0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTOVirtualMachine.class
+SHA1-Digest: a25SPLGSQT0ihNpP4lxYAdpsYCg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMResumeEvent.cla
+ ss
+SHA1-Digest: XOMwyekSP/hbOTSuibZwPLZL7nQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOStackFrame.class
+SHA1-Digest: wCjLQLPOsCL+c8rbPAEBHaqpukg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOThread.class
+SHA1-Digest: dvRS5mCOaO85q7jweinWTSagvBc=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTODebugEvalEnvironment.c
+ lass
+SHA1-Digest: TsKA4JuFv7o+oNo3WCDiGA5uFD0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMVariableRequest
+ .class
+SHA1-Digest: 0anlNUBn6aOM6i56JFEWmuQn9Hw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMBreakpoint.class
+SHA1-Digest: yb4E6OizI+ZWTO7rLSrICB85trk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMTerminateEvent.
+ class
+SHA1-Digest: qSGEapR0Y8XOlNGbcmk7TpgEvV0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTOVirtualMachine$1.class
+SHA1-Digest: l7+8QXNwqynXILGV7MUf37Tgo2o=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMSuspendEvent.cl
+ ass
+SHA1-Digest: Jh1rEB55ewAVXp/G4mkiLOMKFFQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/DebuggableExecutorAdapter.
+ class
+SHA1-Digest: xSu2xOWwv2UyIaNnRE8/7I5qZ5U=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/UnitLocationExecutionConte
+ xt.class
+SHA1-Digest: CDfmXjjpkeQlDWSX81+b7inbNtk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/ASTElementContextEnv$EnvVa
+ riableCollector.class
+SHA1-Digest: if3/2g6hUiz3rnEDISMvPfc+HzA=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOWatchExpressionDelegate.c
+ lass
+SHA1-Digest: Tt2rVr7pZ6zwKqkf6BdO5Bx6sWs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/QVTOApplicationConfigu
+ ration$1.class
+SHA1-Digest: NVlU90R1J5rB32xMMzAYF4MnEnk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOValue.class
+SHA1-Digest: Bn/Gtv6SzeXZK26jyY+jxnVhR1E=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMStackFrameReque
+ st.class
+SHA1-Digest: +mexDymhGILZ0ggmmeHZTI+Mpmw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/SourceModificationList
+ ener$1.class
+SHA1-Digest: XbuN8hA2UxgdwUbFsgegkwHnBvg=
+
+Name: about.mappings
+SHA1-Digest: W44wJbltGFJu9WgXjWicUEuKS7E=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/SocketUtil.class
+SHA1-Digest: ftTc6Ds4o07dGjnlDb48Zmk+bDQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugUtil.class
+SHA1-Digest: kKzQsRe+Ln2X4UK5Wk+tCU8KeH4=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMRequest.class
+SHA1-Digest: Lck7r5pT+CTv3hVT9AH9ShR+0Aw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOWatchExpressionDelegate$1
+ .class
+SHA1-Digest: kC+aerOZMswQo4q7QantXiWEihg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugElement.class
+SHA1-Digest: 2Hpd6Afktlr4AQfJLElo8+TAAD0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMEventDispatcher.class
+SHA1-Digest: hHv2p8DqJqcdqRoi8nkkNvsWOsU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/IQVTODebuggerShell.class
+SHA1-Digest: pZjyFyC7RzoLOcGqMeFmRUh6FOE=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOBreakpoint.class
+SHA1-Digest: bMmqQ/d/D/E3zbp9aJ3wtIcZ97k=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/IQVTOVirtualMachineShell.c
+ lass
+SHA1-Digest: 0KtOlY5P6oxBlLYujClGXhXcwuU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMEvent.class
+SHA1-Digest: /cGLMerjNvKTCMKNPcDldsklkNg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOWatchExpressionResult.cla
+ ss
+SHA1-Digest: IOqJ6M4oDt/vUm1yEEvqsAy2x4U=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/DebugEnvironmentFactory.cl
+ ass
+SHA1-Digest: 2o1bg1dyShsLlI+q36DHA+AacwY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOLocalVariable.class
+SHA1-Digest: 2//3vx9QoaPuy2xrrQiMhLK0HHg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMInitializer$1.class
+SHA1-Digest: 5dxsVVAvXkNIJoBAfT6KXiVF1Jg=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMResumeRequest.c
+ lass
+SHA1-Digest: JJeO+NXGzTboUVP6BDUwTiod0Tc=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/QVTODebugConfiguration
+ $1.class
+SHA1-Digest: wtjDA5PSTraQdnJFKVRiDLh/o/Q=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMStepIntoRequest
+ .class
+SHA1-Digest: oGheySKnSIslAiS6Ez7/cuOkfLk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMStackFrameRespo
+ nse.class
+SHA1-Digest: NtgbWvXnU2sROPanz0jgsHoENNE=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/ConditionChecker.class
+SHA1-Digest: DBhVYWu03Prlcb1xwSGIODVWYGw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOLocalValue.class
+SHA1-Digest: ACxdqL7xy++OYouY7dxj60dp3Lw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMStepOverRequest
+ .class
+SHA1-Digest: Mr3EEiwnlpgZnHi/dcghVIfHnQ0=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMDetailResponse.
+ class
+SHA1-Digest: +DLl8awVJG0BNOwMm2yCLs3rPz8=
+
+Name: plugin.properties
+SHA1-Digest: 5kP0ZQvm0jrMQc+Jo5LW3ohBbnQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTODebugOptions.class
+SHA1-Digest: 823/Qq2THuFDnDfVw8tfD1IgUKU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTOVirtualMachine$Debugge
+ rShell.class
+SHA1-Digest: +CXnWTUwFgQgF+uI15Qbcn8rnPs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMRemoteClient.class
+SHA1-Digest: AO7pjmNlXFrhuisxr9+wyPG8C5Q=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/Trace$Tracing.class
+SHA1-Digest: CUmhqHviUbD1TM3Jd/S28/GbdVA=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOStackFrame$1.class
+SHA1-Digest: kJy8Re3h+D7CdYvlvE8hOcJvwdo=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMLocation.class
+SHA1-Digest: vYEXpH8wshSOKLvaWoItHOU4tWk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/ValidBreakpointLocator$Bre
+ akpointableNodeLocator.class
+SHA1-Digest: LPMSV/gmoFpAG11cCxXMMtkwOPM=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMRequestProcessor$1.clas
+ s
+SHA1-Digest: L4p2saT5Er86Yt1OX91oGtiU/yg=
+
+Name: plugin.xml
+SHA1-Digest: qd1gix1ozWhjZ4C9QFWuFSiYFao=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/UnitManager$UnitEntry.clas
+ s
+SHA1-Digest: LgEg8QWAuWwcVShaDaAVtVPXfJU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/launch/QVTOApplicationConfigu
+ ration$2.class
+SHA1-Digest: +upaHNUNogPCvIHQGAwd/1H7MtQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMEventListener.class
+SHA1-Digest: 3Qvfqofpj0VNgOtzcC71le/BbZA=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/IQVTODebuggerShellExtensio
+ n.class
+SHA1-Digest: hC+IhvcLdb6X8R3BnDIpU6ad57A=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/IterateBreakpointHelper.cl
+ ass
+SHA1-Digest: 4j1b3BrSwnRsUZJUQhOfpLA4z4w=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/QVTODebugEvaluator.class
+SHA1-Digest: u7j2NJ75RKaqw/3j9fTQXBYtCtk=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/QVTOVirtualProcess.class
+SHA1-Digest: YISLcWNYyheImiqU7xycwmp8WuM=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMBreakpointRespo
+ nse.class
+SHA1-Digest: ybtIig7tpDBQqqRHRsshv5oi8nQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMInitializer.class
+SHA1-Digest: 15xrb1m42EBpQH7YxZBbXaZ/wkw=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/DebugOptions.class
+SHA1-Digest: lkUpTS/WjP7Brr4tT+k5d3UTRio=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/ValidBreakpointLocator.cla
+ ss
+SHA1-Digest: 66vX692bvOqGbQ4FwM/ZOJOn/ZQ=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMVariableRespons
+ e.class
+SHA1-Digest: 4QGAPnAVklYZUzxG3/kTQh9bWZY=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/VMFrameExecutionContext.cl
+ ass
+SHA1-Digest: WF7qTKUPAAsHwYpxJ5mK0dnkEPc=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/protocol/VMBreakpointReque
+ st.class
+SHA1-Digest: HK/vo+rL1l5Ytrixrxm8GqKtcls=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/VMProvider.class
+SHA1-Digest: KzzHr9obIirdmUfxq7qODP0oQSs=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/app/DebugTransformationRunner
+ $1.class
+SHA1-Digest: gnJZYYKBJuKXCH/b9wsm1EjhN/M=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/vm/Value.class
+SHA1-Digest: JrHv5MDI6W259tS2S3wzrch9seU=
+
+Name: org/eclipse/m2m/qvt/oml/debug/core/srclookup/QVTOSourceLookupPar
+ ticipant.class
+SHA1-Digest: vWN1ocCq2pPg7d4BsjjBgMd9nDU=
+

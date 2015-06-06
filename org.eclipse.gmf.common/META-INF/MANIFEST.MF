@@ -1,0 +1,383 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.common
+Bundle-Activator: org.eclipse.gmf.internal.common.Activator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.emf.common.ui;bundle-version="[2.3.0,3.0.0)",org.eclips
+ e.emf.codegen;bundle-version="[2.3.0,3.0.0)",org.eclipse.emf.codegen.
+ ecore;bundle-version="[2.3.0,3.0.0)",org.eclipse.emf.ecore.xmi;bundle
+ -version="[2.3.0,3.0.0)";visibility:=reexport,org.eclipse.core.resour
+ ces;bundle-version="[3.3.0,4.0.0)";visibility:=reexport,org.eclipse.s
+ wt;bundle-version="[3.3.0,4.0.0)",org.eclipse.ui.ide;bundle-version="
+ [3.3.0,4.0.0)",org.eclipse.ui.forms;bundle-version="[3.3.0,4.0.0)",or
+ g.eclipse.jdt.core;bundle-version="[3.3.0,4.0.0)",org.eclipse.jface.t
+ ext;bundle-version="[3.3.0,4.0.0)",org.eclipse.jface;bundle-version="
+ [3.3.0,4.0.0)",org.eclipse.jdt.ui;bundle-version="[3.3.0,4.0.0)",org.
+ eclipse.gmf.xpand;bundle-version="[2.1.0,3.0.0)"
+Export-Package: org.eclipse.gmf.common,org.eclipse.gmf.common.codegen,
+ org.eclipse.gmf.internal.codegen.dispatch;x-friends:="org.eclipse.gmf
+ .codegen,org.eclipse.gmf.graphdef.codegen,org.eclipse.gmf.codegen.lit
+ e",org.eclipse.gmf.internal.common;x-friends:="org.eclipse.gmf.codege
+ n.edit,org.eclipse.gmf.graphdef.edit,org.eclipse.gmf.map.edit,org.ecl
+ ipse.gmf.tooldef.edit,org.eclipse.gmf.bridge.trace,org.eclipse.gmf.br
+ idge.ui,org.eclipse.gmf.bridge,org.eclipse.gmf.tests,org.eclipse.gmf.
+ bridge.ui.dashboard,org.eclipse.gmf.codegen.ui,org.eclipse.gmf.codege
+ n.lite.ui,org.eclipse.gmf.codegen,org.eclipse.gmf.map,org.eclipse.gmf
+ .graphdef,org.eclipse.gmf.tooldef",org.eclipse.gmf.internal.common.co
+ degen;x-friends:="org.eclipse.gmf.codegen,org.eclipse.gmf.graphdef.co
+ degen,org.eclipse.gmf.bridge,org.eclipse.gmf.codegen.lite,org.eclipse
+ .gmf.tests,org.eclipse.gmf.codegen.ui,org.eclipse.gmf.codegen.lite.ui
+ ,org.eclipse.gmf.tests.lite,org.eclipse.gmf.graphdef.codegen.ui",org.
+ eclipse.gmf.internal.common.migrate;x-friends:="org.eclipse.gmf.codeg
+ en.ui,org.eclipse.gmf.tests,org.eclipse.gmf.codegen,org.eclipse.gmf.m
+ ap,org.eclipse.gmf.bridge.ui,org.eclipse.gmf.graphdef",org.eclipse.gm
+ f.internal.common.reconcile;x-friends:="org.eclipse.gmf.tests,org.ecl
+ ipse.gmf.codegen,org.eclipse.gmf.bridge.ui",org.eclipse.gmf.internal.
+ common.ui
+Bundle-Version: 1.3.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Eclipse Modeling Project
+Bundle-Name: GMF Tooling Commons Plug-in
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/common/ui/ListElementSelectorExtension$
+ 1.class
+SHA1-Digest: 2uvF22o0hA9kSbMNfd3LKTovtTA=
+
+Name: org/eclipse/gmf/internal/common/ui/ComboElementSelectorExtension
+ $1.class
+SHA1-Digest: V2WdnsezjgYKlwLC59c1DYfpakM=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Reconciler.class
+SHA1-Digest: EtmAXWHaSme9c16b0Dm0VnG2f9c=
+
+Name: org/eclipse/gmf/internal/common/codegen/TextEmitter.class
+SHA1-Digest: CCN3+69IdH6Er4ps2F+H6QBjftQ=
+
+Name: org/eclipse/gmf/internal/common/NamesDispenser.class
+SHA1-Digest: a8+enJ5haNDoJY0FdMFaXzo+8k4=
+
+Name: org/eclipse/gmf/common/UnexpectedBehaviourException.class
+SHA1-Digest: IXQdBD+oZ6YAubdAbgVWEJRaiP0=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage$1.class
+SHA1-Digest: T0CL7pz6ATvUN6cJBUGiZ4nrHuI=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage$5.class
+SHA1-Digest: zUYztJtfj944ThAvfqWjXf1CaJE=
+
+Name: org/eclipse/gmf/internal/common/codegen/JETGIFEmitterAdapter.cla
+ ss
+SHA1-Digest: 4o3EwX5iHfzxQtqWMS6/8oszmws=
+
+Name: org/eclipse/gmf/internal/common/codegen/Messages.class
+SHA1-Digest: 23toAFbKYUlUNQmiCRbMJoCVpVw=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Matcher$AND.class
+SHA1-Digest: Mrsn/vQh1m8b9bCrUKwqqTRYQl8=
+
+Name: org/eclipse/gmf/internal/codegen/dispatch/NoSuchTemplateExceptio
+ n.class
+SHA1-Digest: WSXNmgGTaNXDcB6cLqubdSL0e1c=
+
+Name: org/eclipse/gmf/internal/common/codegen/PluginXMLTextMerger$Exte
+ nsionDescriptor.class
+SHA1-Digest: qzGxzi5KD5yDLa3Yw4D5KfAfXv8=
+
+Name: org/eclipse/gmf/internal/common/URIUtil.class
+SHA1-Digest: 7Io3xOHy+BbNlMH//D1g4sDH6pU=
+
+Name: org/eclipse/gmf/internal/common/ui/ResourceLocationProvider.clas
+ s
+SHA1-Digest: Mbl6GvIsFeGxybcCAZSp3L/e4mU=
+
+Name: org/eclipse/gmf/internal/common/reconcile/ReconcilerConfig.class
+SHA1-Digest: ySeMZXj1zoritcljUN3OfzAVims=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.c
+ ommon/pom.properties
+SHA1-Digest: kbeE1h9ZhileB55nnOnEnmRCj6Q=
+
+Name: org/eclipse/gmf/internal/common/codegen/OrganizeImportsPostproce
+ ssor$ReferencedTypesAwareImportRewriteContext.class
+SHA1-Digest: uec7BtYuRpg/sCXPsOsQQBGpdnw=
+
+Name: org/eclipse/gmf/internal/common/migrate/ModelLoadHelper.class
+SHA1-Digest: YuT/WeKGtL9Mp60o4qEOEMtPFJQ=
+
+Name: org/eclipse/gmf/internal/common/codegen/DefaultTextMerger.class
+SHA1-Digest: SbaTdNg2mPuH6wsf/eKEjsJHA0c=
+
+Name: org/eclipse/gmf/internal/common/codegen/ManifestFileMerge.class
+SHA1-Digest: OPNa/SG+Krt3cXzxn/5NKxWFtI8=
+
+Name: org/eclipse/gmf/internal/common/ui/FileSelector$1.class
+SHA1-Digest: ZADlegVlqfkuSCR8eoXgwIdZwUs=
+
+Name: org/eclipse/gmf/internal/common/ui/PredefinedModelExtension$2.cl
+ ass
+SHA1-Digest: IUCnWyThY/V+mUj35WkE8wC9NnA=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Decision.class
+SHA1-Digest: 6yFByRDPzCBK5QT6MqcwKxreDwE=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Copier$2.class
+SHA1-Digest: 9zYc8xIrIViCAUN1dZp5jfLvExQ=
+
+Name: org/eclipse/gmf/internal/common/codegen/FileServices.class
+SHA1-Digest: LbmI1AMPWApkyHvdptufcwqpirc=
+
+Name: org/eclipse/gmf/internal/common/reconcile/ReconcilerConfigBase$E
+ ClassRecord.class
+SHA1-Digest: oyux28uaTVytZPJUE/IhCk8wubk=
+
+Name: org/eclipse/gmf/internal/common/codegen/PackageReferencesCollect
+ or.class
+SHA1-Digest: g4d4yNEjCLc0IPrzxJdHMSs/hOI=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Cleaner.class
+SHA1-Digest: ruffWkNvPjKIzwkZ9LLkigD5INE=
+
+Name: org/eclipse/gmf/internal/common/AbstractNamesDispenser.class
+SHA1-Digest: GiqbRLtyxWtcf7dK4WdEbxu8yMk=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Reconciler$Pair.class
+SHA1-Digest: u5bbEjL/Zpqe71xc4p9NPX14UKo=
+
+Name: org/eclipse/gmf/internal/common/codegen/TextMerger.class
+SHA1-Digest: 4t1vh6qpg5PPaRAJgmwmMD8kflU=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage$2.class
+SHA1-Digest: +io2yXnTLjmgqu6Gy/k8f91DiNo=
+
+Name: org/eclipse/gmf/internal/common/codegen/GIFEmitter.class
+SHA1-Digest: hQMZojBHQNtT9dvs4lCkfd/vs3g=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Matcher$1.class
+SHA1-Digest: p+bT79j40b0mxzQ6jBkax+8WbZg=
+
+Name: org/eclipse/gmf/internal/common/codegen/GeneratorBase$1.class
+SHA1-Digest: kPw/ft3wackFcaqZLfpjXlQBSLI=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.c
+ ommon/pom.xml
+SHA1-Digest: 2rcffbeZknwAJPEayJrCjUdWrbA=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage$2$1.class
+SHA1-Digest: jzM1hVkRA6T8oQTQU5P+SspJlyo=
+
+Name: org/eclipse/gmf/internal/common/Activator.class
+SHA1-Digest: k0Hs/78ntpXpAzV8ZzSWOw+wIEE=
+
+Name: org/eclipse/gmf/internal/common/codegen/XpandTextEmitter.class
+SHA1-Digest: BQwmiQAs9NmHkge8pthrbJkCcXI=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/internal/common/ui/messages.properties
+SHA1-Digest: VUyt657HUYII4JxEIT4fhipTWBQ=
+
+Name: org/eclipse/gmf/internal/common/ToolingResourceFactory.class
+SHA1-Digest: FfvRpCW/Q7J2KROPArn+XiJ5lV4=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Cleaner$Remove.class
+SHA1-Digest: kMF3qebpLi8bBQYI7bAOAPPDtPs=
+
+Name: org/eclipse/gmf/internal/common/ui/ListElementSelectorExtension.
+ class
+SHA1-Digest: rj2GQswYIdHyplkuQfd6MPtgPRA=
+
+Name: org/eclipse/gmf/internal/common/codegen/messages.properties
+SHA1-Digest: cIhLH1UJ1JrPaykDtLJMYzQF8vc=
+
+Name: org/eclipse/gmf/internal/common/ui/Messages.class
+SHA1-Digest: sgFFsDFNrSMcSTbRy97MDAQ6XWc=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage.class
+SHA1-Digest: R62u320M3gvrUj6hGQQ1tZl/cpg=
+
+Name: org/eclipse/gmf/internal/common/codegen/GeneratorBase.class
+SHA1-Digest: ryAopTq015h5kUxzxSCv7dMIc4o=
+
+Name: org/eclipse/gmf/internal/common/migrate/FilteringCopier.class
+SHA1-Digest: EBsmbd1GTCEA44MlrelOn8SbmTA=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPageExtension.c
+ lass
+SHA1-Digest: 5oDNguk5Rgv8+3JsA4eqli/+jLs=
+
+Name: org/eclipse/gmf/internal/common/migrate/MigrationResource$Diagno
+ stic.class
+SHA1-Digest: dzEeI5W2NrdJcptf4oN1iYYkFH0=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage$3.class
+SHA1-Digest: VJ70Lo9ri2nb+Z5KtPd/Cfrb7js=
+
+Name: org/eclipse/gmf/internal/common/reconcile/DefaultDecision.class
+SHA1-Digest: rbtUQzUlEjuSfbM9nESJfhDtgtE=
+
+Name: org/eclipse/gmf/internal/common/reconcile/MergeListsDecision.cla
+ ss
+SHA1-Digest: JJ6gzAn4IzMHo3xK2n0Foxciusk=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Copier$WithCrossRefsCo
+ pier.class
+SHA1-Digest: 8nSENxJc0B1Tqv1cy7054UcRCAE=
+
+Name: org/eclipse/gmf/internal/common/IncrementalNamesDispenser.class
+SHA1-Digest: vbg+D0uPxNUf/r2UL4NiOf4fG44=
+
+Name: org/eclipse/gmf/internal/common/reconcile/ReconcilerConfigBase$1
+ .class
+SHA1-Digest: NAqTHp1tXTv/l/NmNO5ZJNs0qic=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/common/codegen/PluginXMLTextMerger$Pars
+ edPluginXML.class
+SHA1-Digest: woSb/x7HWdmZfk+MnxRAScoKeic=
+
+Name: org/eclipse/gmf/internal/common/migrate/MigrationDelegateImpl.cl
+ ass
+SHA1-Digest: N7nk1hcxuS1oF0gTt+D3fJ/X/Ug=
+
+Name: org/eclipse/gmf/internal/common/codegen/Conversions.class
+SHA1-Digest: LDceZ7biZbJWoBeSqdJb4/Z7Vy4=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Decision$ALWAYS_NEW.cl
+ ass
+SHA1-Digest: z9e+ZL/lq0TW457IWi4K5QHNJAg=
+
+Name: org/eclipse/gmf/internal/common/migrate/MigrationResource.class
+SHA1-Digest: rEkFpi6FHkUITx68BOIA/jXMeYA=
+
+Name: org/eclipse/gmf/internal/common/migrate/Messages.class
+SHA1-Digest: 2zM2wcInQmHGAB3UfjlAYG3l08c=
+
+Name: .options
+SHA1-Digest: e+Q3r5JnyV1CxoNtSLhHD9KhR+g=
+
+Name: org/eclipse/gmf/internal/common/ui/ElementSelectorExtension.clas
+ s
+SHA1-Digest: NlJrFQj7dwBEuqIu4ccoyluLeIA=
+
+Name: org/eclipse/gmf/internal/common/codegen/BinaryEmitter.class
+SHA1-Digest: gmxGeZAAZXAn7PLP+9jzV8YVFuw=
+
+Name: org/eclipse/gmf/internal/common/ui/CreateNewModelExtension.class
+SHA1-Digest: DAgW46MaQla1n99hEF5Y59ooAyM=
+
+Name: org/eclipse/gmf/internal/common/ui/ElementSelectorExtension$1.cl
+ ass
+SHA1-Digest: qRlFR7Bcf0adWKWhZUcqqBefHwQ=
+
+Name: org/eclipse/gmf/internal/common/codegen/JETEmitterAdapter.class
+SHA1-Digest: v3udEaFHjwwmrKVm130DQBQpMEQ=
+
+Name: org/eclipse/gmf/internal/common/codegen/GeneratorBase$Counter.cl
+ ass
+SHA1-Digest: IrchbfPDv7Hd/Hz2ngkpKFeiXNQ=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Matcher.class
+SHA1-Digest: xpo4R+bPgIjWN8qT1nhx+J3/n+c=
+
+Name: org/eclipse/gmf/internal/common/ui/CreateNewModelExtension$1.cla
+ ss
+SHA1-Digest: KZ7KgBnmSQQxHkprxrnJxxKB5UM=
+
+Name: org/eclipse/gmf/internal/common/reconcile/ReflectiveMatcher.clas
+ s
+SHA1-Digest: sPGP5RNcASmLnqLMMunJf271Hds=
+
+Name: org/eclipse/gmf/internal/common/migrate/ModelLoadHelper$1Excepti
+ onDiagnostic.class
+SHA1-Digest: ngzQQMxqnKme4A10yv4pzmCX8+Q=
+
+Name: org/eclipse/gmf/internal/common/migrate/MigrationHelper.class
+SHA1-Digest: E4zkxOyoaPZR2VgZaq+YWDtnZL8=
+
+Name: plugin.properties
+SHA1-Digest: oGjIrXcpZ8uN7lHFURgNyszh3is=
+
+Name: org/eclipse/gmf/internal/common/reconcile/StringPatternDecision.
+ class
+SHA1-Digest: Q8B5ZIGjgzc6NluRkrWWTUzNfhM=
+
+Name: org/eclipse/gmf/internal/common/codegen/ImportUtil.class
+SHA1-Digest: lQqt0R4obIJ6WsTx7ftsMWPmkbM=
+
+Name: org/eclipse/gmf/internal/common/ui/ModelSelectionPage$4.class
+SHA1-Digest: c/kTTMDlQFhjoQLX+DcYC2QcDVQ=
+
+Name: org/eclipse/gmf/internal/common/codegen/PluginXMLTextMerger.clas
+ s
+SHA1-Digest: JgvU+qVaINCgoGcqdwlXIgmr0Xg=
+
+Name: org/eclipse/gmf/internal/common/reconcile/ReconcilerConfigBase.c
+ lass
+SHA1-Digest: UV5gKKscbVP5s+A3HjcxdmCbuHg=
+
+Name: org/eclipse/gmf/internal/common/codegen/TaggedTextMerger.class
+SHA1-Digest: dEvyDgqA9m6Og29VkaYHTP8mHhc=
+
+Name: org/eclipse/gmf/internal/common/ui/ExtensibleModelSelectionPage.
+ class
+SHA1-Digest: ixDic3mU8fdhWPQcAjJPuXpjmfo=
+
+Name: org/eclipse/gmf/internal/common/migrate/MigrationDelegate.class
+SHA1-Digest: LAJK0u7zWg7IFEIN9KdAvnayu3o=
+
+Name: org/eclipse/gmf/internal/common/codegen/TaggedTextMerger$Regions
+ Iterator.class
+SHA1-Digest: y8+Niq4HYMZ8Y1RLUgpl71W94OY=
+
+Name: org/eclipse/gmf/internal/common/ui/FileSelector.class
+SHA1-Digest: BLfLCjy2k1w0Nukt6ZLBgxVmLKI=
+
+Name: org/eclipse/gmf/internal/common/ui/PredefinedModelExtension.clas
+ s
+SHA1-Digest: C+RZBxbHB+QmEm3da7Zh2RGLlUo=
+
+Name: org/eclipse/gmf/internal/common/ToolingResourceFactory$ToolResou
+ rce.class
+SHA1-Digest: VW2suumTGy7wBVhfZ/qzkmJrmV4=
+
+Name: org/eclipse/gmf/internal/common/codegen/OrganizeImportsPostproce
+ ssor.class
+SHA1-Digest: AxhYGMaHEwXbplLrlRhmA9dx76g=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Copier.class
+SHA1-Digest: +HYh0uArIQZ08SwAGrytZoLQtZo=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Matcher$OR.class
+SHA1-Digest: TicTz3w+xo11PBRSWjYlUpv/QCQ=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Decision$ALWAYS_OLD.cl
+ ass
+SHA1-Digest: HeEd7eSc5/BAOoSrNeg3PH3ayyk=
+
+Name: org/eclipse/gmf/internal/common/ui/ComboElementSelectorExtension
+ .class
+SHA1-Digest: KJsocOrGCt+t4Bj78SRXTt8ekDc=
+
+Name: org/eclipse/gmf/common/codegen/ImportAssistant.class
+SHA1-Digest: FgaKCLjR6pKtTB13olzb1hH0JY8=
+
+Name: org/eclipse/gmf/internal/common/ui/PredefinedModelExtension$1.cl
+ ass
+SHA1-Digest: WBTxCB7Q7dwYv4tmC783Q6Tj47M=
+
+Name: org/eclipse/gmf/internal/common/codegen/NullImportAssistant.clas
+ s
+SHA1-Digest: Q25M29gORYGstUWd8LLg4PrKXdg=
+
+Name: org/eclipse/gmf/internal/common/reconcile/Copier$1.class
+SHA1-Digest: phHTREMuPnanDM7MRqSJl+VaR/M=
+

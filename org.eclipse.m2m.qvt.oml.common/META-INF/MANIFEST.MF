@@ -1,0 +1,283 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.common;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.4.0,4.0.0)",org.eclip
+ se.core.filesystem;bundle-version="[1.2.0,2.0.0)";visibility:=reexpor
+ t,org.eclipse.debug.core;bundle-version="[3.4.0,4.0.0)";resolution:=o
+ ptional,org.eclipse.emf.ecore;bundle-version="[2.5.0,3.0.0)",org.ecli
+ pse.m2m.qvt.oml.emf.util;bundle-version="[3.0.0,4.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.common.CommonPlugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.common; x-friends:="o
+ rg.eclipse.m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.runtime.ui, 
+  org.eclipse.m2m.qvt.oml.samples,  org.eclipse.m2m.qvt.oml.editor.ui,
+   org.eclipse.m2m.qvt.oml.project,  org.eclipse.m2m.qvt.oml.ui,  org.
+ eclipse.m2m.tests.qvt.oml.ui,  org.eclipse.m2m.tests.qvt.oml,  org.ec
+ lipse.m2m.qvt.oml,  org.eclipse.m2m.qvt.oml.common.ui",org.eclipse.m2
+ m.internal.qvt.oml.common.emf;x-friends:="org.eclipse.m2m.qvt.oml.run
+ time,org.eclipse.m2m.qvt.oml.runtime.ui,org.eclipse.m2m.tests.qvt.oml
+ ",org.eclipse.m2m.internal.qvt.oml.common.io; x-friends:="org.eclipse
+ .m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.runtime.ui,  org.eclip
+ se.m2m.qvt.oml.project,  org.eclipse.m2m.tests.qvt.oml.ui,  org.eclip
+ se.m2m.tests.qvt.oml,  org.eclipse.m2m.qvt.oml",org.eclipse.m2m.inter
+ nal.qvt.oml.common.io.eclipse; x-friends:="org.eclipse.m2m.qvt.oml.ru
+ ntime,  org.eclipse.m2m.qvt.oml.runtime.ui,  org.eclipse.m2m.qvt.oml.
+ project,  org.eclipse.m2m.tests.qvt.oml,  org.eclipse.m2m.qvt.oml",or
+ g.eclipse.m2m.internal.qvt.oml.common.launch; x-friends:="org.eclipse
+ .m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.runtime.ui,  org.eclip
+ se.m2m.qvt.oml.samples,  org.eclipse.m2m.tests.qvt.oml,  org.eclipse.
+ m2m.tests.qvt.oml.ui,  org.eclipse.m2m.qvt.oml.common.ui,  org.eclips
+ e.m2m.qvt.oml.debug.core",org.eclipse.m2m.internal.qvt.oml.common.pro
+ ject; x-friends:="org.eclipse.m2m.qvt.oml.runtime,  org.eclipse.m2m.q
+ vt.oml.runtime.ui,  org.eclipse.m2m.qvt.oml.editor.ui,  org.eclipse.m
+ 2m.qvt.oml.common.ui",org.eclipse.m2m.internal.qvt.oml.common.resourc
+ esetprovider;x-friends:="org.eclipse.m2m.qvt.oml",org.eclipse.m2m.int
+ ernal.qvt.oml.common.util
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/SafeRunner$SameTh
+ readRunner.class
+SHA1-Digest: SIqPBQji4d4ZQ8HTVUKZguJmUnc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/WriterMonitor.cla
+ ss
+SHA1-Digest: CtB+Iy0Ux9YEZSBWUUqcObqumWE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/Pair.class
+SHA1-Digest: fljWJJ2xO9qt/qFHPumDa/hMjgE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/TargetUriData$Tar
+ getType.class
+SHA1-Digest: u171Qk3IsKn3ExwZu4hHYdGRDe4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/util/StringLineNumberPro
+ vider.class
+SHA1-Digest: khZvdzWrIyNBWyFMVcZns7DRejs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/CFile.class
+SHA1-Digest: CCxZXxRJiiYqj0tof+fTddBNS0M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseRoot.c
+ lass
+SHA1-Digest: tJubjslUQ/XRbzbnnX666/VJCnA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/WriterOutputStrea
+ m.class
+SHA1-Digest: QsNU00wJMyTODocbBXNU7gQ/Dek=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/ShallowProcess.cl
+ ass
+SHA1-Digest: cEa3y5bnbVnjdYIfd1xJaQRVcN8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/resourcesetprovider/Reso
+ urceSetProviderRegistry.class
+SHA1-Digest: wGc/cDVaFYHhouEae8dlaEwntRA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/BaseProcess$IRunn
+ able.class
+SHA1-Digest: LVTkhA6u6rZnnVnnEvm2tL3XcHM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/resourcesetprovider/IRes
+ ourceSetProvider.class
+SHA1-Digest: noERINvjyTKcaqDq55sXStru2EY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/IOFolder.class
+SHA1-Digest: pJLnxAmIyIdXyJnGOc0P5LH9KV4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/CResource.class
+SHA1-Digest: UOxLk23c2F9wvPdFxGz1RJ+RzcU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/TransformationRe
+ gistry$Filter.class
+SHA1-Digest: JGgR7676+ZHi45EP38C6UCgQoA0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/TransformationRe
+ gistry$2.class
+SHA1-Digest: Uy9k5FHeF91hI266lRojrXT+r6g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseProjec
+ t.class
+SHA1-Digest: uLGb0Mw+O8m6VTqzC14+3hQqL3k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/resourcesetprovider/Reso
+ urceSetProviderRegistry$1.class
+SHA1-Digest: VFp8KZNewWIp7AYjIcPGZScIQW0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/FileUtil.class
+SHA1-Digest: hganR5bu989yQUiED4hLP4smc8M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseFile.c
+ lass
+SHA1-Digest: qalbqV5o4jZR1pseIdxO01/akKQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/ISetMessage.class
+SHA1-Digest: mzbhpaZ6lUEv4qfLPFMDezVsdyw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/messages.properties
+SHA1-Digest: ugUtiqpjPp+yrGd2Jdv/WKPmKO0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/IOFile.class
+SHA1-Digest: yXEcdlLcjpzZUGg0M1jQPRwiW4k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/CFileUtil.class
+SHA1-Digest: hJRJY15iJt3Y72Hp5SZAV9sdW7Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/WorkspaceMeta
+ modelRegistryProvider.class
+SHA1-Digest: o5OVWYYMGuhAgioE1rPf4CycUt8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/MetamodelRegi
+ stryProvider.class
+SHA1-Digest: APLQS4ogcJThCNEtTYNguu68af4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseResour
+ ce.class
+SHA1-Digest: mqoKaYqn0LNiW6luq7KPuqpv9bs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/IOResource.class
+SHA1-Digest: P45S/fdHRgVqNnQ7HUVNyyy5Ehc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/CFolder.class
+SHA1-Digest: jDasl4w3Jz5+bE12I/BJmilwOJQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/Messages.class
+SHA1-Digest: ShnGs1G+T2ivhkIAiV8V4ymXKGA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/AbstractBundl
+ eResource.class
+SHA1-Digest: Vjf6JlwZhe7ZIGDf+Sa9XRoaUro=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/SafeRunner$1.clas
+ s
+SHA1-Digest: N/n6cQJmJZijoccKj392YKH+y6g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseFileUt
+ il.class
+SHA1-Digest: 0uKCumhs9lvCu32wAbiNe7vPCFQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseContai
+ ner.class
+SHA1-Digest: rtxQnsk5zbT/HseSlTmUv/Y2s/E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/resourcesetprovider/Reso
+ urceSetProviderRegistry$ResourceSetResourceSetProviderPair.class
+SHA1-Digest: unn4f4X0gaOqBiraq134LXLs5G8=
+
+Name: plugin.properties
+SHA1-Digest: Rt9x0MeHu4bLQkcsMt8l+RSuKzM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/IQvtLaunchConstan
+ ts.class
+SHA1-Digest: hqo2VxjKAT/gmhBlmvcw2PimQ/I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/TransformationRe
+ gistry.class
+SHA1-Digest: uYnGjdXI9KMgeOU8AJPVAEKIY4w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/EmptyDebugTarget.
+ class
+SHA1-Digest: 368tJIXRDojvT5+eq8E4pIQFbI4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/IRegistryConstan
+ ts.class
+SHA1-Digest: pTvXr3f/nomIWZF9U9VLUR0uZlc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/emf/ExtendedEmfUtil.clas
+ s
+SHA1-Digest: VYTRcFqC9ZuI6ObU/L85ccLHGbE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/StreamsProxy.clas
+ s
+SHA1-Digest: gNQ9ONiRTL3qw0n/tbMWe0hFPGQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/EclipseFolder
+ .class
+SHA1-Digest: FUeDNa9i26bJo16lDoc/ZztlEnM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/util/LineNumberProvider.
+ class
+SHA1-Digest: 55kd6INZCAXcwGRp22CtUZquej8=
+
+Name: plugin.xml
+SHA1-Digest: GtBqbkLT7eSd8+kTCN0BKwKyF5w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/TransformationRe
+ gistry$1.class
+SHA1-Digest: +JczDsGx34e/JkRPgAo0BBmUC34=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/BundleFolder.
+ class
+SHA1-Digest: ePSx0WuO/xR61R7v/RJxro9lRMc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/CompiledTransfor
+ mation.class
+SHA1-Digest: RmWtzyBC7jya72LJJW3INzshWKQ=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/SafeRunner$IRunne
+ r.class
+SHA1-Digest: TStSzBb+S/tpTPyBqfSpITsLzsw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/BundleFile.cl
+ ass
+SHA1-Digest: 6GwbdXq61ESegp5nzwmPz/wGUVM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/resourcesetprovider/IRes
+ ourceSetProviderListener.class
+SHA1-Digest: 0pNgiNUjzkdNxZbx42XreDkL+as=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/project/TransformationRe
+ gistry$InputFilter.class
+SHA1-Digest: NJx/iRil0sxT/R5Jm8s/gsyrSPA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/InMemoryLaunchUti
+ ls.class
+SHA1-Digest: NjOmH3YTyJVXGuk6VLXgmwt9nSQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/CommonPlugin.class
+SHA1-Digest: CHf1t5ADw2GUhF1+n4vX237PbPA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/BaseProcess.class
+SHA1-Digest: 5sWVzS4cdEj4pIZW+SAGeVHntSQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/resourcesetprovider/Abst
+ ractResourceSetProvider.class
+SHA1-Digest: DM/D7UGdyj37kFBfiuTd5Wf+G8I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/SafeRunner.class
+SHA1-Digest: ieq4UWmH/tWHrS39Oq4w/0vz5H4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/MDAConstants.class
+SHA1-Digest: MTCChJdJF9kVCQNzYMmtHM2dhBA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/MdaException.class
+SHA1-Digest: B0Vkq3b8ccsu4tpqplgaKK2uORA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/ISetMessageEx.cla
+ ss
+SHA1-Digest: oJzKL0TtYLiWx7gsx4nF+z4fvQU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/eclipse/BundleModuleR
+ egistry.class
+SHA1-Digest: lw47iSc05kewLA34Jo/fZOVfhw0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/io/CResourceRepositoryCo
+ ntext.class
+SHA1-Digest: 8eXiq8tmMsMWVQyt/yDIU51RQhw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/common/launch/TargetUriData.cla
+ ss
+SHA1-Digest: 2yGCUSR+PS7lo0/5ur2mJK6tO6o=
+

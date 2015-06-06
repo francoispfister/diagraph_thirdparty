@@ -1,0 +1,325 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.ecore.imperativeocl;singl
+ eton:=true
+Bundle-Activator: org.eclipse.m2m.qvt.oml.ecore.ImperativeOCL.util.Imp
+ erativeOCLPlugin$Implementation
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.5.0,4.0.0)
+ ",org.eclipse.emf.ecore.xmi;bundle-version="[2.5.0,3.0.0)",org.eclips
+ e.ocl.ecore;bundle-version="[3.0.0,4.0.0)";visibility:=reexport
+Export-Package: org.eclipse.m2m.qvt.oml.ecore.ImperativeOCL,org.eclips
+ e.m2m.qvt.oml.ecore.ImperativeOCL.impl,org.eclipse.m2m.qvt.oml.ecore.
+ ImperativeOCL.util
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/DictionaryTypeI
+ mpl.class
+SHA1-Digest: qO9PS+2QNYf7OkIXVyKG4QQSrzo=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ImperativeIterateExp
+ .class
+SHA1-Digest: y1nA8e7Me/RyKmYYESkhaNeIbf0=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/InstantiationExp.cla
+ ss
+SHA1-Digest: noIfp6p0OZiSUrz9rUNGGu2VTSs=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLPl
+ ugin.class
+SHA1-Digest: l/4ozBdIxASeIZ2t6OZEktbZOsM=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/OrderedTupleTyp
+ eImpl.class
+SHA1-Digest: GWvDpX6MVet7pyHjSPBWBMZxp7M=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ListTypeImpl.cl
+ ass
+SHA1-Digest: 8FYE0gjMldbhPaEnTqYEI9gubUw=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/LogExpImpl.clas
+ s
+SHA1-Digest: wyKydawdFX87Buz0yBxy87wAw6I=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/UnpackExp.class
+SHA1-Digest: On0Sq7x2GNji3st30EgKdiqYPok=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLAd
+ apterFactory.class
+SHA1-Digest: CvyNOoC6n5bI1EWI9KvzXCspb6s=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ImperativeOCLPackage
+ .class
+SHA1-Digest: Uej/48UY7O/Fo1ZaX0qiDpjnfSo=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/UnpackExpImpl.c
+ lass
+SHA1-Digest: DErY+qOV1N3dBLwWr+CzthZiFVU=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/TypedefImpl.cla
+ ss
+SHA1-Digest: Z0wGc7MWnc6Yy1KX7Hw1As9Or+A=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/BreakExp.class
+SHA1-Digest: ZPp2KRRXVx561vwyyMo25ogjrYQ=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/VariableInitExp.clas
+ s
+SHA1-Digest: XktwTrqwd1vWWXaMqTV9b7RmNxY=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/TryExp.class
+SHA1-Digest: j50n+5lauVJGkMWT3ewm2Vlztv8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ImperativeExpression
+ .class
+SHA1-Digest: 6fjrrKG5bN3P7u/bzjMrLa54LF8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ComputeExp.class
+SHA1-Digest: WfwnJqyphUSW8vL2fSsdjvXGan4=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLAd
+ apterFactory$1.class
+SHA1-Digest: 1TnyWUseHPPkaBGfI7bvjMGEJfc=
+
+Name: model/ImperativeOCL.ecore
+SHA1-Digest: lclL9iK5VKg/ntrfOf3P9v+PK8I=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/OrderedTupleLiteralE
+ xp.class
+SHA1-Digest: nb4WuSFuwsXDMEDvoC8xVQgy/Jc=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ImperativeItera
+ teExpImpl.class
+SHA1-Digest: hz7bVlN1AzMsRS6ITkL1TycvQgY=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/WhileExp.class
+SHA1-Digest: JVsL168scuZDRDxW0qQgo+WgBlI=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/InstantiationEx
+ pImpl.class
+SHA1-Digest: tqW9ki851+69li3cGnzTagM6ktA=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/DictionaryType.class
+SHA1-Digest: dwmIwSAX+d4AEFZVsleNdyOduo8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ForExpImpl.clas
+ s
+SHA1-Digest: 3TgSY8pTZGzMpa1AcFZYIcyCVR0=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLPl
+ ugin$Implementation.class
+SHA1-Digest: vqs90gzBlOaFhYmoHB5omfkaiMY=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/OrderedTupleLiteralP
+ art.class
+SHA1-Digest: Vaj+RzZEJQMhRSJSYQgcnwrvMds=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ImperativeOCLPa
+ ckageImpl.class
+SHA1-Digest: eRIhUsKqiNz46mNKCdq9YvjOb4Q=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/LogExp.class
+SHA1-Digest: OUbLxX2uvVFszbx+EzFtTZgrXWg=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/DictLiteralPart.clas
+ s
+SHA1-Digest: AFUoyab5P9rkpeDyFfZgvbWqQH0=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/BreakExpImpl.cl
+ ass
+SHA1-Digest: tn0N7wlXZqo+9i2LS0X8yEHCEJM=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ImperativeExpre
+ ssionImpl.class
+SHA1-Digest: hjNEHUQhtlWIW78Lx3BKRZDZDjI=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ContinueExpImpl
+ .class
+SHA1-Digest: ReuVwHR0PSo4zv45PjoDR4IM/as=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/WhileExpImpl.cl
+ ass
+SHA1-Digest: DuEYWnIt4gktNrTkjLex8rXootA=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ListLiteralExpI
+ mpl.class
+SHA1-Digest: 5niBXWGqrTO9PZdRdPnVJbxXZXQ=
+
+Name: model/ImperativeOCL.genmodel
+SHA1-Digest: Lwt4qD4ng8VGzkoTMVlauwHba0Y=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/BlockExp.class
+SHA1-Digest: MszZR1CP2RV7QwH2Y7pXOUwQZlU=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/RaiseExp.class
+SHA1-Digest: gDqiVPtz/35qGzV1Zmpmr4m9lN0=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/AltExpImpl.clas
+ s
+SHA1-Digest: ZKbfvFKVOoJ86HLjUv6ilMmeJNA=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLSw
+ itch.class
+SHA1-Digest: D78KdzAXip3QpKPzsFG73eAE+e4=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ForExp.class
+SHA1-Digest: pVs5QOGb+NGYG9JRZRxybS+xdgo=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/SwitchExp.class
+SHA1-Digest: gWBj+pEISS/8IlUnr3jnYsFtxBU=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/UnlinkExp.class
+SHA1-Digest: y8aKJVubCO3R4Al8/lwoSeybCis=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/Typedef.class
+SHA1-Digest: GnH0mjTx3p+kyCj8WWSRxuTlJ1c=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/SwitchExpImpl.c
+ lass
+SHA1-Digest: JWnYCxlBB1zZ8OtSHysJK+4/Kio=
+
+Name: plugin.properties
+SHA1-Digest: jVUzhzDrHIg75wUmKAq+NawDZXQ=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/UnlinkExpImpl.c
+ lass
+SHA1-Digest: 9xKagFFxGFtcRak04y57R0kcSS8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ImperativeLoopExp.cl
+ ass
+SHA1-Digest: /rGlFjimLTt6H/u12MwyRm3/Mgw=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ReturnExp.class
+SHA1-Digest: 1BMhEdrJGHHTPDOU3vF3mUxOpvY=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ImperativeOCLPackage
+ $Literals.class
+SHA1-Digest: q0eeZ5ssx+FNXCHN1AcKKN4CKy8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ReturnExpImpl.c
+ lass
+SHA1-Digest: EFiM5vzRX8rX1Hycj4rqslikRDk=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ImperativeLoopE
+ xpImpl.class
+SHA1-Digest: ZVy7tP5xAt7AvFrXJlXemypivk4=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ImperativeOCLFactory
+ .class
+SHA1-Digest: TwEma+sT5Uf/2KFLJXjEc7wMqbI=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLVa
+ lidator.class
+SHA1-Digest: +l1RLtUEqF1De/m0QhBgLQzhrjA=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/DictLiteralExpI
+ mpl.class
+SHA1-Digest: VQ97HX+rp+BisBLn/74Jol1bUxw=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/VariableInitExp
+ Impl.class
+SHA1-Digest: RnRoJj6Olj7cyVl0ZMIQ92dRbEk=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/CatchExp.class
+SHA1-Digest: AMgvkKrLkhi8lPFoYtKaBDGNCP4=
+
+Name: plugin.xml
+SHA1-Digest: oh93JYEHexbDZiS/IFf/WG3iJcQ=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ListLiteralExp.class
+SHA1-Digest: NRymt4P9Wd4ccGITRfskIlYFPV0=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/BlockExpImpl.cl
+ ass
+SHA1-Digest: t2APp4oAVFG3L6yQn8wcr39mUDo=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/RaiseExpImpl.cl
+ ass
+SHA1-Digest: QU3QdyALiRFvW6/Vsifr+AQl00g=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLTo
+ StringVisitor.class
+SHA1-Digest: 78bHQK0jAnJBUFUnewRt08Djo5Y=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/SeverityKind.class
+SHA1-Digest: 7YUJ/RFCKqjJAq9Uu7qrISBPoz8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/AltExp.class
+SHA1-Digest: 69+rbdFuNerkXDXCkYpVHQpx5Rs=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/OrderedTupleType.cla
+ ss
+SHA1-Digest: GYGWM+DIupUyMGdVWafw07KH5g0=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/OrderedTupleLit
+ eralPartImpl.class
+SHA1-Digest: aRsiLhBjfyEEepPIC8srsJ6XR/s=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ListType.class
+SHA1-Digest: GBB8gzhP8qb45qktzSSlanFUKeo=
+
+Name: about.html
+SHA1-Digest: LLuTevQS7sdho7rkUAGR2ep5UuI=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ImperativeOCLFa
+ ctoryImpl.class
+SHA1-Digest: QtIgFzVmv7hiTFMVFhMWvqcRb6w=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/AssignExp.class
+SHA1-Digest: 6s5hIiYIlJm+JpPzGZOGcsMpPt8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/util/ImperativeOCLVi
+ sitor.class
+SHA1-Digest: UHrvVNH6xA1NV7vJPW+71Bz4m0E=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/DictLiteralPart
+ Impl.class
+SHA1-Digest: x4VGsA44/M6YYF7A7aruLNw5Jrc=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/TryExpImpl.clas
+ s
+SHA1-Digest: zvxgGd760O/npaPjy/CJ7hvAxME=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/AssignExpImpl.c
+ lass
+SHA1-Digest: sfKBfHD+AkM2c0vQFVhHy+c0jE4=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/CatchExpImpl.cl
+ ass
+SHA1-Digest: Mmb0nhjrav0fH5ipRePIOTKK878=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ComputeExpImpl.
+ class
+SHA1-Digest: RDTU+Xye/M61gguyIcN6OmLZ550=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/ImperativeOCLPa
+ ckageImpl$1.class
+SHA1-Digest: 6hZZVxxZgF9ofIOfixKKp7No97I=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/ContinueExp.class
+SHA1-Digest: thgbGGAzWYCiacd6mzXgvxMzJX8=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/DictLiteralExp.class
+SHA1-Digest: I5SDeoI8A1HV3KLPy2RBpZJyD7A=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/AssertExp.class
+SHA1-Digest: QafgwUzv+5+LvPq8fzjE+bvOlx4=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/OrderedTupleLit
+ eralExpImpl.class
+SHA1-Digest: tldUiXgk6Oi4MOfM/DCJ0rENYRE=
+
+Name: org/eclipse/m2m/qvt/oml/ecore/ImperativeOCL/impl/AssertExpImpl.c
+ lass
+SHA1-Digest: YxdNK6uluxYzvyNR8hmbMTumaE4=
+

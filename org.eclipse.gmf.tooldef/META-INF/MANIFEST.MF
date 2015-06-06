@@ -1,0 +1,222 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.tooldef; singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.emf.ecore;bundle-version="[2.3.0,3.0.0)";visibility:=re
+ export,org.eclipse.gmf.common;bundle-version="[1.1.0,2.0.0)"
+Bundle-Version: 2.3.0.201306121424
+Export-Package: org.eclipse.gmf.tooldef,org.eclipse.gmf.tooldef.util
+Bundle-ClassPath: .
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/tooldef/GMFToolFactory.class
+SHA1-Digest: Ezx1mEQZxmmE6aByULraI3XHvJY=
+
+Name: org/eclipse/gmf/tooldef/ItemRef.class
+SHA1-Digest: In6waIFK1WrTjajEZrvWErodbPs=
+
+Name: org/eclipse/gmf/tooldef/impl/GMFToolFactoryImpl.class
+SHA1-Digest: awAEtXJm3u4D6jSXAU8Gnh6gD60=
+
+Name: org/eclipse/gmf/tooldef/PredefinedItem.class
+SHA1-Digest: Za92gjecnqeZdynnSHanBrAj01A=
+
+Name: org/eclipse/gmf/tooldef/impl/ToolRegistryImpl.class
+SHA1-Digest: tRTxPngdCHeye4UZbxujzVQcyys=
+
+Name: org/eclipse/gmf/tooldef/impl/StandardToolImpl.class
+SHA1-Digest: TA3c7XLLNKJ0ebGT1V+dvliTuIA=
+
+Name: org/eclipse/gmf/tooldef/impl/PopupMenuImpl.class
+SHA1-Digest: crIczVnloSBPMC/zE3yWDaX3iw0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.t
+ ooldef/pom.xml
+SHA1-Digest: CmI6sef0s658P296kCsw+RnTwiQ=
+
+Name: org/eclipse/gmf/tooldef/impl/ContextMenuImpl.class
+SHA1-Digest: cL/CoBnvj1CaNKrh8VkEuPV3TJA=
+
+Name: org/eclipse/gmf/tooldef/impl/MainMenuImpl.class
+SHA1-Digest: ri2OAU2MJMeD4/CIKOOHB5kjMXw=
+
+Name: org/eclipse/gmf/tooldef/util/GMFToolSwitch.class
+SHA1-Digest: c6etsd3htBL8SK+2eWss5WGshK4=
+
+Name: org/eclipse/gmf/tooldef/ToolGroup.class
+SHA1-Digest: 5J0RKuYjVzq7/davKIPSJDq7u7o=
+
+Name: org/eclipse/gmf/tooldef/impl/PredefinedItemImpl.class
+SHA1-Digest: Q8Jck8MryPsAgtlevWM91EWbq1M=
+
+Name: org/eclipse/gmf/tooldef/ToolContainer.class
+SHA1-Digest: mxyTY7hU6ga2kX5HTHJFfwR13T0=
+
+Name: org/eclipse/gmf/tooldef/ContributionItem.class
+SHA1-Digest: uumWjuWIJH5TosW9GV3/f3oBr3w=
+
+Name: org/eclipse/gmf/tooldef/ItemBase.class
+SHA1-Digest: HBTdMmhVye2mVVLaYPqyty59jNc=
+
+Name: models/tooldef.emf
+SHA1-Digest: 6UAvGujIGLTsIJgmVqNecxfQ84Y=
+
+Name: org/eclipse/gmf/tooldef/impl/BundleImageImpl.class
+SHA1-Digest: 1J5lJIElB6jQ9tetIty8ApNNNVY=
+
+Name: org/eclipse/gmf/tooldef/impl/PaletteImpl.class
+SHA1-Digest: 6oYAyA0AXQq2X3UaMvaVbUGA1Yo=
+
+Name: org/eclipse/gmf/tooldef/impl/ToolbarImpl.class
+SHA1-Digest: v9S86LO7hBHhn88FnJ0eJhVq2Kg=
+
+Name: org/eclipse/gmf/tooldef/util/GMFToolAdapterFactory$1.class
+SHA1-Digest: Z7M7dph+2UffOwRX27fg3jR8HIA=
+
+Name: org/eclipse/gmf/tooldef/Image.class
+SHA1-Digest: qPTXKL2PI4oDzJm+7kUH18HnuJA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/tooldef/impl/ToolGroupImpl.class
+SHA1-Digest: Dh1MEbFqs6QU6v6vfZKXW5/XnYI=
+
+Name: org/eclipse/gmf/tooldef/impl/ToolContainerImpl.class
+SHA1-Digest: SxjlK4Y88SJx/nJdadKelRxbQ3w=
+
+Name: org/eclipse/gmf/tooldef/DefaultImage.class
+SHA1-Digest: popjl467zicuIK0HZdkzhdL2ql4=
+
+Name: org/eclipse/gmf/tooldef/Separator.class
+SHA1-Digest: 5cjDqDNQJTemUjUiw2AnpvzOiRo=
+
+Name: org/eclipse/gmf/tooldef/impl/CreationToolImpl.class
+SHA1-Digest: rUfWD/Sr2f30Qh/2liN0zooTneU=
+
+Name: org/eclipse/gmf/tooldef/Menu.class
+SHA1-Digest: 4qOTGL9dDKABA9bRV32vIukVef8=
+
+Name: org/eclipse/gmf/tooldef/impl/GenericToolImpl.class
+SHA1-Digest: N9I45IsYQKyGow4luRGVZjvMB+U=
+
+Name: org/eclipse/gmf/tooldef/impl/GenericStyleSelectorImpl.class
+SHA1-Digest: t28Y2ZCmv2+/c1vGziggwoZ5BSE=
+
+Name: org/eclipse/gmf/tooldef/impl/AbstractToolImpl.class
+SHA1-Digest: 0GJioss/+6QEymj2jcbbnHmAJV4=
+
+Name: org/eclipse/gmf/tooldef/ContextMenu.class
+SHA1-Digest: Qhv9GL0yMIDQnz7oUrsgiAEj7KA=
+
+Name: org/eclipse/gmf/tooldef/StyleSelector.class
+SHA1-Digest: FlzQ7pqWQpOJGuWEOT54aPz+8qk=
+
+Name: org/eclipse/gmf/tooldef/PaletteSeparator.class
+SHA1-Digest: d4QMvIOWGTNBhseOm+rq1tEB3iY=
+
+Name: org/eclipse/gmf/tooldef/GMFToolPackage.class
+SHA1-Digest: zDRgpS4E4kBLVDv/YYv/dxPo580=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.t
+ ooldef/pom.properties
+SHA1-Digest: hjSmWyVzbxOdxO374x+UHeJpqQk=
+
+Name: models/tooldef.genmodel
+SHA1-Digest: VkC6o6juDkn42pb0pQ2bWge7ouc=
+
+Name: org/eclipse/gmf/tooldef/BundleImage.class
+SHA1-Digest: 3eLvXCXgf4BI/FTXDOYQr+qy0IA=
+
+Name: org/eclipse/gmf/tooldef/Toolbar.class
+SHA1-Digest: BpbhqJ+qNF2ELLDOYTWwBM7hMRs=
+
+Name: org/eclipse/gmf/tooldef/Palette.class
+SHA1-Digest: 442Xn6LHb3+ng0aVWo9N0DMz3xI=
+
+Name: org/eclipse/gmf/tooldef/ToolRegistry.class
+SHA1-Digest: /xlp4kvjGRHozVwpKYd3NMmocoI=
+
+Name: org/eclipse/gmf/tooldef/MenuAction.class
+SHA1-Digest: wItsHQ7gVjMilXYRAID2O+75RtQ=
+
+Name: org/eclipse/gmf/tooldef/impl/GMFToolPackageImpl.class
+SHA1-Digest: tx1i8g0IwwY8Tu+BTY6yQD8kOHs=
+
+Name: org/eclipse/gmf/tooldef/StandardTool.class
+SHA1-Digest: h8Kaao3codm4EdRW8LWaFBrM9YA=
+
+Name: org/eclipse/gmf/tooldef/impl/SeparatorImpl.class
+SHA1-Digest: bZdYG9laMzmGd4r+IjwoZ3JOfw0=
+
+Name: org/eclipse/gmf/tooldef/MainMenu.class
+SHA1-Digest: a9lPd30dIZSO39JZTxuD3IWGfuM=
+
+Name: org/eclipse/gmf/tooldef/impl/MenuActionImpl.class
+SHA1-Digest: 6UCrmEwWtO8zv87QyJoIQ1u3DrE=
+
+Name: plugin.properties
+SHA1-Digest: Jw7UnJeump5XStWWK4GogFN0yrQ=
+
+Name: org/eclipse/gmf/tooldef/PredefinedMenu.class
+SHA1-Digest: in4rHGKBqiy4tO5ilRkNqAfSdCM=
+
+Name: org/eclipse/gmf/tooldef/util/GMFToolAdapterFactory.class
+SHA1-Digest: MhxM6ac/ZRof1blaqp+prNsszq8=
+
+Name: org/eclipse/gmf/tooldef/GenericTool.class
+SHA1-Digest: srtbCv48JIRHDdHo36x8HCXOtJs=
+
+Name: org/eclipse/gmf/tooldef/impl/PredefinedMenuImpl.class
+SHA1-Digest: 2iNOgfDIcPChd7J1805RqIM3ii0=
+
+Name: plugin.xml
+SHA1-Digest: Qg97nQPWHKvvOJ3PSohaLRGlX00=
+
+Name: models/tooldef.ecore
+SHA1-Digest: yvoVdew/GOzMILGPO/L1T+lCzgs=
+
+Name: org/eclipse/gmf/tooldef/impl/ItemRefImpl.class
+SHA1-Digest: /sjOBXEgq2byyLQIKVSyYaZ4hgs=
+
+Name: org/eclipse/gmf/tooldef/CreationTool.class
+SHA1-Digest: 8LqFHQYqGTvXtYHJG/OeZj7LyVI=
+
+Name: org/eclipse/gmf/tooldef/GenericStyleSelector.class
+SHA1-Digest: SEcHP1LzNjvMvR408emZRaACOAY=
+
+Name: org/eclipse/gmf/tooldef/AbstractTool.class
+SHA1-Digest: C0jSbrg5Z/rburZwEIqFQ9903Z0=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/tooldef/impl/DefaultImageImpl.class
+SHA1-Digest: RFseVni/Oh0lWQowQ6MK+kqWS4M=
+
+Name: org/eclipse/gmf/tooldef/PopupMenu.class
+SHA1-Digest: lcXlsC5li/pQMLajOnLUs5kKnXs=
+
+Name: org/eclipse/gmf/tooldef/AppearanceStyle.class
+SHA1-Digest: oq3VcdzdARRi9xqatFqiZvJzVCA=
+
+Name: org/eclipse/gmf/tooldef/impl/MenuImpl.class
+SHA1-Digest: tsK1grR5TL+4HGJ9VkiaIbehu0k=
+
+Name: org/eclipse/gmf/tooldef/StandardToolKind.class
+SHA1-Digest: B+wj5bGI6+Z+GGI3EUVmkHUK21U=
+
+Name: org/eclipse/gmf/tooldef/ActionKind.class
+SHA1-Digest: GBsfAcd8E4pOw+2xMy/Nr5U9r0k=
+
+Name: org/eclipse/gmf/tooldef/impl/PaletteSeparatorImpl.class
+SHA1-Digest: Limp++fezf/nd8qsnGtvCBMquzM=
+

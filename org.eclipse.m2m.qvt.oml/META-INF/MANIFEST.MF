@@ -1,0 +1,1863 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml;singleton:=true
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.QvtPlugin$Implement
+ ation
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.4.0,4.0.0)",org.eclip
+ se.emf.ecore;bundle-version="[2.5.0,3.0.0)",org.eclipse.emf.ecore.xmi
+ ;bundle-version="[2.5.0,3.0.0)",org.eclipse.emf.ecore.change;bundle-v
+ ersion="[2.4.0,3.0.0)",org.eclipse.m2m.qvt.oml.common;bundle-version=
+ "[3.1.0,4.0.0)",org.eclipse.m2m.qvt.oml.emf.util;bundle-version="[3.0
+ .0,4.0.0)",org.eclipse.m2m.qvt.oml.cst.parser;bundle-version="[3.0.0,
+ 4.0.0)";visibility:=reexport,org.eclipse.ocl.ecore;bundle-version="[3
+ .0.0,4.0.0)";visibility:=reexport,org.eclipse.m2m.qvt.oml.ecore.imper
+ ativeocl;bundle-version="[3.0.0,4.0.0)";visibility:=reexport
+Export-Package: org.eclipse.m2m.internal.qvt.oml; x-friends:="org.ecli
+ pse.m2m.qvt.oml.editor.ui,  org.eclipse.m2m.qvt.oml.project,  org.ecl
+ ipse.m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.ui,  org.eclipse.m
+ 2m.tests.qvt.oml.ui,  org.eclipse.m2m.tests.qvt.oml,  org.eclipse.m2m
+ .qvt.oml.debug.core",org.eclipse.m2m.internal.qvt.oml.ast.binding; x-
+ friends:="org.eclipse.m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.e
+ ditor.ui,  org.eclipse.m2m.qvt.oml.ocl,  org.eclipse.m2m.qvt.oml.debu
+ g.core",org.eclipse.m2m.internal.qvt.oml.ast.env; x-friends:="org.ecl
+ ipse.m2m.qvt.oml.editor.ui,  org.eclipse.m2m.qvt.oml.runtime,  org.ec
+ lipse.m2m.qvt.oml.ocl,  org.eclipse.m2m.tests.qvt.oml,  org.eclipse.m
+ 2m.qvt.oml.debug.core",org.eclipse.m2m.internal.qvt.oml.ast.parser; x
+ -friends:="org.eclipse.m2m.qvt.oml.editor.ui,  org.eclipse.m2m.qvt.om
+ l.runtime,  org.eclipse.m2m.qvt.oml.runtime.ui,  org.eclipse.m2m.qvt.
+ oml.ocl,  org.eclipse.m2m.tests.qvt.oml,  org.eclipse.m2m.qvt.oml.deb
+ ug.core",org.eclipse.m2m.internal.qvt.oml.blackbox;x-friends:="org.ec
+ lipse.m2m.qvt.oml.ocl,org.eclipse.m2m.qvt.oml.editor.ui,org.eclipse.m
+ 2m.tests.qvt.oml",org.eclipse.m2m.internal.qvt.oml.compiler; x-friend
+ s:="org.eclipse.m2m.qvt.oml.editor.ui,  org.eclipse.m2m.tests.qvt.oml
+ ,  org.eclipse.m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.runtime.
+ ui,  org.eclipse.m2m.qvt.oml.project,  org.eclipse.m2m.tests.qvt.oml.
+ ui,  org.eclipse.m2m.qvt.oml.debug.core",org.eclipse.m2m.internal.qvt
+ .oml.cst.adapters;x-internal:=true,org.eclipse.m2m.internal.qvt.oml.e
+ valuator; x-friends:="org.eclipse.m2m.qvt.oml.runtime,  org.eclipse.m
+ 2m.qvt.oml.ocl,  org.eclipse.m2m.tests.qvt.oml,  org.eclipse.m2m.qvt.
+ oml.debug.core",org.eclipse.m2m.internal.qvt.oml.evaluator.iterators;
+ x-internal:=true,org.eclipse.m2m.internal.qvt.oml.expressions; x-frie
+ nds:="org.eclipse.m2m.qvt.oml.runtime,  org.eclipse.m2m.qvt.oml.edito
+ r.ui,  org.eclipse.m2m.qvt.oml.runtime.ui,  org.eclipse.m2m.qvt.oml.t
+ race.edit,  org.eclipse.m2m.qvt.oml.ocl,  org.eclipse.m2m.tests.qvt.o
+ ml,  org.eclipse.m2m.qvt.oml.debug.core",org.eclipse.m2m.internal.qvt
+ .oml.expressions.impl;x-internal:=true,org.eclipse.m2m.internal.qvt.o
+ ml.expressions.util;x-friends:="org.eclipse.m2m.qvt.oml.runtime",org.
+ eclipse.m2m.internal.qvt.oml.library;x-friends:="org.eclipse.m2m.qvt.
+ oml.runtime,org.eclipse.m2m.tests.qvt.oml,org.eclipse.m2m.qvt.oml.deb
+ ug.core",org.eclipse.m2m.internal.qvt.oml.stdlib;x-friends:="org.ecli
+ pse.m2m.qvt.oml.runtime,org.eclipse.m2m.qvt.oml.ocl,org.eclipse.m2m.t
+ ests.qvt.oml",org.eclipse.m2m.internal.qvt.oml.trace; x-friends:="org
+ .eclipse.m2m.tests.qvt.oml,  org.eclipse.m2m.qvt.oml.runtime,  org.ec
+ lipse.m2m.qvt.oml.runtime.ui,  org.eclipse.m2m.qvt.oml.trace.edit",or
+ g.eclipse.m2m.internal.qvt.oml.trace.util;x-friends:="org.eclipse.m2m
+ .qvt.oml.trace.edit",org.eclipse.m2m.qvt.oml,org.eclipse.m2m.qvt.oml.
+ blackbox.java,org.eclipse.m2m.qvt.oml.util
+Bundle-Version: 3.3.0.v20130611-0213
+Ant-Version: Apache Ant 1.8.3
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Import-Package: com.ibm.icu.lang;version="4.0.0"
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/qvt/oml/util/ISessionData$Entry.class
+SHA1-Digest: QdLKorZZDnlMbFgz+C2cU00syBk=
+
+Name: org/eclipse/m2m/qvt/oml/TransformationExecutor.class
+SHA1-Digest: yWUvcdA6LXJQ5SsrWJinXSFl5/4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalAstWal
+ ker$NodeProcessor.class
+SHA1-Digest: uOfws4PlcDL6PKhxMDz4Y4IaM6s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource$_XMIHan
+ dler.class
+SHA1-Digest: 4ANxdwzKws3MnIYimeWARKnhOR0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEvaluatio
+ nEnv$Internal.class
+SHA1-Digest: 39kL6PN3yKhOPcfUhqCjPjmhf5A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/IntermediateProperty
+ Hierarchy.class
+SHA1-Digest: IwgIq03ZbD+e7qqOvau6YDx+fKo=
+
+Name: model/trace.genmodel
+SHA1-Digest: 59xiCnTeeYAacswBzeK0/mMOMYo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/Context$SessionDataImpl
+ .class
+SHA1-Digest: BW05EMEhB1L34NTdRGFqn6NzQRo=
+
+Name: org/eclipse/m2m/qvt/oml/ExecutionContextImpl$1.class
+SHA1-Digest: wHMOdz3CEgNSQidLOdY5QdjOnoY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/TupleFactory$TupleInsta
+ nce.class
+SHA1-Digest: KtUf80BUq90jtH6ZtsrGq6A+rBg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTBindingHelper$En
+ vAdapter.class
+SHA1-Digest: 2Z5t9IEc6bJp1An6rn0zIRPnZws=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/EPackageRegistryBasedU
+ RIResourceMap$Handler.class
+SHA1-Digest: LnIanSkW15nMa3Lq8yOZWm0Up1g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEnvFactor
+ y.class
+SHA1-Digest: 0Xd6l+1GuyVZgCeSsGhctWxCYW0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/GenericsResolver$BindSw
+ itch.class
+SHA1-Digest: CDm0ekb79El6WJW9XCqi2RSI52w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ExpressionsPac
+ kageImpl.class
+SHA1-Digest: BnXgCdy7BsySgCOLuxm15SFsLOk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/DefaultExtensionDecode
+ r.class
+SHA1-Digest: 9jzCHxwZSejHTwVOlElDWqWSVNY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaBlackboxProvi
+ der$2.class
+SHA1-Digest: x7GONRxeIHVIn1cT/wF1tQpucDY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModuleInstanceFactory
+ .class
+SHA1-Digest: edVGymKRXBbI6Ff06yIPE5HSFqw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/HelperImpl.cla
+ ss
+SHA1-Digest: 6okafyejOTgDx59SGc1XFRD5Edc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/DeprecatedSignaturel
+ essTransf.class
+SHA1-Digest: ip7EUbxwvU9WjfCv5tLXEoap9A8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/OCLAnnotationSupport$
+ ParseErrorHandler.class
+SHA1-Digest: lYrldESpbTJ2H2LjoricJebqMe8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations$6.class
+SHA1-Digest: cULSWgb7pilMJsnVFjNNmHpSlnA=
+
+Name: org/eclipse/m2m/qvt/oml/util/ISessionData$NamedEntry.class
+SHA1-Digest: bK7xuTMa4r/KSlb+ILojunrRl7s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations.class
+SHA1-Digest: POo4LmcnoL1eqe8fOo0iX67ytRA=
+
+Name: schema/unitResolverFactory.exsd
+SHA1-Digest: ce9PyLTHavvIfuOfjK8CleyeLFM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$15.clas
+ s
+SHA1-Digest: RnwhRsv2nLSLwMvcipH8YtTZIvg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/InternalEvaluator.cla
+ ss
+SHA1-Digest: WfQwXDVO4ioTwov5XbQm4tOpn1Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModuleInstance.class
+SHA1-Digest: HXKFUxtBqmkRDJh8mTpAhs39Lbk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/MappingParamet
+ erImpl.class
+SHA1-Digest: HC2daa+IUDgclM0SB5QcCYOHu1M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$1.class
+SHA1-Digest: aCt8i1CPB1b8gAimx7mlqW3veZQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/CollectionOperations.cla
+ ss
+SHA1-Digest: e8gfkR0R3QeBSh/ixSSOKjmTT74=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/Context.class
+SHA1-Digest: fN/8BQsFcFkWJL2GqzvaSjnwccQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/DeprecatedImplicitSo
+ urceCallHelper.class
+SHA1-Digest: zdL44/K4bsJ5pqSgbVQSQP79F1c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtAssertionFailed.cl
+ ass
+SHA1-Digest: CkHnxW09wvVEnxeCw2gWcW3cH7c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/VirtualTable.class
+SHA1-Digest: JRS5/pBVMISGXfqymYYJtNeRGgo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/BlackboxUnitResolver.c
+ lass
+SHA1-Digest: ooBTK0j3Nl4dXOI4iHAgFlWA/PI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitContents$CSTConten
+ ts.class
+SHA1-Digest: hP7ifmIdmxYk1kbGoYsNi8TIFts=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ResolveExpImpl
+ .class
+SHA1-Digest: RWzR5fk1a49eoe5ca9bkq53G8mc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/ModelParameterExtent$Ex
+ tentContents.class
+SHA1-Digest: 51EMu0bEc6+HMnD6SOEmiA0UYWU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$UnitResol
+ verImpl.class
+SHA1-Digest: A6g36evZdUNWZCmwiQmBZxCOv1s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitResolverFactory$Re
+ gistry.class
+SHA1-Digest: 8JFw/23Dxz2HbHGN9QJVrM/3DSQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompiledUnit$1.class
+SHA1-Digest: D13cN/WIK21xf5m32SiDilLY5wg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ExpressionsFactory.
+ class
+SHA1-Digest: 6zP1f6drFR/VdURfPEMcIfIuSoM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ObjectExpImpl.
+ class
+SHA1-Digest: L2lnsL+BrmLzcOMjhnjLo+Z15Wc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitResolverFactory$Ba
+ sicRegistry$1.class
+SHA1-Digest: eMjr3cN97T9szhw+cbUPZ+0Ki9w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StatusOperations$3.class
+SHA1-Digest: dTmC5XJ3nMO33VDWpgMjIvGQd8A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/util/ForeignVisitor
+ DefaultValue.class
+SHA1-Digest: 2bN8yt09y5BHYkVaqccVrq/ADVs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QVTExtentMap.class
+SHA1-Digest: qGOdpjlvCv/0dFRru7Wtx25VgPA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/MappingOperationToTr
+ aceRecordMapEntryImpl.class
+SHA1-Digest: POkp8fSXIsldcQhCY29YDvRIHvg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource$Factory
+ .class
+SHA1-Digest: SyFw5Oa2NVkwarQ7ltQsvSYkzx0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/TraceUtil.class
+SHA1-Digest: btanUumF4jHS8XJfctERGpnjtjM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/VarParameter.class
+SHA1-Digest: 5P9A/iJ7EmpNGBpYEnKdK3T7EGk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/ModelParameterExtent$Re
+ adonlyExtentAdapter.class
+SHA1-Digest: kpIH498oYVR+jDMz0llF0PDu04s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/messages.properties
+SHA1-Digest: fQBIhqivjmunGDOq2xF5gbIdkIo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ModuleImportIm
+ pl.class
+SHA1-Digest: WfsFWFM0GJ3f8/+DDSTuWr7LOW4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitContents$ModelCont
+ ents.class
+SHA1-Digest: FwMqb/624BicIBPzwyIQ4Azi3QQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QVTExtentMap$1.class
+SHA1-Digest: vvqukybvrCbte7qJTMy4oQyy8wQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$MappingCallResult.class
+SHA1-Digest: 4Nk67Hl9X9Erf+SCYkHDiWPRNFI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/MappingOperati
+ onImpl.class
+SHA1-Digest: fVk46AqZCqCQCFRg77rrmuds264=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/OCLAnnotationSupport.
+ class
+SHA1-Digest: +njaxT8ewUYQZcTrf2PR1oqTSxA=
+
+Name: org/eclipse/m2m/qvt/oml/blackbox/java/Operation.class
+SHA1-Digest: N3bFOMaYco3ZbRY5VEECfHbaNUc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$6.class
+SHA1-Digest: P0SL6BO+JanzwRaI23N8cFP418w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/MappingBody.class
+SHA1-Digest: kXsADJfJ7OJ+W6Fs4HFOtPas9IU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$3.clas
+ s
+SHA1-Digest: x9YaQuvjMBiqXMoFf6rBhg6H6CY=
+
+Name: model/Stdlib.xmi
+SHA1-Digest: vHZGhyf3QEuDQJppV6BojtYbeio=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$5.c
+ lass
+SHA1-Digest: 27OU8TCxX2JVcuRmJ9dHjQwpwp8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QVTStackTraceElement.
+ class
+SHA1-Digest: YtoIyEjnAdY2fLj37QzigSVcKaw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/QvtMessage$TextPositionsImpl.cl
+ ass
+SHA1-Digest: 64mfY9ymHpFJQPC8HNvLuiTkW14=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ListOperations$1.class
+SHA1-Digest: YunP/Ju7NLZagmjrkASnQNUwQ/M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompiledUnit.class
+SHA1-Digest: qisy1tJfSE5s7aLNThXDUYrGV8Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ModelExtentHelper$ExtentEntry.c
+ lass
+SHA1-Digest: 9yMU8Oo59baN5c7soZj6ywSlUQY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalParser
+ Util.class
+SHA1-Digest: zivcgpLkJistsAosBgLOmEs6WxU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$CSTAnalys
+ isResult.class
+SHA1-Digest: W1Ir7LKapsqfq6xyww1dJcoD1iA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ExpressionsPackage$
+ Literals.class
+SHA1-Digest: lzN67Z0/IkJCu5R27O4jsdc1Wko=
+
+Name: org/eclipse/m2m/qvt/oml/ExecutionContext.class
+SHA1-Digest: o7BYENDv9YxIrfGAaiVYTwgLOBo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/InternalTransformationExecutor.
+ class
+SHA1-Digest: Bvc2MNvtzr1feKxTfW+Gh7E4OR8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ResolverUtils.class
+SHA1-Digest: 1YbyE7nx3AWRHJrsH6GwtDGulH0=
+
+Name: model/QVTOperational.ecore
+SHA1-Digest: zLdYhjB3qSdvgP5aCKxWO32B3lI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/CustomOclValidationV
+ isitor.class
+SHA1-Digest: wQhMRaLhC71DeLbNiH4LGsWVkhg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompositeUnitResolver.
+ class
+SHA1-Digest: p9Nj8BTGqcwJnrbo4dlNkMMRD08=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/iterators/QvtIteratio
+ nTemplateCollectSelect.class
+SHA1-Digest: Y2+NdUcaE3m07F0nB9wUBCI/p00=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/Helper.class
+SHA1-Digest: dVdpqPuSPQ3Jr1Tq5GdPzbW+sBA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/DefaultExtensionDecode
+ r$SyntheticNodeHelper.class
+SHA1-Digest: EawTK94WYLUJr0lI0u5noXUyHN8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/VarParameterValueImp
+ l.class
+SHA1-Digest: PpCBMNRbcKyCfzXKQ+8ylZebTlY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$1.class
+SHA1-Digest: tdOSmeRM6DmfAXNWuI+wUiP8O5k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/DelegatingUnitResolver
+ .class
+SHA1-Digest: h15XdB3jzYrCvT7A+Z2gces37KM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/MappingOperation.cl
+ ass
+SHA1-Digest: F4QK0XxSknZRo43Suif6nj7BYQ0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/TransformationOperations
+ .class
+SHA1-Digest: ApoQ1FDUnkoBx6f9RoprDiGEFtg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/model/StdlibPackage.clas
+ s
+SHA1-Digest: bLO/t07nJvBTQ9iMu2OGmSNiLak=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QVTOEnvironment.class
+SHA1-Digest: qNYyHVdPncJgcwsqgrWVIXmnV1I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTBindingHelper$AS
+ TAdapter.class
+SHA1-Digest: t4odkumjHLIbFCEAgElJNHEWh68=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/CallHandler$Access.class
+SHA1-Digest: LaoeOWAKu6Z7LEBeQkiaViEXNxE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingsMapKey.class
+SHA1-Digest: +I/0VZesMvAexyjRavcby5jLkuQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractContextualOperat
+ ions.class
+SHA1-Digest: RFgUVbZU/jZhThVRtc1RK6L25C0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource$1.class
+SHA1-Digest: PfK4pi5G/mynhKKJIsc6zo8tL6E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/EvaluationUtil.class
+SHA1-Digest: 0D607Eu99ADWcpZuk9hOvYTUEVo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/ResolutionContextImpl.
+ class
+SHA1-Digest: vRvHc06OizUQMddbvbGFHCDOm1A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalParser
+ $RunnableQVTParser.class
+SHA1-Digest: kdTVY1E+FzW+NN2rcgNyduJsYNY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ResolveExp.class
+SHA1-Digest: qaGENV/zPBrbVJz+/GrtfC+MHoA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitResolver.class
+SHA1-Digest: O/Z+f+wnQQZ/su/8VJoBMUTtZtg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$8.clas
+ s
+SHA1-Digest: FlygPAVp1LpkIgIDRhBh/meoIts=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ExpressionsPac
+ kageImpl$1QVTOPackageImpl.class
+SHA1-Digest: LugRt+ZOOy/LtocrQpOLsAfTkSc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalUtil.c
+ lass
+SHA1-Digest: 7384YraI1lrLEKP2L3CJ7YyPgWI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEnv$2.cla
+ ss
+SHA1-Digest: fuZjF0jFZPKmtC/UHss8+m9CiOI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$20.clas
+ s
+SHA1-Digest: HPSn5+bRbS9MnTs+cbeQNvZxGwA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaBlackboxProvi
+ der$Descriptor.class
+SHA1-Digest: DnH9a4siMzoW0C3jZhSqLL1GETo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitProxy.class
+SHA1-Digest: oAxolVMZmx/cOVbmwk9OpE3q93c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitContents.class
+SHA1-Digest: qe1XBKcj2u5sdLh/L3rCMYrmQbI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/IntermediateClassFac
+ tory.class
+SHA1-Digest: 7rNrY7yvo0uYISqs9DxInI6YkKg=
+
+Name: org/eclipse/m2m/qvt/oml/blackbox/java/Operation$Kind.class
+SHA1-Digest: 4pVxiD6JwfuCQx98QNITYXHnk0c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/Module.class
+SHA1-Digest: Pq5DHHEbW1eujbdR6UHX4ALGYjQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ResolveInExp.class
+SHA1-Digest: PSwdD9MdoVmhXbaTfyXv9mBPXzw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtEnvironmentBase$Coll
+ isionStatus.class
+SHA1-Digest: IjOSxnkzg9i+8ug0h6WvRaiRzYQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/iterators/QvtIteratio
+ nTemplateXCollect.class
+SHA1-Digest: e19Ovtmi6X4ZDeR8i9UJ57i8OEo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ObjectOperations.class
+SHA1-Digest: J8pOySXO9t3dkASGk2/Hj9INfIE=
+
+Name: schema/blackboxProviders.exsd
+SHA1-Digest: AJfE9AYGBkWlfjCnxclXqhlXAJ0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/OCLAnnotationSupport$
+ EOperationBinding.class
+SHA1-Digest: Q7PSFx0RnNQiWwL8HvOfUdom6OI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/EMappingResultsImpl.
+ class
+SHA1-Digest: fuzqQJwxVD2EflvpnFmcyolRaJQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/ExternalUnitElements
+ Provider.class
+SHA1-Digest: pxdNaJgdHormrfjtmN48YS3+d2g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/IVirtualOperationTable$
+ Access$1.class
+SHA1-Digest: teCBYtL2KE4BbQ3VVuX/vRQDIJY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource$_XMIHan
+ dler$1.class
+SHA1-Digest: O5OhmXdgDIDvwy2GY2QTSnH92BQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/OperationBodyI
+ mpl.class
+SHA1-Digest: 9VN3YlYFKdvLnUnbGcXnVTVp1fo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryImpl.class
+SHA1-Digest: eyuOTzyDSzmcUtXrg0PiWG0xo+I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/AbstractBlackboxProvid
+ er$InstanceAdapterFactory.class
+SHA1-Digest: X3kv26UxkTuCa4hKkDiTprTs9e8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ModelParameter.clas
+ s
+SHA1-Digest: SVcff56zgxJ/xS4/pMlRDGoozEQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaBlackboxProvi
+ der$1.class
+SHA1-Digest: pUzjBZnb6whX//jkPfkXODoIkqE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/TraceFactoryImpl.cla
+ ss
+SHA1-Digest: nwETBL1VJcEO2/Lt1WYpns/uel8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalVisito
+ rCS.class
+SHA1-Digest: +PYVOdIVPqSnD8IiBgftrgWA44I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations$5.class
+SHA1-Digest: a2PwS/urdZM7279/Xkt9cwWLE08=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/MappingCallExp
+ Impl.class
+SHA1-Digest: MBURLVsoNNCM+QoLetEW/AuNqAY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/IQvtLaunchConfiguration
+ ContextListener.class
+SHA1-Digest: 9EJQMDEnR/MR4X7PzTbn92PlJ84=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$14.clas
+ s
+SHA1-Digest: axu+IcrT2hnsQKM7R+MRT6ioJMI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTBindingHelper$Mo
+ duleASTAdapter.class
+SHA1-Digest: tgCg5Ffsq4kYW2BjpBfXU+IzxEw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/BlackboxUnitResolver$B
+ BoxUnitContents.class
+SHA1-Digest: XEzTuHUAckgglWqizYgHoSj6Juo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/adapters/AbstractGenericAda
+ pter.class
+SHA1-Digest: 7jisep5j2fW7DQhFU3xzD4wxXgM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalValida
+ tionVisitor.class
+SHA1-Digest: KO3R9ZCi8G8DptFTWcX1406iz3g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/EValue.class
+SHA1-Digest: YvNYI5yO3Rkh5CdBxVDsYQ7cyNo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ImperativeCall
+ ExpImpl.class
+SHA1-Digest: 5mGP8rsUPOYlsWpki+sakU9+DwY=
+
+Name: model/QVTOperational.genmodel
+SHA1-Digest: 17a5iMzwGBZvQNqpNGZ2F6r28jM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$25.clas
+ s
+SHA1-Digest: jiF8PiAfl04fyyMpAYvQlVi9pVA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/TransformationInstanc
+ e.class
+SHA1-Digest: cMoLz6uDEAywAjf0txJruigtGjc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ImperativeOper
+ ationImpl.class
+SHA1-Digest: rtsGaq6FxQJxSHCl9sEOww/WO2o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/OperationBody.class
+SHA1-Digest: fdwqpIfBQriP8v2eOP1hJxXDSuQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/iterators/QvtIteratio
+ nTemplateForExp.class
+SHA1-Digest: sRbEoH6BQJLxNGdJh5wlKjA4d88=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StatusOperations$2.class
+SHA1-Digest: C8CJXCJv50i9VXgPEYrT9Tju1nk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEvaluatio
+ nEnv.class
+SHA1-Digest: LnSxL4v5Q5PvZN7u165vAVAiSsI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/GraphWalker.class
+SHA1-Digest: cmScbYAGL+lcUM6fmDJL6wx1KDE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/TracePackageImpl.cla
+ ss
+SHA1-Digest: WesuwCoO+Az5REStYxWJMoLz2tU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtStackOverFlowError
+ .class
+SHA1-Digest: yP8pVvvpyJf/PeLstAF0W5eSujg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/TransformationOperations
+ $1.class
+SHA1-Digest: Y0yXRY6q2Kx2jc29TrrAk2cGImU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/EValueImpl.class
+SHA1-Digest: tdpHJKM0RpLemccRQ2EvSefQlEc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/AbstractBlackboxProvid
+ er$3.class
+SHA1-Digest: VbPB3Y81PMyBBCderu5MWGgYlNc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/CallHandler.class
+SHA1-Digest: FMKOE6EeojNqMfG2PUdcbd/bTNk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/DeferredAssignmentLis
+ tener.class
+SHA1-Digest: axltmOGM0WRCZbQPEJVqyityXJM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/OperationalTra
+ nsformationImpl.class
+SHA1-Digest: kZEcVe95lZjeGJsYYB5tyrhLm9I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$19.clas
+ s
+SHA1-Digest: dGu697eI2j41CV7PZ0cq6S0MGHQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEnv$Looku
+ pPackageableElementDelegate.class
+SHA1-Digest: Dz476ifO8/nr+yzsy2aKROnPrq8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ListOperations.class
+SHA1-Digest: TTOslzEVhMChOjN7Rc45Pt8suSk=
+
+Name: org/eclipse/m2m/qvt/oml/BasicModelExtent.class
+SHA1-Digest: 41er18wniGoxBhDSRTVa5NoqzpI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$5.class
+SHA1-Digest: G9E5QdMeifhYyV0qZgO/nyoGK4M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/GraphWalker$CycleExce
+ ption.class
+SHA1-Digest: GKLiOzM54N6MisLZjzza/wca3H8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$2.clas
+ s
+SHA1-Digest: iOW0wgONVfnVXbzf+hqnTKnxMPM=
+
+Name: org/eclipse/m2m/qvt/oml/blackbox/java/Parameter.class
+SHA1-Digest: HlQbsC8Hn4RgZlpS6DHkBgKRMyY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/BlackboxUnitResolver$B
+ BoxUnit.class
+SHA1-Digest: 7z+UvNd7V4MEfTR7I+7IiEyXz5s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/DefaultExtensionDecode
+ r$NodeHelper.class
+SHA1-Digest: D3Friao1ciAOCuvn/HvXV/E1aM8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTBindingHelper$Mo
+ duleSourceAdapter.class
+SHA1-Digest: 22zvg4DwpvWQJCXPpeuUJ9cUthI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$4.c
+ lass
+SHA1-Digest: 1/PtHmkUVa4xO5uyjqeUR4Uh/cA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/HiddenElementAdapter
+ .class
+SHA1-Digest: ULS+r+z2pZaTDy6jW01mRHHJ59I=
+
+Name: org/eclipse/m2m/qvt/oml/util/Dictionary.class
+SHA1-Digest: sLnP64JP+q4/3E/i8XY/EWL+mcA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIExtensionEncoder
+ $CorruptedExtensionData.class
+SHA1-Digest: FheOAincgnSq6FmOZymnUcE74n8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/ModelParameterExtent.cl
+ ass
+SHA1-Digest: m7mvWzaZ91ZHFBXhq3QiHeXn3S4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/TransformationRunner.class
+SHA1-Digest: IUOkP5uvtE1IyDMtjzDDcaT9cz4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$SwitchAltExpResult.class
+SHA1-Digest: D7PSnHJmg0PzyDWn7UD6pyZx42I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/OclAnyOperations.class
+SHA1-Digest: xD7mkyhgh68mmKr4GO99k5j27/Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/NLS.class
+SHA1-Digest: ryCXIXoJUUl8eBKUd4FdU/dQMjc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations.class
+SHA1-Digest: GZWkZ6l4UV7pBWRrQDX85G9GeY8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtTransitionReachedE
+ xception.class
+SHA1-Digest: KJ/y9NwGw+LNPeO1AGvFJYQaAcM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/MappingParameter.cl
+ ass
+SHA1-Digest: vyT0C813j6OdTkNmsg/+koSyzfE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/LegacyResolverSupport.
+ class
+SHA1-Digest: Fwf6O0Ps6VwdhY+Iix6wFLvFuw4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/IntermediateClassFac
+ tory$IntermediateStaticFieldAdapter.class
+SHA1-Digest: SFtS0E8vppiEw66rjmOiUPjS10Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalAstWal
+ ker.class
+SHA1-Digest: tKjnuh2kN49ma3AUt+jt0cKlfcU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/VarParameterValue.class
+SHA1-Digest: nanHOsKGdJeONMHKJdXNP9tUpm0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QVTEvaluationOptions.
+ class
+SHA1-Digest: 8Ay/rLp3T11o0OMKNKTuSo6snF0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/QvtResolveUtil.class
+SHA1-Digest: 4qSIyR2doCfYA+LkhAUFZFFktqw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/Constructor.class
+SHA1-Digest: 0CtT2HPmESXVIa7Kc2AtfAA3PYc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ModuleImpl.cla
+ ss
+SHA1-Digest: HTZPvVFUAnDVENtpvnq5YEwDD7g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ImportToNonTransformC
+ txHelper$ModuleInstanceCachingFactory.class
+SHA1-Digest: KIJ/kzCoj2ayoDfF/Nw/2fRJ5qc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompilerMessages.prope
+ rties
+SHA1-Digest: J5WY7ZLZs8AWL8y4YK+1oZrpZfU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ModelType.class
+SHA1-Digest: Q+S3NWt5COEmFlS0/OA3t/Kj9rI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/ConstructorOperation
+ Adapter.class
+SHA1-Digest: VSEDeTcqTlTX+LiOcIlh8w3sgz0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModuleInstanceImpl.cl
+ ass
+SHA1-Digest: 6Tkv0PMp0uSSO4wLJj6W2YR/wPo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/LoadContext.class
+SHA1-Digest: lmCVLzA1hmBqRaCzew6vzCnPenY=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalVisito
+ rCS$TypeSpecPair.class
+SHA1-Digest: a8JN9fRjX3liBpvYu0LhDQWNvqQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/VirtualTableAdapter.cla
+ ss
+SHA1-Digest: qBLCCD+IiM1VHDkgA/Rrb+Z5+MQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ExecutionDiagnosticImpl.class
+SHA1-Digest: Aw8n6Z/XGSMasfZySPoLZvH3Yh8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$7.clas
+ s
+SHA1-Digest: Wgo9ZAjksCkxQ0tEgUEQDwwAuv4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/AbstractCompilationUni
+ tDescriptor.class
+SHA1-Digest: sbprDSBhTS5ht74nCHULFjKsUhU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEnv$1.cla
+ ss
+SHA1-Digest: yWBjCf+7v2Xq/JmnaED+vdNvyWI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitResolverFactory$Ba
+ sicRegistry.class
+SHA1-Digest: c1FAKgVlnhNihuQhSk17/10TiU8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ObjectExp.class
+SHA1-Digest: 3ig5k6U6+RLqkGGD6v/0lcG+B5U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/TraceRecord.class
+SHA1-Digest: oKFR8hyIJeu2sSsm2WAY7Iob0bk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QVTOStandardLibrary.cla
+ ss
+SHA1-Digest: lo6ux4v4hA7n/N/b5MpnS539cqI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$StringC
+ ounter.class
+SHA1-Digest: gNIKjcFY25D6yU1XS/LEfvMGjiY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/LateResolveTask.class
+SHA1-Digest: VOgT0LV6Mc2utKZX49colEx2aL0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTSyntheticNodeAcc
+ ess$ASTSyntheticAdapter.class
+SHA1-Digest: Uhmg/2L6/BUSpgMFQITBtUQ+JYk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ResolverUtils$2.class
+SHA1-Digest: Q+Fr9DBLIXd80Tn4VN9bIIo1Koo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalStdLibrar
+ y.class
+SHA1-Digest: aiJAuajue9v9k64XgMC2ZSxArqo=
+
+Name: org/eclipse/m2m/qvt/oml/ExecutionDiagnostic.class
+SHA1-Digest: TkNaE2beMzVjQObsSoo+cohIMHw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/ObjectToTraceRecordM
+ apEntryImpl.class
+SHA1-Digest: sG3558SAqlFet3mVHrq7A5YR+54=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/DirectionKind.class
+SHA1-Digest: jEZqEk5oebCT/puClVEZGZVpDL4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtTypeResolverImpl.cla
+ ss
+SHA1-Digest: jXsPX67j+h75BdCysfL+vhcK6l4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/TupleFactory.class
+SHA1-Digest: Q/NEF8AClSK6ozQsmgAYlDeyEcQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalVisito
+ rCS$1PropertyPair.class
+SHA1-Digest: GmbLa3At2mnxfaVwUMkQr0JDEwo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$1InterruptVisitor.class
+SHA1-Digest: VKY3aiO8jUIFNcMOFD4zFFNOSjE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ResolveInExpIm
+ pl.class
+SHA1-Digest: 07Q7TdhLyBW+yDhMHNr3whcuQtg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/ValidationMessages.c
+ lass
+SHA1-Digest: lTcpzwxxjQf9BG7Wxz6+o3rXUMI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/NLS$Default_NLS.class
+SHA1-Digest: DSgRoyAdG8RsAn2uM+9RrsvMtHg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations.class
+SHA1-Digest: T/wt/InxwSXxu5jNmYTZVEaITHs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations$4.class
+SHA1-Digest: oC47ZF4UyNQZ1yLfSrsqtSuG6Ek=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$13.clas
+ s
+SHA1-Digest: FtNPb4eTFf+7ioHTl4RpIkspRM4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/BundleModuleHandl
+ e.class
+SHA1-Digest: jAH1cef7as0V5d0Ma7XjE9dfZPA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaBlackboxMessa
+ ges.class
+SHA1-Digest: h5BbfV3IhVd25FM9OTH8pMI+PlA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtEvaluationResult.cla
+ ss
+SHA1-Digest: evkAeuNvGWnVRdf9M+kTOYkfQAQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ModelTypeImpl.
+ class
+SHA1-Digest: BTyeNX3trEZhBVqYdwbTT3TxDZ0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaModuleLoader.
+ class
+SHA1-Digest: OuAAIA7geo7Mow4h4q2B6ZQ0fEo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/EvaluationUtil$1.clas
+ s
+SHA1-Digest: 9AOU3+nmN4DciuZZyNZkTCNK0wU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/ValidationMessages.p
+ roperties
+SHA1-Digest: P4ZVclQ07pU/zWzv3MxC8mRGsdA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitResolverFactory.cl
+ ass
+SHA1-Digest: il2iJVdqakkbB6C08+ZQb4CtWEQ=
+
+Name: model/trace.ecore
+SHA1-Digest: XXC+F2QtTkVyH1qAKzRM8ez2C9Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/IModuleSourceInfo.c
+ lass
+SHA1-Digest: 4KV2TQnc0O124sPQEajlm5D8wAk=
+
+Name: org/eclipse/m2m/qvt/oml/ExecutionContextImpl.class
+SHA1-Digest: y/III38xCmLqZrpm49Cj8i1HDDg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MetamodelResolutionH
+ elper.class
+SHA1-Digest: vI5oLDPN8mBQ+IObcgPUuPOyIhU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$24.clas
+ s
+SHA1-Digest: WX4LyZqhbRhuWKDHJYAZ9fZE2xA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtEnvironmentBase.clas
+ s
+SHA1-Digest: jECuK2L2JILevjIAL4WBMrc5GXs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$Dependenc
+ yPathElement.class
+SHA1-Digest: WtO5V5DFQH+qxOcs2TWkHZZUS9M=
+
+Name: org/eclipse/m2m/qvt/oml/util/WriterLog.class
+SHA1-Digest: Crt29vCA1MLxZMzDXkdAXUKcekQ=
+
+Name: org/eclipse/m2m/qvt/oml/util/Log$1.class
+SHA1-Digest: 9+rO3NI6m6WTs/CdTnOjdjPFs4w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/EMappingParametersIm
+ pl.class
+SHA1-Digest: d5H/z3TdRdOwE2WAmxpXGk+TDrU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StatusOperations$1.class
+SHA1-Digest: 5gKGo1iCqYDh9jzta4grX0R+ioc=
+
+Name: org/eclipse/m2m/qvt/oml/util/StringBufferLog.class
+SHA1-Digest: XSDwEyjENM6aaqFauYwKO4mVAU4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTBindingHelper.cl
+ ass
+SHA1-Digest: tSmYhB/4In8RkasrVHux0vSZl/w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompilerMessages.class
+SHA1-Digest: kAQmRGx5MXusKIhg/pIFo8Whlyo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/EMappingContext.class
+SHA1-Digest: 0uK5MVX0Ew5i47cfs8DFsLdoKrA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtStackTraceBuilder.
+ class
+SHA1-Digest: yLoKRuvQ5w2ByBh5X+6RaIMOMtM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompilerUtils$Eclipse$
+ 1.class
+SHA1-Digest: gzF6hvFjflXMKkGQzyWkCZR398g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtRuntimeException.c
+ lass
+SHA1-Digest: w53jgUR5v0ljSaVTr+5ZW5QVuhA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalTypesU
+ til.class
+SHA1-Digest: fEKkq/tNo5cnFztcXiH7quXydiQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er$DisjunctValidator.class
+SHA1-Digest: TLZO647p41CMiX5XlQD6MRCrVus=
+
+Name: schema/javaBlackboxUnits.exsd
+SHA1-Digest: Molkvv3/mLfNTa0Eb64r/+F/P88=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl.class
+SHA1-Digest: RSfJLfmRtlKjK9OHUM6+CW2U+G0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/AbstractBlackboxProvid
+ er$2.class
+SHA1-Digest: cqRv5SfYQ5WHVTrwzzdYHZaKa80=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractQVTStdlib$IFilte
+ r.class
+SHA1-Digest: m6v3qfw5mqVgs6XuISXp3kTIHc8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTSyntheticNodeAcc
+ ess.class
+SHA1-Digest: 2ng4LyJVpP56dX8syUFaKKlUQPo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/LibraryImpl.cl
+ ass
+SHA1-Digest: yrxQ6+HOWBeDLcIWRadiSXgXPWU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$18.clas
+ s
+SHA1-Digest: s3ppWHvCrCy/lSbs54KBG9Uikfg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/IntermediatePropertyM
+ odelAdapter$ShadowEntry.class
+SHA1-Digest: ng+4U3b2kdxTy3vj7kNuGvh7Frw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$4.class
+SHA1-Digest: VRdu8AaRJrjk+JunjnQlohzqwt8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$1.clas
+ s
+SHA1-Digest: hfPdz1YvoRixpfkSKSekYWOm0kc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/QVTUMLReflection.class
+SHA1-Digest: 8BYL25EJZBAHB2q7+ynfZ4nJENc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$3.c
+ lass
+SHA1-Digest: Y2IXKTq/tr+zBfJdEXg5gDFAIck=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtGenericEvaluationV
+ isitor.class
+SHA1-Digest: 3oPzh/KRF4tf7EY59VlGJ+WRRRE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/util/ExpressionsAda
+ pterFactory.class
+SHA1-Digest: EUigsUOr9DmEhDNygRmmfS4XWn0=
+
+Name: about.ini
+SHA1-Digest: t0FfqhXQ1DOntXUimIG6MWb0U1g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/TraceImpl.class
+SHA1-Digest: bo5LGuccmKpaJcYZpUsPvX3DbZc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/DefaultExtensionDecode
+ r$ASTNodeHelper.class
+SHA1-Digest: 2tRfimBh7DnIjZE1pxWp4/txCsY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ModuleImport.class
+SHA1-Digest: Tew49Q6mrs+LSSM/uaQt7yW3WCo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/EPackageRegistryBasedU
+ RIResourceMap.class
+SHA1-Digest: fnBZ/zfWvUFfJQUtec1LHatgHCc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/RuntimePropertyShadow
+ Helper.class
+SHA1-Digest: CljY/hzZL0nE1ct4asAmqVrm7ss=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/AbstractBlackboxProvid
+ er.class
+SHA1-Digest: ijb6tyzi5CjmxSi5FlVFHGYTuI4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$Interm
+ ediatePropertyCopier.class
+SHA1-Digest: or8cFVMF1EPEcGoD7TepvRIpK2s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/TransformationInstanc
+ e$InternalTransformation.class
+SHA1-Digest: VPfAzKGOzVNZOur/xKXqhrceEkE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/GraphWalker$VertexPro
+ cessor.class
+SHA1-Digest: wyzd5/o2FhBEqj38OjMdGNdtBvU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations.cla
+ ss
+SHA1-Digest: KOPzahH7CMaYRrwBa/NS2UvtxtQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er$2.class
+SHA1-Digest: ccgWSI0umLGKk6CeWcN0SD8HNnU=
+
+Name: org/eclipse/m2m/qvt/oml/util/IContext.class
+SHA1-Digest: alnuFkX2aEJKppPoS4Mrx95gDRE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractQVTStdlib.class
+SHA1-Digest: 3IGMyr3PhGd0tDLxaQ5a0DjU0ho=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/RealOperations.class
+SHA1-Digest: JddXLibTmjz5bAJkewqSHdaIRpA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/TracePackage.class
+SHA1-Digest: g7FXFkMKez6teQxwhrg6nZrSm4E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/VarParameterIm
+ pl.class
+SHA1-Digest: 3mPBaEbTt6XUVzqLqL8GKc8ndCc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/Messages.class
+SHA1-Digest: EEhnt3dfet1gjMBJCoSnVmr5gtk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$9.class
+SHA1-Digest: iTCQA7H/VC3pp8gMZyN8KFn4lkU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$6.clas
+ s
+SHA1-Digest: fp18AXxMIgKbGspORKz+VuOs0m0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractQVTStdlib$1.clas
+ s
+SHA1-Digest: s2xqX+R65ggYbNfkYHGccZEYn1E=
+
+Name: about.properties
+SHA1-Digest: mrIXgiZkIAGs7ugeqD4ItupMXmg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/ModelParameterExtent$Ex
+ tentResource.class
+SHA1-Digest: Em5dz6ekpDS6XyHSN6yGfHtgf8o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ListOperations$4.class
+SHA1-Digest: 7nHSSc9k/0C2vAWRh0Km+MOJ+SM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/EMappingOperationImp
+ l.class
+SHA1-Digest: 3YiEN+rkREvca5cGj8t6XIkcZ70=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/ModelParameterExtent$Ex
+ tentResource$ContentsImpl.class
+SHA1-Digest: 8mn9BXsrpW39dvzQzThcrkm96TA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/QvtResolveUtil$SavedSou
+ rceObjectHolder.class
+SHA1-Digest: iyYE+cb+PzgMt/Uw7Bm1aNWhdSo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompilerUtils.class
+SHA1-Digest: whGEzfFGXhwIwr8tGNTOb7M3mwo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/iterators/QvtImperati
+ veIteratorTemplate.class
+SHA1-Digest: CjIpaLNpf8YdoZGryAfrL63QJhA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ResolverUtils$1.class
+SHA1-Digest: z+OUKfb1FZL+MHDj0Lxq7+2JZyQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/Java2QVTTypeResol
+ ver.class
+SHA1-Digest: InK7fBhom1/sQzDMu2XEOZQn40I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/OperationOverrideMap.
+ class
+SHA1-Digest: b4PTc0O98D+Mvvu/HTOAQZE4rno=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/OclAnyOperations$2.class
+SHA1-Digest: eon8xdOc6qmdKearYxzCjmZAVn4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/LateResolveInTask.class
+SHA1-Digest: SDlyeoYq4Xdb2qjALJYcbvvsdD0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/TracePackage$Literals.cla
+ ss
+SHA1-Digest: NkYFY78yebNrzCsihIbo4YAdKBQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/ModelExtentContents.cla
+ ss
+SHA1-Digest: /YSdZhMPjp/XPtWS/DdBKikfR9U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/URIUnitResolver$Unit.c
+ lass
+SHA1-Digest: CsPzn8yJ3g3mAHC6QZv0OI5JIFY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er.class
+SHA1-Digest: I6s05H5Wd65Resir68RUm7gfo3s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitProvider.class
+SHA1-Digest: 3aFFoitX++ilX4+yaYhFBFc1sZs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/model/StdlibFactory.clas
+ s
+SHA1-Digest: l73F5/PbJmFTBVbsyqklX1xYEL8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/ETuplePartValueImpl.
+ class
+SHA1-Digest: Ai0LIsD2RFt2zVi2ICFCUTHQmLs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource$_XMISav
+ e.class
+SHA1-Digest: XhJouEWV0nDZln21dyswS/wSLIU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations$3.class
+SHA1-Digest: ninL0sKSvDGEn5Lfpm2xoTYyhUs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/GraphWalker$ObjectPai
+ r.class
+SHA1-Digest: 3JrkZffQHD5PcHrFXOUzM1pjVIU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$12.clas
+ s
+SHA1-Digest: FAyhI7o9C33IDN/UTxZRZIDQoTI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalModuleEnv
+ .class
+SHA1-Digest: bSsk0AdfyYfpAcZaIFsC+xksSTo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/IntegerOperations.class
+SHA1-Digest: kmnj+emmzuBAsEqeJ4iM1w6HpAg=
+
+Name: org/eclipse/m2m/qvt/oml/ModelExtent.class
+SHA1-Digest: 5L6xbYHw3/Y8NJIao+sdY1tn1+I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaBlackboxMessa
+ ges.properties
+SHA1-Digest: YYeOmRd8VP4bLkczG98IFDfoCdM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StdlibModuleOperations$1
+ .class
+SHA1-Digest: RNUfuu2eg6Owyewt2QVRuiMHkFw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ModelParameter
+ Impl.class
+SHA1-Digest: ps7vFEZQFApyONug0Imm2KE6/SI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$2.class
+SHA1-Digest: cMtfZbwK85DMmg6Ji1OGXJfS/ps=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractContextualOperat
+ ions$OwnedOperationProvider.class
+SHA1-Digest: oALB0CrXrdUzup0PrhA5NYKln/8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/BasicLineNumberProvide
+ r.class
+SHA1-Digest: zDLPtEW1xck0xiQGNl6ZBK6BBPw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/IntermediateClassFac
+ tory$IntermediateClassInstance.class
+SHA1-Digest: uN0K2ffFR9kOmljjoWLmbx2wJdw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$Counter
+ Value.class
+SHA1-Digest: 3MP+eDfG4fDgNyaUixoXXNe3Fk4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/TraceRecordImpl.clas
+ s
+SHA1-Digest: vd/QA4IILeZkmtJIm9fbBcCsD5E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/IntermediateProperty
+ Hierarchy$Entry.class
+SHA1-Digest: n8syY+2dewo4SUO1oz9bu/0PlvU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ImperativeOperation
+ .class
+SHA1-Digest: WJTGiuJDrpr59Rq9WraJ72kRKJM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$10.cla
+ ss
+SHA1-Digest: rMibxctv8kIztZa/he56YCna4Zw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$23.clas
+ s
+SHA1-Digest: NqGDvj065BvYIcdLRdkgZqRRDEs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$OperationCallResult.class
+SHA1-Digest: hIYnF0zUGKXMtxXSy4BGB81Ssn4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/util/TraceAdapterFactory.
+ class
+SHA1-Digest: MInM41dHKPvCSyNpl9eIag3OC2o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ExpressionsPackage.
+ class
+SHA1-Digest: HtECiUOluBJwd2bzn1NkAVUGFXs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEvaluatio
+ nEnv$TypedBinding.class
+SHA1-Digest: TDhUgkQ0+YhNSvYAkV/kqu8SgK4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/EMappingOperation.class
+SHA1-Digest: G/HvfwQx5YBuvV0qUc+zRhzC/uQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEvaluatio
+ nEnv$RootInternal.class
+SHA1-Digest: 3AQpdptDJowreLcI8SA3jILPWRc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/CompilerUtils$Eclipse.
+ class
+SHA1-Digest: B51iPZrQmvjDEJyJKc7sZ4UMv/4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaBlackboxProvi
+ der.class
+SHA1-Digest: 6NixxcEfWRJWpuu9Q83hPd2RFw8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalFileEnv.c
+ lass
+SHA1-Digest: h/lcegZm0ByhzOCG9SvmSyVJE9A=
+
+Name: org/eclipse/m2m/qvt/oml/util/ISessionData.class
+SHA1-Digest: wCs2jKasEc/2p0ze+HxyuEKZNHE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitResolverFactory$Ec
+ lipseRegistry.class
+SHA1-Digest: ffhtt+zXJUo72Z9JDgi9FCICL+8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/iterators/QvtIteratio
+ nTemplateXSelect.class
+SHA1-Digest: 1BYV4kYFyARIol7XD8avFfMer/w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/VisitableASTNode.cl
+ ass
+SHA1-Digest: VruPUNTbD/o2PUNs34EiTodsEiE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/NLS$IMessages.class
+SHA1-Digest: DuMxavYrnJn7Bg6EfaQ0IU7ilhg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/QvtPlugin$Implementation.class
+SHA1-Digest: GnwjIJAx18FuCFghn8DZx2f1dog=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/ExecutableXMIHelper.
+ class
+SHA1-Digest: 7nBlYt94McIWlDQjxA4ChH1JDQU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/BlackboxRegistry.class
+SHA1-Digest: lvwfxlDpCGP9UFTqGxAVttbUvEE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalVisito
+ rCS$MultiplicityDef.class
+SHA1-Digest: H/1GvmvSKySlihFTmAxwEX6leNs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/EMappingParameters.class
+SHA1-Digest: J/B38WsQRRCTtXjKqNcRnkvwg9Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/AbstractBlackboxProvid
+ er$1.class
+SHA1-Digest: hAmw6A6LRU/FNFoSk7lB+1bDEog=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitor.class
+SHA1-Digest: +KKiHVYplQ2AnMRC/IE8lpLGoDI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$17.clas
+ s
+SHA1-Digest: g7E1fG1OD5IS9kNl+zfJ/eks9QE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtGenericEvaluationV
+ isitor$Any.class
+SHA1-Digest: D+DLe9mmHU3Ufz0gjldZKLHEyJE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ConstructorBod
+ yImpl.class
+SHA1-Digest: B36bU8Rruv3ClgACPlft9ve0E2c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalValida
+ tionVisitor$ValidationNodeProcessor.class
+SHA1-Digest: oHYbRd9nEwEJUHfcmMjgTaL7nws=
+
+Name: about.mappings
+SHA1-Digest: W44wJbltGFJu9WgXjWicUEuKS7E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$3.class
+SHA1-Digest: 3SfHEBnPF1xRaYE02nzf2DoylBA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractContextualOperat
+ ions$1.class
+SHA1-Digest: gSG5oFykQ+lxvEo62ey269wIg6U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$2.c
+ lass
+SHA1-Digest: jYsNEXfbVqcUuQIqBx6C9Xy3zLM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/model/StdlibFactory$Stat
+ us.class
+SHA1-Digest: uSPHI38MBlqWma+jZE0u1+saLlc=
+
+Name: org/eclipse/m2m/qvt/oml/util/EvaluationMonitor.class
+SHA1-Digest: DbNVbM4F/zBjnh9VsWlQ5n9urXQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/util/ExpressionsSwi
+ tch.class
+SHA1-Digest: I6burh3XZLYDbLKg9CIBNGScuU8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ThisInstanceResolver.
+ class
+SHA1-Digest: HDN7MHdnOosx7jCzXzk9EUlHnWw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/OperationBuilder.
+ class
+SHA1-Digest: UFw4nV2iNjDB9b+WnOWzJEVyZ3Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/EntryOperation
+ Impl.class
+SHA1-Digest: nRlDi9cfhEVwnTxuf8B7memBaAs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/BlackboxResourceF
+ actory$1.class
+SHA1-Digest: Egrm5PuuF6JJaZOY3XNG2iSvL44=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModuleInstanceFactory
+ $PostCreateHandler.class
+SHA1-Digest: nS8SGWmk8q+w5Y8PMqfWPAmtgdY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/IImportResolver.class
+SHA1-Digest: 6JXsD1Gxr/LZvZKegaEyv7kmr2g=
+
+Name: plugin.properties
+SHA1-Digest: l+3xbmvQzhSz0/jsPUM5xsva5a0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/NLS$OSGI_NLS.class
+SHA1-Digest: dMFEw4Npw1k5Xtv3Lhgu5MIMKVM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModelParameterHelper.
+ class
+SHA1-Digest: krNE3xAwzoj4nLbnqIpUDpYSdzc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ModelExtentHelper.class
+SHA1-Digest: Xfdb5DF/iaLeHvi9f/FhB8e138s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/QvtPlugin.class
+SHA1-Digest: TwgQwPPbKuEsf1un5XF8Dl+EIIM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/EMappingResults.class
+SHA1-Digest: ow4qd++iyTfQxpNw915DEVi+zNs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/Library.class
+SHA1-Digest: dT90etPyTXu+BS1VWKL9xMLmbD0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/OperationalTransfor
+ mation.class
+SHA1-Digest: bdVHvPb2GlZtjbz3D1z8YjxSM3A=
+
+Name: plugin.xml
+SHA1-Digest: w/pO5SYQnQTqOrGSz6HUscrYT1U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/URIUnitResolver$Unit$1
+ .class
+SHA1-Digest: +nsWHMAi59IQzLiZlGVL64uqKxI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/BlackboxRegistry$Eclip
+ se.class
+SHA1-Digest: 3jBenxUdZX88RT4w0EThdfsdM4M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er$1.class
+SHA1-Digest: 2yMD3ksnosEA/X1ZyDg7bnWTRDU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/model/StdlibFactory$Exce
+ ptionImpl.class
+SHA1-Digest: TmKh6mm/ck3DhgZGuDSp8SFIbEw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/ResolutionContext.clas
+ s
+SHA1-Digest: gx2qmR+aq73fgmR1kqIb2aCEUfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/URIUnitResolver.class
+SHA1-Digest: 56IHbKY7ZFHqT0SDfgt9VX5HynQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/QvtNamesChecker.class
+SHA1-Digest: Ht/Qnsep9F0q/f/9CfhHa5YYakI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$8.class
+SHA1-Digest: Rvid30ZqkGIkQQXsaYzXUQZw7Ug=
+
+Name: org/eclipse/m2m/internal/qvt/oml/TransformationRunner$Executor.c
+ lass
+SHA1-Digest: 7cM/BqYJPMYO/+CFB4Jq/2mFLsc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$5.clas
+ s
+SHA1-Digest: vhMggpbKGlgGiN11JSK+KOYEwYk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ImportKind.class
+SHA1-Digest: xuIsYozCpMqlco2I7E9o0xTBpI4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$7.c
+ lass
+SHA1-Digest: s0ggI9gI+VDa3gmSJFu1trSFDUg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ListOperations$3.class
+SHA1-Digest: +viDNldfXOUfV3XRnwjzaV4S3Go=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er$ExtensionValidator.class
+SHA1-Digest: DnN7xLMAVkwCCYADOTEUFz6x3ZA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/messages.properties
+SHA1-Digest: TcN5RGsqeHbts29wOl2dxd9YqqQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QVTParsingOptions.class
+SHA1-Digest: 6iYRFB1jJbPYdEfoA0QAB+u+NjU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/Context$DefaultMonitor.
+ class
+SHA1-Digest: W2juqDkuH+tVH6ZApnMN5kPXVg0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/model/StatusInstance.cla
+ ss
+SHA1-Digest: 7TkvPCg5Q1mN2bhB8Ua0akCH1Rw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/OclAnyOperations$1.class
+SHA1-Digest: m9Cyjv/FU9/C3AJWr7Ws667YzKk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$3.class
+SHA1-Digest: 6kxcQnUxObvFQd7AII8jLclspQk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/GraphWalker$1Traverse
+ r.class
+SHA1-Digest: n5DFHzuAC9YLrKIiPBYCiQRaR8I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/GenericsResolver.class
+SHA1-Digest: gJ9VnSdQy/ZrunQq+QGgrwFxUOM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ObjectOperations$2.class
+SHA1-Digest: k7U3VypRZxU6xfMkzN+GE34ugmA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StdlibModuleOperations.c
+ lass
+SHA1-Digest: WXyUlpmYKZX0tAUvPft/8dG/f2Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ConstructorBody.cla
+ ss
+SHA1-Digest: kYbs+j0GtrQc/ERgVRpQXSXri04=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations$2.class
+SHA1-Digest: 5+4Q3qyaNe7PCCK+Hm4to7h5JN4=
+
+Name: org/eclipse/m2m/qvt/oml/util/MutableList.class
+SHA1-Digest: Q++A6Dnl+uyS4sJkAQpTz0by+VQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$11.clas
+ s
+SHA1-Digest: jQx+bTOUJvklxVaI1s86yND0R8c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/binding/ASTSyntheticNode.cl
+ ass
+SHA1-Digest: hNtRzfb5dUiND4tPyElzr6S6hF8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIExtensionEncoder
+ .class
+SHA1-Digest: Frr7vYOjP4uowqzNTjRQDYWmIAE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er$MappingSourceReference.class
+SHA1-Digest: m/o4kYBN71gDT6xx4SsDCDcwTQo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEnv.class
+SHA1-Digest: 91r+m1Y1EVMMqtm0LzgRIqRem7E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$1.class
+SHA1-Digest: 2OTDL9KNdvDetGnv5vkkfGHz5YU=
+
+Name: org/eclipse/m2m/qvt/oml/util/ISessionData$SimpleEntry.class
+SHA1-Digest: pRIgBeDQyAzqF/7AIc5NvSCKChI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaMethodHandler
+ Factory.class
+SHA1-Digest: WLIQMOMCEHyRV4aUziA1AXE4UqI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/model/ExceptionInstance.
+ class
+SHA1-Digest: dDNSbSHq7HJP/54qs6xqJdGRqpo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/JavaMethodHandler
+ Factory$Handler.class
+SHA1-Digest: sGS5ure8or8a47K4FoE6gFS3Bso=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/BlackboxResourceF
+ actory.class
+SHA1-Digest: Bd+sh7zntkk9xn5edNgH39xJktA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalVisito
+ rCS$1CycleChecker.class
+SHA1-Digest: 52RebzFt0igS3PY9+4bQqMffP74=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/util/TraceSwitch.class
+SHA1-Digest: fR+V52io8ryuAus/8DXnV0Fpwb8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/MutableListImpl.class
+SHA1-Digest: YP/8ipnUf2Lto8454QDzTL09BM4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/VirtualTableAdapter$1.c
+ lass
+SHA1-Digest: LSgvb25vj9oxtJrKnBuogEncWC0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$22.clas
+ s
+SHA1-Digest: i1Nw024f1JhHUZb7qobhPL2/NfU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler.class
+SHA1-Digest: Qb7P1/Z6BLpFxiliEgMRnRbwWtM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/impl/EMappingContextImpl.
+ class
+SHA1-Digest: EQ+Dy+632MvCpu+6WX/xXRblBY4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource$_XMIHel
+ per.class
+SHA1-Digest: KnOlbJM5VSswqKH/FLrH89ynEiI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/Trace.class
+SHA1-Digest: mLtUcLeSBlpYcGqlFQAW862bfeQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtInterruptedExecuti
+ onException.class
+SHA1-Digest: YT8p0qWoYFS9AU/95wdA1MfY24k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/util/ExpressionsAda
+ pterFactory$1.class
+SHA1-Digest: AO5mrV8Y1a76ip2/S3xElL+X09s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModelInstanceImpl.cla
+ ss
+SHA1-Digest: u06JRgGjZh84Ttkv+rYfFW8C9o0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QvtCompilerOptions.cla
+ ss
+SHA1-Digest: VaEATghDGNmCrnJpMvenCdQG0fM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/util/QVTOperational
+ Visitor.class
+SHA1-Digest: wgcgUQeDpo+vVHDVLMLoqVq56S0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/UnitProvider$UnitVisit
+ or.class
+SHA1-Digest: KD+95Z/o8y4A11SClT3EiN7rHGk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/ETuplePartValue.class
+SHA1-Digest: y8TTWd2xC3QxAuHX0hDolHeZps4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$16.clas
+ s
+SHA1-Digest: jhw7ZVCq+Axp/iG8OvpymwyJpgU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ConstructorImp
+ l.class
+SHA1-Digest: Wx74xPOmDOzhDD/6ob1SkW/DQIg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$CSTParseR
+ esult.class
+SHA1-Digest: ps4u8OUeddY7taC4cG6dv2ar9T8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$2.class
+SHA1-Digest: Y6zV86caBLWDuFR4XvTcaMq9aK4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ImportToNonTransformC
+ txHelper$ModuleInstanceCachingFactory$1.class
+SHA1-Digest: WLDuD01fngfCz1n9sRw04BJY+PE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$1.c
+ lass
+SHA1-Digest: 2Qykj1+nE/yjFJCjGiBGF+k/WNA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModuleInstance$Intern
+ al.class
+SHA1-Digest: R6NaQWojZVxpxY/LgwksyYQo54s=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/CollectionOperations$1.c
+ lass
+SHA1-Digest: OiSiUz7yD/j5bBrBXL1jFclCKig=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/InternalEvaluationEnv.c
+ lass
+SHA1-Digest: KdMiaFh4GI9rcIJstyGhQ+A8uoQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/IntermediatePropertyM
+ odelAdapter.class
+SHA1-Digest: IOITdZBuombMIVfJ3qnN+vh7SPU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/MappingBodyImp
+ l.class
+SHA1-Digest: 2up/WGZO3O+0OZWNWSAHN+bpyeg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$2$1.cl
+ ass
+SHA1-Digest: 8zjfDTwO+iD78HsnOrQ8e2i1hig=
+
+Name: org/eclipse/m2m/qvt/oml/util/Log.class
+SHA1-Digest: WsPklNJOfnitucegC+ndWyHWHvw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StatusOperations.class
+SHA1-Digest: /m6iqNaJFV1gjW8sMCmaxa4NuL4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/AbstractLateResolveTask
+ .class
+SHA1-Digest: fqfVNY6ALIxdeZzmZjuVm60Ee84=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ModelInstance.class
+SHA1-Digest: cmCy+CtnKrnSKX/jMoChGbtEFAw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/library/EObjectEStructuralFeatu
+ rePair.class
+SHA1-Digest: WugnnkcPhDH63wirlMBQ+dgpgJo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/BasicTypeResolverImpl.c
+ lass
+SHA1-Digest: 1+NoneCRB1KUoMefH/2nodpbOK0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMIResource.class
+SHA1-Digest: Frbt4C48RVnS+eUahzJdOjYViQo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/AbstractContextualOperat
+ ions$OperationProvider.class
+SHA1-Digest: vu+7famDzNvRjpk1lb9BEQRI10U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/iterators/QvtIteratio
+ nTemplate.class
+SHA1-Digest: /WXaB78+2W4kFmmSi/UdAjyMZ4A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ContextualProperty.
+ class
+SHA1-Digest: WO6vulnzwf03hrJtGqTe3oxt4c4=
+
+Name: org/eclipse/m2m/qvt/oml/util/Utils.class
+SHA1-Digest: FUOUmGnjerN8WuiZWcEtohvs2wE=
+
+Name: org/eclipse/m2m/qvt/oml/ExecutionStackTraceElement.class
+SHA1-Digest: Y2yPiKbfBwkbwSwJre4VzkrygJU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/EntryOperation.clas
+ s
+SHA1-Digest: jwDMMSpZ4mSAoUkk/bgHi5eYIcM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$7.class
+SHA1-Digest: 4FbnR8rCwQzGAJ14QkP+d9mY5jU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$4.clas
+ s
+SHA1-Digest: Gjw6yBnxocB6cnA/tjEeBbgIA/I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/ImperativeCallExp.c
+ lass
+SHA1-Digest: HAz7ChYApiwkM/TFntVR3zEQow8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QVTOTypeResolver.class
+SHA1-Digest: 9LmX4+Fm5Dq2keJiUVQu4jIusck=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ContextualProp
+ ertyImpl.class
+SHA1-Digest: wFxXVsZxRzEzeFjHFIX4PcT4QRk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/DictionaryOperations$6.c
+ lass
+SHA1-Digest: EFBYAcwCEOFYTZicmhgnKkb3EUM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ListOperations$2.class
+SHA1-Digest: KByj1zhyNXCteRbapVniNh8KiS4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/EDirectionKind.class
+SHA1-Digest: UVs4LuqRrq2Y/ZiwiiWgp5V3Slk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/QvtMessage.class
+SHA1-Digest: qMcAEnxSpJvZajNeTW8JxxpLYEI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/TypeCheckerImpl.class
+SHA1-Digest: 0GprFodc77ZINVTsmUw7/xqzrq0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/ModuleHandle.clas
+ s
+SHA1-Digest: 9d+Ny55s12huIxw1beUn7jTrpPQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/IVirtualOperationTable$
+ Access.class
+SHA1-Digest: 3yrzBKcjZ2PNb2s8c9k16XEnEmE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/TransformationInstanc
+ eImpl.class
+SHA1-Digest: QEbSsKmsZ2tgx8zosrMTJVkTfeY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/BlackboxException.clas
+ s
+SHA1-Digest: 6uLPKE9vd8uYdINcQTEDqpNDqEM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/NumberConversions.cla
+ ss
+SHA1-Digest: c9uUqmfCdXL8GHquQdn8vA3ZZWc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/QvtOperationalEvaluat
+ ionVisitorImpl$ReturnExpEvent.class
+SHA1-Digest: DN+6g7lEu7DVX8o/7AVmoZ9FKWE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/MappingCallExp.clas
+ s
+SHA1-Digest: 1+k0FYPJJ1zNhUocQJEH6IeX7Fo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/util/TraceAdapterFactory$
+ 1.class
+SHA1-Digest: WI2x8YRc5ymGi36ojLcZ7HDzAPM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/QVTOCompiler$2.class
+SHA1-Digest: fo8O8yrdwUTFcBldCMB0BlfsnH4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/compiler/ExeXMISerializer.class
+SHA1-Digest: Ak7q3xTM3CQgSiopM1kYUGPCSi0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/java/DiagnosticUtil.cl
+ ass
+SHA1-Digest: aXmq77KypjWblNA01nWsAi/2Hic=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/QvtOperationalParser
+ .class
+SHA1-Digest: Be165sOVV8sXZy04HpsA09nSzSY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ObjectOperations$1.class
+SHA1-Digest: EZsZKGrRh1+bKlZRP9zmX85tQHw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ModelOperations$1.class
+SHA1-Digest: vZL43hfnIsr0HT7tXYRTz4lagHk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/IVirtualOperationTable.
+ class
+SHA1-Digest: sX5jvXEAWUrSPT8RDLDpkt3Y16U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/expressions/impl/ExpressionsFac
+ toryImpl.class
+SHA1-Digest: nw3PCqzxiQVE/DZEjSgHFYjkXYY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$10.clas
+ s
+SHA1-Digest: Eg/QAxV4uVsfkaGgwFg8F3kHbXQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/CallHandlerAdapter.class
+SHA1-Digest: X5iVnb31PCbHZGyfa89Wt9PdYuI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/MappingExtensionHelp
+ er$ExtensionSourceRefAdapter.class
+SHA1-Digest: dQK8ogKU7A32g1v5ltKXuvX73HY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/blackbox/CompilationUnit.class
+SHA1-Digest: /36GlbVmqHuWEYZVmtt0YEr8mhQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/parser/FormattingHelperImpl
+ .class
+SHA1-Digest: 9aR+fPauOlPaPNS/RAP5I4omOVI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/ImportToNonTransformC
+ txHelper.class
+SHA1-Digest: 4qwn3KLeZD8gmtHELRUL5irB6ZU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/EvaluationMessages.cl
+ ass
+SHA1-Digest: nwkJNigOppNWEX+zrmjPx4QfpgQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/TraceFactory.class
+SHA1-Digest: lUioFKT0xzRvcPmiadlVqHXqSoo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/ElementOperations$9.clas
+ s
+SHA1-Digest: h/xQqGR4lZQ5FR23Sf/ltP9k/28=
+
+Name: org/eclipse/m2m/internal/qvt/oml/evaluator/GraphWalker$NodeProvi
+ der.class
+SHA1-Digest: vyiGGWe0ST0iFaWC72VnYUycwts=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/TypeCheckerImpl$Relatio
+ n.class
+SHA1-Digest: G4jMJ/o/7AQNlvJLwWC2v8qOAYw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/ast/env/QvtOperationalEnv$3.cla
+ ss
+SHA1-Digest: K+Y8NnT3WDWhNMFhQHgpLWzU7K0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/stdlib/StringOperations$21.clas
+ s
+SHA1-Digest: w06iD8FQSzxltafqCrsGh7XTVNA=
+

@@ -1,0 +1,175 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.project;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.4.0,4.0.0)",org.eclip
+ se.m2m.qvt.oml.common;bundle-version="[3.1.0,4.0.0)",org.eclipse.m2m.
+ qvt.oml.emf.util;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.o
+ ml;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.runtime;bun
+ dle-version="[3.0.0,4.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.project.QVTOProject
+ Plugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.project; x-friends:="
+ org.eclipse.m2m.qvt.oml.runtime.ui,  org.eclipse.m2m.qvt.oml.ui,  org
+ .eclipse.m2m.tests.qvt.oml.ui,  org.eclipse.m2m.tests.qvt.oml",org.ec
+ lipse.m2m.internal.qvt.oml.project.builder; x-friends:="org.eclipse.m
+ 2m.qvt.oml.editor.ui,  org.eclipse.m2m.qvt.oml.ui,  org.eclipse.m2m.t
+ ests.qvt.oml.ui,  org.eclipse.m2m.tests.qvt.oml",org.eclipse.m2m.inte
+ rnal.qvt.oml.project.model;x-friends:="org.eclipse.m2m.qvt.oml.ui",or
+ g.eclipse.m2m.internal.qvt.oml.project.nature;x-friends:="org.eclipse
+ .m2m.qvt.oml.ui,org.eclipse.m2m.tests.qvt.oml"
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/WorkspaceUnitRe
+ solver$ResourceVisitor.class
+SHA1-Digest: uq9scsj6+WhTCb001NYLbd+KXps=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/QVTOBuilderConf
+ ig.class
+SHA1-Digest: 8cPOVRAm25ieOThMox2AOZrlXQE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/messages.properties
+SHA1-Digest: nCT1igftQFbYiv92vfMj8PtVT2w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/EclipseUnitReso
+ lverFactory.class
+SHA1-Digest: oHnmakVoO6USCP7TkcqxYmzkm0M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/WorkspaceUnitRe
+ solver.class
+SHA1-Digest: NEYlQKoEZwu1Pepu7ysB30G3wWo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/nature/QVTONature.class
+SHA1-Digest: D3eGCSQp/Tq7S7nxlJBJj37lX/U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/IQvtElement.class
+SHA1-Digest: 0L2wa1bZjK/W+lXzBhGBGDDM1kU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/EclipseImportRe
+ solver$SourceContainerProvider.class
+SHA1-Digest: 1935e1jV8FhJoGummQ/F1SwtK1A=
+
+Name: plugin.properties
+SHA1-Digest: UF8o2+vMiVtbSDj3m8GjkbT2PWk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/EclipseImportRe
+ solver.class
+SHA1-Digest: fL1BeCtZDPgJwEBxU3dhNpbBrd4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/nature/BaseNature.class
+SHA1-Digest: kz+gy9ergZr18QKtaHBGY9/82sU=
+
+Name: plugin.xml
+SHA1-Digest: trPXMkffU4cXNxsr3O8WD3JfpzM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtElementMemberC
+ olllector.class
+SHA1-Digest: axDVg3/52Bw/IBExIfBw+ogskp0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/QVTOBuilder$Bui
+ ldListener.class
+SHA1-Digest: RDBZLNx9W4M7Zry82wKMe+KmJKY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/QVTOBuilder.cla
+ ss
+SHA1-Digest: FhRrpIpVQk9tA1L1296hb9BvGl4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/QvtProjectUtil.class
+SHA1-Digest: MB65qKAAEHFZz8b3lKb6OGJywvk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/Messages.class
+SHA1-Digest: Mo+UnXlyCbgECJYRQNyIjq/WzCo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/EclipseImportRe
+ solver$1.class
+SHA1-Digest: WBFLhOfLmihPot4xNCDvqvq4iF8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/EclipseImportRe
+ solver$2.class
+SHA1-Digest: QHYU7jI/pdudM7mhHunuYG73TYU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/QVTOProjectPlugin.class
+SHA1-Digest: 64dvo9uSzQ3i2nLO5CyCiM+vQzM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/IQvtProject.class
+SHA1-Digest: nwRNDs/bZl7T2l7kVtY3zBPDnF0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtRootNamespace.
+ class
+SHA1-Digest: 4yaWkQOgamcQirkGqyBYm2rqXJE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtProject.class
+SHA1-Digest: qrIwdGTDZJ5TvJ1mW9qxeOsJU2o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtModelException
+ .class
+SHA1-Digest: NZZrTYZn/6WCKfBDRcndNIt/qWM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/IQvtNamespace.cla
+ ss
+SHA1-Digest: xEr9pJHwRswlIRs8BpQ9taxTRrw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtNamespace.clas
+ s
+SHA1-Digest: zd7hECs7GUlZiMa/7uex6s7xoNQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtElementMemberC
+ olllector$1.class
+SHA1-Digest: vBouUlT9/yAcBGM7ohbPGYJyl1Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/QvtEngine.class
+SHA1-Digest: zDW5mz34YOAKapD59YhFgSlnBuA=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/QVTOBuilder$1.c
+ lass
+SHA1-Digest: ooNuy2SNKRwFxLfPfoMnDcn5lkM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/QVTOBuilder$2.c
+ lass
+SHA1-Digest: 5C+FAFyFCzJ0LBwd0Egc8k7SgmM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/QVTOBuilder$3.c
+ lass
+SHA1-Digest: /8/58ChSUzxrIDQaX7ep2sOBJPU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/WorkspaceUnitRe
+ solver$FileUnit.class
+SHA1-Digest: O3XLl3au62DNZF01HuFp6WxTQhw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/IQvtCompilationUn
+ it.class
+SHA1-Digest: KNsEeU3dBxeJVUhlOBoZ59h336I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtCompilationUni
+ t.class
+SHA1-Digest: 1wkkEiRvhzOq6Qu31v5LecfhBPY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/ProjectDependen
+ cyHelper.class
+SHA1-Digest: YLR7BqdEmVzRxu5RQOmKyhqfl/o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/nature/NatureUtils.clas
+ s
+SHA1-Digest: 9awrcPljtf8SluXvSWENWCMLDco=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/model/QvtBaseElement.cl
+ ass
+SHA1-Digest: XiLcpUikDLygK9rBMfVLP3S9kUQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/project/builder/WorkspaceUnitRe
+ solver$FileUnit$1.class
+SHA1-Digest: y0nZzZ5biqv/TqOS8sPdhoxrYoc=
+

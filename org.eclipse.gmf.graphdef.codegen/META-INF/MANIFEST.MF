@@ -1,0 +1,249 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.graphdef.codegen;singleton:=true
+Bundle-Activator: org.eclipse.gmf.internal.graphdef.codegen.Activator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.emf.ecore;bundle-version="[2.3.0,3.0.0)",org.eclipse.gm
+ f.common;bundle-version="[1.1.0,2.0.0)",org.eclipse.gmf.graphdef;bund
+ le-version="[2.9.0,4.0.0)";visibility:=reexport,org.eclipse.emf.codeg
+ en;bundle-version="[2.3.0,3.0.0)",org.eclipse.draw2d;bundle-version="
+ [3.2.0,4.0.0)",org.eclipse.gmf.xpand;bundle-version="[2.1.0,3.0.0)",o
+ rg.eclipse.m2m.qvt.oml;bundle-version="[3.0.0,4.0.0)"
+Export-Package: org.eclipse.gmf.graphdef.codegen,org.eclipse.gmf.inter
+ nal.graphdef.codegen;x-friends:="org.eclipse.gmf.graphdef.codegen.ui,
+ org.eclipse.gmf.tests"
+Bundle-Version: 2.9.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneGenerator$Config.clas
+ s
+SHA1-Digest: S2994Dy/FOIxHoE34z9Gv3IrUFg=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneEmitters$2.class
+SHA1-Digest: rsSlUcbjx/oY6IFqwjgKzlBaAmQ=
+
+Name: templates/attr/Shape.xpt
+SHA1-Digest: uRM8YlD9E68OV3ieBdK2tFCiFc0=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneGenerator$ProcessorCa
+ llback.class
+SHA1-Digest: Yggm7zQiai/8bKlkmDZ20qswvxQ=
+
+Name: top/Figure.xpt
+SHA1-Digest: dOkkGt8bA88DnSqkFUoFLVGSBWE=
+
+Name: MapMode.xpt
+SHA1-Digest: yK+mZmvh+aN+0zoMitLbaBjqOwY=
+
+Name: Attrs.xpt
+SHA1-Digest: 13yJJvZCnhNXeczz2tA7itgTV5k=
+
+Name: Extras.xpt
+SHA1-Digest: iZVHszXS2NKfGy/bwu4N60QWAnQ=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneGenerator.class
+SHA1-Digest: A0f4fFL+Te7kDgdovjvcAeCGbUo=
+
+Name: top/Descriptor.xpt
+SHA1-Digest: xXvUp3d8/qntBpwZtxq+AwhutGM=
+
+Name: org/eclipse/gmf/graphdef/codegen/FigureGenerator.class
+SHA1-Digest: 1WGLJ+JM8uAVK+XV8tsMOqF0bYY=
+
+Name: templates/attr/Figure.xpt
+SHA1-Digest: YwF6IfdruY6K1YQc7m3+r5koZGY=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/GalleryProcessor.class
+SHA1-Digest: 7HU+nlhbW5U690VpOapUZ4L49Zo=
+
+Name: rt_mm/MapModeUtil.qvto
+SHA1-Digest: TTdRqeqmOKTR0UxvRGWzq/xhtBc=
+
+Name: LayoutData.xpt
+SHA1-Digest: FP48VZeaoQjY1B03mJd5W5kplNs=
+
+Name: templates/top/Figure.xpt
+SHA1-Digest: dOkkGt8bA88DnSqkFUoFLVGSBWE=
+
+Name: org/eclipse/gmf/graphdef/codegen/MapModeCodeGenStrategy.class
+SHA1-Digest: 3U3OBhcaHPL/FWPUtf8MaML5OBg=
+
+Name: NativeUtil.class
+SHA1-Digest: V+j5WA0ePvMl9LVVRw7fi5hs42k=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: templates/Extras.xpt
+SHA1-Digest: iZVHszXS2NKfGy/bwu4N60QWAnQ=
+
+Name: plugin/Activator.xpt
+SHA1-Digest: 4INyX0cDxO3q2PgUNoi+cjLDXeM=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/Activator.class
+SHA1-Digest: QaUUVETYcFUf7I88ijvUD4aoFeI=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef.codegen/pom.properties
+SHA1-Digest: mx4nmX9sktAjgK+ITEVuAcuHQn8=
+
+Name: xtras/ScalablePolygon.xpt
+SHA1-Digest: n1+XhI4W6ktJWZVPwDNLZJaBia8=
+
+Name: Util.qvto
+SHA1-Digest: yw2zWfIhWrujiK7R83MpcXKirAg=
+
+Name: Children.xpt
+SHA1-Digest: gVjxL/LZcP76IiVv6jKIki8dkFc=
+
+Name: templates/top/Descriptor.xpt
+SHA1-Digest: xXvUp3d8/qntBpwZtxq+AwhutGM=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/DiagramElementsCopier.
+ class
+SHA1-Digest: gmB3o+3JaRXaEpt8g/kDHNH2PfE=
+
+Name: templates/rt_mm/MapModeUtil.qvto
+SHA1-Digest: TTdRqeqmOKTR0UxvRGWzq/xhtBc=
+
+Name: templates/MapMode.xpt
+SHA1-Digest: yK+mZmvh+aN+0zoMitLbaBjqOwY=
+
+Name: templates/LayoutData.xpt
+SHA1-Digest: FP48VZeaoQjY1B03mJd5W5kplNs=
+
+Name: plugin/Manifest.xpt
+SHA1-Digest: EqEXC7rHW3ArjWV6EocXeZEk2gE=
+
+Name: templates/Attrs.xpt
+SHA1-Digest: 13yJJvZCnhNXeczz2tA7itgTV5k=
+
+Name: rt_mm/MapMode.xpt
+SHA1-Digest: /yvuXzX3LlocaFUJVMvyqKi2BSo=
+
+Name: attr/Decoration.xpt
+SHA1-Digest: UEkfIWoC39qVyF7zl92o09sXoOM=
+
+Name: templates/plugin/Activator.xpt
+SHA1-Digest: 4INyX0cDxO3q2PgUNoi+cjLDXeM=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef.codegen/pom.xml
+SHA1-Digest: Nl78aWG6A4bne4ail/s1zIrIFMI=
+
+Name: templates/Children.xpt
+SHA1-Digest: gVjxL/LZcP76IiVv6jKIki8dkFc=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneEmitters$1.class
+SHA1-Digest: OKZq5ArzMLmgevOapTvl4DFwz/s=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneGenerator$ConfigImpl.
+ class
+SHA1-Digest: H1qEs88jM/TuDIWsiSUckNQxg3E=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneEmitters$3.class
+SHA1-Digest: n9tBgwHKwpHz0MDkYn41yC1BbXc=
+
+Name: Runtime.xpt
+SHA1-Digest: jhiE9v0gRt0p6WXJjGud0u3bQMQ=
+
+Name: plugin.properties
+SHA1-Digest: pJgZPj+1jlb5u5oVZvvPGLMM3SQ=
+
+Name: plugin/PluginProperties.xpt
+SHA1-Digest: XSxPxUFhljTUu2D8FGLc9kbAIWk=
+
+Name: plugin/BuildProperties.xpt
+SHA1-Digest: UgotpFmhR0uB+xeJJNAEfSrWlPw=
+
+Name: attr/CustomAttributeOwner.xpt
+SHA1-Digest: OvGX4Gy+GWyyXgbf21Zk/RJQwQE=
+
+Name: templates/Util.qvto
+SHA1-Digest: yw2zWfIhWrujiK7R83MpcXKirAg=
+
+Name: templates/xtras/ScalablePolygon.xpt
+SHA1-Digest: n1+XhI4W6ktJWZVPwDNLZJaBia8=
+
+Name: attr/CustomClass.xpt
+SHA1-Digest: fd9tHCfxI+zEznt761RMoHR6FYk=
+
+Name: Layout.xpt
+SHA1-Digest: 7GLHqVTyg20H9cqAkUxpZo0OqnA=
+
+Name: Border.xpt
+SHA1-Digest: PE1jgBglc68jDYpCLpqwQy1Kamk=
+
+Name: plugin.xml
+SHA1-Digest: DvjmzIKp+a+PW+gqO5iXJ35ykSc=
+
+Name: Decoration.xpt
+SHA1-Digest: Hi+2VNFxYfv+VqNXIPeoNjHPTjo=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/GalleryMirrorProcessor
+ .class
+SHA1-Digest: H77jMk7Ue3jt9Vv3gEcSaekE1IE=
+
+Name: templates/plugin/Manifest.xpt
+SHA1-Digest: EqEXC7rHW3ArjWV6EocXeZEk2gE=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneGenerator$1.class
+SHA1-Digest: pmIhuGENAwRgF9GPdg0qWhbbUFY=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneGenerator$Processor.c
+ lass
+SHA1-Digest: LE2g57xgSKspfxMPFnu3Wo6EuAA=
+
+Name: templates/rt_mm/MapMode.xpt
+SHA1-Digest: /yvuXzX3LlocaFUJVMvyqKi2BSo=
+
+Name: templates/attr/Decoration.xpt
+SHA1-Digest: UEkfIWoC39qVyF7zl92o09sXoOM=
+
+Name: templates/plugin/BuildProperties.xpt
+SHA1-Digest: UgotpFmhR0uB+xeJJNAEfSrWlPw=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: templates/attr/CustomClass.xpt
+SHA1-Digest: fd9tHCfxI+zEznt761RMoHR6FYk=
+
+Name: templates/Layout.xpt
+SHA1-Digest: 7GLHqVTyg20H9cqAkUxpZo0OqnA=
+
+Name: templates/Runtime.xpt
+SHA1-Digest: jhiE9v0gRt0p6WXJjGud0u3bQMQ=
+
+Name: templates/Border.xpt
+SHA1-Digest: PE1jgBglc68jDYpCLpqwQy1Kamk=
+
+Name: attr/Figure.xpt
+SHA1-Digest: YwF6IfdruY6K1YQc7m3+r5koZGY=
+
+Name: org/eclipse/gmf/internal/graphdef/codegen/CanvasProcessor.class
+SHA1-Digest: 4sI63fTtfXxsTMMSiW5E0pxhFUI=
+
+Name: attr/Shape.xpt
+SHA1-Digest: uRM8YlD9E68OV3ieBdK2tFCiFc0=
+
+Name: templates/Decoration.xpt
+SHA1-Digest: Hi+2VNFxYfv+VqNXIPeoNjHPTjo=
+
+Name: org/eclipse/gmf/graphdef/codegen/StandaloneEmitters.class
+SHA1-Digest: 5sGqz9VS5ej7NhMfqE3nU7vTjMo=
+
+Name: templates/plugin/PluginProperties.xpt
+SHA1-Digest: XSxPxUFhljTUu2D8FGLc9kbAIWk=
+
+Name: templates/attr/CustomAttributeOwner.xpt
+SHA1-Digest: OvGX4Gy+GWyyXgbf21Zk/RJQwQE=
+

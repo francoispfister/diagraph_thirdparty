@@ -1,0 +1,155 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.codegen.ui; singleton:=true
+Bundle-Activator: org.eclipse.gmf.internal.codegen.CodeGenUIPlugin
+Require-Bundle: org.eclipse.ui;bundle-version="[3.3.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.3.0,4.0.0)",org.eclipse.core.reso
+ urces;bundle-version="[3.3.0,4.0.0)",org.eclipse.gmf.bridge;bundle-ve
+ rsion="[1.1.0,2.0.0)",org.eclipse.gmf.bridge.ui.dashboard;bundle-vers
+ ion="[2.0.0,3.0.0)",org.eclipse.gmf.codegen.edit;bundle-version="[2.9
+ .0,4.0.0)",org.eclipse.gmf.graphdef.codegen.ui;bundle-version="[1.0.0
+ ,2.0.0)",org.eclipse.gmf.bridge.trace;bundle-version="[1.0.0,2.0.0)";
+ resolution:=optional,org.eclipse.emf.importer;bundle-version="[2.3.0,
+ 3.0.0)",org.eclipse.gmf.bridge.ui;bundle-version="[1.1.0,2.0.0)",org.
+ eclipse.jdt.core;bundle-version="[3.3.0,4.0.0)",org.eclipse.jdt.ui;bu
+ ndle-version="[3.3.0,4.0.0)",org.eclipse.gmf.xpand;bundle-version="[2
+ .1.0,3.0.0)"
+Export-Package: org.eclipse.gmf.internal.codegen;x-friends:="org.eclip
+ se.gmf.tests",org.eclipse.gmf.internal.codegen.popup.actions;x-friend
+ s:="org.eclipse.gmf.bridge.ui.dashboard,org.eclipse.gmf.codegen.lite.
+ ui"
+Bundle-Version: 1.3.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/messages.properti
+ es
+SHA1-Digest: 5g7nJcClRbjcIsv3QsA+BBwbPWo=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/CreateSpecificDia
+ gramRunTimeModelAction.class
+SHA1-Digest: bgaqcPL9sgkF9VSWnvjpfZGVfsI=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ $DiagnosticLabelProvider.class
+SHA1-Digest: 5dnpI/VFQfM49LfiD+tFa+mGm7M=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ $DiagnosticContentProvider.class
+SHA1-Digest: kFgg6j2vcJf/xLATUUe7Oz3SGtM=
+
+Name: plugin.properties
+SHA1-Digest: LEuZHiYfLm7LWVvSA6cAwHb29C0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.c
+ odegen.ui/pom.xml
+SHA1-Digest: UXSSrLzXL3vCDPG31X6/SyYyl1k=
+
+Name: org/eclipse/gmf/internal/codegen/HideGeneratedFilter.class
+SHA1-Digest: dUSfEpjuudNQBG4lfn5Xc26X3ps=
+
+Name: org/eclipse/gmf/internal/codegen/CodeGenUIPlugin.class
+SHA1-Digest: etcbmYZD5Wq0JXZ4H7TZvShJbBs=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/AddExtensionModel
+ Action.class
+SHA1-Digest: pN/d5avHzxfa2eYwGo7zClaLZ6I=
+
+Name: plugin.xml
+SHA1-Digest: V0+mbov2o1C9nr7+CubpULxTFL8=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ErrorDialogEx.cla
+ ss
+SHA1-Digest: Z6V6azpGzwQoEjsABUZzgqw81Ok=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ExecuteTemplatesO
+ peration.class
+SHA1-Digest: eEoPgQGkTNdp+oddws84u8EqP9o=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/GMFGenExtensionMo
+ delWizard.class
+SHA1-Digest: f5+sMAmNNaGnbofAibS3RmvHp0M=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/codegen/CodeGenUIPlugin$1.class
+SHA1-Digest: 7+5JOAywKbYoPhkQRGzrVIzaK70=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/Messages.class
+SHA1-Digest: P29TCiujSaarOPa0hYERTDo/cJw=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ExecuteTemplatesO
+ peration$1.class
+SHA1-Digest: VxUv76k92itinjI/qn03wWVGxBI=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ExecuteTemplatesO
+ peration$2.class
+SHA1-Digest: IpuvPB5qyEJ8HpxqaNabyiEm2tk=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ExecuteTemplatesO
+ peration$3.class
+SHA1-Digest: eWlRtpM0NbBkzHWIwe+xp/l+DzY=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ExecuteTemplatesO
+ peration$4.class
+SHA1-Digest: 5MPSphzgTNNcy3C0aSzMDF0+zlE=
+
+Name: org/eclipse/gmf/internal/codegen/dashboard/GenerateDEAction.clas
+ s
+SHA1-Digest: AkH4w359jm7KNjBasiN7g8kiOFM=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/GMFGenExtensionMo
+ delWizard$1.class
+SHA1-Digest: mre6LID0MJ5EcZ0N5qJXzLJagrY=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ .class
+SHA1-Digest: Ibv1pBAaHL2J36+htf6sR74AHBM=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/GMFGenExtensionMo
+ delWizard$2.class
+SHA1-Digest: OY6EbSXVWfpmMwI8JV8tid5aFRQ=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/MigrateModelActio
+ n.class
+SHA1-Digest: hQuGgCqh+zljW2N32ZW0xB4tVP0=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/ExecuteTemplatesA
+ ction.class
+SHA1-Digest: 7iH85mq2ByS+aH4rBAlBmJbPmvo=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.c
+ odegen.ui/pom.properties
+SHA1-Digest: mqBbO9R5qRwrjQsO9+V5H4Mnz90=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ $1.class
+SHA1-Digest: zL2/khYoH5MLYPLOSXSDw75H02k=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ $2.class
+SHA1-Digest: U2+anb569uiN/ov/Wdm6hwMMmd0=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/MigrateModelActio
+ n$1.class
+SHA1-Digest: wdnEWQoBHRTYF+T6VfnxHI7EWQ4=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ $3.class
+SHA1-Digest: XWPkJnI7On3z3mPiNoeVGXS0NUM=
+
+Name: org/eclipse/gmf/internal/codegen/popup/actions/DiagnosticsDialog
+ $4.class
+SHA1-Digest: 7whRRhkACPZw9cIRpIDHTTk3yhE=
+

@@ -1,0 +1,262 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.bridge;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.3.0,4.0.0)",org.eclip
+ se.jdt.core;bundle-version="[3.3.0,4.0.0)",org.eclipse.gmf.map;bundle
+ -version="[2.9.0,4.0.0)";visibility:=reexport,org.eclipse.gmf.codegen
+ ;bundle-version="[2.9.0,4.0.0)";visibility:=reexport,org.eclipse.gmf.
+ runtime.notation;bundle-version="[1.0.0,2.0.0)";visibility:=reexport,
+ org.eclipse.gmf.graphdef.codegen;bundle-version="[2.9.0,4.0.0)";visib
+ ility:=reexport,org.eclipse.draw2d;bundle-version="[3.2.0,4.0.0)",org
+ .eclipse.m2m.qvt.oml;bundle-version="[3.0.0,4.0.0)"
+Export-Package: org.eclipse.gmf.internal.bridge;x-friends:="org.eclips
+ e.gmf.tests,org.eclipse.gmf.bridge.trace,org.eclipse.gmf.codegen.ui,o
+ rg.eclipse.gmf.bridge.ui",org.eclipse.gmf.internal.bridge.genmodel;x-
+ friends:="org.eclipse.gmf.tests,org.eclipse.gmf.codegen.ui,org.eclips
+ e.gmf.tests.lite,org.eclipse.gmf.bridge.ui",org.eclipse.gmf.internal.
+ bridge.naming;x-friends:="org.eclipse.gmf.tests",org.eclipse.gmf.inte
+ rnal.bridge.naming.gen;x-friends:="org.eclipse.gmf.tests,org.eclipse.
+ gmf.codegen.ui,org.eclipse.gmf.bridge.ui"
+Bundle-Version: 1.3.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: transforms/Parsers.qvto
+SHA1-Digest: h3PT7CV3VTRZDw3yhTHfutoRP58=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/VisualIdentifierDispens
+ erFacade.class
+SHA1-Digest: su56x3ziXdtqRepvc+f8qyKppes=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/InnerClassViewmapProduc
+ er.class
+SHA1-Digest: zZA6A0hmW5Jf5Oe6nckoRCUNpcE=
+
+Name: org/eclipse/gmf/internal/bridge/tooldef/PaletteHandler.class
+SHA1-Digest: kvCcxtjta3ynQpxuqZtpwmvljTQ=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/QVTDiagramGenModelTrans
+ former$1.class
+SHA1-Digest: D9DXCYd8ubcL9sG00Gxhp5P/HLQ=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/MappingTransformer.clas
+ s
+SHA1-Digest: Ms4C8LM+ABFWe9sLrQc9DmLZVXA=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/GenModelProducer.class
+SHA1-Digest: yESrX3M/T2nFhra9K6pmhzPVuts=
+
+Name: transforms/Palette.qvto
+SHA1-Digest: 5avIOk3GwpC+KQmWzw/bO7S1eu8=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DiagramRunTimeModelTran
+ sformer.class
+SHA1-Digest: 317sGWkPtFrkwNI83yFr+qDAuS8=
+
+Name: transforms/Mappings.qvto
+SHA1-Digest: fmxD/TE2EPzDLFDkF4yyWOAS2Hc=
+
+Name: org/eclipse/gmf/internal/bridge/naming/AbstractGenNamingStrategy
+ .class
+SHA1-Digest: SlGGwMpbJyKqqD7AOK0Yst53HHg=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/GenModelMatcher.class
+SHA1-Digest: vO4OrFeUpdTFPEmz/Q8+JTB6ZZw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/internal/bridge/naming/GenNamingStrategy.class
+SHA1-Digest: FGmgUTTUp4HTIIQnbD3uZH6dq1E=
+
+Name: transforms/Utils.qvto
+SHA1-Digest: zq0I+TUSrirKDlGuySI1kZe2lGI=
+
+Name: org/eclipse/gmf/internal/bridge/naming/gen/GenNamingMediatorImpl
+ .class
+SHA1-Digest: 3eRmPrLP7mTjBp5PjEpinKUW0Rg=
+
+Name: org/eclipse/gmf/internal/bridge/naming/DefaultGenNamingStrategy.
+ class
+SHA1-Digest: Q148ctSnURSLZJODd4+wNAVTK70=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/GenModelAccess.class
+SHA1-Digest: sQBobIFUyXfFua9qwtEU/+WKtvw=
+
+Name: transforms/Viewmaps.qvto
+SHA1-Digest: gi2LDSsG2gBlfMTMpwVvBddwIhs=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DiagramGenModelTransfor
+ mer$Parameters.class
+SHA1-Digest: LLe/XMwGeCnuCx14D6zlCryaCrc=
+
+Name: transforms/PreferencePages.qvto
+SHA1-Digest: izOI+N2wSS7yL7g+nNsSIDBq6OM=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/BasicDiagramRunTimeMode
+ lHelper.class
+SHA1-Digest: nrGONhcXzUiTOD3uQ2GwXBcj7Uo=
+
+Name: transforms/RichClientPlatformApp.qvto
+SHA1-Digest: CaSGWgmZ2Md9ZWsnCYV8AE4BqFY=
+
+Name: transforms/ModelFacets.qvto
+SHA1-Digest: NruuFI6BJEmp+tlKhCNQBAoSKmY=
+
+Name: org/eclipse/gmf/internal/bridge/Knowledge.class
+SHA1-Digest: p6sZRQOGbqpBIwO2ObVL1H/2a+Y=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DefaultViewmapProducer.
+ class
+SHA1-Digest: YMAKHRfllc2CPtTqYKhVz51S4M8=
+
+Name: transforms/DiagramRunTimeModel.qvto
+SHA1-Digest: GFLAifKjBDfTzQhT7K1yomYOoaY=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/ViewmapProducer.class
+SHA1-Digest: PkGt3+KCBfPg2TwKvsoGPvRNxgs=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/BasicGenModelAccess.cla
+ ss
+SHA1-Digest: S7Z4w5Tw4IxrqORCulOUHs7wh0E=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/VisualIdentifierDispens
+ erFacade$Provider.class
+SHA1-Digest: qLILpoayzgyYWRZbfOSoe7zFfC4=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/EcoreGenModelMatcher.cl
+ ass
+SHA1-Digest: mDakJOfLpC9CN5xZOaf3CE7f5sQ=
+
+Name: transforms/Navigator.qvto
+SHA1-Digest: KS1pv021kKnUqyLbjsoACUpDy64=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/FileGenModelAccess.clas
+ s
+SHA1-Digest: ABqRIcgmNUHnb8TdS0duf5vwwpE=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/QVTDiagramGenModelTrans
+ former.class
+SHA1-Digest: IEZWcjo1RCCweA8grYC55DDthlc=
+
+Name: org/eclipse/gmf/internal/bridge/naming/DesignGenNamingStrategy.c
+ lass
+SHA1-Digest: HjhBEQkUUGC9mPD80uQh8Iw/ErI=
+
+Name: org/eclipse/gmf/internal/bridge/History.class
+SHA1-Digest: g6S9mPiSP5co4GeLUvtGbSJItzs=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/PropertySheetHandler.cl
+ ass
+SHA1-Digest: a/A7hqe+fTUqq8OPwyJzMlaLN+Y=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/ModeledViewmapProducer.
+ class
+SHA1-Digest: 9AKg2i/FdovkDXsU9aZ4OF344IQ=
+
+Name: plugin.properties
+SHA1-Digest: dRl5EOhDmzcO0VbzLDZB6hUnFYQ=
+
+Name: org/eclipse/gmf/internal/bridge/naming/ClassGenNamingStrategy.cl
+ ass
+SHA1-Digest: 4KeOVpUPAZUELuqr9/DnuApe4Gs=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.b
+ ridge/pom.properties
+SHA1-Digest: tjt7K3PhqC6Nq0HunS4bQeILxEQ=
+
+Name: transforms/Behaviours.qvto
+SHA1-Digest: pPw8DVSrGQLWfSvSRu2P1SjimbE=
+
+Name: transforms/ModeledViewmaps.qvto
+SHA1-Digest: WRFGmq3DIImHJB7aJ/bQpDWNF40=
+
+Name: org/eclipse/gmf/internal/bridge/tooldef/PaletteHandler$ToolSwitc
+ h.class
+SHA1-Digest: bKQ9K29Nz93/PsHQztiQQW5ieZg=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/navigator/NavigatorHand
+ ler.class
+SHA1-Digest: y8m3YB2WFyfsYx0OJZ2vVssdQ6A=
+
+Name: transforms/Actions.qvto
+SHA1-Digest: iEMKHjjVxD0WJ4rdtuFbt1BboRY=
+
+Name: plugin.xml
+SHA1-Digest: Y/h/BJ/GXafR6tOlu0fuz0cTldQ=
+
+Name: transforms/Map2Gen.qvto
+SHA1-Digest: 8CGOsjJJcW7psS0TIWpTySX7jw8=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/RuntimeGenModelAccess.c
+ lass
+SHA1-Digest: n1AqFt2kEzA5TRhRhzr83j7V1dU=
+
+Name: org/eclipse/gmf/internal/bridge/VisualIdentifierDispenser.class
+SHA1-Digest: d+abj5BhynUpExGsHRYxxcc8Ops=
+
+Name: org/eclipse/gmf/internal/bridge/StatefulVisualIdentifierDispence
+ r.class
+SHA1-Digest: SbjYTxkqZLDhkoXeBl/2suUqDb8=
+
+Name: org/eclipse/gmf/internal/bridge/naming/gen/GenNamingMediator.cla
+ ss
+SHA1-Digest: Xjy4DLyUTxyxG5chrs/i2rVLdpE=
+
+Name: org/eclipse/gmf/internal/bridge/NaiveIdentifierDispenser.class
+SHA1-Digest: l6AsA0N6uAT/LzMpmZ/G511vbDw=
+
+Name: transforms/Identity.qvto
+SHA1-Digest: zrAPpZZZH3WkfHIgHu6j1ps4aX8=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/SpecificDiagramRunTimeM
+ odelHelper.class
+SHA1-Digest: l6Gtd5izUV3gTLRt+f1P6hibALA=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DummyGenModel.class
+SHA1-Digest: S8R11qqaLJy0flRo2R7pZU+Ifbs=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: transforms/PropertySheet.qvto
+SHA1-Digest: bHj++L8er3zsbPBbSeEjmZ+vGEs=
+
+Name: transforms/Audits.qvto
+SHA1-Digest: SirLmw5vAO2wjtyPSW6esUWC+mY=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/GenModelAccess$Adapter.
+ class
+SHA1-Digest: HmonSnRIuFK0WV1gh505REWXWNg=
+
+Name: org/eclipse/gmf/internal/bridge/naming/gen/GenNamingMediatorImpl
+ $Mode.class
+SHA1-Digest: 6NP1dEP3Q1k6vxvRBgKFQlWjMe0=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DiagramGenModelTransfor
+ mer.class
+SHA1-Digest: TGXzwydsvCyaWFrx/uYXWm39djw=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.b
+ ridge/pom.xml
+SHA1-Digest: /tnB6KWDZl0iH8dyoDREe6N5kHs=
+
+Name: transforms/ValueExpressions.qvto
+SHA1-Digest: Nc4kqYQZ6KcZ7qTMuf38MqBtRnY=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DiagramRunTimeModelHelp
+ er.class
+SHA1-Digest: tLwOy5UYJzMQT0a+qFhXSgbiagw=
+
+Name: org/eclipse/gmf/internal/bridge/genmodel/DefaultViewmapProducer$
+ LayoutTypeSwitch.class
+SHA1-Digest: LzPtKz2yKZWYqAUnJEFDMzqRAWA=
+

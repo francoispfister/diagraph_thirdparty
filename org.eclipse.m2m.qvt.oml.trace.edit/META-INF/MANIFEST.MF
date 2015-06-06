@@ -1,0 +1,125 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.trace.edit; singleton:=tr
+ ue
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.trace.provider.Trac
+ eEditPlugin$Implementation
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.m2m.qvt.oml;bundle-version="[3.0.0,4.0.0)";visibility:=
+ reexport,org.eclipse.emf.edit;bundle-version="[2.4.0,3.0.0)";visibili
+ ty:=reexport
+Export-Package: org.eclipse.m2m.internal.qvt.oml.trace.provider
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: icons/full/obj16/EMappingParameters.gif
+SHA1-Digest: BJCtscbUk19s32t6I6uea8UxX3Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/TraceRecordItemP
+ rovider.class
+SHA1-Digest: Zoyjcb57zOYeIPWPzk5TqWWcqyc=
+
+Name: plugin.properties
+SHA1-Digest: d6QGFfmc05TgHk1Gz41JD8Pi0bo=
+
+Name: icons/full/obj16/TraceRecord.gif
+SHA1-Digest: qVNvkjWIhR/bpGQmozX46fYWzL0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/TraceEditPlugin.
+ class
+SHA1-Digest: 2F5ujt69+8gvXQWacH6QCRY+mJc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/EMappingOperatio
+ nItemProvider.class
+SHA1-Digest: qHZ8U1aJ639BTE/MW4hdsB5Xeqg=
+
+Name: icons/full/obj16/EMappingOperation.gif
+SHA1-Digest: HkztcHenka8VEe7RvgSXDldhBSA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/TraceItemProvide
+ r.class
+SHA1-Digest: lDpzLgdcEgMlvlJIHQRpZVJ+YQ8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/TraceEditPlugin$
+ Implementation.class
+SHA1-Digest: 9+E50WB5j6QCSMU6K41xkg5OZ18=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/EMappingContextI
+ temProvider.class
+SHA1-Digest: 45T8BSSWZIFhS7M4snq8t6JRLUY=
+
+Name: plugin.xml
+SHA1-Digest: ZaeYOfrgwJOgVHBugMRwW+3n9Mo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/EMappingParamete
+ rsItemProvider.class
+SHA1-Digest: fgTz5jqoo/Z1tzvmXlXmefS77ZE=
+
+Name: icons/full/obj16/Trace.gif
+SHA1-Digest: 9EpYKXVpze5++JkWPeq9RZJSG3I=
+
+Name: icons/full/obj16/EMappingContext.gif
+SHA1-Digest: zQtjXniQvLE/hL1niFuMWxxoe0o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/EMappingResultsI
+ temProvider.class
+SHA1-Digest: chBr6vvZXLZo2Dw3kf0fThd2B5A=
+
+Name: icons/full/obj16/EValue.gif
+SHA1-Digest: vZ1a624msmwR47nBzw3lzfZbPfU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/VarParameterValu
+ eItemProvider.class
+SHA1-Digest: 6MyG6S1AyAxz/LcKIyIiFf13H7k=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/ObjectToTraceRec
+ ordMapEntryItemProvider.class
+SHA1-Digest: TZzh+S4dueON46O7EcgfVSD7TNI=
+
+Name: icons/full/obj16/EMappingResults.gif
+SHA1-Digest: Fw0COYVZufvtYThnaPEdKqw+S6s=
+
+Name: icons/full/obj16/VarParameterValue.gif
+SHA1-Digest: 6rFSuAHnNB54QQ1XYMtkFALb+R4=
+
+Name: icons/full/obj16/ObjectToTraceRecordMapEntry.gif
+SHA1-Digest: qVNvkjWIhR/bpGQmozX46fYWzL0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/MappingOperation
+ ToTraceRecordMapEntryItemProvider.class
+SHA1-Digest: ySF8U+gWVp2vOrOHJCkvIUgpLT8=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/ETuplePartValueI
+ temProvider.class
+SHA1-Digest: yUOpGqQ6/VqIYNXP3T8gUDiZ7UI=
+
+Name: icons/full/obj16/EStringToTraceRecordMapEntry.gif
+SHA1-Digest: eNtcdZQNPwQhrG2rgRpclYKXImU=
+
+Name: icons/full/obj16/MappingOperationToTraceRecordMapEntry.gif
+SHA1-Digest: F2xKYRa+HZ5CdKmh1Jda4OFSiG0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/TraceItemProvide
+ rAdapterFactory.class
+SHA1-Digest: qk6fTy01z/n3l69OZ1su922vvAY=
+
+Name: icons/full/obj16/ETuplePartValue.gif
+SHA1-Digest: 5ktZWQ9vFuge0K5ogYbfqW5JfNk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/trace/provider/EValueItemProvid
+ er.class
+SHA1-Digest: ky8cOM3oC5/UcJtsRkQ0SR97S6U=
+

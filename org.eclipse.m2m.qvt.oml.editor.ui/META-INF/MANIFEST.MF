@@ -1,0 +1,1009 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.editor.ui;singleton:=true
+Require-Bundle: org.eclipse.core.resources;bundle-version="[3.4.0,4.0.
+ 0)",org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)",org.eclip
+ se.emf.ecore;bundle-version="[2.5.0,3.0.0)",org.eclipse.jface.text;bu
+ ndle-version="[3.4.0,4.0.0)",org.eclipse.ui;bundle-version="[3.5.0,4.
+ 0.0)",org.eclipse.ui.views;bundle-version="[3.3.0,4.0.0)",org.eclipse
+ .ui.editors;bundle-version="[3.4.0,4.0.0)",org.eclipse.compare;bundle
+ -version="[3.5.0,4.0.0)",org.eclipse.ui.workbench.texteditor;bundle-v
+ ersion="[3.5.0,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.4.0,4.0.
+ 0)",org.eclipse.jdt.ui;bundle-version="[3.5.0,4.0.0)",org.eclipse.m2m
+ .qvt.oml.ocl;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.c
+ ommon;bundle-version="[3.1.0,4.0.0)",org.eclipse.m2m.qvt.oml.common.u
+ i;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml;bundle-versi
+ on="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.emf.util;bundle-version="[
+ 3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.project;bundle-version="[3.0.0,
+ 4.0.0)",org.eclipse.m2m.qvt.oml.runtime;bundle-version="[3.0.0,4.0.0)
+ "
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.editor.ui.Activator
+Export-Package: org.eclipse.m2m.internal.qvt.oml.editor.ui;x-friends:=
+ "org.eclipse.m2m.tests.qvt.oml.ui",org.eclipse.m2m.internal.qvt.oml.e
+ ditor.ui.completion;x-friends:="org.eclipse.m2m.tests.qvt.oml.ui",org
+ .eclipse.m2m.internal.qvt.oml.editor.ui.completion.collectorregistry;
+ x-friends:="org.eclipse.m2m.tests.qvt.oml.ui",org.eclipse.m2m.interna
+ l.qvt.oml.editor.ui.hovers;x-internal:=true,org.eclipse.m2m.internal.
+ qvt.oml.editor.ui.hyperlinks;x-friends:="org.eclipse.m2m.tests.qvt.om
+ l.ui",org.eclipse.m2m.internal.qvt.oml.editor.ui.outline;x-internal:=
+ true,org.eclipse.m2m.internal.qvt.oml.editor.ui.colorer;x-internal:=t
+ rue
+Bundle-Version: 3.3.0.v20130611-0213
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtCompilerFacade$InM
+ emoryUnitProxy.class
+SHA1-Digest: eOIFpM3yxwQKNZATK6hwuYfskbo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /IteratorShorthandCollector.class
+SHA1-Digest: tHMQRLHvjrHoD7DszNhZWtDUUbc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$3.class
+SHA1-Digest: gwGB0RtKjofnBoYeDp8O39CJ55Q=
+
+Name: about.ini
+SHA1-Digest: t0FfqhXQ1DOntXUimIG6MWb0U1g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorManag
+ er$IHighlightingChanged.class
+SHA1-Digest: yOsU+Y1x61zxkQWlzTm9G14AZbo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/VariableHy
+ perlinkDetector.class
+SHA1-Digest: ADH/4As/4pN/zto8CAYEcRk1pzs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /OclExpressionStartCollector$1.class
+SHA1-Digest: uGnWx0IQ3RQVaWYkoJH4zCwqF4w=
+
+Name: icons/qvt-query.gif
+SHA1-Digest: aWiGMPuBO9OowIg990wkhZ2GAOM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtConfiguration$QVTP
+ resentationReconciler.class
+SHA1-Digest: vpCEDOzGk3CIGx6Osj8K8xmSSqA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /IteratorShorthandCollector$2.class
+SHA1-Digest: QLGZnDFt6w6i7QCGxlUTPJoHMsQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/IQVTColors.cl
+ ass
+SHA1-Digest: w7GT6hxIXfchoLcbNtcIEPacsbs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/OverlayPrefer
+ enceStore.class
+SHA1-Digest: CwpLVAyEwV3QepadCaHF0XmY0U8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$ColorListContentProvider.class
+SHA1-Digest: g0f2V5i2cSwpZCNGXJmx4aBNVoY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtCodeReader.class
+SHA1-Digest: BfzwXBWsCRZr2wH5W1wQHbi2VC8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CollectorRegistry$1.class
+SHA1-Digest: RkiCbQzTxCnFnMNF5TyAiVH1bQw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/SignatureUtil.
+ class
+SHA1-Digest: fOZ8fsvRX2d9XhWiyNEjQZ28oTA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ImportModuleCollector.class
+SHA1-Digest: sbXffIbRJFoVfBxcPxH89U8CruE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$4.class
+SHA1-Digest: Oy4lU3CXEAILQ83ch8+uJD9uyTY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/GotoAnnotationAction.
+ class
+SHA1-Digest: j/5KnpPkVL6Kc2oWcLGUu+8pUkA=
+
+Name: icons/cat-enum-literal.gif
+SHA1-Digest: cKMEV4+f+wnJdkw5faMUaETjVAo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ResolveInMappingNameCollector.class
+SHA1-Digest: jmLaC2WnqbpGxVH9RJE3jf/YgxI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$10.class
+SHA1-Digest: SgPs6yryKi08LJcS5b0PLI5N5Yw=
+
+Name: templates/default-templates.properties
+SHA1-Digest: gJlbYM5ySUDxKmEvwDWOgSaV2Js=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /WorkspaceMetamodelCollector$2.class
+SHA1-Digest: JXTAIwnKY9K4bx74TURp8ojOAeY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingReconciler$PositionCollector.class
+SHA1-Digest: kwrrU9oeufiQaQmrgX/81llZ3aM=
+
+Name: about.properties
+SHA1-Digest: Hkz7PmDQXCvivuGuJdNn+VSEr9M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/scopedvariablesextraction/Result.class
+SHA1-Digest: mqnjbEEz6CpdLs0+3c2N3/BE7HY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtPartitionScanner$E
+ mptyCommentDetector.class
+SHA1-Digest: LuBaiwn+12nq9+CRjkDj3xImxTM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtScanner$1.class
+SHA1-Digest: bvu+oc9iRQDEJ4TTSAw1lhTi0dM=
+
+Name: icons/cat-mapping.gif
+SHA1-Digest: Yic/816DeVV35WleTG0gWy+mZfk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingPresenter$HighlightingPositionUpdater.class
+SHA1-Digest: /Us1qrCdNxEtLtKKulqzIq3qGfY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/AbstractHy
+ perlink.class
+SHA1-Digest: ip/3wvGUlPbYX6FE/RqOnwFDMtQ=
+
+Name: icons/cat-variable.gif
+SHA1-Digest: 12a04iw45bDYkObk/6GkSYG2CQ4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CollectorDescriptor.class
+SHA1-Digest: xskcZFsT1x0hRDPGItVAgNV0T1g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/QvtHyperli
+ nkDetector$Context.class
+SHA1-Digest: qY9EVLt7BBdnHetXWKS7/SskiHY=
+
+Name: icons/cat-enum.gif
+SHA1-Digest: Pwq6QsG5skvzE2Ikh2mK+f4RSkE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/Messages.clas
+ s
+SHA1-Digest: /DCyg0D6Kf7aPlwUwCdBMeT3XWQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/CSTHelper.class
+SHA1-Digest: NOFyfoNKoOq4oK6a7C81eIOzZEE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtReconcilingStrateg
+ y.class
+SHA1-Digest: 8/RCW5H1kjQT7KRE8G7PJWF7Tgo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticToken
+ .class
+SHA1-Digest: 2LnfyLA0wKMGVPEV62o+J6x641c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/Activator.class
+SHA1-Digest: rbfexFFqyHHtoke0mc/2N3POqEM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /AbstractCollector.class
+SHA1-Digest: CwsqIKVgxWwuS+gdW99AZaCvH1w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CollectorRegistry.class
+SHA1-Digest: LK7IhhislbALmVAqa8QbI3rBUzI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingManager$HighlightedRange.class
+SHA1-Digest: s/5QxFQTXmpXO0U/7S9w0BOF+As=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /StructuralFeatureCollector$2.class
+SHA1-Digest: FRcXg6nN3sZGj40Z99s76dFTEyI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/BracketInserter$Exclu
+ sivePositionUpdater.class
+SHA1-Digest: uiPnMwYQLz5xE7Il5bKFLC+VapQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/IQvtAnnotationTypes.c
+ lass
+SHA1-Digest: 4XkW4wde8QJHt/TK+HffqL+fu7w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$1.class
+SHA1-Digest: DE6KKwviSs+TzRsMnrQWcKUgFdg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Lightweigh
+ tParserUtil$RunnableLightweightTypeParser.class
+SHA1-Digest: mzudP6kM2o3CBiB6BF5/b6n+D7A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /MapXmapCollector.class
+SHA1-Digest: Pr1cLYN/2Qk2l8+Qu5KMDLYzS3o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionCompiler$1.class
+SHA1-Digest: c7577627nLE4ZE5X2onZ+I/7tm0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut.class
+SHA1-Digest: yYMSAKz+/dNriyQ0+sbNnDDjlUQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/HyperlinkU
+ til.class
+SHA1-Digest: zf7T3Yf+7NWJobfr2N/xLVSpOW0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsPref
+ erencePage.class
+SHA1-Digest: pf6MjSEW2py0wQg3nMjuUOyr66I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtConfiguration.clas
+ s
+SHA1-Digest: ESNYssZJqtbe0BLuZkD9vF/4TnQ=
+
+Name: icons/cat-classifier.gif
+SHA1-Digest: gC2Z4dl3rPLpPre1WoxqOU/shSg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$9.class
+SHA1-Digest: ggwsshjWwgEuIM0X5ooLhU7GsVw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/OverrideIndicatorMana
+ ger.class
+SHA1-Digest: Ga4OkS9bEwowIW0eR4uvSmsIQfI=
+
+Name: preview/ColorSettingPreviewCode.qvto
+SHA1-Digest: XmC5ULwxedACKKnk/8TKijpfsSw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/ActionMessages.proper
+ ties
+SHA1-Digest: NUi9Y94oRPRJpxTRSOAadl3wX5M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/actions/OpenDeclarati
+ onActionDelegate.class
+SHA1-Digest: DBJCug8QBvbXK7REHwa+fc/2rKQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/IQVTReconcilingListen
+ er.class
+SHA1-Digest: dDkUJJzhr4H1jMwyftcPNsfMlg8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtDocumentProvider.c
+ lass
+SHA1-Digest: 26xlo2+3sWCEwj/6jefp3ZfcWGU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$11$1.class
+SHA1-Digest: C5Xhjq83d6r0+GlU2itxM2eik40=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$SrcViewer.c
+ lass
+SHA1-Digest: 8UhX3fzxZfwP5cg2KONyosQSI2A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTSemanticHi
+ ghlighter.class
+SHA1-Digest: skMaRHV1NNjPP8fZmVQ8EFkkjbE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/OperationCallI
+ nfoProvider.class
+SHA1-Digest: JG8qdzUE5ZXSeNya7fkEWKpyCxs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/actions/OpenDeclarati
+ onAction.class
+SHA1-Digest: yqNNcBWoPY1LMa/10Izn0N0/Eus=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /OclExpressionStartCollector$3.class
+SHA1-Digest: gE2yZUZxB3kZAwnJsVLbfTqvIxI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$3$1.class
+SHA1-Digest: AfluYi3+PaS+V3fNHSyHjYTDNQk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtReconciler$PartLis
+ tener.class
+SHA1-Digest: o5ybzLiV9yARw8S/GZwL7Qhoy14=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/QvtFileHyp
+ erlink.class
+SHA1-Digest: 6tCVarFfFaVVvjcHLJUzvYDdR2A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/OverlayPrefer
+ enceStore$OverlayKey.class
+SHA1-Digest: sYl5krrBRTCv6P2CR9MX0pBRIY0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/QvtHyperli
+ nkDetector.class
+SHA1-Digest: r5YFSa8CD2z7XPoZwicKrVWbfl0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Messages.c
+ lass
+SHA1-Digest: Z9iMS+AyPQzogs/VnX3fT5ZxS9w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineNod
+ eType.class
+SHA1-Digest: AqNTci5PG3X47e0SUQLe/pzVoVQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Lightweigh
+ tParserUtil.class
+SHA1-Digest: 8MJEvAf+PqKRsDct2t0LQYeMGhI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Completion
+ ProposalUtil.class
+SHA1-Digest: wZo5iZ19wNur/tY3P2RQ+FsqNAU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CollectorRegistry$3.class
+SHA1-Digest: E6l2520sDq1VIYoXMbASl1XQqs0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/CommentScanner$Whites
+ paceDetector.class
+SHA1-Digest: y5bnfJPTZPzkln6+IOyjjybDqPA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$6.class
+SHA1-Digest: gTQ5lxbmaG95jr7G7H/VcD2NLUI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineCon
+ tentProvider.class
+SHA1-Digest: kwSIbkoxmwjdsawN0d0XXNXt2IE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about.mappings
+SHA1-Digest: W44wJbltGFJu9WgXjWicUEuKS7E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$12.class
+SHA1-Digest: AR3oSxrP/iLxIM65YanLsZMOyFQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/ScopedIden
+ tifierHyperLinkDetector.class
+SHA1-Digest: qCO8c74T2CDKtJqxyYsz+1POpkU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtPosition.class
+SHA1-Digest: 8rYrLug/XeG9tetu1LSxZUb123w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditorSelectionCha
+ ngedListener.class
+SHA1-Digest: gjzA46joUrAzhClEotAxmYhpELU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtAnnotationHover.cl
+ ass
+SHA1-Digest: tMbUNcHuCSGR2iZvLmXFF9nqwAE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CategoryDescriptor.class
+SHA1-Digest: Vs2wJQzUoxoxINQisb9ERCCH5/g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionProcessor$1.class
+SHA1-Digest: UL20KGfMrsWKXiQzzicM2fVBq20=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/ImportHype
+ rlinkDetector.class
+SHA1-Digest: TFICulhZGSm09Abyt6QkP4i5f9w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$2.class
+SHA1-Digest: MdDlFkmQwWp6iTMSmpJWD+7pNUg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$ASTProvider
+ .class
+SHA1-Digest: iCKJUOABanb4/tsMIrmbJPPRQ1M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/ColorManager.
+ class
+SHA1-Digest: IsKkKMuSvmy9DoOU7rLiG4uYqBU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/viewers/QVTContentVie
+ wer.class
+SHA1-Digest: mrA9i8l1EmMoR3Kp7BLjMb++LII=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /MappingExtrasMappingNameCollector.class
+SHA1-Digest: EXiXmHZ0ff3YEKSMa/nuBXriFWA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$ColorListLabelProvider.class
+SHA1-Digest: QAeLzT3fVViOknsoj+BtFidJU+0=
+
+Name: plugin.properties
+SHA1-Digest: e8wc/9Sk3La1nq+HAmGv+c/Dz+8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorManag
+ er$DefaultColoring.class
+SHA1-Digest: Oq95RTPU6TNQA/WaY6Xtva2ZNqI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock.class
+SHA1-Digest: pc7TJ4A+29l570uxZVrXaYf4ukU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /IteratorShorthandCollector$1.class
+SHA1-Digest: 9WLULuIee3MVQL+nAk9SFHz8Vrk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/ColorManager$
+ 1.class
+SHA1-Digest: 0d+Qtjmy+1R29AaFTbwyE8Lv8Eo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingReconciler.class
+SHA1-Digest: VBZuQ714su/V9rngJqqlIcRXt9Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ObjectKeywordCollector.class
+SHA1-Digest: Th1TsC2aJdCRPwDISfJ0WSpwnsQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/viewers/QVTContentVie
+ werCreator.class
+SHA1-Digest: RoZLrk5CtKGFDkSWdDyCd8Q4Jcg=
+
+Name: plugin.xml
+SHA1-Digest: vWaZoWzPoJARVezihhwh0aTyN3E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$3.class
+SHA1-Digest: lvgDPUvsp6qiCe8qfoqfKUj95NY=
+
+Name: icons/cat-class.gif
+SHA1-Digest: 4gxtuTrcp+fUmtSE/rFx3imNQAI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/BracketInserter$ExitP
+ olicy.class
+SHA1-Digest: kbf9KDrjieVQO4XxOdi2X+KXjB4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtTemplateCompletion
+ Processor.class
+SHA1-Digest: 4zGrbalkMA5b8jUPJbG2n6jyY+o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/IHyperlink
+ DetectorHelper.class
+SHA1-Digest: wGqeHXvmKnA7brwL1KJVMGze4lM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtReconciler.class
+SHA1-Digest: zSLWRt0wEtKXy0rLyTJbdCUWZWw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /WorkspaceMetamodelCollector$1.class
+SHA1-Digest: WgIgqeFqyXyt7sWc+ED5UF3B+44=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/ScriptHeaderHandler.class
+SHA1-Digest: UGR/L/5fOVRx9FqNBfNCYD+C5xU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/OverlayPrefer
+ enceStore$TypeDescriptor.class
+SHA1-Digest: 1dEWvPtTgVqC+tU01wGofHOofA4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorManag
+ er$Highlighting.class
+SHA1-Digest: I6lCtVmGDkgV5l180OjaEPP/Ttk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /TemplateCollector.class
+SHA1-Digest: Xu4TYjUHOYG+tnN0+UPDK7WuckU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtDoubleClickStrateg
+ y.class
+SHA1-Digest: jazMCc27lsnV8VL76AvC6yw6+74=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /LateKeywordCollector.class
+SHA1-Digest: M7rgq5Y+6zlSUmzWCWf1T4IHl7w=
+
+Name: templates/default-templates.xml
+SHA1-Digest: R713Z5BgMAOL0R69HAuzHyntkvA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/ModelTypeH
+ yperlinkDetector.class
+SHA1-Digest: KC3nEZh0GzPNraQM3deFlcsTlc0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut$ModuleNode.class
+SHA1-Digest: t1vf5N+zlyiOP18rE6HimOIRZyI=
+
+Name: icons/cat-readonly.gif
+SHA1-Digest: XTz6aaoqC9Dkjb+QtwcxcqsApRI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditorActionContri
+ butor.class
+SHA1-Digest: S21Jj/3t0pW6vCtMDSOP7B5T8hk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingManager$HighlightedPosition.class
+SHA1-Digest: RcO5PAd9HEKFwbZ8Cf0pBYYatQc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/NonRuleBasedDamagerRe
+ pairer.class
+SHA1-Digest: Yu+if9ZbaOe6lOavdingFPCNmzU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/OverlayPrefer
+ enceStore$PropertyListener.class
+SHA1-Digest: EeT+klkNl3vt7SS7Bq/73zEuT34=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /StructuralFeatureCollector$1.class
+SHA1-Digest: XaS/GhvaJIZfimqGbgQNFKjH0WM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/ResolveInH
+ yperlinkDetector.class
+SHA1-Digest: I8kcZO7o/R3udEy/Dk6Ag58hij4=
+
+Name: icons/cat-property.gif
+SHA1-Digest: rKOUMIPXKk3u3H1JbDDgEQrhVek=
+
+Name: icons/showqualified_co.gif
+SHA1-Digest: dnWksgvFQSudK3lk7HV4q5VBr9Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Lightweigh
+ tParserUtil$ParserTypeEnum.class
+SHA1-Digest: Jna9IofTr7ds04m+hg+F+IRhftI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtTemplateContextTyp
+ e.class
+SHA1-Digest: LStXZpq9jnQ7bDZjA4fHLEBbbco=
+
+Name: icons/alphab_sort_co.gif
+SHA1-Digest: JjLUPavD/jFA7MwWtXEyWh+PFu8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QVTEditorPreferencesI
+ nitializer.class
+SHA1-Digest: JAhtFB77U02PVmMHqbTNHMpSl3M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/OperationH
+ yperlinkDetector.class
+SHA1-Digest: jKvLdlg+zizi5Z9a9ZijvUmJbLY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/PatternPropert
+ yExpressionInfoProvider.class
+SHA1-Digest: WJ/AQ6ilTMHGMyN9w9XfiUCAu60=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/messages.properties
+SHA1-Digest: HCSp/e283IKN5cU/sVf0v8XgKc8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$8.class
+SHA1-Digest: 8Vbj0TX8Lp4rhyWAsmu831WOHck=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$PixelConverter.class
+SHA1-Digest: uRvFlxJWlHHcOJ0/7CKHfhz0d/g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtWhitespaceDetector
+ .class
+SHA1-Digest: h7gNyYr7PjZQgb+2f6mjYCQNy6Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$14.class
+SHA1-Digest: 1SCB4IHmg908KDSZeTgzrXOXEGk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ImportModuleCollector$2.class
+SHA1-Digest: XOqxnhReSaj8kmmZfM6XV1hNliU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /messages.properties
+SHA1-Digest: 0Z1p3klZ6pemJ3GOCje7wuQ/Cn4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingPresenter.class
+SHA1-Digest: cglWunRznbG6BgHHLQo5Kiw2olU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut$ImportsNode.class
+SHA1-Digest: ByqU3oIOOKIkWJl9FbJ7bfQDZ/Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/ICollector
+ .class
+SHA1-Digest: bA53SqneD8OMzHwjgsC56CjPGc8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingManager.class
+SHA1-Digest: glAFR0EkiWYmlMNOT4H9k0u+qro=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor.class
+SHA1-Digest: eMay388Vj1mpYhA+lP4MjxKUEO4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtDocumentSetupParti
+ cipant.class
+SHA1-Digest: 87eDPq8Hb2K5coq2GRgc9q598SY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingPresenter$1.class
+SHA1-Digest: dynjo6GIgBzW7fZh65WfaCZPFvY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/CommentScanner.class
+SHA1-Digest: hoG2qxh0vfSVHNSiA8HnLjU+gdA=
+
+Name: icons/cat-template.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/QvtTextHover$1
+ .class
+SHA1-Digest: V2BhJ3tXdSefj55GU1HenSXALpw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /AbstractMetamodelCollector.class
+SHA1-Digest: HyhCG/TBFPo0Nctj+b9cQnj4P4g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtIndentAutoEditStra
+ tegy.class
+SHA1-Digest: Wyq/Gi8zyjD6qQ0pm1W17BWXyXc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/IElementInfoPr
+ ovider.class
+SHA1-Digest: 45z5gBNFubL/Cie8CGXC0skOArI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtTemplateContext.cl
+ ass
+SHA1-Digest: Im3KyEgdqi3bHCN+3zhlnXAKapg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$4.class
+SHA1-Digest: eAGF97kvx4Vtf/GtP0tHBk/aR2c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /StructuralFeatureCollector.class
+SHA1-Digest: ZCmcN2pwg2FW5uUJ3KTpCxEZSY8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /OclExpressionStartCollector$2.class
+SHA1-Digest: ZeDdJEZknPeErOM1RqrSJssQ2EA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtCompilerFacade$InM
+ emoryUnitProxy$1.class
+SHA1-Digest: ZW5pibIxFAJHKl976HVMy4NjNLY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/OutlineNode.c
+ lass
+SHA1-Digest: KlbQrC8MwMwsp9nWFbkZkWXWZv0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$ASTProvider
+ $1.class
+SHA1-Digest: 2/IVFLAmesJbKPUvP2V2ZEvapM8=
+
+Name: icons/cat-operation.gif
+SHA1-Digest: kCD5tndHqgayHPvPxUfGhBd005U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/ObjectProp
+ ertyHyperlinkDetector.class
+SHA1-Digest: ehGXXQYhkefMDX/80WRvC4Yj+6c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CollectorRegistry$2.class
+SHA1-Digest: KeFey+tyL6mreJbquuMPITLpn+w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineLab
+ elProvider.class
+SHA1-Digest: 1n6MAOkVw8vQcEUYqpqv1rxFr7w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /Messages.class
+SHA1-Digest: KK6uSvP9zfCpcDm46QyDS74AmdU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$5.class
+SHA1-Digest: yebX0u5VlvJ/3AAVonRHdmt/yZg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/SemanticHighl
+ ightingReconciler$1.class
+SHA1-Digest: B9mlgZg8TuW3OR4LL5b4gFnUdDQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/VariableExpres
+ sionInfoProvider.class
+SHA1-Digest: 7iEd8AlQN12R0lnRCIX2hYnx7xs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Lightweigh
+ tParserUtil$ILightweightParser.class
+SHA1-Digest: nBsc8GS7VxcjR+bir9goeeaN7cI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/IKeywordHandler.class
+SHA1-Digest: n9eoy2hEF3gdv59x8T+3yk1bhHs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$11.class
+SHA1-Digest: MpSDm+NwCBZxh08rKMAEg8wFNLQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtPartitionScanner$E
+ mptyCommentRule.class
+SHA1-Digest: KwmrIkK1Kb1Ph4x83ZjgqKbXUPc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionData$1.class
+SHA1-Digest: 4Ar1qztJDfRSMEfN7i1r0Y4Li6M=
+
+Name: about.html
+SHA1-Digest: M726E6VCNvkNX3QTDnewpk5zpHI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/FoldingStructureUpdat
+ er.class
+SHA1-Digest: dQiRIx54chUObP3/JuQyC1cgNng=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ColonColonCollector.class
+SHA1-Digest: 7fUoA6K4Pj65ta6MzBm+6qwc1sg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut$TagsNode.class
+SHA1-Digest: fJB5eay/qAb6Z2Hd+opFA9itPVM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut$ModuleDependentNode.class
+SHA1-Digest: j5/mDJspfhGti7aMYk6jg9uyWNY=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /TypeStartCollector.class
+SHA1-Digest: DHKlBrhKLDci5KCsZPZLxCv/O5c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineSel
+ ectionListener.class
+SHA1-Digest: VN386X8DZWTZBehB5Aj9EegpcSk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineNod
+ eSelector.class
+SHA1-Digest: /FPPX6zLsulqKIl1WWaYguVTMs0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorManag
+ er$ColorDescriptor.class
+SHA1-Digest: sfr1CzH8RjhKN33YEP9ggKeJIzE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/actions/OpenDeclarati
+ onWindowActionDelegate.class
+SHA1-Digest: Y9i3W5DhfHoHrZTR+DQ2FR9akyQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtEditor$1.class
+SHA1-Digest: RvygSNRaL/lkSotiaeqmqRg5Fp0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/Lightweigh
+ tParserUtil$RunnableLightweightParser.class
+SHA1-Digest: E9/H+eXf4Wn2tgd5gQqvgESV8ko=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/ProblemUpdater.class
+SHA1-Digest: 0q1QO20SutTYFUlcGQ+DCdpxdfk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionData$ITokenQualificator.class
+SHA1-Digest: HjAWCCyaeZnsPdFWpxB14lVsLjM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut$MetamodelsNode.class
+SHA1-Digest: O1qlIQqL4qTisLEphnfax7v3Y6A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/MetamodelE
+ lementHyperlink.class
+SHA1-Digest: 3y4b6AS6iz952xCPJ7z8k3M3sbw=
+
+Name: icons/cat-imperative-operation.gif
+SHA1-Digest: xxYrlwz3cGWTIZxJ3H/blt7fpdU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /AccessorCollector.class
+SHA1-Digest: fSRohfeRC7hKpCRkyPKkqjOkUtM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorManag
+ er.class
+SHA1-Digest: Ca7M5zmbKP3wIjY47qpRk2CpueI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/messages.p
+ roperties
+SHA1-Digest: 9RKe0GuuSxSxtb8gDdwR+ttZl0Y=
+
+Name: icons/over_co.gif
+SHA1-Digest: KDXEkxrj3cdRhNP0UO9f3ztxPQc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/IHyperlink
+ DetectorHelper$IDetectionContext.class
+SHA1-Digest: uq0Qdml1hWAubLBsDgtdxG2QYPk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$2.class
+SHA1-Digest: u07PhHLYDfrSZw8B1wm9E4oQl1A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /RegisteredMetamodelCollector.class
+SHA1-Digest: /eP5qmNx+bPZk7Ao1pQSmOL/wVA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionData.class
+SHA1-Digest: 0Q/e4MSnHSWGMFBrA7ADdI61aG8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/ModuleImportIn
+ foProvider.class
+SHA1-Digest: zQbgZKh9iQdF1q/fpJ9p1AEUoWc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /WorkspaceMetamodelCollector.class
+SHA1-Digest: qoIvToqT7cqyRiIXXg3EZNJrzjU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtPairMatcher.class
+SHA1-Digest: VdpbHPT4MRtT11I13XCkqkZiklU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/ModelTypeInfoP
+ rovider.class
+SHA1-Digest: Te0n4t05xLPVug/TKIAYdVBBdNk=
+
+Name: icons/cat-datatype.gif
+SHA1-Digest: 6ekdSf+A0xuEMhYLB+tHiepu0bQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/Messages.class
+SHA1-Digest: 4bzQNkltbuixWajAN6A9wNfrSeE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ImportLibraryCollector.class
+SHA1-Digest: +CbRDr2lOt8SWnjtk5ttGVfxoP8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /RegisteredMetamodelCollector$1.class
+SHA1-Digest: qCBDoDWoaYXjiDocpKeF2GyAQOI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/outline/QvtOutlineInp
+ ut$OwnedClassNode.class
+SHA1-Digest: hsYZYCQJxa6tmNTR48aZysL5Spw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtScanner.class
+SHA1-Digest: AwCXZizr+iGtDd3hw5jTwzssS8g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ModelExtentCollector.class
+SHA1-Digest: 3zT5i/ob7OHmm3Wm4vEUh6OE8Lg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/BracketInserter$Brack
+ etLevel.class
+SHA1-Digest: XJcB9J4WLIaTtEm/+LE/+nQUzVo=
+
+Name: icons/cat-package.gif
+SHA1-Digest: gPqtAkRLYKGxRarWnVuIn7mip0w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/BracketInserter$1.cla
+ ss
+SHA1-Digest: SaLISiVhKp3GfknhYHrd532QZoc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/scopedvariablesextraction/ScopedVariablesExtractor.class
+SHA1-Digest: VpCx9P9uVsY+102mnGoPFH3Fvb8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/KeywordHandlerRegistry.class
+SHA1-Digest: l0JVPajzGr1rrx+GyBjzWaW+Mmk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/PathNameHy
+ perlinkDetector.class
+SHA1-Digest: RCxIiHIZ3q7CQxzhxEtgm2HncNc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ResolveTypeCollector.class
+SHA1-Digest: YieOOK76HL1ps//DeS+hzrWjjHg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hyperlinks/PathNameHy
+ perlinkDetector$EModelElementRef.class
+SHA1-Digest: SsCXkSH+a6XEcp4VJM7YIpYiEsA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionVisitorCS.class
+SHA1-Digest: oLBW23G8llXYu+2LJg2eu6Xcd5E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/PropertyCallIn
+ foProvider.class
+SHA1-Digest: qgiJn/0h+B0tquO5clXMKcr77dg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/CommentScanner$Defaul
+ tKeywordDetector.class
+SHA1-Digest: CNkOrf0lPUlZRxxMMTp/4MjrCfU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/ResolveInMappi
+ ngInfoProvider.class
+SHA1-Digest: XPxktfXeyrU3KDFvfYEnGeUVBl8=
+
+Name: icons/cat-modeltype.gif
+SHA1-Digest: jwyIghFl2dyK2GoioeV79SBlabI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/DocumentUtils.class
+SHA1-Digest: bNQDse+LJJm5ZuSzgy+h9ATU6Zc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/scopedvariablesextraction/Scope.class
+SHA1-Digest: +jiO9QIDo2gQiVbabMcyPLUJMWA=
+
+Name: icons/qvt-mapping.gif
+SHA1-Digest: JTjRtjx815Cn7/jENNWyzOUvLHw=
+
+Name: icons/cat-keyword.gif
+SHA1-Digest: CcXL2DuX17huMMrDEjCUiT0X9BU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionCompiler.class
+SHA1-Digest: wTShZx3IdMT6yFMzskrnu6o2bRY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/CategoryIm
+ ageConstants.class
+SHA1-Digest: ZO+6Ii8EKHyKS1h7vCjbCKgCoAA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectorr
+ egistry/CollectorRegistry$4.class
+SHA1-Digest: +VoGqyt4cmh4OCQN9zFTJZyx+qM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTEditorPref
+ erencePage.class
+SHA1-Digest: xn6FgzCCh0bfAmfyQYgVyZVOgaQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtCompilerFacade.cla
+ ss
+SHA1-Digest: RoM5NHuMioEqicZXMzszo0bjCv8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$7.class
+SHA1-Digest: V889+AsDSRkR9YGAq/tcdaXcGWQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/messages.prop
+ erties
+SHA1-Digest: nQSJ3RugNR+9TQtmrp7y/L5kGI0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/keywordhan
+ dler/ImperativeOperationHandler.class
+SHA1-Digest: DI/meSID2Mpotaf9qUSZoAPXlIc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/BracketInserter.class
+SHA1-Digest: OSUCCj5I4ojEI4sbch+GRBWk1pw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionProposal.class
+SHA1-Digest: a1DM7On8xu3eoqoL5tcFC4GdlzE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /AbstractCallExpSourceCollector.class
+SHA1-Digest: ++e+trM7U5G13RD0bOP2tVmA48Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/colorer/QVTColorsConf
+ igurationBlock$13.class
+SHA1-Digest: T3DSz0V0SAyT79/CWb8bSA4BpSQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /ImportModuleCollector$1.class
+SHA1-Digest: km5VGMcba8ZFVERhVpYb0UCcsdg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/IQvtColorConstants.cl
+ ass
+SHA1-Digest: ONhBNRqcZDoW17Nxxr+tJ2223BM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/QvtTextHover.c
+ lass
+SHA1-Digest: APieL/PzkkRzugJa0bjk3p0iZlk=
+
+Name: icons/qvt_src_file.gif
+SHA1-Digest: Wa2HVndjaIc3wx+wKYQcZ72KdNo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/CFileData.
+ class
+SHA1-Digest: Ryws9TVcPRDxsoRQiebE5KzKSAc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/QvtComplet
+ ionProcessor.class
+SHA1-Digest: TSoyrw3KThahHEPsNEkmS9ipnhg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtTemplateCompletion
+ Processor$1.class
+SHA1-Digest: PxmZ0FQZLA1L+pZwhBc0i6/DHJg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/QvtPartitionScanner.c
+ lass
+SHA1-Digest: m7ynZQ75zt0O1Y2eQfqjJMjIFsc=
+
+Name: icons/cat-type.gif
+SHA1-Digest: Clav44J843BtFSa9wcbFb05KhIQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/completion/collectors
+ /OclExpressionStartCollector.class
+SHA1-Digest: BbxIsKHTkSqD4iZETmOClvX/Fhc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/ActionMessages.class
+SHA1-Digest: FGP+8h32qNkk6tOLg4NvFElpAlU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/editor/ui/hovers/PathNameInfoPr
+ ovider.class
+SHA1-Digest: 3+2SRcEsQLb1KAQ8khFYg5a2LwM=
+

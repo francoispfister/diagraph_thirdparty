@@ -1,0 +1,967 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.cst.parser;singleton:=tru
+ e
+Require-Bundle: org.eclipse.ocl;bundle-version="[3.0.0,4.0.0)",org.ecl
+ ipse.osgi;bundle-version="[3.5.0,4.0.0)";resolution:=optional
+Export-Package: org.eclipse.m2m.internal.qvt.oml.cst,org.eclipse.m2m.i
+ nternal.qvt.oml.cst.parser,org.eclipse.m2m.internal.qvt.oml.cst.compl
+ etion.parser
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$BaseCheck1.class
+SHA1-Digest: SuxeW2WaV12Dh5w9EOaYhbVTqSs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$Nasb.class
+SHA1-Digest: BJOywwbm14Fvwti7/kzzk5HaWlY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopeState.class
+SHA1-Digest: 8wnYX25IiwPLoejResKqcT1nXlo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$TermCheck.class
+SHA1-Digest: zIhxRI2rfx+wi6oNQUPER0+sLKs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/LibraryCSImpl.class
+SHA1-Digest: /5c9fuSqlCsoYYMTp3o4kK0dBzM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$NonterminalIndex.class
+SHA1-Digest: lYbRryY2n1zBWbbk90fV0WhcNSQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs.class
+SHA1-Digest: 5oiBGYJHVD3VqKAR4fYY4FVfrC0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/AssignStatementCSImpl.
+ class
+SHA1-Digest: 9TNhgunluYBlR8LdwF3r11SlqXY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingModuleCS.class
+SHA1-Digest: swL23xgFxnrdvKyetqPxXUwuZS8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ModelTypeCSImpl.class
+SHA1-Digest: y8zUjj5Wusnqz0oRi/fD003RoX8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$Nasr.class
+SHA1-Digest: GGdN7kKfq0ZwWGXHI946nKOPfv4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/OppositePropertyCS.class
+SHA1-Digest: JEviYgwBswsOHMzgopz9ZlASiO0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/DirectionKindEnum.class
+SHA1-Digest: sjKttxUElkLNtywm/xupeCGAjrQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$TermC
+ heck.class
+SHA1-Digest: y3tKdIMnLlWJPNyzsMrXBlNZ1T8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$BaseAct
+ ion.class
+SHA1-Digest: VvqZw3ajdIF/YqIQaLOMN3DgGxw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs.class
+SHA1-Digest: qcetpKULlmnYtDSHqRlI2p9lx9Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$Nasb.class
+SHA1-Digest: 7iX4MDwwFrxGyYyBc1UDqsP9RbM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ContinueExpCS.class
+SHA1-Digest: veIwB9lzJMkpc6J+RBumxEbUP/0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopeLhs.class
+SHA1-Digest: rNYCWdUBgITm1b4XsyOt1RwIJUw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$BaseChe
+ ck.class
+SHA1-Digest: YqnBd2T9RbtyastwUG6EdtRzvaw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/DictionaryTypeCS.class
+SHA1-Digest: ljmJ5+cuZwVuUldkm5jW5rSwYvs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ConstructorCS.class
+SHA1-Digest: TAyDPt0KOa5gj4BZiVzfcDLpFvY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeS
+ uffix.class
+SHA1-Digest: VLATYH7KGDXMlW3ALWNTg6qGbdg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ListLiteralExpCSImpl.c
+ lass
+SHA1-Digest: gWT82oXcDpDX7kHNqLOSXmpFSd8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopeRhs.class
+SHA1-Digest: Mm3kmiLjTV7V8Zqt+4Ez7gnKKqU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ClassifierDefCSImpl.cl
+ ass
+SHA1-Digest: MpzqU7+2EuRzmrWWr9WJzJYgjxU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParser.class
+SHA1-Digest: 15MgtYw4RgnEciYo2XTDtQDpXGA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ModelTypeCS.class
+SHA1-Digest: TySqATJSNh0WZhk+kahqy9q8mlk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$Nasr.class
+SHA1-Digest: Fl6JgfRctGbHLrA+U4t5/qV39p8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$Asb.class
+SHA1-Digest: vOoW2ftLT+i61tk0Md5I55zvYrA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MultiplicityDefCS.class
+SHA1-Digest: e9/n1OcggUtbdMPbkVC1JPxd8XQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ScopedNameCSImpl.class
+SHA1-Digest: ke2mqfrNmnTMgBhi5plcf+igF+A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$BaseCh
+ eck0.class
+SHA1-Digest: lcRlbZgRWpPbNGK/Q5aIz0lTWnQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ContinueExpCSImpl.clas
+ s
+SHA1-Digest: g/nR9UjHLzuvSgUQQ5xybXSyoUw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/SwitchAltExpCS.class
+SHA1-Digest: vpHBZs2L5D9CSwl+wSUoDs78ImA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ConstructorCSImpl.clas
+ s
+SHA1-Digest: sB2wAeFIC4uXf+vZv8HHqbveJTE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$Asr.class
+SHA1-Digest: RtzXvsDuA7uj0KDtOSt8Q8u4Ozg=
+
+Name: model/QVTOperationalCST.genmodel
+SHA1-Digest: pdUj88QNDCdG+TLhU4Z467a4j9c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ModuleKindEnum.class
+SHA1-Digest: Kd45sI7bw7IbE/MFPmZTLAduauA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingExtensionCS.class
+SHA1-Digest: 4j5lHhCvwNbLWrQlb/yH9L2OEBU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/LibraryImportCSImpl.cl
+ ass
+SHA1-Digest: 08KebHFd7E9Wuc/76FTKndN1oYA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParser.class
+SHA1-Digest: OIqAwPq2K04hAVkN4zny8YagZek=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexersym.class
+SHA1-Digest: PYHTt9Jrgi6VegdRTaOHwYSf76Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopePrefix.class
+SHA1-Digest: 0cLkH8cdBX04A6sX9qBqx4MXkdM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingDeclarationCSIm
+ pl.class
+SHA1-Digest: vdRMrP6htkXhhOjiuM1c+BKUDhU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$TermA
+ ction.class
+SHA1-Digest: KaWuaWeRr3sfZwHsXjIaG+cgfs4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/NLS.class
+SHA1-Digest: j/a3WBR6EvNigPEdas25l5b9Uwo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ClassifierPropertyCS.class
+SHA1-Digest: 5vVtZajfENOkNKMNLJ8B/gtSMMY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeL
+ a.class
+SHA1-Digest: duyalAvKNvVSHTHh2OFgBSHX7uA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$BaseAc
+ tion1.class
+SHA1-Digest: Z7ecJM5I71jFz146yw2MK8JJy/k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ParameterDeclarationCS
+ Impl.class
+SHA1-Digest: m40hIf4pJdNZ0+SWCD3yGSNiBNc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/AbstractQVTParser$1.
+ class
+SHA1-Digest: xB4QAnksSovGN7THRr/nE5HnWT8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingQueryCSImpl.cla
+ ss
+SHA1-Digest: Cn3Ka58x/BWNAbwOHFD3f0o1Tx0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopeState.class
+SHA1-Digest: 1nv7p3ug+64Sl/x0FzQWyoD7DLo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/NLS$OSGI_NLS.class
+SHA1-Digest: zjbG1auttYdpOWz9Fakh6nwsIHM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ModuleUsageCSImpl.clas
+ s
+SHA1-Digest: gxh9cBm2XoiehMZEh5aXctLuMJI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Prosth
+ esesIndex.class
+SHA1-Digest: tIpOZYaNaQ/O7Jb2mhBu1lYULSo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ResolveInExpCS.class
+SHA1-Digest: /996Ajl4dcqk7ftzwVqrgad9cTo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ElementWithBody.class
+SHA1-Digest: BqkuRfT07FhD4nuGk3UwLwkj5c8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/util/CSTAdapterFactory$1.cl
+ ass
+SHA1-Digest: mWz5U+FR+DgpBQZAVUL74IhzFQ8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ProsthesesIndex.class
+SHA1-Digest: ujyPzvqbdf9z3jEfselw8tAwnPo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$TermCheck.class
+SHA1-Digest: EOIHaojyHt0QNXL5fwrznHD+ORw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingCallExpCS.class
+SHA1-Digest: 7NPL8ip1HIImdTt07dcYlWIxaWU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/LocalPropertyCSImpl.cl
+ ass
+SHA1-Digest: 206bmThqdDS46gHGBelNJmuN0nw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/PackageRefCSImpl.class
+SHA1-Digest: 7x/mY1OiHkqIsVjxT/PtzdeKryg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingSectionCS.class
+SHA1-Digest: 65YZ0FN36jiKlH1d4wJJAx/AUIQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParser.class
+SHA1-Digest: Hmoc3U6FsyIhkWS0+RzCVPK32p0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/LogExpCS.class
+SHA1-Digest: oS25XkNN/Eu8nFnJH8J0XtvRBAw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/DictLiteralPartCSImpl.
+ class
+SHA1-Digest: 8bAKUWTfzeSev5Nul1IA30VLIi8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$IsNul
+ lable.class
+SHA1-Digest: L1yjwq5Nn+dSnklwW+dt1T7x/UE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/RenameCS.class
+SHA1-Digest: Uy+Udbh8Zk2hizAxq9P7Zs3AIo0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/SwitchExpCS.class
+SHA1-Digest: KvwvhlJYa3qP2PcukWHsDxAdfQc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/DictLiteralExpCS.class
+SHA1-Digest: WL2L9Z1OU9hJO8858UJU8JzAWb4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ProsthesesIndex.class
+SHA1-Digest: GMUj91/mraBcO427W2EU1/Wrp9M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/BlockExpCS.class
+SHA1-Digest: qKC8euVN7B+qGrotij99oqfbd9o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$Name.class
+SHA1-Digest: t/PF4AwJIt1Qv7blRe1pIfU/d1U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/CompleteSignatureCSImp
+ l.class
+SHA1-Digest: ABdUFA3qpI79oHHIoPT8f5LINFo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/QualifierKindCS.class
+SHA1-Digest: MmH/UxRdZOV4FMCQlov5MAK/1hk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/BlockExpCSImpl.class
+SHA1-Digest: W/3f40p4HdQRgSPoEP45bm2Kzzc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ModuleRefCSImpl.class
+SHA1-Digest: 2DEXq3MNMDsXgDnzwppS5xIPfJ0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ResolveExpCSImpl.class
+SHA1-Digest: IDRoaXyxE632soaa9bk38nVdgv4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QvtKeywords.class
+SHA1-Digest: 0Mq4QfyJP5722h5oxNmjdk8a7sk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$BaseC
+ heck.class
+SHA1-Digest: usETmUsRm+r9MU3/ESKxtsneJFA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ClassifierPropertyCSIm
+ pl.class
+SHA1-Digest: 8UnzzWyZs4EizRrcHMM0jah6MeY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$Prost
+ hesesIndex.class
+SHA1-Digest: bk0dzcfC+j27dECw0SBmw7zARGw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ModulePropertyCS.class
+SHA1-Digest: HRm1/P1LenuDmjeHQf05iaDQucU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$TermCh
+ eck.class
+SHA1-Digest: BE7hnuQVXJxTXhde+q92RE2oHuc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$BaseAction.class
+SHA1-Digest: n+YsSh2ApmnY7rCp4Pkc+NXh40Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/PackageRefCS.class
+SHA1-Digest: f9d2FISrIDGZviyxi1hLrfh6o1I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexer$QVTOLexerL
+ pgLexStream.class
+SHA1-Digest: 9uocfLX772yWoeEgTskLWdKI1xk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeP
+ refix.class
+SHA1-Digest: fgDoG9ENkJplMmbbowUe5fhCx+o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$Name.class
+SHA1-Digest: 8ESoypgSwGlHIegiLPkmJ6NRwhY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$BaseAction0.class
+SHA1-Digest: +OLKKQTpxqrFQyM4YKjxZyEdZgY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopeStateSet.class
+SHA1-Digest: 56yeWGvhAFTdoj874fDCEYatJzc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopeSuffix.class
+SHA1-Digest: +u4gMEnIFCgSrYsO5iukcqZRJyA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingCallExpCSImpl.c
+ lass
+SHA1-Digest: k9gFb/QLJ48dECI1/0uVwot9uIc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs.class
+SHA1-Digest: tAiWKwgGEaLC4dtbW1lVJ6kts8s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/CSTFactoryImpl.class
+SHA1-Digest: lvohz5OjYbW1sLX74wI8HhsyozY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ConfigPropertyCSImpl.c
+ lass
+SHA1-Digest: wL9WlTL/6txdXJA2By4ArDHsBqI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ModuleRefCS.class
+SHA1-Digest: h+J4Q3loc4hFE3uc2pzU/IdBkQs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$BaseCheck0.class
+SHA1-Digest: DwtJ5UoOVaYFgJukfKjCPbWaQLA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ImperativeOperationCallExpC
+ S.class
+SHA1-Digest: Z5Rd0iobFamtnlpsJ2yX0p2PQwo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/CSTPackage$Literals.class
+SHA1-Digest: BbQ65Ljp4cfL/CKVukprIEi9CXA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/SwitchAltExpCSImpl.cla
+ ss
+SHA1-Digest: HB9UtIPkGs1P/NBr2uBRCA+zhCw=
+
+Name: plugin.properties
+SHA1-Digest: 4J6x0lndy/zOf/2fhj8Tln5LZJI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ResolveExpCS.class
+SHA1-Digest: L8M91KCrnzI8vuEze+0QEoAsS40=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/InstantiationExpCSImpl
+ .class
+SHA1-Digest: CNIFMFZZnLyxIH7DD/wZpopW6HQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$IsKeywo
+ rd.class
+SHA1-Digest: ZAaoeLy2mXarsl2jk1X2cyPcPUk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingExtensionCSImpl
+ .class
+SHA1-Digest: yGxkvswW3/CYl9NkhM0yjMK6TOQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingQueryCS.class
+SHA1-Digest: vuaY5gDcKZxjrJimsMYLT0qS9Jw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/TypeSpecCSImpl.class
+SHA1-Digest: n0RPn8pMgHfNYMa7PzxTPZ4uPvw=
+
+Name: plugin.xml
+SHA1-Digest: eVTW8wxRu8kPB9VEq6QYnnfqcWo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/BreakExpCS.class
+SHA1-Digest: p+wReL5Xk5eKpIpu2zZadHSEp8I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingMethodCSImpl.cl
+ ass
+SHA1-Digest: Z78qwSxjq2rlE+8FvCp913kwU2k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingBodyCSImpl.clas
+ s
+SHA1-Digest: akvYQhqPhUH/Qx5qLBiaF4m8pzc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ModulePropertyCSImpl.c
+ lass
+SHA1-Digest: Jfq80KAodK8sJ2iTozVVABg68JE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$InSymb
+ .class
+SHA1-Digest: vBLhoS/nMEIWV4lawl0ELMy2Ito=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$BaseCheck.class
+SHA1-Digest: hYGsS3v8ZLCboerRClhg2qO42LU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/TagCSImpl.class
+SHA1-Digest: aruiPdQTh1lJ6CoGE8sdAri0fFk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$TermAc
+ tion.class
+SHA1-Digest: iRC3RCe+AepXhXsfx6HqE2XIwIg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Nasb.c
+ lass
+SHA1-Digest: qWy4YlY7mMqC/BRAQJCh4vfA9Ck=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ComputeExpCSImpl.class
+SHA1-Digest: qO6JdH/fC7btAU04k2BZGv7gJOQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ExpressionStatementCS.class
+SHA1-Digest: fX7sf4cR+Hphxn8kffU1jzpb0go=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ResolveInExpCSImpl.cla
+ ss
+SHA1-Digest: 1YouRnmb9WWh6O8BI2XmpIPVMK0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/SimpleSignatureCSImpl.
+ class
+SHA1-Digest: daB/etlMFXCOLq56cfzYjGOxwII=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/DictionaryTypeCSImpl.c
+ lass
+SHA1-Digest: Iqv67eyYNK6z8+EarlJo1Z+HB8s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/CSTPackageImpl.class
+SHA1-Digest: QW8AWanVfv8VIRTvz5b1i5ckoqQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Nasr.c
+ lass
+SHA1-Digest: D/C0m4QE7T4O+kI/IWb6/lY9R2k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ReturnExpCS.class
+SHA1-Digest: QVd8leFgCtpGaIETaULqkQa9Lfg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopeLhs.class
+SHA1-Digest: kk5OfYxtpCx3UGvxb9sL+eGozrs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/AssertExpCSImpl.class
+SHA1-Digest: jLJtR79H7GZz9YYmZ33zlOREaIM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ImperativeOperationCal
+ lExpCSImpl.class
+SHA1-Digest: 76Ql3X5O9okzThZC1tcGuAD7KlE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingDeclarationCS.class
+SHA1-Digest: MVFTAOOpYbWAo3YDaNwPVB3NH2I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopeRhs.class
+SHA1-Digest: m0TOYEKqi7g1o8lz4AuacABVd9w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$IsNull
+ able.class
+SHA1-Digest: XwkDImMZDA4JCZAwdQ+w6ClXgSk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/TransformationRefineCS.clas
+ s
+SHA1-Digest: YkGhojySyzyeEYWBTlbtxUdkZSY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$BaseAc
+ tion0.class
+SHA1-Digest: vK7V3J66/uagmwRO+T258Smd+Xs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ResolveOpArgsExpCSImpl
+ .class
+SHA1-Digest: U740e3hwMl2W+YOIUz/CY4cQKgY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/util/CSTAdapterFactory.clas
+ s
+SHA1-Digest: J4YkF5eykiFMv9oers7PT/rayTA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingRuleCS.class
+SHA1-Digest: Q1/YuJACjhkOztawi7BEICM6Ugg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$Asb.class
+SHA1-Digest: R0fAhCNCK9LHk+ODR9Ea2MVKxQg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/OppositePropertyCSImpl
+ .class
+SHA1-Digest: +50SPOWwhtZaibA7sF+xuWUdN1w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/NLS$Default_NLS.clas
+ s
+SHA1-Digest: DRyEro2FoJYmfv9TFmkkxPCQ9EA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$TerminalIndex.class
+SHA1-Digest: Q4wOR3LzGhN0gwsgzfPXLuyeGFc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$IsKeyword.class
+SHA1-Digest: Ldrj8bCOxfS7r6s924RR2L4Boe0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ImportCSImpl.class
+SHA1-Digest: T8JdN460VMBpjfD4vmqaZPCEOz0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/AssertExpCS.class
+SHA1-Digest: lpr8KDzZtonQqEcgjJIniiFwaPM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$Asr.class
+SHA1-Digest: pePycYlTUyA0y0D+jafPa8kTg0I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$NonterminalIndex.class
+SHA1-Digest: lq62/okq09pYdv8DnPu/qcs2R5A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingEndCSImpl.class
+SHA1-Digest: pd0Q7ItEaUCVX84+neBPp/cm+B4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$Prosthe
+ sesIndex.class
+SHA1-Digest: 2PAOBK+AwEoYGiarA+PRMKNRAPI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/TransformationHeaderCS.clas
+ s
+SHA1-Digest: WqaQxSxlsh1Zuq/XjMzhRRcU1/I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingInitCS.class
+SHA1-Digest: LdYUSh3iJ1gE3QXGcrKsI0IRY2s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ListTypeCS.class
+SHA1-Digest: gje2fTdDotY/YPwHykGRlUdYcEg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopePrefix.class
+SHA1-Digest: 44VGoMIwwWg48P2mpSzj+P8Dbo4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$BaseA
+ ction.class
+SHA1-Digest: 2Zzw5Rif/C7yg2Sx4BKw+na1xvc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingRuleCSImpl.clas
+ s
+SHA1-Digest: V7OMmhFpLzGHMSZ5gEr9bpADEUE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ListTypeCSImpl.class
+SHA1-Digest: kNG4QbAdOveYySKFU0poSGufuYw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$TermAct
+ ion.class
+SHA1-Digest: /Ww2TMCxxS+x7zNIKAeHz8OckGk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/VariableInitialization
+ CSImpl.class
+SHA1-Digest: 0ifpqoLwhvIF0D94lpEBZrvecSY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexerprs$IsKey
+ word.class
+SHA1-Digest: CZCE36C/YlSvf4nLpjwSWtTCPH8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/Messages.class
+SHA1-Digest: 9boTJhyRhmUwHebXdqsdqLUqZ2E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/DirectionKindCSImpl.cl
+ ass
+SHA1-Digest: t5ReGBgOiHPxy3iE+FnZvS0i1jg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$InSymb.class
+SHA1-Digest: /FvKOPaUjOhZYdnnxf3Aik2HDuQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ElementWithBodyImpl.cl
+ ass
+SHA1-Digest: 0Xf2lT5YxxcKkfHP2rnCrT6hGEY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/RenameCSImpl.class
+SHA1-Digest: Qb219xyX7f8m9ayrFaT370DJPd8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/UnitCSImpl.class
+SHA1-Digest: W/OxSayztjawaxXAICEeoTCHy1E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/DictLiteralExpCSImpl.c
+ lass
+SHA1-Digest: MvM/Q9/nMfUKK4Tvr7Yrz9pX7Qw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexer.class
+SHA1-Digest: +RrUkt6x+Dn5mSQTPmRvIR/NI/c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingInitCSImpl.clas
+ s
+SHA1-Digest: 9/o2bAuU6wlpjPBiN8NUebcTrVA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ParameterDeclarationCS.clas
+ s
+SHA1-Digest: ZSvsQvQQdVPi/zcWDIhp/+ZIP/0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopeStateSet.class
+SHA1-Digest: ftZUAvZlCXdT+7hksM1OxIMROUQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingSectionsCS.class
+SHA1-Digest: iW1gZK376+iXPKoJeLdUpDFd8Pk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/TypeSpecCS.class
+SHA1-Digest: C4impwOLcGivSg7QaSvZUBUUzic=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/SwitchExpCSImpl.class
+SHA1-Digest: 0ozWAV+GN+Lu6Bn5ykX+IhV6DS0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ClassifierDefCS.class
+SHA1-Digest: Bbof7EazZO49H3qNCJenHheP2Ys=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$ScopeLa.class
+SHA1-Digest: ofufoTUE/vP9f6ejYC3w7bFqBIk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/SimpleSignatureCS.class
+SHA1-Digest: H4RvBQmwRaB3qPYKFCHy6r87TmM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ImperativeLoopExpCSImp
+ l.class
+SHA1-Digest: xXwHtJw39BWTRAp1U0iGxfBP8xk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexer.class
+SHA1-Digest: +GTn7J9qthXCKbQGdMOUsrDuU+Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ModuleKindCS.class
+SHA1-Digest: YX7E7kdlFzCQ3pYxYrVm4TUMDBY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/NLS$IMessages.class
+SHA1-Digest: zkLDMXVGQ/4ECy78QBTMn4yRAZ8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$IsNulla
+ ble.class
+SHA1-Digest: nZVQOKn1HDIWDc8i2xnW02twOAQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/WhileExpCS.class
+SHA1-Digest: ZPlWW7E/PyE1GGabBxuioR2WAmg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ListLiteralExpCS.class
+SHA1-Digest: qCtgyXPLHmdBjgUas0wZINbxCHA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeL
+ hs.class
+SHA1-Digest: jrQmrEOqx0k7g2M9FvJPRB3fcJA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingEndCS.class
+SHA1-Digest: kxqrau920TKIZmpOJ21AoExs54U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$TermAction.class
+SHA1-Digest: ieit8lBa4gDL2TroLZrLLdjNWCw=
+
+Name: about.html
+SHA1-Digest: RMiAdmhBUKlJp6WTKQe6HNiyZHI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeS
+ tateSet.class
+SHA1-Digest: llvW9H/hn0zewOSZhn+oW1DOO2k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeR
+ hs.class
+SHA1-Digest: ZqhXKP1A+a3zUfkx/H0a7LwwMRI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Nonter
+ minalIndex.class
+SHA1-Digest: q+us1unWtf3ZXy/Z658mh7rCLhY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/WhileExpCSImpl.class
+SHA1-Digest: U9IwiAIQbYqmP9IVfEqOmzpZF5M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Name.c
+ lass
+SHA1-Digest: czXsJ/U40ZYmTRTaZvNPN6KIe4g=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopeLa.class
+SHA1-Digest: keuCejCcl9mRSUQ1ATBNkQhJ9Oc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ConfigPropertyCS.class
+SHA1-Digest: ljCBzw01bno80g0mye/YFQLyGQg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/AssignStatementCS.class
+SHA1-Digest: MckwBzKFqMMFN1XzMshKfrE3Qus=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/LibraryImportCS.class
+SHA1-Digest: 00DrHXiEcelgByg2syacUJApk3U=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ScopedNameCS.class
+SHA1-Digest: KatpErtbpddlIlbXjjpdRVKYZ3c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/VariableInitializationCS.cl
+ ass
+SHA1-Digest: AX00FvAojepk2MVPIo5E1zNggXs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/StatementCSImpl.class
+SHA1-Digest: IJDrpraYuiY3or3e0TdgR+9LopU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$BaseCh
+ eck1.class
+SHA1-Digest: 9IbI4V+UapuxMRRJva08abBQM9I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ImperativeLoopExpCS.class
+SHA1-Digest: awRgp0pQhjka8XPcOzGqlaPaskA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingExtensionKindCS.clas
+ s
+SHA1-Digest: DG+suBBpQbAJa3RzSqUvvCAx6Vw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ContextualPropertyCS.class
+SHA1-Digest: z6q9DvZ/pmyB3rjtfBYlSAWKQG0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$ScopeS
+ tate.class
+SHA1-Digest: rbgZJDxBM0djk6mWtY/Lx58oWZ4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingMethodCS.class
+SHA1-Digest: Ay+18vv2N+p8k20Nz9sr8mRY908=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParsersym.class
+SHA1-Digest: tDimO9w9mx4Fsqfm2+sStkOMtsQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ExpressionStatementCSI
+ mpl.class
+SHA1-Digest: yRukb5ITIOrSD2xhaI7wSumYm44=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/AbstractQVTParser.cl
+ ass
+SHA1-Digest: XfmNyDORlqU92Dg3eIZMRmexVfY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParsersym.class
+SHA1-Digest: ytOWnCXXTrx8Ci7/mVCakxlQDJg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ImperativeIterateExpCS.clas
+ s
+SHA1-Digest: YhElauipnk8Kbl5J70IuK/0iEdA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$IsKeyword.class
+SHA1-Digest: d4G1qx+lc6BmXFA3GLeyDkLpOHg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ResolveOpArgsExpCS.class
+SHA1-Digest: RsIgtz56NtrCAhKOc8x7Ykz/JBE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$IsNullable.class
+SHA1-Digest: 2EfGGUqmlIGyQ2hpDjavl9tNCIM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ObjectExpCS.class
+SHA1-Digest: nsfnAM7SiiZCay4awkI7H42cXRI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ImperativeIterateExpCS
+ Impl.class
+SHA1-Digest: fx7vtZ1JfrvDY1tF2sbXd+uoGcE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/LocalPropertyCS.class
+SHA1-Digest: XlR2r5Nx692XF0IOtRv21hzYgS0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/AbstractQVTParser$2.
+ class
+SHA1-Digest: f0+G1s/5DAa5C2PKFr+XpqmjQFE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ForExpCSImpl.class
+SHA1-Digest: +bFc8Z1B6kht2pb9SFzU48KYYb4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/TransformationRefineCS
+ Impl.class
+SHA1-Digest: Q0PQCqPSzfZsDrRL3C36KPeniUE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Asb.cl
+ ass
+SHA1-Digest: jkADSHhgV5fsYlB052c7+OHy4QY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ComputeExpCS.class
+SHA1-Digest: /HTu/UUbMrtu8Kb3gj7+twiw98w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/StatementCS.class
+SHA1-Digest: 8AqZ5yHXrAqLc/pwdfwz0uHiKyw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParsersym.class
+SHA1-Digest: EMjxd+Gc5dbyGt3J3QNM4Mwi5PE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ModuleKindCSImpl.class
+SHA1-Digest: ah3HW6aOT3bWtSm3IsslRVKsLV0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Asr.cl
+ ass
+SHA1-Digest: iXHbiw9F41cgjro4MW3o4ZDJbW0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOLexerprs$TermChe
+ ck.class
+SHA1-Digest: g22Gk3fy+mrrR0HXhz25cV51mUY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/CSTFactory.class
+SHA1-Digest: SW739Wzqo4lL6wfYoVQ9g7VQDpE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/CompleteSignatureCS.class
+SHA1-Digest: RFGrXeD1EN43X1tjWojms4z9ugg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/TransformationHeaderCS
+ Impl.class
+SHA1-Digest: IinLIkIxxh57TV5MoJsp2oNrJ/0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingSectionCSImpl.c
+ lass
+SHA1-Digest: bdOz+vVfA4ijEdNpnDzmtRnelpM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOKWLexersym.class
+SHA1-Digest: px8NrKcMXh8rsBY6RgReH+uxNOw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/LogExpCSImpl.class
+SHA1-Digest: oz+ZyJe3PUyJ2+KfsNwlRdf+NLo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$TerminalIndex.class
+SHA1-Digest: yGO22tjdy3A0EbgeNlWUgEpko0I=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/UnitCS.class
+SHA1-Digest: WxplooO59gWscx5wTSy6v2B6q8k=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$TermAction.class
+SHA1-Digest: uUK/Xo4rAz+BooeHbhCqvusbLMI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/MappingBodyCS.class
+SHA1-Digest: Dn9meKMFmRol4xToSGWqRkBmm3o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ImportKindEnum.class
+SHA1-Digest: w+sdg10vJiotvaUAkw+kG7pSPGk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/messages.properties
+SHA1-Digest: JyjgpTrhw+RmW54kl09foNpDwOY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$IsKeyw
+ ord.class
+SHA1-Digest: HhdO0SbusGFvoLewHDxlZPKxS0M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ModuleUsageCS.class
+SHA1-Digest: zGIojQxcyiTaijNSgXowWIODYoY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ContextualPropertyCSIm
+ pl.class
+SHA1-Digest: Wuf3WhnWmnGUYiZ2xamQbNYTVos=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/InstantiationExpCS.class
+SHA1-Digest: 8IRBXrnHxt9ohVslcCMd42NbRN8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/TagCS.class
+SHA1-Digest: 6TcONk5t2AiP3kyT6ej2Q18UvaU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$ScopeSuffix.class
+SHA1-Digest: ixQZScJoCYEhIj1tKKeVHI7Bxo0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ForExpCS.class
+SHA1-Digest: 1nXSPKiuUtk54cHL1CBGYJfpRKY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MultiplicityDefCSImpl.
+ class
+SHA1-Digest: 20Jy/4/Nc58rLpTDKGtIzPzLMvY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/util/CSTSwitch.class
+SHA1-Digest: PXaShT8XtHA2aLOs0omz405yjII=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ReturnExpCSImpl.class
+SHA1-Digest: BzWSl2WGHPHAAVxZerHRKu/HlCw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs$Termin
+ alIndex.class
+SHA1-Digest: baEzFg3z1YPWzhynS91xTRdUnnQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/DictLiteralPartCS.class
+SHA1-Digest: +Eo/D21YPKDokhpMEU0TZUm8BGA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/ImportCS.class
+SHA1-Digest: B40R5Dj1c0BPoHzwwMnJr/q8C7Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/BreakExpCSImpl.class
+SHA1-Digest: /nZH663U9Xg/ljitwUU1JwJkgY0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$InSymb.class
+SHA1-Digest: rBAJoRgGu/MC+irt3ZgPVpFjvcE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/DirectionKindCS.class
+SHA1-Digest: txX7U4i2w7KkjAIyQGzLzk4UIN8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingModuleCSImpl.cl
+ ass
+SHA1-Digest: kEhDRw2L77wu0/16maGrqoVSl4E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/MappingSectionsCSImpl.
+ class
+SHA1-Digest: /BuZ8Qpp8LDRE8PMsP4EkPsK4BM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/impl/ObjectExpCSImpl.class
+SHA1-Digest: 3//IhI9kTH3EvBMBF6UzBoUDpBU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs$IsNullable.class
+SHA1-Digest: QwnTH/dZOTQsS2u9LakGFD0UWwQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/parser/QVTOParserprs.class
+SHA1-Digest: c2J4iGkqPo+iGywjL1SmqxHZqEQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/CSTPackage.class
+SHA1-Digest: L1cmE0UBBmIt/NHmasquwyvZWTQ=
+
+Name: model/QVTOperationalCST.ecore
+SHA1-Digest: DtKwOEkVwrM82I1jGmeLd/Fq3Hw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/LibraryCS.class
+SHA1-Digest: Q8DROa0oa0Yv+xJQ1k9t4QVfzg8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htParserprs$BaseAction1.class
+SHA1-Digest: N00TDQrR7pxO30kOA5FZcYutvtg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/cst/completion/parser/Lightweig
+ htTypeParserprs.class
+SHA1-Digest: WdVoOXhDKpOlPwBzoyODoHy02/I=
+

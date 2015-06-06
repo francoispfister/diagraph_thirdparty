@@ -1,0 +1,259 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.debug.ui;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.6.0,4.0.0)
+ ",org.eclipse.core.expressions;bundle-version="[3.4.100,4.0.0)",org.e
+ clipse.ui;bundle-version="[3.6.0,4.0.0)",org.eclipse.ui.editors;bundl
+ e-version="[3.6.0,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.6.0,4
+ .0.0)",org.eclipse.ui.workbench.texteditor;bundle-version="[3.6.0,4.0
+ .0)",org.eclipse.debug.ui;bundle-version="[3.6.0,4.0.0)",org.eclipse.
+ pde.ui;bundle-version="[3.6.0,4.0.0)",org.eclipse.jdt.debug.ui;bundle
+ -version="[3.5.0,4.0.0)",org.eclipse.jface.text;bundle-version="[3.5.
+ 100,4.0.0)",org.eclipse.ui.console;bundle-version="[3.5.0,4.0.0)",org
+ .eclipse.jface;bundle-version="[3.6.0,4.0.0)",org.eclipse.emf.ecore;b
+ undle-version="[2.6.0,4.0.0)",org.eclipse.m2m.qvt.oml;bundle-version=
+ "[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml.common;bundle-version="[3.1.0
+ ,4.0.0)",org.eclipse.m2m.qvt.oml.common.ui;bundle-version="[3.0.0,4.0
+ .0)",org.eclipse.m2m.qvt.oml.emf.util;bundle-version="[3.0.0,4.0.0)",
+ org.eclipse.m2m.qvt.oml.project;bundle-version="[3.0.0,4.0.0)",org.ec
+ lipse.m2m.qvt.oml.runtime;bundle-version="[3.0.0,4.0.0)",org.eclipse.
+ m2m.qvt.oml.runtime.ui;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m
+ .qvt.oml.editor.ui;bundle-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt
+ .oml.debug.core;bundle-version="[1.0.0,2.0.0)",org.eclipse.m2m.qvt.om
+ l.debug.core;bundle-version="[1.0.0,2.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.debug.ui.QVTODebugU
+ IPlugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.debug.ui; x-friends:=
+ "org.eclipse.m2m.tests.qvt.oml.ui"
+Bundle-Version: 1.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/SWTFactory$PixelConver
+ ter.class
+SHA1-Digest: 3Sm0QL+SM1xXpFMWPVFmpYLsfmU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOBreakpoint
+ PropertiesAction$1.class
+SHA1-Digest: pSfASbSujP3T0T3dZOzo+Yf8a90=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/SWTFactory.class
+SHA1-Digest: yg370xGvVJB9tUqGNeLHARyh6OQ=
+
+Name: icons/intermprop_ovr.gif
+SHA1-Digest: mnHhSPBLmrJ72Dq4v2R76LfmaTQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointCondErrorHan
+ dler$CondErrorDialog.class
+SHA1-Digest: chmvaVjZeEnQpTNq9jPWwcH3aUk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOLineBreakpointPage
+ $1.class
+SHA1-Digest: CpVEb44gxgfyEG9/xWA4F1vdAL4=
+
+Name: icons/conditional_ovr.gif
+SHA1-Digest: CQCjrcG0ervcGeyBfOeFrYYEj4M=
+
+Name: icons/conditional_ovr_disabled.gif
+SHA1-Digest: ffGqbM5CtQfZmlhHnEftnyLPAB8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/DebugUIMessages.proper
+ ties
+SHA1-Digest: Mabv9epDxzqdvIqhabojdWxiCds=
+
+Name: icons/trace-view.gif
+SHA1-Digest: VTLA52girXG4DKckbohWtOk98Ck=
+
+Name: icons/brkp_obj.gif
+SHA1-Digest: hHogrKP5Bmj/1YP1pe+Tb2sot7E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointConditionEdi
+ tor.class
+SHA1-Digest: OoJRc+bntJwHGqYO7mIvy8PiS4M=
+
+Name: icons/reference_obj.gif
+SHA1-Digest: PKye0KYkKIoEIzUKdgyT1zhOiKo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOBreakpoint
+ PropertiesRulerAction$1.class
+SHA1-Digest: YvcW5VatVjhtHn5JLOIhYjIvFDg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointConditionEdi
+ tor$1.class
+SHA1-Digest: zwEXA7ttGN5RQhnEvuYgP/7/CIk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/views/TraceViewPart$1.
+ class
+SHA1-Digest: caL4adiJA909/BLhs2QTSf398Q4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTODebugImages.class
+SHA1-Digest: GOOKmyeiarG8J0ULnKL3/dojgss=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOBreakpointPage.cla
+ ss
+SHA1-Digest: igyrYAn9mtBMK+/7lxsYbuQ0by8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/launch/QVTOApplication
+ ConfigurationTabGroup.class
+SHA1-Digest: fGtr6/OIpTMCx+oiXuIxLDMI34Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointCondErrorHan
+ dler$2.class
+SHA1-Digest: JJVdYXpQJ9MOPAVErJeMOiIIBWQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointLocationVeri
+ fier$1.class
+SHA1-Digest: 9M+ZIOtOgaXTfKWC/Xb+hKZMGD0=
+
+Name: icons/modelpar_obj.gif
+SHA1-Digest: lB7WtAMDjqGESdBdAFDhY/V13ws=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOToggleBreakpointAd
+ apter$1.class
+SHA1-Digest: Dzkh1Ge55Dkcqqi7M1eUjI7d0K4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOBreakpoint
+ PropertiesAction.class
+SHA1-Digest: ZaIQKMAsKKMMgwxVXU9hJeARO/U=
+
+Name: icons/predefvar_obj.gif
+SHA1-Digest: k3FeyTIq4hZHIEmtYrOlxrnu1F0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOBreakpointPage$2.c
+ lass
+SHA1-Digest: 0fEi9fU+0LXgy60T07jzZkQUj+8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/launch/QVTOApplication
+ ConfigurationTabGroup$2.class
+SHA1-Digest: iuC7kv3z8VnHhY5S4PTdgYwsTOs=
+
+Name: icons/localvar_obj.gif
+SHA1-Digest: 4uTJ+cH5vuf+YaiTl95QrijnAr0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOBreakpoint
+ PropertiesRulerActionDelegate.class
+SHA1-Digest: E9JMUQNAsCVep5nnR78KN1EAGwY=
+
+Name: icons/qvto_app_config.gif
+SHA1-Digest: y8m16caxT1ZPrDM1Jij/8UL/30A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOBreakpointPage$4.c
+ lass
+SHA1-Digest: /ufIJG3mbyuTgzNpOX40nnAK20c=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOLineBreakpointPage
+ .class
+SHA1-Digest: N9pAYlY0KTcm4BRGVeCW0m3coaw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTORunToLineAdapter.c
+ lass
+SHA1-Digest: VtxT6GMQsu/BTUXGx3vQpF77Xuc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOBreakpoint
+ PropertiesAction$2.class
+SHA1-Digest: KJdcfMKbA/4gSrN236wGzqGv2Fg=
+
+Name: plugin.properties
+SHA1-Digest: TZ3tQs1w9JJxH2a1PehpcZZTwos=
+
+Name: icons/watch_exp_enabled.gif
+SHA1-Digest: gbhVbScZ5V97AjvtYXoG9Iy425Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/launch/QVTOMainTab.cla
+ ss
+SHA1-Digest: dT0bjpAt1gsta9drlM4Kg3W7oPc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOWatchActio
+ n.class
+SHA1-Digest: 6h7KBCexEEGyJ8EOlbCraV2OJX4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOBreakpoint
+ PropertiesRulerAction.class
+SHA1-Digest: AoZojjE9O9rpb8tnWrmo9Ihw6Wk=
+
+Name: plugin.xml
+SHA1-Digest: CruSrfDYcIpzerJUquGucaYPELk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/RetargettableActionAda
+ pterFactory.class
+SHA1-Digest: o54qF9JkqiNhYym/TL9OQ0LEMhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTODebugModelPresenta
+ tion.class
+SHA1-Digest: Th1Z+4oKjVM7yB69nLt/GjWdaSA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/views/TraceViewPart.cl
+ ass
+SHA1-Digest: v3HI0fHczll3sfGQlHsLxzmNdIk=
+
+Name: icons/thisvar_obj.gif
+SHA1-Digest: brMtWsPooh1DsZXIHGBD1LHFiU0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointCondErrorHan
+ dler.class
+SHA1-Digest: Cs1ItOTvW8GyLK316F/HMUQ0Wqk=
+
+Name: icons/index_element_obj.gif
+SHA1-Digest: PGDg+xYGeAOmEGMmjxdoY3BecLM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointConditionEdi
+ tor$2.class
+SHA1-Digest: omWEXg1nDRzgsOq/i7hGYqzXdQo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointLocationVeri
+ fier.class
+SHA1-Digest: ODTEpyyPAS7rKaMuCYT2cW7pc4c=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/ModifiedSourceFileHand
+ ler.class
+SHA1-Digest: ISvKaAvBAErVPJY0CsoXecF/E44=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOToggleBreakpointAd
+ apter.class
+SHA1-Digest: sbyoN9XcP/nEPU9i4oKdgVayQrA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointCondErrorHan
+ dler$1.class
+SHA1-Digest: alAVVOe8+Gp1QCqO/d+xyw8+NkY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/actions/QVTOWatchActio
+ n$JavaWordFinder.class
+SHA1-Digest: 6+wSCOqMwfZRx6XzHIQ/ssYTnMw=
+
+Name: icons/attribute_obj.gif
+SHA1-Digest: vNLWLFvx9xwbNk5MecZmk902UKU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/DebugUIMessages.class
+SHA1-Digest: xHauF4AVml1RewmfYtJUXvkTVFU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/BreakpointLocationVeri
+ fier$2.class
+SHA1-Digest: uk3kIzdCBZ2CfVM7hua7KGYan7M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOBreakpointPage$1.c
+ lass
+SHA1-Digest: 0vOnKhqPOYh1R96ag5uSYSMXZ5w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/launch/QVTOApplication
+ ConfigurationTabGroup$1.class
+SHA1-Digest: ytOLs1j0NI//tkR42HRCl7WMLp0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTODebugUIPlugin.clas
+ s
+SHA1-Digest: VyYnOuPuwxC66k0f0DRw/WgkndM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/debug/ui/QVTOBreakpointPage$3.c
+ lass
+SHA1-Digest: mOwXYsmdDoqJWudc+OWPXyOa5Iw=
+

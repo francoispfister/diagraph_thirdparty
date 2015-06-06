@@ -1,0 +1,1665 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.codegen;singleton:=true
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.core.resources;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.emf.ecore;bundle-version="[2.4.0,3.0.0)";visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;visibility:=reexport,
+ org.eclipse.emf.codegen.ecore;bundle-version="[2.4.0,3.0.0)";visibility:=reexport,
+ org.eclipse.draw2d;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.gmf.common;bundle-version="[1.2.0,2.0.0)";visibility:=reexport,
+ org.eclipse.gmf.validate;bundle-version="[1.1.0,2.0.0)",
+ org.eclipse.gmf.xpand;bundle-version="[2.1.0,3.0.0)",
+ org.eclipse.m2m.qvt.oml;bundle-version="[3.0.0,4.0.0)"
+Export-Package: org.eclipse.gmf.codegen.gmfgen,
+ org.eclipse.gmf.codegen.gmfgen.impl;
+  x-friends:="org.eclipse.gmf.codegen.lite",
+ org.eclipse.gmf.codegen.gmfgen.util,
+ org.eclipse.gmf.codegen.util,
+ org.eclipse.gmf.internal.codegen.util;
+  x-friends:="org.eclipse.gmf.bridge.ui,
+   org.eclipse.gmf.codegen.ui,
+   org.eclipse.gmf.tests,
+   org.eclipse.gmf.bridge"
+Bundle-Version: 2.9.0.20141216patched_diagraph
+Bundle-ClassPath: .
+Eclipse-BuddyPolicy: registered
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: templates/xpt/diagram/updater/LinkDescriptor.xpt
+SHA1-Digest: Um6RTDHw6saZUu1KJ9jAXHkzLik=
+
+Name: templates/xpt/providers/MarkerNavigationProvider.xpt
+SHA1-Digest: 6zYP4Vp0/OwqiBm1O42tQyGrMdY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCustomActionImpl.class
+SHA1-Digest: DSdgIBZjd9M2nnGNKbLA/nNiuCM=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenResource$Factory2.cl
+ ass
+SHA1-Digest: Bg6A5j3EbID8S1cpiR3z9PyQH1A=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenContributionManager.class
+SHA1-Digest: d60R36MKct7i37EBr11Qe63q5GU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/TypeLinkModelFacetImpl.class
+SHA1-Digest: PAwkDc2Bw4vtwHi/ay7GzfRWqdc=
+
+Name: templates/xpt/diagram/updater/NodeDescriptor.xpt
+SHA1-Digest: nFhHjdQQpxzIiu+ySCgm1G1B8sw=
+
+Name: templates/xpt/diagram/editpolicies/VisualEffectEditPolicy.xpt
+SHA1-Digest: RPdCQo0+Zc5NgWGT/Wg/ujVP9mc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/PredefinedParserImpl.class
+SHA1-Digest: fJe/K3hGH1CcgUpfQlMAjdjnOM4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDiagramPreferences.class
+SHA1-Digest: K2RK7JKube9/0QB6OgUn1omWs94=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenAuditContextImpl.class
+SHA1-Digest: Sb1MnO5cdC7ymQ1GYZ/xZzezVvI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenChildLabelNodeImpl.class
+SHA1-Digest: GVtj+IUBQ5S1TaivHCOPseZFrPQ=
+
+Name: templates/xpt/editor/UriEditorInputTester.xpt
+SHA1-Digest: mrYTQOC6HLveJxM9i3/rtQezJ4A=
+
+Name: templates/xpt/editor/ResourceSetInfo.xpt
+SHA1-Digest: ocoGAAyq6Mp+Y/jLq+P5dsLkD2Q=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenPropertyTabImpl.class
+SHA1-Digest: +5UCDKMzjEbNxvXVyqXid14tQmA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenMenuManager.class
+SHA1-Digest: AuNRv2mlwTT2WJvf3p2cAEznPD8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LabelModelFacet.class
+SHA1-Digest: yfvjNjRxBxUctIgQs+/mUPIgcr8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/OpenDiagramBehaviourImpl.cla
+ ss
+SHA1-Digest: yoLY1VZXVDMQlVzd58f7uSe791w=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCompartment.class
+SHA1-Digest: SsKgn+6NhoOmlru4uhpzqLoXKmA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/PackageNames.class
+SHA1-Digest: 6Yt5GPgmBpkW1m35zog7mLHFRVA=
+
+Name: templates/xpt/diagram/edithelpers/EditHelper.xpt
+SHA1-Digest: hsFJ6OJn5Xr61sxXaQE3BxgBvts=
+
+Name: templates/xpt/diagram/commands/ReorientLinkViewCommand.xpt
+SHA1-Digest: CCh7hmYb0EEucqfjhxNmrSLVoM8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenDiagramPreferencesImpl.cl
+ ass
+SHA1-Digest: oP2yOfsUsqdkEEC9oT0jzlkNzsU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/SharedBehaviourImpl.class
+SHA1-Digest: fb7wSf0bRCKYiHODcanCHRXzelM=
+
+Name: templates/xpt/providers/ValidationDecoratorProvider.xpt
+SHA1-Digest: sSgdfX9mOlUZgGB25yHtQ8iva+Q=
+
+Name: templates/impl/actions/MenuAction.qvto
+SHA1-Digest: nLQCz6ZbFic11jZ/tl7NXd3lhHE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenEditorGenerator.class
+SHA1-Digest: n1VsJJ50Dxhpx0VYfUtUN1UQtZ8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenDiagramUpdaterImpl.class
+SHA1-Digest: gwCtOFmTomGukWxs4CMxQthEYC4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/StyleAttributesImpl.class
+SHA1-Digest: 5OaNCXVVmZJzcW6bdAAQchQa0Y4=
+
+Name: templates/xpt/editor/ShortcutPropertyTester.xpt
+SHA1-Digest: D1FpftLSGxANxJ8qHAt/euWr6QU=
+
+Name: templates/xpt/navigator/DomainNavigatorLabelProvider.xpt
+SHA1-Digest: HY1bLBSQ2lFhUqUviqqEdoGmcr4=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenModelAccessHelpers.clas
+ s
+SHA1-Digest: h/i0YkD5S5teWcY3D/jFwnfrjJM=
+
+Name: templates/xpt/diagram/commands/CreateLinkCommand.xpt
+SHA1-Digest: N8lnxLSygrUlExaDshEPOHJQMPw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/SnippetViewmapImpl.class
+SHA1-Digest: sFUPpf1WFag/LZACz/RVuscnB08=
+
+Name: templates/impl/parsers/AbstractParser.xpt
+SHA1-Digest: grnrtfvh1/MBag0Npkd22/DfWvQ=
+
+Name: templates/xpt/providers/ElementInitializers.xpt
+SHA1-Digest: 6ZMvRQbz8SVavl/uo83SNZDl4ws=
+
+Name: templates/xpt/providers/MetricProvider.xpt
+SHA1-Digest: mwdkrTHUBhmq2JjDDJOKmCfDxEM=
+
+Name: templates/xpt/expressions/OCLExpressionFactory.xpt
+SHA1-Digest: dZUXtAYhU50weH/FI91Sfg1Iuvw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GMFGenFactoryImpl.class
+SHA1-Digest: lucUWCcTtAyH/IZYPXzqFgZ7ymg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/CustomTabFilterImpl.class
+SHA1-Digest: dH5RcZ76mqLF9WNnpUknC0TGe6s=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenChildNode.class
+SHA1-Digest: 92wqYeVYZiJuQ5fLCCD70vsbV34=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenTopLevelNodeImpl.class
+SHA1-Digest: eER7ss9DTxWtoOu4YIAWx4KH9CE=
+
+Name: templates/impl/diagram/editparts/ChildNodeLabelEditPart.xpt
+SHA1-Digest: iU2uWJGLYGQT3yc601thYV7/w2Q=
+
+Name: org/eclipse/gmf/codegen/gmfgen/EditorCandies.class
+SHA1-Digest: UKN5AOQUji9Ia0NxgV7JnvDwO4Q=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LinkConstraints.class
+SHA1-Digest: 78v8dlPBk22cNFM3AezS01XGYsQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/NotationType.class
+SHA1-Digest: +RQZn4ASLbZ7yF27xVCsWhLL8CI=
+
+Name: templates/xpt/plugin/options.xpt
+SHA1-Digest: 2ysnjnRDap1/c/vYsH/LjeMLNU8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDiagram.class
+SHA1-Digest: kz+QcwB7lPpvBddJpeeLtGeNxLM=
+
+Name: templates/xpt/diagram/preferences/extensions.xpt
+SHA1-Digest: DKP4m6TKLxL8gut0RiuKIT3bzx8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenFixedInputsTemplateInvoca
+ tionImpl.class
+SHA1-Digest: wpYTWwiq0iexYwBYvg/ats7zpaQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LinkModelFacet.class
+SHA1-Digest: 19V03dv7Pq/5kMFksJElFJ3EN4c=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/DefaultSizeAttributesImpl.cl
+ ass
+SHA1-Digest: aQohnJmn6GA9G1Iv54ExmI+ZOHY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenLinkEndOperations.class
+SHA1-Digest: SF3Y9FCgjqB6BlrKu7fyOVMbblc=
+
+Name: templates/xpt/diagram/editpolicies/CompartmentItemSemanticEditPo
+ licy.xpt
+SHA1-Digest: L7697ONkdyXv5sy30GZXa4gc9pM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenRuleBaseImpl.class
+SHA1-Digest: 7OtNohy6QtirnrRIjIqphU6mYX4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCompartmentImpl.class
+SHA1-Digest: gPd9akW10Hc2MiWGP8IDgfibm/E=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenContributionItem.class
+SHA1-Digest: VYKMeDyORaDQ1ACmi7ZXR3ycDvs=
+
+Name: templates/impl/build/antbuild.xpt
+SHA1-Digest: EEsXQSvBN1IujwprR6a0PAYqfK8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/EntryBaseImpl.class
+SHA1-Digest: 6g3FZaSf6bcaT9c8pG99VM6v67A=
+
+Name: templates/impl/actions/CreateShortcutAction.xpt
+SHA1-Digest: hIUqxTXR1HtwQDRLay0gzDIC/3k=
+
+Name: templates/xpt/diagram/edithelpers/EditHelperAdvice.xpt
+SHA1-Digest: 5rfUscTEZO0Zd9iGmMYAID0xsgQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCustomGeneratorExtensionI
+ mpl.class
+SHA1-Digest: QbJJP4/B1Pmvxbzq0FCD9GTiMVs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenRGBColor.class
+SHA1-Digest: 72k7per2EiufLwyWz7Tt82osZX8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/PredefinedParser.class
+SHA1-Digest: Hx0on8OGOyAGb6zewNIfos/lii8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GMFGenPackageImpl.class
+SHA1-Digest: MOArridLW+uLnS12OJj/aQXdiNc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Updater.class
+SHA1-Digest: yhPzyruNr0WwITPTYReUBIrkgF0=
+
+Name: templates/xpt/editor/ElementChooser.xpt
+SHA1-Digest: +FGpJKQunUOtNN3co+SsMrsPemo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCustomTemplateInput.class
+SHA1-Digest: Q9WwugmbZi/qJdE0bz7ZnmXXcsY=
+
+Name: templates/xpt/navigator/NavigatorActionProvider.xpt
+SHA1-Digest: JRKEVMP+eijDOlN7ESFrFpvs82s=
+
+Name: org/eclipse/gmf/codegen/gmfgen/BatchValidation.class
+SHA1-Digest: 7b6LGhiEy+VO9WUGvAYKxlgbHu4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenToolBarManagerImpl.class
+SHA1-Digest: tf115++sBHHKxxg60x06W77ajMg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenStandardPropertyTab.class
+SHA1-Digest: syJlcbD/Uf/sY/zysn6+eklixLo=
+
+Name: templates/diagram/editparts/LinkEditPart.xpt
+SHA1-Digest: bVexk9i7C8i0TNJy36AN8p4qvLQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/RulerUnits.class
+SHA1-Digest: 9pqqEnVqBmHfAQOA7j1F2MOKxtM=
+
+Name: templates/xpt/editor/shortcut.gif
+SHA1-Digest: beQtr7R8KTRHiy1Yp1sYd+I4CKY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenRuleTarget.class
+SHA1-Digest: ZhfLVnM6s8ZklzQ4EKSSYTkmK9w=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenRuleBase.class
+SHA1-Digest: x3J7yuf5OP4rVfev8+3HWdc6c6o=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCommonBaseImpl.class
+SHA1-Digest: gKt5ePq4oMgGUyojPYJeVgDSDp4=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenResource.class
+SHA1-Digest: G6ivfisn9X2Qkw1aYZTGvF6vWwM=
+
+Name: templates/MetaModel.qvto
+SHA1-Digest: 2c+YmyA57ar48NzbREYnXTzxW+w=
+
+Name: org/eclipse/gmf/codegen/gmfgen/PredefinedEnumParser.class
+SHA1-Digest: kyZxRX1hrZ4ZoKAckbEnrsOHPtY=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenModelGraphAnalyzer$Link
+ edConnectionFinder.class
+SHA1-Digest: hARdCu68MuQ5/CrHSltk0pg94rc=
+
+Name: templates/xpt/navigator/NavigatorContentProvider.xpt
+SHA1-Digest: 6X1WA1N4VhnqNBUSeJWfEKdY9XY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/OclChoiceParserImpl.class
+SHA1-Digest: mfqk5qxzy/WzM1CnqhLc/oM2jNw=
+
+Name: templates/xpt/diagram/commands/CreateLinkUtils.xpt
+SHA1-Digest: GI4Tqph91BRS6OI5jN9FqxsSdR0=
+
+Name: models/gmfgen.ecore
+SHA1-Digest: 5tU4XvVNsFBVxVybzJVUZXdz0mM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenPluginImpl.class
+SHA1-Digest: w/n3HctsSWk85XK/75LChvD8NTE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenSeparator.class
+SHA1-Digest: M/xKps/oV27gkIsOYtRBvBtqrjY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/util/GMFGenAdapterFactory.class
+SHA1-Digest: pvS0xIph5yvpbZHXtMyzP83YtsQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenLinkLabelImpl.class
+SHA1-Digest: SG8CwhMJV3zGeOyuCLZANjgthTU=
+
+Name: templates/impl/diagram/editparts/viewmaps/BareFigure.qvto
+SHA1-Digest: Pq2sk2QkZ4ev8GtN/t5bVt2+X2M=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Palette.class
+SHA1-Digest: iuwrlNl4ytGhkyeZKwDZZhq58cU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenFeatureInitializer.class
+SHA1-Digest: KeYI2DAy8pqsd2wodYtY1FWF48E=
+
+Name: templates/xpt/providers/ElementInitializers.qvto
+SHA1-Digest: bjbx3JXa/qAhnViiq6e/LIffTLI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenMetricContainer.class
+SHA1-Digest: RJe7mY1E7MiMMXKQFnAyFxcsodg=
+
+Name: templates/xpt/diagram/editparts/EditPartFactory.xpt
+SHA1-Digest: E1V2n4uSZgw7VwA0pVi/M7dReQg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenPreferencePageImpl.class
+SHA1-Digest: r7hTgNyZ/u/nhfbSkF5zsRVoIRk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenContextMenuImpl.class
+SHA1-Digest: y7bRVVXJb5d8eawJrmO7ct+CTWo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ModelFacet.class
+SHA1-Digest: 1UUUlqX3/JTRbzif06AYOUqWqnc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenParsersImpl.class
+SHA1-Digest: BOz4vTELN3DP4OCy3xKdGE9WV0o=
+
+Name: templates/xpt/diagram/edithelpers/BaseEditHelper.xpt
+SHA1-Digest: ofSZsyLuCuOH1EuetOBe32sbnIE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ToolGroupImpl.class
+SHA1-Digest: iZ+JR09t5dlUIdFxos7TPCXh5KU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenTemplateInvocation.class
+SHA1-Digest: WOJfk3uUSva8y73RaE55+zIR4l4=
+
+Name: org/eclipse/gmf/internal/codegen/util/XpandFacadeAccess.class
+SHA1-Digest: Skt8kjOSIpn6DUxkZTVuF2Eo+Lg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenParserImplementation.class
+SHA1-Digest: 3xEKor6pPdwGt7U5eghHLIw+lt4=
+
+Name: templates/xpt/editor/VisualIDRegistry.xpt
+SHA1-Digest: IKnJlrnVLGVZj3E5e+9yiEwr8WU=
+
+Name: templates/impl/diagram/editparts/ExternalNodeLabelEditPart.xpt
+SHA1-Digest: vCkorRYIb7kMefFT1GeYBkLEVpI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ColorAttributesImpl.class
+SHA1-Digest: vPhoZKzYjiBt2l7R23ZPGA5cQfI=
+
+Name: templates/xpt/diagram/editpolicies/OpenDiagram.xpt
+SHA1-Digest: E+6lsa5+mtrRfzy0uPDdjddX6Z4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/MetamodelTypeImpl.class
+SHA1-Digest: 4wE55NymhBZ7XeydAzNU0+FQ8tI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ParentAssignedViewmapImpl.cl
+ ass
+SHA1-Digest: Mokx+cUTd5dk88mTA6K0DJUHx9k=
+
+Name: templates/xpt/diagram/updater/extensions.xpt
+SHA1-Digest: D8Hr/1vS3Y5lttOj+t9Ho1soDHI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/TypeModelFacetImpl.class
+SHA1-Digest: VYjQm0S1N3NVXI1OcFvz5uPV/rk=
+
+Name: templates/xpt/editor/DiagramContentInitializer.xpt
+SHA1-Digest: P+C9Z5elS/w6y/xXeyU7dp0Jf6c=
+
+Name: templates/xpt/providers/ParserUtils.qvto
+SHA1-Digest: auntF899XNgUjaw6ZwLOhpeYpvQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ToolEntry.class
+SHA1-Digest: GBuRaA0RjMBOWdEzusiOeWm5HaE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ViewmapLayoutType.class
+SHA1-Digest: fjUj5Oca1Z0ZP2i5SUXT//LELyM=
+
+Name: templates/xpt/application/Perspective.xpt
+SHA1-Digest: FcvetDaB8r1zTgx0DVFqX7W3/mg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenChildLabelNode.class
+SHA1-Digest: B8kztr2WPZC9IocEORlRS/ylvYQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenSharedContributionItemImp
+ l.class
+SHA1-Digest: p2kzc9RgbOdb1U/18U3pNfduevA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCommonBase.class
+SHA1-Digest: TuZuc8wg/n7hJo43wgZO15JzmLc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/FeatureLabelModelFacet.class
+SHA1-Digest: Cv7RmHMUlm2wDJJiuBXGEyxeeU0=
+
+Name: templates/xpt/application/WorkbenchWindowAdvisor.xpt
+SHA1-Digest: XmksKq63onHTUCDPwIIwdoX/Tno=
+
+Name: templates/impl/preferences/StandardPage.xpt
+SHA1-Digest: zsPm1gT7UMSNZC5kii8Uohmxq3w=
+
+Name: templates/xpt/navigator/NavigatorLinkHelper.xpt
+SHA1-Digest: P29v39egsqhsxzHsOZIFmMcwUV0=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenConfig.class
+SHA1-Digest: WlMDH2JaXYt0/eVmP57fZa8ICnw=
+
+Name: org/eclipse/gmf/internal/codegen/util/EMFUtils.class
+SHA1-Digest: wnsAxm4w6Yvckh3gZGKCiaeRMKc=
+
+Name: templates/xpt/navigator/NavigatorSorter.xpt
+SHA1-Digest: A9DL9ad3zsYaiboubtuj6iopdxQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/JFaceFont.class
+SHA1-Digest: Rwj7s0m+5QyIwbLkUHH7sJbV0PA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenStandardPreferencePage.class
+SHA1-Digest: OLUWBurY4yW+N1qeGaa6I/W/Tdw=
+
+Name: templates/impl/parsers/ParserProvider.xpt
+SHA1-Digest: R7pmwiWrJrzZXE+O7UMd8ECxewU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenAuditedMetricTargetImpl.c
+ lass
+SHA1-Digest: 1EYGOL8Z8EV7ZCu5EA7qUFwJmD4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ColorAttributes.class
+SHA1-Digest: ZjyZk+XeePjb4EZAn9AVKRK8dAA=
+
+Name: org/eclipse/gmf/codegen/util/EmitterSource.class
+SHA1-Digest: VbiObUvgvfWa9bGEnW1SOAR9jjM=
+
+Name: templates/xpt/providers/i18n.qvto
+SHA1-Digest: PkMLOQjYnIlC31nBgBWhLQFNZ7M=
+
+Name: templates/xpt/OclMigrationProblems.qvto
+SHA1-Digest: F7NJBQwmN4/przsJHhIFVENU+FU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/DiagramColors.class
+SHA1-Digest: MrVr9BPnRULKgLyWmjlGW2PiEos=
+
+Name: templates/xpt/navigator/NavigatorLabelProvider.xpt
+SHA1-Digest: 0ezB6TgpWBobKplEcrtR8oy3m8s=
+
+Name: org/eclipse/gmf/internal/codegen/util/Extras.class
+SHA1-Digest: tUVS2eMPE+PRWjM6xB5ERs317vU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLinkLabel.class
+SHA1-Digest: cqXL+OScDc4gCJCXo2cnBuv/inE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LoadResourceAction.class
+SHA1-Digest: 0cMBn3OEdxZ9/0GIq/ejiYZWDec=
+
+Name: templates/xpt/editor/DiagramEditorContextMenuProvider.xpt
+SHA1-Digest: QjSHIOUbmw+caF97WEWcuiEVGw4=
+
+Name: templates/xpt/diagram/commands/ReorientRefLinkCommand.xpt
+SHA1-Digest: xXkMpBR/z+lgu4JDngMpOqGHv9w=
+
+Name: templates-dynmodel/MetaModel.xpt
+SHA1-Digest: kvWxJgxW3HtYbFkvt9GN2hATZ+s=
+
+Name: org/eclipse/gmf/internal/codegen/util/Migrate2009.class
+SHA1-Digest: hSO5nHl3vuXUKiriAVYrIx2/g5A=
+
+Name: templates/diagram/editparts/ChildNodeLabelEditPart.xpt
+SHA1-Digest: fl/unZcxxnty+bArvscYC2hJgMY=
+
+Name: templates/impl/diagram/editparts/ChoiceUtils.qvto
+SHA1-Digest: pMqryLBsZhRiWQP+mOvUr4KBtLE=
+
+Name: templates/xpt/providers/ModelingAssistantProvider.xpt
+SHA1-Digest: oN6JX7dPmKWWQ/34Rskdrj0feMY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/PredefinedEnumParserImpl.cla
+ ss
+SHA1-Digest: 7ILWMDgBO+wZFgtivBFgZPLqLQ4=
+
+Name: templates/xpt/diagram/editpolicies/GraphicalNodeEditPolicy.xpt
+SHA1-Digest: uaU1R/WTwoTrwIPjmBr91xt7p5U=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenModelGraphAnalyzer$Chil
+ dConnectionFinder.class
+SHA1-Digest: sWOVlPqnnV+cLcY3NvyKxaRz6+c=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenAuditRootImpl.class
+SHA1-Digest: LEYBSN2ZJpWx4SSLYC8gr528VrY=
+
+Name: templates/xpt/editor/wizban.gif
+SHA1-Digest: rdbF/SlXJHZ9dpqmFS/IZjMmSaM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenLinkImpl.class
+SHA1-Digest: XA4EwMnTjGkGdyZwmz88ISRJWZw=
+
+Name: templates/xpt/diagram/commands/CreateNodeCommand.xpt
+SHA1-Digest: 6U8fZgQJKIat0jEMGjPz/mD4xS4=
+
+Name: templates/plugin/Activator.xpt
+SHA1-Digest: q+0c6wi14VYxpQDqftKljV/K2gs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAuditContext.class
+SHA1-Digest: Y3Q4u543m87BwBW55zuNRWUAPpI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNodeImpl.class
+SHA1-Digest: Mo+YcKhV5CmDVmTd5nXqP9Ml1kA=
+
+Name: templates/xpt/GenModelUtils.qvto
+SHA1-Digest: goBg1p26olcgQeTUtP6+U3bgv5w=
+
+Name: templates/xpt/expressions/getExpression.xpt
+SHA1-Digest: 2mSsYL1XtreO4T1IZCi9DfrjmRM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ToolGroup.class
+SHA1-Digest: ufiI4OYLkv5CyvKtev82fMyyOOc=
+
+Name: templates-dynmodel/Facility.qvto
+SHA1-Digest: wSNSkW1L46kM4RHhzp9kP4iAtoc=
+
+Name: templates/impl/parsers/expression.qvto
+SHA1-Digest: 85IJUvv8becgWqW1mfoC9c+K+18=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLiteralExpressionProvider.clas
+ s
+SHA1-Digest: vkP0wAlDLv+ZLa2Ny0OmaCCXWc8=
+
+Name: templates/xpt/diagram/editpolicies/childContainerCreateCommand.x
+ pt
+SHA1-Digest: vz1BdAgVXx07fEFz3B+NMKWQ4ik=
+
+Name: templates/xpt/application/extensions.xpt
+SHA1-Digest: 19mHYqdeS2gvpLzTBAlD/+X3DJ8=
+
+Name: templates/xpt/GenEditorGenerator.qvto
+SHA1-Digest: fiuEGAfnLaPjJ1w4lWXAr0n7uno=
+
+Name: org/eclipse/gmf/internal/codegen/util/VisualIDMatcher.class
+SHA1-Digest: NiSSPkRcmC/+ELSs3iU5qayte70=
+
+Name: models/gmfgen.genmodel
+SHA1-Digest: HRPRl/NwJUahuJzqIgxQyqCwpxs=
+
+Name: templates/xpt/editor/DocumentProvider.xpt
+SHA1-Digest: 1+Myf2EZLyrBk96ZAGyf1QbNW3s=
+
+Name: templates/xpt/editor/Editor.xpt
+SHA1-Digest: +2DFdIGARchnE0z4FCiy80vHRCA=
+
+Name: templates/xpt/providers/MetricsResultView.xpt
+SHA1-Digest: FqdwRWrfnisN+qX3tMBYJuq2XXs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenFeatureValueSpec.class
+SHA1-Digest: 3egV9+YA3f8hptV6ZEHBYNTxtCA=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenResource$Factory.cla
+ ss
+SHA1-Digest: vFxw0/RQzoDNByQ0vRi47TZTk/E=
+
+Name: templates/xpt/diagram/Utils.qvto
+SHA1-Digest: kVqQ/NgRrBliTlcgAJSKuApweVU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenStandardFontImpl.class
+SHA1-Digest: uWjEdUn3hsFx6ucMLd9KfVnAPRs=
+
+Name: templates/xpt/diagram/updater/Utils.qvto
+SHA1-Digest: LceS48ZGF30gq8XoFZrOMu08shk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ModeledViewmap.class
+SHA1-Digest: m3qf6Podlm2YN/IuasdnxIGfvVw=
+
+Name: templates/xpt/diagram/commands/CreateRefLinkCommand.xpt
+SHA1-Digest: SDIzuyF3gsVnxO05E1mCPk0/UWs=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: templates/impl/diagram/update/domain2notation.xpt
+SHA1-Digest: s4dsp5oXPpcf2RWeWDVIeF6iBt0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/InnerClassViewmap.class
+SHA1-Digest: dK7VRXcIoHY6M3AOO9dCmUp0LEk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenElementInitializer.class
+SHA1-Digest: 2z7PnLMLqqthL8oMfJYcMEkCrog=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ProviderPriority.class
+SHA1-Digest: MgF5bmI+1LzZUHDKS7+RoibsuVw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/AbstractToolEntry.class
+SHA1-Digest: MQB3Ao5WKiZNA1zY+ATYDH/DdmE=
+
+Name: templates/diagram/editparts/DiagramEditPart.xpt
+SHA1-Digest: jKBdkFxXy5D0htuFWROCzbXSCjo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNavigatorPathSegmentImpl.
+ class
+SHA1-Digest: J/3FfEw7z+Zba/PQrcU+2o1CbFk=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenPackageUtils.class
+SHA1-Digest: HmO0+9FuodG/SyqBTmGBSP+lb2U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/CustomTabFilter.class
+SHA1-Digest: TwpV3m7F47A57owCJ+tLKDqsiWo=
+
+Name: templates/xpt/GenAuditRoot.qvto
+SHA1-Digest: osrHZDmGBNQIAUFoieTrqPv6bME=
+
+Name: templates/impl/diagram/editparts/NodeEditPart.xpt
+SHA1-Digest: r7DwLocQ6x3Dq7CyIReT6o9UtI8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenToolBarManager.class
+SHA1-Digest: FRa8BKV0EJ/cSsxigzB5mKcSlUE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDomainModelNavigator.class
+SHA1-Digest: 3TyvvMlZ7/1OJLpy1bfDq5Hvk3M=
+
+Name: templates/xpt/editor/ModelElementSelectionPage.xpt
+SHA1-Digest: iURdsk6PTygcEuKf0gURt/lA7fE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAuditable.class
+SHA1-Digest: rq+Bn2d48uPNDJaDE13uJgvwEJE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/AbstractToolEntryImpl.class
+SHA1-Digest: KD5TkeAIi7ZX2Tsmce5RxtAhGj8=
+
+Name: templates/xpt/diagram/updater/UpdateCommand.xpt
+SHA1-Digest: NBXXp02JtSsmEpPp+7ogw6eFQfs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/FeatureLinkModelFacetImpl.cl
+ ass
+SHA1-Digest: 12HHZgY6eLiDHondrXpwRJczfE0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenReferenceNewElementSpec.class
+SHA1-Digest: lWh5tXF9cXZjJHZr6C6zZXRD6d0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAuditContainer.class
+SHA1-Digest: 2GgdrNStpfDaD60l+5jvCfn8Y88=
+
+Name: templates/xpt/editor/CreationWizard.xpt
+SHA1-Digest: BLaDOX7xay1BjW7GBBosAcQV97M=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenModelGraphAnalyzer.clas
+ s
+SHA1-Digest: yFzy7OtyYVNOOZP8utoYAfvkDaI=
+
+Name: templates/impl/actions/PredefinedAction.xpt
+SHA1-Digest: 6hmosOwpPv7M2AcVF0l9Yu5lOeQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/CustomBehaviourImpl.class
+SHA1-Digest: aaZViR9ZMalrhRNytQbwM+C7b4w=
+
+Name: templates/xpt/providers/Metrics.qvto
+SHA1-Digest: jjbmwrGcycMfvYvSzN3xvCHcIcY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ExpressionLabelModelFacet.class
+SHA1-Digest: KUeQ57huLqATAkVSHHwo9njQ36Q=
+
+Name: templates/xpt/diagram/editpolicies/DiagramItemSemanticEditPolicy
+ .xpt
+SHA1-Digest: x2Gr96LFveKbeA2hRpXttb2+K5U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLinkConstraints.class
+SHA1-Digest: GFxyRxp9Vo2iQQMblTyiYAsypuM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNodeLabelImpl.class
+SHA1-Digest: 03DZPxFsLg+e47wndAxPXS/tiOo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCommandAction.class
+SHA1-Digest: PacGqNftD0XwDKD0UN1SssfO3/8=
+
+Name: templates/xpt/diagram/editpolicies/TextFeedback.xpt
+SHA1-Digest: qGl4DRBOevADGkGtrJSXpkkNGNk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenFeatureValueSpecImpl.clas
+ s
+SHA1-Digest: +WGlx2mAE7/pi264eLLnDg77rmo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenPreferencePage.class
+SHA1-Digest: PKEiDsDrmE6wZk8oDpZ7nHEHts0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ExpressionLabelModelFacetImp
+ l.class
+SHA1-Digest: k/lBviBZ2xDv1hL9Vdixm/1AN0E=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Behaviour.class
+SHA1-Digest: 7HmN6iDmDtXKiD/OerG6QT/WP78=
+
+Name: templates/xpt/editor/MatchingStrategy.xpt
+SHA1-Digest: ShrZE6Ef8JCKeIZfv4STnulJe8s=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNavigatorReferenceType.class
+SHA1-Digest: Te8UW6jOOUPy/NACFNby3oyfcQQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/util/ViewmapLayoutTypeHelper.clas
+ s
+SHA1-Digest: Q0qpNugFP/hSklrGPd1Z8SvJqRw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/DesignLabelModelFacet.class
+SHA1-Digest: A5Xd9OVFbGWh7eZtGhPLzCvvKbc=
+
+Name: templates/impl/preferences/CustomPage.xpt
+SHA1-Digest: w5xRjPMHte7J7EQbePQlX9kCAsY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/util/GMFGenAdapterFactory$1.class
+SHA1-Digest: Yv0VJTpQ7omXk1emLCqSIWX1FMk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/CreateShortcutActionImpl.cla
+ ss
+SHA1-Digest: qi7/9+0ZlIvqkkhzDWqsy8HYrdU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAuditRule.class
+SHA1-Digest: q6zbbjs8QS7Ohv3kHo6KcA4S3ic=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Viewmap.class
+SHA1-Digest: TOjMZo3kRRk8gnxvStpu8p8LME4=
+
+Name: templates/xpt/editor/GenDiagram.qvto
+SHA1-Digest: lctAvIiPV5LKbxlLc7p+cBoxSOg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenExternalNodeLabel.class
+SHA1-Digest: sJH2rVzUXBV2Ddg2hmauvU5Awac=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenContributionManagerImpl.c
+ lass
+SHA1-Digest: c9SfFDgG2uOb4H/nCa0FpNIiMBc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenChildNodeImpl.class
+SHA1-Digest: 7se3EOnOqQgafmZ1LA9Ekk4rE1k=
+
+Name: templates/xpt/application/WorkbenchAdvisor.xpt
+SHA1-Digest: 3tdCYU1m1N0evz7UwwHn3hoBE1U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ParentAssignedViewmap.class
+SHA1-Digest: N7hbuwQXURFc5uLGo+ZRH6IUUJI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenConstraintImpl.class
+SHA1-Digest: 4vFFJwW7UNY3xCl2RvsDLAalD4Q=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Separator.class
+SHA1-Digest: jd8YSIwzst5ppDw+Uy0ELw05p2Q=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNavigatorChildReferenceIm
+ pl.class
+SHA1-Digest: kt8SyokmsVpBVa85hbMYydpDyI0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenExternalNodeLabelImpl.cla
+ ss
+SHA1-Digest: TE8eyLjlMYxM1oa4iYX4maR0TBU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/SpecializationType.class
+SHA1-Digest: pyWphLIE9KV52qbQm+h8u4+tBeg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GeneratedType.class
+SHA1-Digest: E03vbS4oATR6c/IsT0DGSjslJFE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/StandardEntryKind.class
+SHA1-Digest: AwyW2PHb6aVIN9ScLhkwg5YBw8g=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Shortcuts.class
+SHA1-Digest: MW9TC9kNn5FcJaWz3SBDXnpY+5E=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenJavaExpressionProviderImp
+ l.class
+SHA1-Digest: ATOOsZK06E3Qa/5i9kR0lJzoQ/0=
+
+Name: templates/xpt/editor/InitDiagramFileAction.xpt
+SHA1-Digest: MKN66+wbPUeWvPDZ2nXCh9tJWes=
+
+Name: org/eclipse/gmf/internal/codegen/util/Migrate2008.class
+SHA1-Digest: EXtmylZetCkiyY1QdJUMt7xNLf0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/CustomParser.class
+SHA1-Digest: Eity2vYF6WC0N/OHBq2w9yjbLZg=
+
+Name: templates/impl/actions/extensions.xpt
+SHA1-Digest: 7eIwqED3wGP/Q98Zpc2TI7w2668=
+
+Name: templates/impl/diagram/editparts/NodeLabelEditPart.xpt
+SHA1-Digest: Jfy27vuLWJOXo9+K5uw08SC0ySU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GMFGenPackage.class
+SHA1-Digest: Sm2SPTr+cGjQOIoKWLwYBoQzbVM=
+
+Name: templates/xpt/plugin/Activator.xpt
+SHA1-Digest: bJEZ6V4f8TXB5x5UrtZkExiKPC4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/FeatureLinkModelFacet.class
+SHA1-Digest: +m5OfEtXIeO89qq/UQvcPYxxf00=
+
+Name: templates/xpt/providers/extensions.xpt
+SHA1-Digest: G0u0GTPbh6N14dIOS0QGMkEKxHo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLabel.class
+SHA1-Digest: bZMLAQChH93P8wchYwUP7thuCLA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDiagramElementTarget.class
+SHA1-Digest: wjKrwIskcFWXLeVUsUvqe+8OD9g=
+
+Name: templates/xpt/diagram/commands/ReorientLinkCommand.xpt
+SHA1-Digest: DHPjrdd8Yu1yHESuz9NnPW9DLOg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenMetricRuleImpl.class
+SHA1-Digest: gxY1HvmUC40BmFWoqsiZU/YDla8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCustomFont.class
+SHA1-Digest: nEsNwhY2/ylz5NK5eSAkGRd2+2k=
+
+Name: org/eclipse/gmf/codegen/gmfgen/FigureViewmap.class
+SHA1-Digest: gv/EK/2UEo/kFOr1ZOkQELUzjvQ=
+
+Name: templates/impl/diagram/editparts/viewmaps/modeledViewmapProducer
+ .xpt
+SHA1-Digest: 24C/bQg8us5aqiV7VOKFqIo3B7E=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenPropertySheet.class
+SHA1-Digest: FASzMlTghderocjXzfV+sCjL2n0=
+
+Name: templates/xpt/application/Application.xpt
+SHA1-Digest: I2CdwyCm7vohkW3ABGFEgNo0ElQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenTemplateInvocationBaseImp
+ l.class
+SHA1-Digest: vI2GJ4M1rxx5eptyyBkomY6pKVs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNodeLabel.class
+SHA1-Digest: zC0fAy2af/nhiQQ+jXym0RyM3y4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/FigureViewmapImpl.class
+SHA1-Digest: UmFXknX2/AukguawZek/CPlnWrg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ElementTypeImpl.class
+SHA1-Digest: 6YyuxO748cy94g4bfI1SWgqkoeU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ViewmapImpl.class
+SHA1-Digest: yiZqq3yanboL3eyuGZvqWj1RxOo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNotationElementTargetImpl
+ .class
+SHA1-Digest: 7GbC8xXhV21G3x4OaFHHmTbGUGA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenGroupMarker.class
+SHA1-Digest: VYXO49SnAmCGemHa3yg1qTWlxfY=
+
+Name: templates/xpt/diagram/ViewmapAttributesUtils.qvto
+SHA1-Digest: MfyRRW83EtmVruMyF8nDeYUtbVc=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.c
+ odegen/pom.properties
+SHA1-Digest: wtRHFfAyOXRaCSbYr4uJ4+qb7ac=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/SpecializationTypeImpl.class
+SHA1-Digest: +7jTAhl+vUi0VExNm+Oi9s3uPBs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenParserImplementationImpl.
+ class
+SHA1-Digest: MNIAqsEiWtpje7WVWHxNoTZbmFo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ResizeConstraintsImpl.class
+SHA1-Digest: lUfJZnM66H44EtfwgWvXYqDG69k=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenChildContainer.class
+SHA1-Digest: 6lMBAcA4ceMVmf6ceiqWha/+fTQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/CreateShortcutAction.class
+SHA1-Digest: fiuO7LVv22N9uZZjqlNR4bf1Orw=
+
+Name: templates/xpt/editor/DeleteElementAction.xpt
+SHA1-Digest: HjY0B4C3rXXGnOZy/FjM/OnsJhU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/TypeLinkModelFacet.class
+SHA1-Digest: l/tzudI5t1mKFCuy/0BmrxHPekI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenContributionItemImpl.clas
+ s
+SHA1-Digest: SgAFLId92fL2daYUnVRZSKu3WR8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/StandardEntryImpl.class
+SHA1-Digest: sBUVSPVvt8Tkr7hYtLVCYNHbfd4=
+
+Name: templates/xpt/editor/ActionBarContributor.xpt
+SHA1-Digest: SozQ6Iyq/BViQyPUtoTYvYHqcMk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/InitDiagramActionImpl.class
+SHA1-Digest: qxkyicLLUk0e4dvrMWNpxAEL5TM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAuditedMetricTarget.class
+SHA1-Digest: mnKf8f15ZslusNpC9MHJxeXmYDU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/TypeTabFilter.class
+SHA1-Digest: 9VogS6NzZgw4TvmHp58qxgKeyVQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/DesignLabelModelFacetImpl.cl
+ ass
+SHA1-Digest: I6R2Csl7h93Q+TwCnOxQnlkag9A=
+
+Name: templates/xpt/expressions/OclTracker.qvto
+SHA1-Digest: MGpZlMq5Vht8YMsmSMRiJhUeREc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/DefaultSizeAttributes.class
+SHA1-Digest: mkoBSwmLhb7gI43dt0+8i48r53w=
+
+Name: templates/xpt/editor/ValidateAction.xpt
+SHA1-Digest: GzQZZ293qYn8u16DxSzas7xbm+E=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenJavaExpressionProvider.class
+SHA1-Digest: QPmk9UyiZuQSsznJcFYJF1iRNJY=
+
+Name: templates/xpt/editor/DiagramEditorUtil.xpt
+SHA1-Digest: X3/UMV7zBORPwBUfMEvw/tJyxtI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/MetamodelType.class
+SHA1-Digest: ciBrA6SCXtWtW1rNeGIASMwr2lA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenReferenceNewElementSpecIm
+ pl.class
+SHA1-Digest: gELvIeB6KD+5J/4SdwCf726+pwg=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenConfig$2.class
+SHA1-Digest: MyBR0sON0KSwYlKXO0xpeo15Q6Y=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/TypeTabFilterImpl.class
+SHA1-Digest: STZsJMzmJC0jNyYlSVOc6/EWZp4=
+
+Name: templates/xpt/diagram/editpolicies/linkCommands.xpt
+SHA1-Digest: +YKePYaRhDeRFP9J2n1YbddnNqY=
+
+Name: templates/xpt/propsheet/PropertySection.xpt
+SHA1-Digest: GRSZy8JoWhz1g6y+pQ54P7Ld6vc=
+
+Name: templates/impl/actions/LoadResourceAction.xpt
+SHA1-Digest: WY/n9DKm5y3oBqWLixnf8N/WNCg=
+
+Name: templates/xpt/providers/ShortcutsDecoratorProvider.xpt
+SHA1-Digest: BS/H4igbywLpQXpM5y96rd9ea00=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLink.class
+SHA1-Digest: DmbzOrlAwVCC2h72+iPIiqO0dI0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenTemplateInvocationImpl.cl
+ ass
+SHA1-Digest: AmurcIZRHIEVwHV/W2YWe/9Jwrk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenMenuManagerImpl.class
+SHA1-Digest: +Hf/Eo+waWiOIQXaFHxGjKrd+ko=
+
+Name: templates/xpt/editor/palette/Utils.qvto
+SHA1-Digest: 9j0dflYMITqFXgsO0Agq4fQOwAY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/util/GMFGenSwitch.class
+SHA1-Digest: HH8IzDHHvCVLwbAO6yfCk+BTqRk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNode.class
+SHA1-Digest: P+Czbat2NBi3u1NOvHdeI3XWjW0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenExpressionProviderContain
+ erImpl.class
+SHA1-Digest: //nH1tbyRZchfYhKeM9q8jXOPDk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/SeparatorImpl.class
+SHA1-Digest: k9C2VLbYkNsniohlhiuwBR1+v3w=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenModelUtils.class
+SHA1-Digest: Oo/UB0y8gnLvh5eyh/5z6+crcDs=
+
+Name: templates/xpt/plugin/plugin.xpt
+SHA1-Digest: uumNZv4OqF4hLVJbW1NRWlUhfWA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenLinkConstraintsImpl.class
+SHA1-Digest: UgWZIpRkt5/nMpNw8gAi6yRLk2U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ExpressionLabelParser.class
+SHA1-Digest: eyk5fATpJd24A4f7fNOPyOZUy5o=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenMetricRule.class
+SHA1-Digest: rFCccCkTr+JuEuwUWg5f0c4XQzw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenConstantColorImpl.class
+SHA1-Digest: QiQ/+JteD43qUN421ctmr6RZ6sg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/CustomParserImpl.class
+SHA1-Digest: nDYK82BD/GOn/X1Vpa/L5VbKiSY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenContextMenu.class
+SHA1-Digest: kn2nvyZd0m7YzNEO7YspDngfF5k=
+
+Name: templates/impl/parsers/i18n.qvto
+SHA1-Digest: 2WvNSqF7EOpR02aryhAHPjy/AO0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenContainerBase.class
+SHA1-Digest: lpEdX1LRSJtPy60lvcWdzRRF+yY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenTemplateInvocationBase.class
+SHA1-Digest: PbKMC0NeR7Z187TO+5tW8Zh5Lnk=
+
+Name: org/eclipse/gmf/internal/codegen/util/CodeGenerationUtils.class
+SHA1-Digest: esEMSAnkTa2oSHPzX8zOTjnAVS8=
+
+Name: models/gmfgen_2008.ecore
+SHA1-Digest: daoSc2lzj+YZZekmVrP+xEtw388=
+
+Name: templates/xpt/application/i18n.qvto
+SHA1-Digest: qQ2uGYdHCN8SOlmoxUwWP2hb5I4=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenResource$X.class
+SHA1-Digest: MwAZmTzZAja8lA2VzQS8Vhneft0=
+
+Name: templates/xpt/providers/ValidationProvider.xpt
+SHA1-Digest: 4F0hlItstKcCL92ofe7tj/uACtU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/OpenDiagramBehaviour.class
+SHA1-Digest: MPZKH6yNyP74s/p2ehmEFKowr2U=
+
+Name: templates/xpt/editor/diagram.gif
+SHA1-Digest: UXP0Pr9uuBtoLbP/DZ6zl2adwNc=
+
+Name: org/eclipse/gmf/codegen/util/CodegenEmitters.class
+SHA1-Digest: tfgyK0LKg8hvHCtHs86ZUIbnHUU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenStandardFont.class
+SHA1-Digest: jRRMnSVmXjzkXOMyRpzFNe+jdPY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNotationElementTarget.class
+SHA1-Digest: G+HASlz7wjVH2WiR47K9XKjpM9E=
+
+Name: templates/xpt/propsheet/LabelProvider.xpt
+SHA1-Digest: uaS8gtzLmhmTuEabLV0i6Q/vYB4=
+
+Name: templates/diagram/editparts/NodeEditPart.xpt
+SHA1-Digest: UoRyjAQMUvrs71OSCnnqxcgJ+bs=
+
+Name: templates/xpt/expressions/RegexpExpressionFactory.xpt
+SHA1-Digest: x6kaJuEr+RKvlGCA5fiyC6Qi4uk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCustomPropertyTab.class
+SHA1-Digest: euCCL8C3Vek9PIaWGoi7BwebPj4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenApplication.class
+SHA1-Digest: 7X8kGlVXkj7ToxtEIKINbosz/es=
+
+Name: templates-dynmodel/Facility.xpt
+SHA1-Digest: Fz1XnmmLrktAHmPnFFE8bfiISyk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenDomainElementTargetImpl.c
+ lass
+SHA1-Digest: gZmrZ7GPbOq2j72S0l8cTMqrS58=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNavigator.class
+SHA1-Digest: M2u7sCZb69yj0m04ORbmPrWHqvw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenAuditContainerImpl.class
+SHA1-Digest: s7IMuQa9LTt0u4VxXC+gRhJqnEk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenStandardPreferencePageImp
+ l.class
+SHA1-Digest: 1TRoM0isqudeqScDrTbHqHXEP9g=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/codegen/gmfgen/StandardPreferencePages.class
+SHA1-Digest: 8wzRVhMaJDQigQd0ZDCynukqZi4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCustomGeneratorExtension.class
+SHA1-Digest: +JfEKyk8szdphlXCmmMmwCZ9J+s=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCustomPropertyTabImpl.cla
+ ss
+SHA1-Digest: ztQ594EnMaKdDxRTqPmjVh8s6ok=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/LabelOffsetAttributesImpl.cl
+ ass
+SHA1-Digest: 94wxWuX/AuDipM/dZ6rXKrkD5sI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenDiagramImpl.class
+SHA1-Digest: RbgSGojRmnuIlc7YASCtbZmWLAc=
+
+Name: templates/xpt/diagram/editpolicies/LinkItemSemanticEditPolicy.xp
+ t
+SHA1-Digest: XUcf5lzQaS0gk8iZqw2hvN2JXIw=
+
+Name: templates/xpt/plugin/manifest.xpt
+SHA1-Digest: I+gsD79850o7TsrsTH4xB7RDTSs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCustomAction.class
+SHA1-Digest: 58ODcBCG9XLQg2dB6d7lsKXffCI=
+
+Name: templates/xpt/providers/EditPartProvider.xpt
+SHA1-Digest: sZnV6qUf37ZDOM+XJd9XhPzOEaA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/InitDiagramAction.class
+SHA1-Digest: AyJrjO0UFVLpX8beWidcS69b7y8=
+
+Name: templates/xpt/diagram/editpolicies/NodeItemSemanticEditPolicy.xp
+ t
+SHA1-Digest: 6Q3l3B5jr2PsONHPLmv6aiVLDYA=
+
+Name: templates/xpt/navigator/getEditorInput.xpt
+SHA1-Digest: MaNHviB3j95Avnzv8w2ygXRadtU=
+
+Name: templates/xpt/diagram/preferences/PreferenceInitializer.xpt
+SHA1-Digest: YOLoj/5UnV0glU/IHK9ntQvkUnc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenChildSideAffixedNodeImpl.
+ class
+SHA1-Digest: zjdU8VDSQhN9hCRMn96S8Ys5R4c=
+
+Name: templates/emf-merge.xml
+SHA1-Digest: 3TJrfRrodgzaruu8ir8gDDm3H/U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenSeparatorImpl.class
+SHA1-Digest: C2wnBtbuOj5zD+85yshYUu5xSV8=
+
+Name: templates/xpt/navigator/navigatorGroup.gif
+SHA1-Digest: lUwMuDmTEvmiqtkgC+kWyrYAkVk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Routing.class
+SHA1-Digest: XteYzTtXL7kjc8uvjyWtIVcLhh0=
+
+Name: templates/impl/actions/CustomAction.xpt
+SHA1-Digest: gVZszCB7ptwKX/yfxIP5anx6LRg=
+
+Name: templates/xpt/diagram/editpolicies/BaseItemSemanticEditPolicy.xp
+ t
+SHA1-Digest: IC33w/ZstC+pilxr9jTQZP5T4ms=
+
+Name: templates/xpt/expressions/AbstractExpression.xpt
+SHA1-Digest: JJAWbmg7VNOHee7nPv163SOmbHA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/CustomBehaviour.class
+SHA1-Digest: 0Wa6wt0ruB2bF/ITSUa4TNA8tjU=
+
+Name: templates/xpt/navigator/DomainNavigatorContentProvider.xpt
+SHA1-Digest: Ox3Oe5wPaRCY+NP2kadTmidlPFc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenConstraint.class
+SHA1-Digest: kMfVQiqEVPAuFMTDJPru4ZgAT8o=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenPropertyTab.class
+SHA1-Digest: ABpSOIfhYk+LlvuqQ5leU4MpEr8=
+
+Name: plugin.properties
+SHA1-Digest: OJamH+I3WEeLi0u/BxQJy/LoPHY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ElementType.class
+SHA1-Digest: 68luW7Ldcui5fGdYT30quX7xrNY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenAuditRuleImpl.class
+SHA1-Digest: a41GpG0mAObrLhd3JYulhHfKWSE=
+
+Name: templates/impl/diagram/editparts/TextAware.xpt
+SHA1-Digest: 1zsHR4b/a2t5LntWOkH1xa8JlrA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDomainElementTarget.class
+SHA1-Digest: gl3kP0764hcUgs3ucsrKpelfBHs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenDiagramElementTargetImpl.
+ class
+SHA1-Digest: gSy/8IztlRcbDgjMFZ57LYk3NxY=
+
+Name: templates/xpt/navigator/NavigatorItem.xpt
+SHA1-Digest: T01psvqy8n01eRMaRNYhVjqbOYQ=
+
+Name: templates/xpt/editor/ResourceSetModificationListener.xpt
+SHA1-Digest: 7cjgFTSqiPBNmLEJYUDWtvWbNyA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/MeasurementUnit.class
+SHA1-Digest: uS8MIgUVYpxfHwA4RnG7POlSsfk=
+
+Name: templates/xpt/application/ActionBarAdvisor.xpt
+SHA1-Digest: BmdjXjWuAynE8Oi9ipSb6ZAb21g=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenEditorView.class
+SHA1-Digest: sgtVB2YHozo+usupZHXXLN3eoMw=
+
+Name: templates/CodeStyle.xpt
+SHA1-Digest: DcxZ7JIN3y+CRX1ETZM3RzUIxA8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/EntryBase.class
+SHA1-Digest: vpU+WqMIz5wz+yEEoPTWIRYFPV4=
+
+Name: plugin.xml
+SHA1-Digest: 38io6QSvxQhHsr8ztTsAdGm127c=
+
+Name: org/eclipse/gmf/codegen/gmfgen/EditPartCandies.class
+SHA1-Digest: DrhKWtfO6bn3jtq5ozI3RpY1lfo=
+
+Name: templates/xpt/providers/ElementTypes.xpt
+SHA1-Digest: /Xup7y5LEnRMEzFBJwpexWtvuFU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenFeatureSeqInitializer.class
+SHA1-Digest: yaO5x+7roivcRz1Y2BikM+tl/1w=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/NotationTypeImpl.class
+SHA1-Digest: JJpPDC89a2ZUkuO+zqMGIsvZYCM=
+
+Name: templates/diagram/editparts/ExternalNodeLabelEditPart.xpt
+SHA1-Digest: /0qFY1GH2tZUJ/EB0ps/XBdlvcs=
+
+Name: templates/xpt/ExternalizerUtils.qvto
+SHA1-Digest: +Gc88Q1olHHNI0gsTZAPwfvxaYc=
+
+Name: templates/xpt/diagram/updater/DiagramUpdater.xpt
+SHA1-Digest: PjYSJfMOHLuDVmJ3ruwwgSb6fRM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenGroupMarkerImpl.class
+SHA1-Digest: MrrsIip6whpvkUA/8qCfnS9kZzQ=
+
+Name: templates/diagram/editparts/NodeLabelEditPart.xpt
+SHA1-Digest: t6hzIvNT0/ay9/JJhFIj0gRR/L4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/LoadResourceActionImpl.class
+SHA1-Digest: L9QMPbSZATdQSaPYKd8duTty/ho=
+
+Name: templates/xpt/plugin/properties.xpt
+SHA1-Digest: WYd83pwUR/AgVHDtBnZRq5GaWXE=
+
+Name: templates/impl/diagram/editparts/LinkLabelEditPart.xpt
+SHA1-Digest: 2hLFt6xmqTfXznfnzGuBuHV51nY=
+
+Name: templates/parsers/ExpressionLabelParser.xpt
+SHA1-Digest: HpcsIeVq76GCiCoz1oPYuhLlf6o=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenFont.class
+SHA1-Digest: Gbsh5j+pWiMVrXT7uwYIB/1OyOc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ProviderClassNames.class
+SHA1-Digest: J6P7PIuFKH3CK+bvNBTOBclBAfc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenParsers.class
+SHA1-Digest: jhbih6JUOBKPgPkIOI2aI4o/CM8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/InnerClassViewmapImpl.class
+SHA1-Digest: kGFz3LuzvAiadTBHJ45D7P4X74M=
+
+Name: templates/parsers/PredefinedParser.xpt
+SHA1-Digest: biAXzOvyiPk3eGCgcMCzs4P6Y5A=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ExternalParser.class
+SHA1-Digest: kPUnwg7XZxEqePnqRQClOceUUXQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ToolEntryImpl.class
+SHA1-Digest: gTHsOzTj9MTVvcpXSp+bUcrfI64=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/PaletteImpl.class
+SHA1-Digest: 6wgbMqgWTrDd4O7E+oZFfWuosz8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenMetricContainerImpl.class
+SHA1-Digest: WX3m2X7Y/9Uqv/Po3FPAr72Ny28=
+
+Name: templates/xpt/editor/palette/PaletteFactory.xpt
+SHA1-Digest: hBDjGUcUd910W53a49TQ6pjXNcs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenLabelImpl.class
+SHA1-Digest: gqSWVg6HCx40188HC/d5LUitrR8=
+
+Name: templates/xpt/providers/IconProvider.xpt
+SHA1-Digest: fclsmi8B+loB4sQMIPEmx4cRJss=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNavigatorChildReference.class
+SHA1-Digest: qq8zJDq5PmC0D4jUhdTk8XDG5kM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LineStyle.class
+SHA1-Digest: iU2la+7ePN/xjBX0j54VndH0XRk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LabelOffsetAttributes.class
+SHA1-Digest: 2QwKIRrzPsPFJsDAcY1n9aBec1c=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenVisualEffect.class
+SHA1-Digest: s4oFiZtk0TZmZaxs015IgubZmoY=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenConfig$1.class
+SHA1-Digest: VJ0vzIr0Kay9AOvZ6zmKcgvshRg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ResizeConstraints.class
+SHA1-Digest: w+bJnkE3EfQTvlHaIYSNiHADL14=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenPlugin.class
+SHA1-Digest: qdafFCvytZ6Ljvw0/9TurzcFXBo=
+
+Name: templates/xpt/navigator/Utils.qvto
+SHA1-Digest: ppzzLZYkqHu+UGiKjBRx2tZ+cmw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDiagramUpdater.class
+SHA1-Digest: 5xdEgDRv2y7ZG/OLzqe0qm/fmTo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNavigatorPathSegment.class
+SHA1-Digest: bItzqMczknkSVdSKdLlDSS7Y/NU=
+
+Name: templates/xpt/editor/NewDiagramFileWizard.xpt
+SHA1-Digest: 8QlC0MZ92WGExHqVtd4fa/7ying=
+
+Name: templates/impl/diagram/commands/DeleteLinkCommand.xpt
+SHA1-Digest: i5VjBq2Ev7KzPexjqe5w5veGNaY=
+
+Name: templates/xpt/Common.xpt
+SHA1-Digest: GmcgYPJ6PmG2aeqM6DnYBIwHTYY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenActionFactoryContributionItem.
+ class
+SHA1-Digest: bkQKH3iIEqfIuY4Kl615mlBXoBQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenPropertySheetImpl.class
+SHA1-Digest: Iyfva7kGo981uZ0Y3CLcAnJphmY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenExpressionProviderContainer.cl
+ ass
+SHA1-Digest: VjyF44qHYwEAfoTjgZLEaWte9sk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenNavigatorPath.class
+SHA1-Digest: tF9C2xinshm1nW3jsog9kSiIxqA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAuditRoot.class
+SHA1-Digest: pvg0NECVqYE/1yn2fstXbB188aE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/StandardEntry.class
+SHA1-Digest: fygYI1G08YT2mYKBwgbptj5Ukbg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenColor.class
+SHA1-Digest: D/UFbM0FW8HxrzMIMODj8HU6Xow=
+
+Name: templates/parsers/CustomParser.xpt
+SHA1-Digest: qb7eOsFwsaYbiD+OPoIjNEqFQW0=
+
+Name: templates/parsers/ParserProvider.xpt
+SHA1-Digest: RAdCQdlh8iLb3bZhOR/78FngBIE=
+
+Name: templates/xpt/navigator/DomainNavigatorItem.xpt
+SHA1-Digest: T13k0uTUe1QnMbwIJqWc/yTYCCY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ToolGroupItem.class
+SHA1-Digest: qKrz/gXQF5Z6E3mEbTSEdwdLiuc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNavigatorPathImpl.class
+SHA1-Digest: bVdFz5u8VeTN2L3Ges7KjW6Q2YI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenDomainAttributeTarget.class
+SHA1-Digest: ovbv+LEEkYOAi0XOH9S62nlPmzQ=
+
+Name: templates/diagram/editpolicies/ChildContainerCanonicalEditPolicy
+ .xpt
+SHA1-Digest: 5QND0I8xhpuOUcvFTsLFWIWHZDY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ModeledViewmapImpl.class
+SHA1-Digest: w7mjbx3X235Tdj9kSGCJy9MQ93c=
+
+Name: templates/xpt/diagram/editparts/Common.xpt
+SHA1-Digest: 4+kETDabRktv/jdTpPhLsj6le+U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCommandActionImpl.class
+SHA1-Digest: OJqkTZx8AmtZ6lTYO7RaiF3/kEc=
+
+Name: templates/xpt/providers/ViewProvider.xpt
+SHA1-Digest: 7xRH7HtIXs6pfFVl+Id2qKk22qw=
+
+Name: templates/MetaModel.xpt
+SHA1-Digest: +vVFu73TYz9uaMzsMkP+FfBtx2I=
+
+Name: templates/xpt/editor/CreationWizardPage.xpt
+SHA1-Digest: xw+tGSrQts1Mf/7oYCPs5PTp9TY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenPreference.class
+SHA1-Digest: l6YNbarHGRFuK9B1iRWNWmNx9f0=
+
+Name: models/gmfgen_2007.ecore
+SHA1-Digest: bhFEeJPv9brPZjz40jYP+sy0Gt4=
+
+Name: templates/xpt/application/WizardNewFileCreationPage.xpt
+SHA1-Digest: SXsMabUp6pPQYbPBy6imo3X56cs=
+
+Name: templates/impl/diagram/editparts/RuntimeLabelsSupport.qvto
+SHA1-Digest: Iwct1qGRqdcyEN3DtrpFl3MmoM4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenExpressionInterpreter.class
+SHA1-Digest: phQ/rhxPvC5H9ycZGpdgvH45aTM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/SharedBehaviour.class
+SHA1-Digest: 0ItC4DvjqNwy6GwchIsWieO6tEA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Attributes.class
+SHA1-Digest: R08pypd7P2qRb03tBXKy3ZGOkng=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ExternalParserImpl.class
+SHA1-Digest: eO+ZPhGI9f4E9Rx04h6Qe7m7Ihw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/FeatureLabelModelFacetImpl.c
+ lass
+SHA1-Digest: nyoJIea99leNy6tcViI0yn4lPRA=
+
+Name: templates/xpt/editor/Utils.qvto
+SHA1-Digest: Pjq8lG718LomP2g7tqdvyVOFeBU=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenPreferenceImpl.class
+SHA1-Digest: tD1DWJWfatLYKw1YLXMG8hAyVF4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenExpressionInterpreterImpl
+ .class
+SHA1-Digest: A/ICpDAzckHrZrt9LhOfx06nijw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenStandardPropertyTabImpl.c
+ lass
+SHA1-Digest: 63qcO8oCfKDX1LEtvtPrdm0oSXE=
+
+Name: templates/xpt/Externalizer.xpt
+SHA1-Digest: kjRdUoEyyKPXwIL4q6xS3c0/CAM=
+
+Name: org/eclipse/gmf/codegen/gmfgen/StyleAttributes.class
+SHA1-Digest: bICXiT6DTIzoJpKGcYbfNdhh/c0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LinkLabelAlignment.class
+SHA1-Digest: r1xKKOSgA65wwc2ETTHYOMemP58=
+
+Name: templates/xpt/diagram/editpolicies/LinkUtils.qvto
+SHA1-Digest: ZdbMvW0N3g/FEEBhPzpa5n0361w=
+
+Name: templates/xpt/plugin/build.xpt
+SHA1-Digest: CcQfeD+CykZQsL8nSWA5oY08kp8=
+
+Name: org/eclipse/gmf/internal/codegen/util/GenModelGraphAnalyzer$Abst
+ ractConnectionFinder.class
+SHA1-Digest: 6yBLM6hPa+aOTqQTGTYMQjCMh8w=
+
+Name: templates/xpt/diagram/commands/ReorientLinkUtils.xpt
+SHA1-Digest: zFM//fzA+TauQHmNG/JS+9uTLmk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenVisualEffectImpl.class
+SHA1-Digest: XCE2jpCl8AvyPTmRYYdMuRCi3cU=
+
+Name: templates/xpt/NonNLSUtils.qvto
+SHA1-Digest: yz7qMM2MCjcdmIyRPtkHmwHJRE0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenEditorViewImpl.class
+SHA1-Digest: o3wxWlU3l8xI5WIswai3pvtcUkI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenFeatureSeqInitializerImpl
+ .class
+SHA1-Digest: d/3z/8bAJQipIfONXd/TN+cgF1Q=
+
+Name: templates/impl/diagram/editparts/LinkEditPart.xpt
+SHA1-Digest: lnnwdrIAIQd6AZFAB3KPhUrpX9o=
+
+Name: templates/xpt/editor/ShortcutCreationWizard.xpt
+SHA1-Digest: y5ss0n753YgF5Jz23Mf23l2hoag=
+
+Name: templates/xpt/propsheet/extensions.xpt
+SHA1-Digest: re7HSQOb+MPfsBiHRoUpaNNf/QI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenCustomPreferencePage.class
+SHA1-Digest: lo0Hzre1ueFTpMuUztn17LfR2YQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ExpressionLabelParserImpl.cl
+ ass
+SHA1-Digest: LA3Uj8GTPN4+wuTj+9/FHPO9HrQ=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLinkEnd.class
+SHA1-Digest: dX4g24tdYgee8QSGZ78ftjvakZk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenAuditableImpl.class
+SHA1-Digest: 8jKM+N1xEXneqipPWikbPB8GtcI=
+
+Name: templates/diagram/editpolicies/DiagramCanonicalEditPolicy.xpt
+SHA1-Digest: olQi6L7x4UtORMXBDw59/R2o2fs=
+
+Name: templates/xpt/navigator/NavigatorGroup.xpt
+SHA1-Digest: ZJD4em2s9Q5EKaZN/5QtwD83OnI=
+
+Name: templates/xpt/diagram/views/Utils.xpt
+SHA1-Digest: 0XRj0/c1mBO9khl3NQsyY2Jeg3g=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCustomFontImpl.class
+SHA1-Digest: 1Zb01WMneqh8vKBUFszHKxp9zSk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/AttributesImpl.class
+SHA1-Digest: vXADTSchijF2iqqCdq3WmeB1uts=
+
+Name: org/eclipse/gmf/codegen/gmfgen/ValueExpression.class
+SHA1-Digest: syVUHaXpUwUFwSBG2IJt+sn1U08=
+
+Name: templates/xpt/navigator/extensions.xpt
+SHA1-Digest: 7Ojh3nim43heAIFYLRgJqHN2Jp0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/TypeModelFacet.class
+SHA1-Digest: s5IDYKE6n1CTa3evF8cTbyfXL9Y=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenPropertyTabFilter.class
+SHA1-Digest: /CFAIikHlyH5kAxILP0ki/S4Izc=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenSeverity.class
+SHA1-Digest: HqfDqYByR2U1yOq1yAWaPX9W4O4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenMeasurable.class
+SHA1-Digest: LSlTaQ2wXZyH3V1YJBDW3TGjHT8=
+
+Name: org/eclipse/gmf/internal/codegen/util/MigrationDelegate.class
+SHA1-Digest: eGfWHkjcknFnPtoXvUnyo9bVLJg=
+
+Name: templates/impl/diagram/editparts/CompartmentEditPart.xpt
+SHA1-Digest: L6/SOMXt6RSViRVafuLG3HU5v7c=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenActionFactoryContribution
+ ItemImpl.class
+SHA1-Digest: hjRw552dBjNceMWTcZZ/GQDCubk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenNavigatorImpl.class
+SHA1-Digest: HHUBlsKIYolUX5rBBWzagNkmeMg=
+
+Name: templates/impl/diagram/editparts/DiagramEditPart.xpt
+SHA1-Digest: 8rG0ntWw6Jqp336fsBjtlHbhheU=
+
+Name: templates/impl/build/BuildUtils.qvto
+SHA1-Digest: yVIjvXQqrn7YWXNw0oK7hnOVJhw=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GMFGenFactory.class
+SHA1-Digest: C3kHmzfXgFkuBzTDxvw36Q/2Qeg=
+
+Name: templates/impl/parsers/ExpressionLabelParser.xpt
+SHA1-Digest: HWwwsaaXATxHrPHKTibm2BhVUW4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/DynamicModelAccessImpl.class
+SHA1-Digest: AUZWcggBmpj8h2IeQ8UegQl6RGk=
+
+Name: templates/impl/diagram/update/CanonicalUpdate.xpt
+SHA1-Digest: 43hdybR5IZh+kiYNgxdrbjO4sqc=
+
+Name: templates/xpt/editor/ValidationMarker.xpt
+SHA1-Digest: zKmiRadExUg8cyvBVc21hR5vDNw=
+
+Name: org/eclipse/gmf/internal/codegen/util/GMFGenConfig$1KeepOldIfNew
+ IsByPatternOrNotSet.class
+SHA1-Digest: kebi9nQ9CVXpZ4GHW9VCpxDxMM4=
+
+Name: templates/xpt/diagram/editparts/Utils.qvto
+SHA1-Digest: hRy72iM4z/ywiAHfrP3FYM7s/24=
+
+Name: org/eclipse/gmf/codegen/util/Generator.class
+SHA1-Digest: XNJmtlyA+SmRx52O3TDB4GlnyB8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenChildContainerImpl.class
+SHA1-Digest: Sngw3FkqlFc5xkBWyKYxm7bRdxY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenDomainAttributeTargetImpl
+ .class
+SHA1-Digest: KYZRG+4RPSoVwLbKnsQgpvwsrxs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenLanguage.class
+SHA1-Digest: TWstfg9egTsEp6zldVf2SSSe014=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenExpressionProviderBase.class
+SHA1-Digest: mValjJ11k3VMuG9izhyLtoyoGl4=
+
+Name: templates/xpt/ConstraintProviders.xpt
+SHA1-Digest: s3jzRlxA2pCmyEhyBwBVyoiZ0wM=
+
+Name: templates/xpt/diagram/editpolicies/Utils.qvto
+SHA1-Digest: bw3vcZUphWtYkUx/wJ0v7Lf5hWo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/Navigator.class
+SHA1-Digest: U2U7f4BKyKVhz2EWkIWkOqLjD1U=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenLiteralExpressionProvider
+ Impl.class
+SHA1-Digest: BM1RiEY98R1n3nLcCzsFfor4gtA=
+
+Name: org/eclipse/gmf/codegen/gmfgen/OclChoiceParser.class
+SHA1-Digest: 9pdwTtnA0XMvhYLgPDJdn13Mff8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenRGBColorImpl.class
+SHA1-Digest: afYXhFgQ805jCVT8GcoYPaC7XPI=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenFixedInputsTemplateInvocation.
+ class
+SHA1-Digest: Lg8G7JKvOnAyuQEQY2YXpq+/nWs=
+
+Name: templates/xpt/navigator/AbstractNavigatorItem.xpt
+SHA1-Digest: ufONaGNaBPzMdlG71YJx1sI1mUs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenExpressionProviderBaseImp
+ l.class
+SHA1-Digest: G2QIGj9oeGEcD8uPI428JmrFKPo=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenCustomPreferencePageImpl.
+ class
+SHA1-Digest: LWAOfHnwNPDfs2RFVXSLPrsPXAQ=
+
+Name: templates/xpt/editor/extensions.xpt
+SHA1-Digest: jyHJfFqjxl+QTaCDwJ83NoJj/R0=
+
+Name: org/eclipse/gmf/codegen/gmfgen/FontStyle.class
+SHA1-Digest: t2hlh///gpWKeU294Pd7UvGYHfs=
+
+Name: org/eclipse/gmf/internal/codegen/util/ModelVersions.class
+SHA1-Digest: 9M6pMnk7ffo8WHzA5vQpITAoXf4=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenAction.class
+SHA1-Digest: OgyaEchBRtUrBNdp6YWbx6cIzQ4=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.c
+ odegen/pom.xml
+SHA1-Digest: /yFWego6JehQesAHg8UYIZ2ewfM=
+
+Name: templates/impl/editor/Editor.xpt
+SHA1-Digest: Hl1b9c/fHMAevZGpDhfhD5vc5aY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenChildSideAffixedNode.class
+SHA1-Digest: mNey+qaTidNvIrg0dSibIr7bzig=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenApplicationImpl.class
+SHA1-Digest: k5/aghaTP8i8vnpi/OF3yMQKgpg=
+
+Name: org/eclipse/gmf/codegen/gmfgen/DynamicModelAccess.class
+SHA1-Digest: U9DpPvw0HE6M53tibhaXl27T7AY=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenConstantColor.class
+SHA1-Digest: C+L0liCmHaknkeorGvqZP0hKCH8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/LabelModelFacetImpl.class
+SHA1-Digest: 3yWMkCwFH6NVZf51nRc3L4v8MiE=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenSharedContributionItem.class
+SHA1-Digest: +vgh82pNiC+qVtKWxy1sANil+Sw=
+
+Name: templates/diagram/editparts/CompartmentEditPart.xpt
+SHA1-Digest: 4vTTQBOmXz0Qz8P3DlnQhDGAa8o=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenActionImpl.class
+SHA1-Digest: j695FYEpmA27jqc00TpJ0bobX9E=
+
+Name: org/eclipse/gmf/codegen/gmfgen/SnippetViewmap.class
+SHA1-Digest: 9KYeK/dtw/8d1+9j8FSzqPK1j0s=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/ValueExpressionImpl.class
+SHA1-Digest: qik25ywz7Ts3c9/wdDSfVhk0Du0=
+
+Name: templates/diagram/editparts/LinkLabelEditPart.xpt
+SHA1-Digest: SfFet+HkQqXUctRJ/SoRIs/Ieg8=
+
+Name: org/eclipse/gmf/codegen/gmfgen/GenTopLevelNode.class
+SHA1-Digest: IFoOzjcro0BIgByjVwUpoY5/46M=
+
+Name: templates/xpt/diagram/commands/CreateShortcutDecorationsCommand.
+ xpt
+SHA1-Digest: MqmIWps18Sqn7hYIKhwOL3lISBs=
+
+Name: org/eclipse/gmf/codegen/gmfgen/impl/GenEditorGeneratorImpl.class
+SHA1-Digest: garE7Lkt7MIGXgCj0j4u1IA7hrk=
+
+Name: org/eclipse/gmf/codegen/gmfgen/LabelTextAccessMethod.class
+SHA1-Digest: pOcjA7/1H2jJa3S11bsDzMCLwEk=
+

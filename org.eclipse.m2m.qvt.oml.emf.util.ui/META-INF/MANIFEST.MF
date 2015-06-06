@@ -1,0 +1,375 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.m2m.qvt.oml.emf.util.ui;singleton:=tr
+ ue
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.4.0,4.0.0)",org.eclip
+ se.core.filesystem;bundle-version="[1.0.0,2.0.0)",org.eclipse.emf.cod
+ egen.ecore.ui;bundle-version="[2.5.0,3.0.0)",org.eclipse.m2m.qvt.oml.
+ emf.util;bundle-version="[3.0.0,4.0.0)",org.eclipse.ui.editors;bundle
+ -version="[3.4.0,4.0.0)"
+Bundle-Activator: org.eclipse.m2m.internal.qvt.oml.emf.util.ui.EmfUtil
+ UiPlugin
+Export-Package: org.eclipse.m2m.internal.qvt.oml.emf.util.ui;x-friends
+ :="org.eclipse.m2m.qvt.oml.common.ui",org.eclipse.m2m.internal.qvt.om
+ l.emf.util.ui.choosers;x-friends:="org.eclipse.m2m.qvt.oml.runtime.ui
+ ,org.eclipse.m2m.qvt.oml.common.ui",org.eclipse.m2m.internal.qvt.oml.
+ emf.util.ui.choosers.metamodel;x-friends:="org.eclipse.m2m.qvt.oml.co
+ mmon.ui",org.eclipse.m2m.internal.qvt.oml.emf.util.ui.controls;x-inte
+ rnal:=true,org.eclipse.m2m.internal.qvt.oml.emf.util.ui.metamodel;x-f
+ riends:="org.eclipse.m2m.qvt.oml.common.ui",org.eclipse.m2m.internal.
+ qvt.oml.emf.util.ui.provider;x-friends:="org.eclipse.m2m.qvt.oml.runt
+ ime.ui,org.eclipse.m2m.qvt.oml.common.ui"
+Bundle-Version: 3.3.0.v20130520-1822
+Ant-Version: Apache Ant 1.8.3
+Bundle-Vendor: %providerName
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %pluginName
+Created-By: 1.6.0_21-b06 (Sun Microsystems Inc.)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ISourceCho
+ oser.class
+SHA1-Digest: x9J/+EJofkdbHouj6A/g1C2cutg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageSorter.class
+SHA1-Digest: DziKx6gI+9V1zrObjV64Jm4aVbE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ Messages.class
+SHA1-Digest: GsjwNUCA2G0sl8OMgtmP2/w0RUY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$7.class
+SHA1-Digest: NSJoNJfrpTOBoWGCNrPICDYOE/Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/IDestinati
+ onChooser.class
+SHA1-Digest: +H87WBqvsLqerZPsSf34vCOEtT0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ MetamodelEPackageNode.class
+SHA1-Digest: Y/0FUfIcAS0UTndcfNpnVc+8lH4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageNodeUtil$IProcessor.class
+SHA1-Digest: b65Mng156iSu+27z6dOxb65dPLY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/IPathUtils
+ .class
+SHA1-Digest: EMwTcatJv8l57KcByHIHcqxCqmY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceDe
+ stinationChooser$1.class
+SHA1-Digest: Yfm5/fG2VhuT8m52POkpTUW8Vqs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/metamodel/messages.
+ properties
+SHA1-Digest: kW9CYl4waYV32dvLXc6JrmOLTtI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceSa
+ ver.class
+SHA1-Digest: A2SXQo7BgSlxEFPHY5KLaRwV30E=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/MetamodelH
+ andlerManager.class
+SHA1-Digest: SWFu4ZcPqxe2dd7JcFMTHR58its=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/Messages.c
+ lass
+SHA1-Digest: r/8EhHi9i5tQWwCdFFeSt1Au+X8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageNode$NodeMaker.class
+SHA1-Digest: YNXDhZLSUu1oNmGCA+RDbcyzH68=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol.class
+SHA1-Digest: u9Lvz37qkXeExwl7o5YncoFY9pc=
+
+Name: icons/metamodels.gif
+SHA1-Digest: NVB6w6cnP8STvSb+vN341VVON60=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ChooserAda
+ pter.class
+SHA1-Digest: ul7VNpVz2j1VGzubgRsCdnVA9zs=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ IEPackageNodeFactory$1.class
+SHA1-Digest: GDV8lCa+DHR8FZe8WRLaDcrmDDQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/metamodel/Metamodel
+ ImageRegistry.class
+SHA1-Digest: 2eaAICq1TEIyqeicNCtTwGg9EWk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/IChooser$I
+ ChangeListener.class
+SHA1-Digest: q6tc8ETVv2NCumw03RjLqA0H0KQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelCo
+ ntentProvider$EObjectNode.class
+SHA1-Digest: f63cbi76n+9GEPBjt86/bRNLMBE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol$2.class
+SHA1-Digest: jdwbhEyF4VS9QnNhi5jpyTpvJa8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol$4.class
+SHA1-Digest: Zx7KA88X6jeaoApN0zMW5w10XNM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/DelegatingPropertyD
+ escriptor.class
+SHA1-Digest: 43fYWVmlHWAtCgvD6xP5TjLuAVM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EClassNode.class
+SHA1-Digest: 0Q99vWW1EKbEecRwp7V8WTeENsY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control.class
+SHA1-Digest: OUtw6AlXBtSUnerX22opBqZE9Wo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EMFLabelPr
+ ovider$NullLabelProvider.class
+SHA1-Digest: 24MRDuFUDPIAfMzLkTU5HkG0o/M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EMFProvide
+ rUtil.class
+SHA1-Digest: CxgUptmKZqBf0wNBxEuSZQs4PpI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/IEObjectPr
+ ovider.class
+SHA1-Digest: zSaeliviEMI4PSa+kQN+Jo1OWLw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ChooserDia
+ logAdapter.class
+SHA1-Digest: VmLWAKs+F7jMe2LrprdXlBkVnqk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelCo
+ ntentProvider$Node.class
+SHA1-Digest: 3NJFBhlzQ7gY3/y+Ch6gPE55paE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol$ISelectionListener.class
+SHA1-Digest: 7uwXoCoNRNyxuVwbnVmvVtO6w2w=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/Messages.c
+ lass
+SHA1-Digest: dw97Jbwh3GWmhHFcqbH7hg9V0h4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageNode.class
+SHA1-Digest: 2cXTiDsrtl2Vio3yLEGzwX1MvKA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$2.class
+SHA1-Digest: 3yy3xA2MUYSl1RmyxBy2KmKOPzM=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceSa
+ ver$ShallowMarker.class
+SHA1-Digest: W2amWXpkL3sqH0WhL7G5aYds+Js=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ IModelElement.class
+SHA1-Digest: Ocx8VIRqRFlg6fgqJUV8U15qTTg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ ChooserNode.class
+SHA1-Digest: TKk60+v7C3qHGDR0vYhtQAh079o=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelLa
+ belProvider.class
+SHA1-Digest: pF4fUv2BEcHjQOmNpj+PhU/xczA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$4.class
+SHA1-Digest: T8xMPCQilW5x+rnmQd9Iy7MOr98=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$6.class
+SHA1-Digest: PmNEMFi1GNLuzPvgq2yLbLgHIVk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ChooserDia
+ logAdapter$1.class
+SHA1-Digest: J8khD33CMCO/dlAzoQdI941mPQQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelCo
+ ntentProvider.class
+SHA1-Digest: DRahBwCkDYgJ1LoGAelmrPgcqLo=
+
+Name: schema/metamodelImages.exsd
+SHA1-Digest: VA2M+Jw016AHnGd3gXRgn/GJ8hw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceDe
+ stinationChooser.class
+SHA1-Digest: Lba1VWrgYh/8JkUp6612S1/hT7M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageNode$1.class
+SHA1-Digest: YN+prud6n97vRWEQbso2hB17HVg=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ MetamodelsNode.class
+SHA1-Digest: uP6q5mv17oeXVevs6m5v1xBVoXQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EObjectNode.class
+SHA1-Digest: ChizJ9T5u2cK24t0lPSMAT3C5D4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ messages.properties
+SHA1-Digest: KA8Z6O9/UFNS+4tEzBoEDEH3Nqg=
+
+Name: plugin.properties
+SHA1-Digest: QTHc2ZbqR5k8QW/1SyiIuptIIg4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ IEPackageNodeFactory.class
+SHA1-Digest: aRCKLtT8QpzHfBD+0VNSb/R4bsE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/DelegatingPropertyS
+ ource.class
+SHA1-Digest: NDacsAl8e1IVG615RX+/5c1c9zo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/messages.p
+ roperties
+SHA1-Digest: 5Taxhy4w3DmZlj6X9UU4lzxYS+A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/IResultSav
+ er.class
+SHA1-Digest: znH8ei0iUFKoX2LDqdexV6Leozs=
+
+Name: icons/folder.gif
+SHA1-Digest: 5TF7ftfUsp4Z3KdTaSlgyQoFpuk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/metamodel/Messages.
+ class
+SHA1-Digest: 36z8gvnPm2iacSXxsXvnWwp8+ng=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/EmfUtilUiPlugin.cla
+ ss
+SHA1-Digest: VZT0dVmow50vkrCWCoiVtNjcmtc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/ExtendedEMFUtil.cla
+ ss
+SHA1-Digest: k2lgVo4ED7+KNDXHmiHIul4UDcE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageNodeUtil.class
+SHA1-Digest: Ri3vbXwpOxP0rFb6HYuTQbhHwIQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelCo
+ ntentProvider$IUriNode.class
+SHA1-Digest: X83d6p+bsmaCdn+P65YNGq+bfRA=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/IMetamodel
+ Handler.class
+SHA1-Digest: iMGlGDhtYa4AI5C5u7YEGet7HIU=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageDecoratingLabelProvider.class
+SHA1-Digest: x/YQjX8lED9j7of/XzOqLRJeNK4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/NewFileAct
+ ion.class
+SHA1-Digest: j5PZUeMfk2W3lTkZ27Zxy82j65Q=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/IChooser.c
+ lass
+SHA1-Digest: 01njNZZqSNJsFhv3VntDGkxggL0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceSo
+ urceDestChooser.class
+SHA1-Digest: qE7ct/3BG+dZu5+YNw2RnsEznOU=
+
+Name: plugin.xml
+SHA1-Digest: yvpTUcBYa/gU4g64UTyO8m6ggM8=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceSo
+ urceChooser.class
+SHA1-Digest: EjlZdKAOoefk3y6pPtEsZagqQyI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/EmfUtilUiImages.cla
+ ss
+SHA1-Digest: Mf2gAPYfLz45RC7qEEo5L5SiDO0=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ IEPackageNodeFactory$2.class
+SHA1-Digest: eG1r5e9cL7ShBA4M2YZLP1w+EcI=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$ISelectionListener.class
+SHA1-Digest: B6J7BklPFiz6vcnmBa8kK0Bti4M=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ ChooserNodeContentProvider.class
+SHA1-Digest: pPveiivVQDVvvxGwhKPQGnDwVQY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelCo
+ ntentProvider$ResourceNode.class
+SHA1-Digest: fsgofvYn/AcUbWWIrys3FxWkobc=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol$1.class
+SHA1-Digest: USm9o5MEpkTsxHWStpDEJLf8Ktw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/metamodel/
+ EPackageNodeUtil$1.class
+SHA1-Digest: sl9oT9RO1caGrnLS9ZLcOFh6VSE=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol$3.class
+SHA1-Digest: RLgELaF9Ku/8svJ8gT/uhjmXHuY=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectUriC
+ ontrol$5.class
+SHA1-Digest: iWEC5I7aoCPej+jaP93oway9a8A=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/ResourceSo
+ urceChooser$1.class
+SHA1-Digest: DGmNkKA7jWBGPwIvtM6/LEcDBUQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$IFilter.class
+SHA1-Digest: ascvBC9KyvcWO6px6u5KMtTyIqw=
+
+Name: about.html
+SHA1-Digest: sAXgWZYB7tT9O9w6pl6VraWFVhk=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/choosers/DefaultMet
+ amodelHandler.class
+SHA1-Digest: UTZcAJo/W2Nwubqeka+pSONUpGQ=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/messages.p
+ roperties
+SHA1-Digest: Wji+GPJNeUVbeAw98DNgyMxHUI4=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EMFLabelPr
+ ovider.class
+SHA1-Digest: sNw2haaRYRcdZuSlYk0u5hAh96Y=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$1.class
+SHA1-Digest: k2wBS7e2XHsEbRdhh9AVyP2rw3s=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/provider/EmfModelCo
+ ntentProvider$EReferenceNode.class
+SHA1-Digest: T26Bo3+RZZKuHhgd2XNl9z/1jQo=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$3.class
+SHA1-Digest: T1JZzonnwK8PWOPKrPOg1duh6Ig=
+
+Name: schema/metamodel-handler.exsd
+SHA1-Digest: inrE6yGFK9HpjtZhA+8rTNFKzpw=
+
+Name: org/eclipse/m2m/internal/qvt/oml/emf/util/ui/controls/SelectFile
+ Control$5.class
+SHA1-Digest: Fp3CgprXe6j30laKp4MePNwaOPk=
+

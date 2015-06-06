@@ -1,0 +1,550 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.graphdef; singleton:=true
+Require-Bundle: org.eclipse.emf.ecore;bundle-version="[2.4.0,3.0.0)",o
+ rg.eclipse.emf.codegen;bundle-version="[2.3.0,3.0.0)",org.eclipse.gmf
+ .common;bundle-version="[1.1.0,2.0.0)"
+Export-Package: org.eclipse.gmf.gmfgraph,org.eclipse.gmf.gmfgraph.impl
+ ;x-friends:="org.eclipse.gmf.map",org.eclipse.gmf.gmfgraph.util,org.e
+ clipse.gmf.internal.graphdef.util;x-internal:=true
+Bundle-Version: 2.9.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/gmfgraph/VerticalLabel.class
+SHA1-Digest: 8q852PKjO0lxEKfg6XVJa/bNdiQ=
+
+Name: org/eclipse/gmf/gmfgraph/impl/LabelOffsetFacetImpl.class
+SHA1-Digest: SU7zV4UX5f7X3j88jetDdlfpBBc=
+
+Name: org/eclipse/gmf/gmfgraph/InvisibleRectangle.class
+SHA1-Digest: 4sRXOxH5V6x3wTs0JHD8qxcK7N4=
+
+Name: org/eclipse/gmf/gmfgraph/Node.class
+SHA1-Digest: amfGwCxvoxcDLe7u8bzyeIqjxNQ=
+
+Name: org/eclipse/gmf/gmfgraph/FontStyle.class
+SHA1-Digest: uNL3nh+0y2h0kjWA9pjtrpo/jsU=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CanvasImpl.class
+SHA1-Digest: aCXekWMjrzNx2IlekZy1/27wYGk=
+
+Name: models/basic.gmfgraph
+SHA1-Digest: j8VCke6ZBQlbKKZV7qdsJXuHl6g=
+
+Name: org/eclipse/gmf/gmfgraph/impl/GridLayoutDataImpl.class
+SHA1-Digest: UK6v8BAssGOBtWhQWGqrCZunNTc=
+
+Name: org/eclipse/gmf/gmfgraph/CustomAttribute.class
+SHA1-Digest: B5BNlyll0prTsTU7pOWf1ZKf5fk=
+
+Name: org/eclipse/gmf/gmfgraph/impl/GMFGraphFactoryImpl.class
+SHA1-Digest: AE5mlohZPTirKfV1hqm4FQ4g+es=
+
+Name: org/eclipse/gmf/gmfgraph/impl/ConnectionImpl.class
+SHA1-Digest: MpdPWJb/rMfijIZgSKilFwPPagI=
+
+Name: org/eclipse/gmf/gmfgraph/util/GMFGraphSwitch.class
+SHA1-Digest: vpcjjUgoZ6Q8wajB5w3rP9A0/Hw=
+
+Name: org/eclipse/gmf/gmfgraph/Rectangle.class
+SHA1-Digest: pdP4Rtcym8ZOy9ruO1jSHqE9EEs=
+
+Name: org/eclipse/gmf/gmfgraph/SVGPropertyType.class
+SHA1-Digest: j8/Hs2/VWVJw7bg/6+0+4yVLd7M=
+
+Name: org/eclipse/gmf/gmfgraph/RGBColor.class
+SHA1-Digest: gmfJEvtnG8s0OEHZJ9wilHHcoDw=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef/pom.properties
+SHA1-Digest: 48d+ptuxKsiMsq7JhdGbV+yQ4RA=
+
+Name: org/eclipse/gmf/gmfgraph/Canvas.class
+SHA1-Digest: 6mWm+ICuup3ZFfq5QbGzBs08hNs=
+
+Name: org/eclipse/gmf/gmfgraph/impl/DiagramElementImpl.class
+SHA1-Digest: Jn77iguHz5uxEcoWBczETUy44uE=
+
+Name: org/eclipse/gmf/gmfgraph/GridLayoutData.class
+SHA1-Digest: DerWwhpZiteCrNREZ1khdiFPVl8=
+
+Name: org/eclipse/gmf/gmfgraph/CenterLayout.class
+SHA1-Digest: Ct8DtHNxgVWpdeGkbpWcOz02nSg=
+
+Name: org/eclipse/gmf/gmfgraph/impl/FigureGalleryImpl.class
+SHA1-Digest: NgXKQg/yRhJ5H5yRRZBuk3M/u14=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomConnectionImpl.class
+SHA1-Digest: ghuGzhnmD5apRRuAQsOBpeeARP0=
+
+Name: org/eclipse/gmf/gmfgraph/impl/FigureRefImpl.class
+SHA1-Digest: 7Lm2wQmHAeSdgSyYSV3uHCaXcos=
+
+Name: org/eclipse/gmf/gmfgraph/Direction.class
+SHA1-Digest: E3PQCzhxUkY08JAi3QLCzmSXCBQ=
+
+Name: org/eclipse/gmf/gmfgraph/impl/StackLayoutImpl.class
+SHA1-Digest: 0f6p5Sjz0xTOgDSVHLZ57m+Bf7U=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomFigureImpl.class
+SHA1-Digest: ZugwLFnlZGINlog549Y5WWgcDh0=
+
+Name: org/eclipse/gmf/gmfgraph/impl/XYLayoutDataImpl.class
+SHA1-Digest: 771qXngktrSF3z1uTPUroCPBfVE=
+
+Name: org/eclipse/gmf/gmfgraph/impl/InsetsImpl.class
+SHA1-Digest: LzjMr76l+Xpewhf6sAtX+2LCsDk=
+
+Name: org/eclipse/gmf/gmfgraph/LayoutRef.class
+SHA1-Digest: +uy7vKDU1Gkvtxo8C6v//vqft/A=
+
+Name: org/eclipse/gmf/gmfgraph/XYLayout.class
+SHA1-Digest: a+Qrbxe8JZzcDEZRSodrg/eEw7g=
+
+Name: org/eclipse/gmf/gmfgraph/impl/BasicFontImpl.class
+SHA1-Digest: CJ/QgFqd2OWNSZY5iZtkhdCsvNM=
+
+Name: org/eclipse/gmf/gmfgraph/impl/EllipseImpl.class
+SHA1-Digest: yZlRbo9RKme7rgjRW5ogIogQrSk=
+
+Name: org/eclipse/gmf/gmfgraph/impl/ConstantColorImpl.class
+SHA1-Digest: NtTStfqgg/wu4I8YHva4l1RgaMw=
+
+Name: org/eclipse/gmf/gmfgraph/impl/ShapeImpl.class
+SHA1-Digest: Acb0jE53bkgw4l44M2QEV01FH7g=
+
+Name: org/eclipse/gmf/gmfgraph/FigureDescriptor.class
+SHA1-Digest: /Y93k/OJilVlseT8UJ+VyUQ7bio=
+
+Name: org/eclipse/gmf/gmfgraph/impl/NodeImpl.class
+SHA1-Digest: Vj1EWQAzTjCiKEK0fxbpUHdhQ/Y=
+
+Name: org/eclipse/gmf/gmfgraph/LayoutData.class
+SHA1-Digest: h+zgatTZjG2DZ9RLGqZ2EmEgcFU=
+
+Name: org/eclipse/gmf/gmfgraph/DefaultSizeFacet.class
+SHA1-Digest: DiIEaUCzCN4W7dCwU2CnPI9oHfY=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomPinImpl.class
+SHA1-Digest: H+zZdgiAA+R2IRU2TREzMNqyN2o=
+
+Name: org/eclipse/gmf/gmfgraph/Insets.class
+SHA1-Digest: luRTgkHknunlNtpBoVI9o/8YVnc=
+
+Name: org/eclipse/gmf/gmfgraph/CompoundBorder.class
+SHA1-Digest: 5YgLEFnvS/LFPZwKcAXUk2yam0g=
+
+Name: org/eclipse/gmf/gmfgraph/FlowLayout.class
+SHA1-Digest: uc3HLVDoM19X9pUz3dCI8KwSO2I=
+
+Name: org/eclipse/gmf/gmfgraph/impl/SVGFigureImpl.class
+SHA1-Digest: NLKwJy/ySThHCem66BxKDZidSmQ=
+
+Name: org/eclipse/gmf/gmfgraph/SVGProperty.class
+SHA1-Digest: nKRir7POl+LnpKgFlr4lba+lNhk=
+
+Name: org/eclipse/gmf/gmfgraph/CustomLayout.class
+SHA1-Digest: 9B6A4LYwRzXuHX5p/mI5kaDsNo8=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomAttributeImpl.class
+SHA1-Digest: bL4laKa5MJ7f605dFPIWhfv9DkA=
+
+Name: org/eclipse/gmf/gmfgraph/impl/FigureAccessorImpl.class
+SHA1-Digest: G80facKjZ3Rz9Kq+ljFAkZAuuRY=
+
+Name: org/eclipse/gmf/gmfgraph/Identity.class
+SHA1-Digest: zi7sjQzkcq3zepp6PC3hFdwC/Z8=
+
+Name: org/eclipse/gmf/gmfgraph/BorderLayoutData.class
+SHA1-Digest: fXATjM8aFEb7zdBNemWJNTyS4Dc=
+
+Name: org/eclipse/gmf/gmfgraph/CustomDecoration.class
+SHA1-Digest: COlkU+paigfRWWhlX4Vrr14kkYo=
+
+Name: org/eclipse/gmf/gmfgraph/ConstantColor.class
+SHA1-Digest: w0Q56R7q3k0dc3MaHOCobQA0d30=
+
+Name: org/eclipse/gmf/gmfgraph/impl/PolylineDecorationImpl.class
+SHA1-Digest: 9afF8ASCaMXaQ7fxqM8E/zJ07Rk=
+
+Name: org/eclipse/gmf/gmfgraph/ChildAccess.class
+SHA1-Digest: Ol3XwkRr1H28epdudIBX05IlEc8=
+
+Name: org/eclipse/gmf/gmfgraph/Shape.class
+SHA1-Digest: zuChXaPa+RB0fnvOPF+cmTZRmUQ=
+
+Name: org/eclipse/gmf/gmfgraph/impl/AlignmentFacetImpl.class
+SHA1-Digest: iYxNuDPMVTXtMxQj4MM9x5U8AVk=
+
+Name: org/eclipse/gmf/gmfgraph/CustomPin.class
+SHA1-Digest: WNfxN++D/IF0Zv66VryNR9fNOn8=
+
+Name: org/eclipse/gmf/gmfgraph/impl/GMFGraphPackageImpl.class
+SHA1-Digest: 46CNgVsc7WGD4ckpP5IGvARlssk=
+
+Name: org/eclipse/gmf/gmfgraph/SVGFigure.class
+SHA1-Digest: dlrUfup7hi6PbYipXjGXxkH3zJ8=
+
+Name: models/gmfgraph.genmodel
+SHA1-Digest: 11apjbzeILgPPVUYSlLZY8mnzNs=
+
+Name: org/eclipse/gmf/gmfgraph/GridLayout.class
+SHA1-Digest: c28oRCsD2MDSslFYFBrvEih0JNw=
+
+Name: org/eclipse/gmf/gmfgraph/LabelOffsetFacet.class
+SHA1-Digest: Wp5BeYeOeZbiX1zFlmWnSZtn79g=
+
+Name: org/eclipse/gmf/gmfgraph/impl/DiagramLabelImpl.class
+SHA1-Digest: w+Sczv1QGBoPbKymN5NAZEDP7So=
+
+Name: org/eclipse/gmf/gmfgraph/impl/RealFigureImpl.class
+SHA1-Digest: 8l7OIR0q62CoCLgfgK9++DA75ew=
+
+Name: org/eclipse/gmf/gmfgraph/AlignmentFacet.class
+SHA1-Digest: GvhxTvUilaXH2FwHpwiMze2SrbM=
+
+Name: org/eclipse/gmf/gmfgraph/Label.class
+SHA1-Digest: TF3HL2K6y09X0QQ8TDRDihXsupk=
+
+Name: org/eclipse/gmf/gmfgraph/util/GMFGraphAdapterFactory.class
+SHA1-Digest: TIQR6x6peXQlyIU1Qldpu860SrY=
+
+Name: models/gmfgraph.emf
+SHA1-Digest: GI2xCCCAl4V/vl1WaPX5TP8hhr8=
+
+Name: org/eclipse/gmf/gmfgraph/impl/XYLayoutImpl.class
+SHA1-Digest: ckTuQAP/4JfpoqBYQfoI5tDFSJU=
+
+Name: org/eclipse/gmf/gmfgraph/GMFGraphFactory.class
+SHA1-Digest: Tbt/tSYgoJOSCWAKwTvfUu+Yni8=
+
+Name: org/eclipse/gmf/gmfgraph/impl/LabeledContainerImpl.class
+SHA1-Digest: +75MFFYbt9w6BhUh9mQd605N0yI=
+
+Name: org/eclipse/gmf/gmfgraph/impl/PointImpl.class
+SHA1-Digest: l6gNPvDNlmSYCXaZmj3AmmE/ZEQ=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/gmfgraph/impl/ColorPinImpl.class
+SHA1-Digest: o4GHAaKfBPwvdRWzGXaR6wLiXP0=
+
+Name: org/eclipse/gmf/gmfgraph/impl/FigureDescriptorImpl.class
+SHA1-Digest: J/FsXZs2V4F+lBAcwyZpdj4iSVM=
+
+Name: org/eclipse/gmf/gmfgraph/util/GMFGraphAdapterFactory$1.class
+SHA1-Digest: aDucjXTzEiNe5TUSSqlnJbv3HU4=
+
+Name: org/eclipse/gmf/gmfgraph/impl/DefaultSizeFacetImpl.class
+SHA1-Digest: yVQAkmOg0WIbCdeqMkMZTs36SNY=
+
+Name: org/eclipse/gmf/internal/graphdef/util/MigrateFactory2005.class
+SHA1-Digest: opywIeyQ0uRCL/hebomMcpefcyM=
+
+Name: org/eclipse/gmf/gmfgraph/BorderRef.class
+SHA1-Digest: 45fM0sqfB3/4+HQBpu5GGco6zwM=
+
+Name: org/eclipse/gmf/gmfgraph/Layout.class
+SHA1-Digest: W8XKELxpSx9+XLmlso5Z7Vflot8=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomBorderImpl.class
+SHA1-Digest: p11mQli314xOQb3lhiM0qxw6QtQ=
+
+Name: org/eclipse/gmf/gmfgraph/impl/VerticalLabelImpl.class
+SHA1-Digest: I/+ofZPgJ9ylWcx9agykWk8CIBU=
+
+Name: org/eclipse/gmf/gmfgraph/impl/ChildAccessImpl.class
+SHA1-Digest: 8U4POvjIXrUteQnxmg0mm25hweg=
+
+Name: org/eclipse/gmf/gmfgraph/impl/PolylineImpl.class
+SHA1-Digest: nlEp/C95IKpCNdSr4a7t4i07Zxw=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomDecorationImpl.class
+SHA1-Digest: MlWMMxSVlDfCUZi+KiMjgDdrr7E=
+
+Name: models/classDiagram.gmfgraph
+SHA1-Digest: Hi58g5gPFtw2DtVxcVfvS9J7l18=
+
+Name: org/eclipse/gmf/gmfgraph/impl/InvisibleRectangleImpl.class
+SHA1-Digest: MoAcZkPPZ1d4luu1klYgT162cY4=
+
+Name: org/eclipse/gmf/gmfgraph/impl/RoundedRectangleImpl.class
+SHA1-Digest: P8w/lCRzFSFpkw5RHYNItbMqhus=
+
+Name: org/eclipse/gmf/gmfgraph/Compartment.class
+SHA1-Digest: MOtZ87qDg0PdBTI/tI+WPCTvb0U=
+
+Name: org/eclipse/gmf/internal/graphdef/util/MigrateFactory2005$1.clas
+ s
+SHA1-Digest: Z3JhZk6y4xQBjF0nJ36RmMmgucQ=
+
+Name: org/eclipse/gmf/gmfgraph/CustomFigure.class
+SHA1-Digest: c+sNURz1MEgFQnJ7TPlyJbo+iXo=
+
+Name: org/eclipse/gmf/gmfgraph/XYLayoutData.class
+SHA1-Digest: t6A7JyHLJj5PPspNJ6HjqAffBiw=
+
+Name: org/eclipse/gmf/gmfgraph/BorderLayout.class
+SHA1-Digest: GlyvIX761WvcJbSlc8zxIkpbg0U=
+
+Name: org/eclipse/gmf/gmfgraph/Pin.class
+SHA1-Digest: /eTrO4tbxMZKo33Qg36NYzzFZlA=
+
+Name: org/eclipse/gmf/gmfgraph/impl/GradientFacetImpl.class
+SHA1-Digest: iPxMqdesPLiAVOQaQSoiR54Au0A=
+
+Name: org/eclipse/gmf/gmfgraph/MarginBorder.class
+SHA1-Digest: Q5HONaqtVww2wgGNj6jOw14jQxE=
+
+Name: models/gmfgraph_2006.ecore
+SHA1-Digest: m05NbY60HBHJyDqrVdHzNcACgGc=
+
+Name: org/eclipse/gmf/gmfgraph/PolylineConnection.class
+SHA1-Digest: +GMuEdUOZCRHrCfItbVvGisGPrc=
+
+Name: org/eclipse/gmf/gmfgraph/LineBorder.class
+SHA1-Digest: hKshuuxgckTxEzSKuKkpVSxEPgo=
+
+Name: org/eclipse/gmf/gmfgraph/impl/RectangleImpl.class
+SHA1-Digest: 8LGq/Ub2YamwZF/imAsdIELuFgM=
+
+Name: org/eclipse/gmf/gmfgraph/Ellipse.class
+SHA1-Digest: H2gpDes8o/wsFpgzcvLaQ/u2Yas=
+
+Name: org/eclipse/gmf/gmfgraph/Alignment.class
+SHA1-Digest: bd+3QygfmnT+oL0K2nrKqCuQWRE=
+
+Name: org/eclipse/gmf/gmfgraph/Color.class
+SHA1-Digest: 2sZifjBvGx5vlSf0mhKyl7DRUx8=
+
+Name: org/eclipse/gmf/gmfgraph/CustomLayoutData.class
+SHA1-Digest: 6aygvuip6KQTq+3mC34IlC4KO84=
+
+Name: org/eclipse/gmf/gmfgraph/ScalablePolygon.class
+SHA1-Digest: ayJgGcT4SxOwq3+YytXEUgqC6eI=
+
+Name: org/eclipse/gmf/gmfgraph/GradientFacet.class
+SHA1-Digest: Wt1Z+uA3lWsXuxMJ0EvErbxR0Do=
+
+Name: org/eclipse/gmf/gmfgraph/impl/PolygonImpl.class
+SHA1-Digest: Vvp/tO3xPJad0AOzxHDx9jk0ZGE=
+
+Name: models/stateDiagram.gmfgraph
+SHA1-Digest: t4ZP4rIk8WcwMiM10/uZMuh75ZM=
+
+Name: org/eclipse/gmf/gmfgraph/Font.class
+SHA1-Digest: liLxbw9SzK15EgY9omtnxqfufVU=
+
+Name: org/eclipse/gmf/gmfgraph/impl/Rectangle2DImpl.class
+SHA1-Digest: FbwFiMS+i+Geby4hx2B6RNiA5f4=
+
+Name: org/eclipse/gmf/gmfgraph/GMFGraphPackage.class
+SHA1-Digest: aGPQ1EEiruBjBF+v9/NGChC8pJo=
+
+Name: org/eclipse/gmf/gmfgraph/impl/LayoutRefImpl.class
+SHA1-Digest: EAWXujBrEhTc6+6Th/6AAGrZGtk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/gmfgraph/Connection.class
+SHA1-Digest: a5484NeP4vCYIvyosM5V7unJrOQ=
+
+Name: org/eclipse/gmf/gmfgraph/PinOwner.class
+SHA1-Digest: UVj6M3jIajZXF2Pa7ppkhVjeO7o=
+
+Name: org/eclipse/gmf/gmfgraph/impl/GeneralFacetImpl.class
+SHA1-Digest: Jfux++A6uNmk3OR4Yk0jF2xqw+o=
+
+Name: org/eclipse/gmf/gmfgraph/DiagramLabel.class
+SHA1-Digest: nA/TuE1TlTdYJSsfdpXQBrZzTmE=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CompartmentImpl.class
+SHA1-Digest: VOF7aI1GtWpCyg+r+//Qx3OQ8UY=
+
+Name: org/eclipse/gmf/gmfgraph/Figure.class
+SHA1-Digest: 1evGWQWSMqjuWwvqJnFC0VOb6Iw=
+
+Name: org/eclipse/gmf/gmfgraph/impl/BorderLayoutImpl.class
+SHA1-Digest: MdJ6JJz/v+/2mwolyZnn6xc/1mg=
+
+Name: org/eclipse/gmf/gmfgraph/LineKind.class
+SHA1-Digest: oXMlaxxsKoJas7ZZWHaDgBsJbVo=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CompoundBorderImpl.class
+SHA1-Digest: Rpjt952warOjR+qEEZMU0Wu3qF4=
+
+Name: org/eclipse/gmf/gmfgraph/DiagramElement.class
+SHA1-Digest: cBpFGigwOu71fBFwkLLsKcA10JE=
+
+Name: org/eclipse/gmf/gmfgraph/impl/FlowLayoutImpl.class
+SHA1-Digest: 1FaCOGF56g1wXrkyeTy94pB6guU=
+
+Name: org/eclipse/gmf/gmfgraph/impl/MarginBorderImpl.class
+SHA1-Digest: APjQ6tOMcMVmsyRquwJ4yqiec1Q=
+
+Name: org/eclipse/gmf/gmfgraph/LabeledContainer.class
+SHA1-Digest: 7oJ8JJKJC/7/t8JI4NSyW+DxKh4=
+
+Name: org/eclipse/gmf/gmfgraph/FigureGallery.class
+SHA1-Digest: fdNeLkobMrqJkm0KaI7jVYeuipU=
+
+Name: org/eclipse/gmf/gmfgraph/FigureRef.class
+SHA1-Digest: xhxvvEOnj98VmtBRPhm9ofb6sfM=
+
+Name: org/eclipse/gmf/gmfgraph/ColorPin.class
+SHA1-Digest: cUDoUb3mJK2AeaIJxOnWiAGqlcU=
+
+Name: org/eclipse/gmf/gmfgraph/DecorationFigure.class
+SHA1-Digest: uuCUO81F4wnRuQqmPjJm2grTkT8=
+
+Name: org/eclipse/gmf/gmfgraph/impl/VisiblePinImpl.class
+SHA1-Digest: CYyDq1Il8ftQ296CV20VmdEoeBg=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomLayoutDataImpl.class
+SHA1-Digest: C30CjU3TWRYJY5LT709atEfdWTU=
+
+Name: org/eclipse/gmf/gmfgraph/impl/ScalablePolygonImpl.class
+SHA1-Digest: Ad9Hzl69iVt9T967pGTxvzCIJqw=
+
+Name: org/eclipse/gmf/gmfgraph/impl/DimensionImpl.class
+SHA1-Digest: slT40ewvQC2ma1FnpVOZmt0kGxY=
+
+Name: org/eclipse/gmf/gmfgraph/VisualFacet.class
+SHA1-Digest: ZYwNKEhbmjxkROzjGZZuzfgMflo=
+
+Name: org/eclipse/gmf/gmfgraph/CustomBorder.class
+SHA1-Digest: o8A4IreEONQiw2WZ+cVFhsSyLH0=
+
+Name: org/eclipse/gmf/gmfgraph/BasicFont.class
+SHA1-Digest: DEgtdZNE2omW9PSPuKYsLUSLuLk=
+
+Name: org/eclipse/gmf/gmfgraph/Polyline.class
+SHA1-Digest: gGiOgbiKOJz12r2/fUAFqRhw8NI=
+
+Name: org/eclipse/gmf/gmfgraph/impl/GridLayoutImpl.class
+SHA1-Digest: 9al/PzPVN7EMFQd4J8q1NoQz8s4=
+
+Name: org/eclipse/gmf/gmfgraph/RoundedRectangle.class
+SHA1-Digest: mCPFs5ELUy0pGXuSCvPfMxe5km4=
+
+Name: org/eclipse/gmf/gmfgraph/VisiblePin.class
+SHA1-Digest: gcOPvFtt+XF4D/vbPKs1RPh5Wlc=
+
+Name: org/eclipse/gmf/gmfgraph/Layoutable.class
+SHA1-Digest: GegCVDPmOygth4tFVuYIeS1NDJ4=
+
+Name: org/eclipse/gmf/gmfgraph/AbstractNode.class
+SHA1-Digest: RPPhGqSnU++5o48U6ZyzPkht/k4=
+
+Name: plugin.properties
+SHA1-Digest: UOW5IYOH8KONFVbSzzvE4DBuMys=
+
+Name: org/eclipse/gmf/gmfgraph/impl/LabelImpl.class
+SHA1-Digest: zDjlkUqc4dN6e7Nx0le6Qq6IqfM=
+
+Name: org/eclipse/gmf/gmfgraph/impl/RGBColorImpl.class
+SHA1-Digest: qmNscKtaJxzK/esZ7GRrrn/v55s=
+
+Name: org/eclipse/gmf/gmfgraph/Dimension.class
+SHA1-Digest: 3xiuHM/2DkSgEFoOXLhA09yfTr0=
+
+Name: org/eclipse/gmf/gmfgraph/CustomAttributeOwner.class
+SHA1-Digest: QV71XDpq0t8ISN7FoWYENOlUn3s=
+
+Name: org/eclipse/gmf/gmfgraph/FigureAccessor.class
+SHA1-Digest: W8YMn/c+JN6vuT3o+Xpz11GZBZk=
+
+Name: org/eclipse/gmf/gmfgraph/PolylineDecoration.class
+SHA1-Digest: szSim3MwJZRsQgZOhuxJFq4E1Lg=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CenterLayoutImpl.class
+SHA1-Digest: HTahJdPvxuF9qTuN3ev3DQBY4AM=
+
+Name: org/eclipse/gmf/gmfgraph/util/Assistant.class
+SHA1-Digest: ODaiixfpx6tsFWyrr02+HZqxDKA=
+
+Name: plugin.xml
+SHA1-Digest: yBrR4GplM5bCC68vL/RtJ4yoYPA=
+
+Name: org/eclipse/gmf/gmfgraph/impl/AbstractFigureImpl.class
+SHA1-Digest: KyTBzFkb/fhB+3sTW9hLk1Dd9SI=
+
+Name: org/eclipse/gmf/gmfgraph/impl/BorderRefImpl.class
+SHA1-Digest: PoAfimsR6JaKEYws40omiU4ftng=
+
+Name: org/eclipse/gmf/gmfgraph/impl/PolygonDecorationImpl.class
+SHA1-Digest: sFExPxluMvGGK+pXXCJz5AIlXAQ=
+
+Name: org/eclipse/gmf/gmfgraph/Polygon.class
+SHA1-Digest: /igjqihJ1gL/eTyqI/0b0CaG/k0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef/pom.xml
+SHA1-Digest: DW3Fed19vA18OoU3M8Fx6W1LUds=
+
+Name: models/gmfgraph.ecore
+SHA1-Digest: jGKD2CTgvo3trfQbUvJ4Mgu/i7A=
+
+Name: org/eclipse/gmf/gmfgraph/ConnectionFigure.class
+SHA1-Digest: W66Ec04LZZ7NREHDItxytvNk6yQ=
+
+Name: org/eclipse/gmf/gmfgraph/RealFigure.class
+SHA1-Digest: bHS521M2URF1DtFIccEiYbFSo3Q=
+
+Name: org/eclipse/gmf/gmfgraph/Rectangle2D.class
+SHA1-Digest: G5qGLsYiLkacf26eMdegtDqMAvs=
+
+Name: org/eclipse/gmf/gmfgraph/AbstractFigure.class
+SHA1-Digest: 3PXsW2klqelbfSoK150QDux+J3s=
+
+Name: org/eclipse/gmf/gmfgraph/CustomClass.class
+SHA1-Digest: 5id3a6/1wypt/il5wqb1APyaGMc=
+
+Name: org/eclipse/gmf/gmfgraph/impl/SVGPropertyImpl.class
+SHA1-Digest: ur/SnNHFd2WTolfQTP9NMMHxFcI=
+
+Name: org/eclipse/gmf/gmfgraph/Border.class
+SHA1-Digest: SXggg0J7eYrQCd+KDEM8edzFyjI=
+
+Name: org/eclipse/gmf/gmfgraph/PolygonDecoration.class
+SHA1-Digest: u5Hv9O8uSfVDmkOiXKMaNqvINhY=
+
+Name: org/eclipse/gmf/gmfgraph/impl/CustomLayoutImpl.class
+SHA1-Digest: R+6IsloKaJvQU/be7/qbSFN2PEY=
+
+Name: org/eclipse/gmf/gmfgraph/ColorConstants.class
+SHA1-Digest: uYiOvmpqcnQbXQVSWWjR0Rv3K9M=
+
+Name: org/eclipse/gmf/gmfgraph/GeneralFacet.class
+SHA1-Digest: BJsiaIdc8eG/LKHw3VlStCVrnOo=
+
+Name: org/eclipse/gmf/gmfgraph/CustomConnection.class
+SHA1-Digest: nGHbNdGBypq9gDxd3j9gtUJLTSo=
+
+Name: org/eclipse/gmf/gmfgraph/impl/PolylineConnectionImpl.class
+SHA1-Digest: fbWQmdc8yiwiKNyI7qGxxzbotHI=
+
+Name: org/eclipse/gmf/gmfgraph/impl/LineBorderImpl.class
+SHA1-Digest: S1uvAEwV1VvakUaaMiEd6glUZjo=
+
+Name: org/eclipse/gmf/gmfgraph/impl/BorderLayoutDataImpl.class
+SHA1-Digest: i8AgSYm6eDPRmddgF26uIWuY9d4=
+
+Name: org/eclipse/gmf/gmfgraph/Point.class
+SHA1-Digest: 0mjlRLS3EXDTRRHAYMD5OtsLpzE=
+
+Name: org/eclipse/gmf/gmfgraph/StackLayout.class
+SHA1-Digest: YomsjMkbIlQhSoekA7qT3IRZgWU=
+
+Name: org/eclipse/gmf/gmfgraph/impl/AbstractNodeImpl.class
+SHA1-Digest: TQoLLMLTgiu2yss5a8tZsyt/XjY=
+

@@ -1,0 +1,212 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.xpand.editor;singleton:=true
+Bundle-Activator: org.eclipse.gmf.internal.xpand.editor.Activator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.2.0,4.0.0)",org.eclip
+ se.ui;bundle-version="[3.2.0,4.0.0)";visibility:=reexport,org.eclipse
+ .text;bundle-version="[3.2.0,4.0.0)",org.eclipse.jface.text;bundle-ve
+ rsion="[3.2.0,4.0.0)";visibility:=reexport,org.eclipse.ui.editors;bun
+ dle-version="[3.2.0,4.0.0)",org.eclipse.ui.workbench.texteditor;bundl
+ e-version="[3.2.0,4.0.0)",org.eclipse.ui.views;bundle-version="[3.2.0
+ ,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.2.0,4.0.0)",org.eclips
+ e.gmf.xpand;bundle-version="[2.1.0,3.0.0)",org.eclipse.ocl.ecore;bund
+ le-version="[3.0.0,4.0.0)",org.eclipse.m2m.qvt.oml;bundle-version="[3
+ .0.0,4.0.0)"
+Export-Package: org.eclipse.gmf.internal.xpand.codeassist;x-friends:="
+ org.eclipse.gmf.tests.xpand",org.eclipse.gmf.internal.xpand.editor;x-
+ friends:="org.eclipse.gmf.tests.xpand",org.eclipse.gmf.internal.xpand
+ .expression.codeassist;x-friends:="org.eclipse.gmf.tests.xpand"
+Bundle-Version: 2.1.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/internal/xpand/expression/codeassist/ProposalFac
+ tory.class
+SHA1-Digest: P/7sJwt0PZGN3CoY9mmW6BX/Kvc=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/XpandKeywordRule.clas
+ s
+SHA1-Digest: 3Eew+10OYYleXmI35P4m033Pb2s=
+
+Name: icons/property.gif
+SHA1-Digest: QTsvN2Tm6uiW4jzEFPaBICF4z+o=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/LazyVar.class
+SHA1-Digest: TZTmsNoUo10MwV09CdE2zLTyVEY=
+
+Name: icons/operation.gif
+SHA1-Digest: 8vjzAoWVe4Se21KZhvteV4lIOkQ=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/XpandTokenFactory.cla
+ ss
+SHA1-Digest: A+BNWVGz76o/XRfYtmDUMXJBay8=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/XpandPartition.class
+SHA1-Digest: H/2SI1FCST4nGELBzxi3/6WEizg=
+
+Name: icons/statement.gif
+SHA1-Digest: GT44qN4ou5RBseN8n9r9fdc/ucU=
+
+Name: org/eclipse/gmf/internal/xpand/editor/EditorImages.class
+SHA1-Digest: AvULEOrCgp0SB2+fUnkofX38Rvc=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/StackElement.class
+SHA1-Digest: wR/8piWWb5l+4EaQXAixp+/+MPo=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.tests/org.eclipse.gmf.xpa
+ nd.editor/pom.properties
+SHA1-Digest: kBw2PhQ49co9Sh5rEajrm7AJ7Rs=
+
+Name: org/eclipse/gmf/internal/xpand/editor/Activator.class
+SHA1-Digest: Shk/i0Ce1zmtr0hoWr7jvclGhEQ=
+
+Name: icons/templatefile.gif
+SHA1-Digest: jI9fABJ3eTzmWfBJ5v8ww4o7DMY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: icons/variable.gif
+SHA1-Digest: vE1jlXn3ci4Sa1PZmHq0coaWtjc=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/ProposalFactoryImpl.cl
+ ass
+SHA1-Digest: 5Dp7mPlVrJj/YSBTud7rSqbWnB8=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/ExpandProposalComputer
+ .class
+SHA1-Digest: dnSYlD7l0wJECmhJmLzoIQr5Y/U=
+
+Name: org/eclipse/gmf/internal/xpand/editor/OawProblemHover.class
+SHA1-Digest: yxF6743MPnHALJdKn5Bqp5Qx9V8=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/XpandPartitionScanner
+ .class
+SHA1-Digest: MuZk5SMZiWZ2EJX0ETN8nQXop1c=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/StatementProposalCompu
+ ter.class
+SHA1-Digest: 7Bd5f4MkByOzqzoUgxHPPpznEvk=
+
+Name: org/eclipse/gmf/internal/xpand/expression/codeassist/ExpressionP
+ roposalComputer.class
+SHA1-Digest: pCtpLhfcqm4Z6Ov8LRTqusBvJ24=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandDocumentProvider.clas
+ s
+SHA1-Digest: TR9O8TWKXzKEmw/Wbk9bVgXMtYs=
+
+Name: org/eclipse/gmf/internal/xpand/expression/codeassist/ExpressionP
+ roposalComputer$ExpressionSimpleAnalyzer.class
+SHA1-Digest: lZ7KQPyzfbsZ0VXJ107HfVllZM8=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandContentAssistProcesso
+ r.class
+SHA1-Digest: RR6w2gdyS0/GYLz0/7yL8virXNI=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/CommentScanner.class
+SHA1-Digest: +OYjgsZoeJ7CCt5IS23wMac+PJg=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/XpandPartitionScanner
+ $1.class
+SHA1-Digest: Knww3Z3VN5LZmce6dGFE97fyA14=
+
+Name: org/eclipse/gmf/internal/xpand/editor/ColorProvider.class
+SHA1-Digest: NBFhPkaUzL/mrKd0tLVqJreXEyA=
+
+Name: org/eclipse/gmf/internal/xpand/editor/ui/NewTemplateFileWizard$1
+ .class
+SHA1-Digest: hVV6yKKKVLHG1du5Bost/TRHhG4=
+
+Name: org/eclipse/gmf/internal/xpand/editor/ui/InsertTextAction.class
+SHA1-Digest: uKRnuWbammQO59voxBD+MIsok5o=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandEditor$1.class
+SHA1-Digest: mbyrCoauFB7Li7BqKqGL1PK4Rr0=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/TemplateTagScanner$1.
+ class
+SHA1-Digest: zHdWoqottaytO+dStEVdLtbJVNk=
+
+Name: org/eclipse/gmf/internal/xpand/expression/codeassist/ReverseScan
+ ner.class
+SHA1-Digest: sVQTK0WxAV4P2PMOqVNcL5XZr/Y=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/XpandTokens.class
+SHA1-Digest: DAAwqrf5RyOMRtO5j4Vwsf20MhQ=
+
+Name: plugin.properties
+SHA1-Digest: Wt0RgPe4zI+D0h265RKgRtBNpkU=
+
+Name: org/eclipse/gmf/internal/xpand/expression/codeassist/TypeProposa
+ lComputer.class
+SHA1-Digest: dmieLVWbCJ7qbdY4VITUkB/U0II=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandSourceViewerConfigura
+ tion.class
+SHA1-Digest: a5DGOg+mx8Nm6IG3KI7YCExVDqo=
+
+Name: plugin.xml
+SHA1-Digest: zL+5EA0XMUpWDTs1K/LVAMGIXLo=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/ContentScanner.class
+SHA1-Digest: IQlfhtzQUvaQEmiFLHsqP2VGHoc=
+
+Name: icons/extension.gif
+SHA1-Digest: oT+LeeE2fAQ5KGdG/JyjEKU2KsE=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/FastAnalyzer.class
+SHA1-Digest: m64aPNq5YW4TivvS2Vbpx3a24oM=
+
+Name: icons/type.gif
+SHA1-Digest: QDqeopEd7ok088uNm4GeIAp+aUo=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/KeywordProposalCompute
+ r.class
+SHA1-Digest: M+deGTlO7Or+iNG/OAmdElgnh+c=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandContentAssistProcesso
+ r$ProposalComparator.class
+SHA1-Digest: wuSm70Trd76BUJELB43PfUPc1Cw=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.tests/org.eclipse.gmf.xpa
+ nd.editor/pom.xml
+SHA1-Digest: LRPTUmt2LrmpkJb6YzWhRXaH2Y4=
+
+Name: org/eclipse/gmf/internal/xpand/editor/ui/NewTemplateFileWizard.c
+ lass
+SHA1-Digest: 2YeBowpOGJ3f7jBPhwn9oDlwe+0=
+
+Name: org/eclipse/gmf/internal/xpand/codeassist/FastAnalyzer$1.class
+SHA1-Digest: 9rjBmphf4g6lNM/JE5Yb8EYHjYY=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandEditor.class
+SHA1-Digest: IlKkHJJL21YQpDdYxpoJFJR7zJU=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/TemplateTagScanner.cl
+ ass
+SHA1-Digest: hm50QJDEZqoCKE0HQ9DgT4FasFw=
+
+Name: org/eclipse/gmf/internal/xpand/expression/codeassist/ProposalCom
+ puter.class
+SHA1-Digest: AGdb79NcR6g4oprw2H2538rNGIg=
+
+Name: org/eclipse/gmf/internal/xpand/editor/scan/WhitespaceDetector.cl
+ ass
+SHA1-Digest: 5iJTZ35YarnsGfaoNdEhGTGjQIA=
+
+Name: org/eclipse/gmf/internal/xpand/editor/XpandContentOutlinePage.cl
+ ass
+SHA1-Digest: tJulpqigrVMN608yGHKEIx+7t+4=
+

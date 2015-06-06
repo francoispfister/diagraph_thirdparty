@@ -1,0 +1,1082 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.graphdef.edit; singleton:=true
+Bundle-Activator: org.eclipse.gmf.gmfgraph.provider.GMFGraphEditPlugin
+ $Implementation
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)
+ ",org.eclipse.core.resources;bundle-version="[3.3.0,4.0.0)";visibilit
+ y:=reexport,org.eclipse.gmf.graphdef;bundle-version="[2.9.0,4.0.0)";v
+ isibility:=reexport,org.eclipse.emf.edit;bundle-version="[2.4.0,3.0.0
+ )";visibility:=reexport,org.eclipse.emf.ecore.xmi;bundle-version="[2.
+ 4.0,3.0.0)";visibility:=reexport,org.eclipse.emf.edit.ui;bundle-versi
+ on="[2.4.0,3.0.0)";visibility:=reexport,org.eclipse.ui.ide;bundle-ver
+ sion="[3.3.0,4.0.0)";visibility:=reexport
+Export-Package: org.eclipse.gmf.gmfgraph.presentation,org.eclipse.gmf.
+ gmfgraph.provider
+Bundle-Version: 2.9.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$14.class
+SHA1-Digest: sTKsEKYKH9iy2l5fwG4OWbai6Dw=
+
+Name: icons/full/ctool16/CreateLayoutable_layout_CustomLayout.gif
+SHA1-Digest: Qz9dLB26Ixz0XQe/iLyVVRCUTPg=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_Polygon.gif
+SHA1-Digest: b0MdL0Uza74w4Q4KxXfjPWKSrfk=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphModelWizard$GMFGra
+ phModelWizardNewFileCreationPage.class
+SHA1-Digest: AU7N0u1ru8cMoQUmjtxivJ8UzBg=
+
+Name: icons/full/ctool16/CreateRealFigure_children_ScalablePolygon.gif
+SHA1-Digest: IEtwf1nB+pDvpg7nx0cZgK1ZlyA=
+
+Name: icons/full/obj16/CustomConnection.gif
+SHA1-Digest: geCi1ofnq5obJShghQN1sk0ACoI=
+
+Name: org/eclipse/gmf/gmfgraph/provider/InsetsItemProvider.class
+SHA1-Digest: 5UjR1/f5z+n19nURWyZsRRpeNYc=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_PolygonDe
+ coration.gif
+SHA1-Digest: iTqd8hAefQATESiK2+ffmhlw01k=
+
+Name: icons/full/obj16/CompoundBorder.gif
+SHA1-Digest: T+eAHuq7XeqH1C84ymKDSHf0l3Y=
+
+Name: org/eclipse/gmf/gmfgraph/provider/BasicFontItemProvider.class
+SHA1-Digest: lHVrxg8rEx/QCDzgmWOrPk8fH+Y=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$5.class
+SHA1-Digest: qA8LYAYOs2y5r4OP/Yg8mK5pw2k=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_FigureRef
+ .gif
+SHA1-Digest: F0sao5Ar94sEH+RQZJB4NdfUOT8=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_RoundedRectangle.
+ gif
+SHA1-Digest: 5y+KpuC83K/fay0WmYHR43oVDHo=
+
+Name: org/eclipse/gmf/gmfgraph/provider/VisiblePinItemProvider.class
+SHA1-Digest: Ds8wky5J9KTnaP3l0SXjkYYuyKQ=
+
+Name: icons/full/ctool16/CreateSVGFigure_properties_SVGProperty.gif
+SHA1-Digest: wMhwvQRFG/juFBm2L5kNQFk+pi8=
+
+Name: icons/full/ctool16/CreateXYLayoutData_size_Dimension.gif
+SHA1-Digest: qdIY4P6o6jx5xAcmDNQ0LZz3f5A=
+
+Name: icons/full/obj16/LineBorder.gif
+SHA1-Digest: G6zho+wW7esPg77zqC/aH06dFy8=
+
+Name: icons/full/obj16/Polyline.gif
+SHA1-Digest: vrP+1C0UunkUsRvKI4Cq3vFpDX0=
+
+Name: icons/full/obj16/InvisibleRectangle.gif
+SHA1-Digest: sp33IwukHB8+lYxsOTbjRb/sMDI=
+
+Name: org/eclipse/gmf/gmfgraph/provider/SVGFigureItemProvider.class
+SHA1-Digest: lSIrYcYnNwH5Q2MZENChyhqntV4=
+
+Name: org/eclipse/gmf/gmfgraph/provider/FigureAccessorItemProvider.cla
+ ss
+SHA1-Digest: 58l2oLIf9mVPXrvvwEm0xE+6M+Y=
+
+Name: icons/full/obj16/CustomLayoutData.gif
+SHA1-Digest: 1l22b7JBkzTuE0u5QxNFiJhe52o=
+
+Name: icons/full/obj16/Rectangle2D.gif
+SHA1-Digest: AUyZYH7KuCJQIePO6lB59JW3UfM=
+
+Name: icons/full/ctool16/CreateFigure_backgroundColor_RGBColor.gif
+SHA1-Digest: iVYkRVbmqsgA4QJcPbHN3RQhaGQ=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_VerticalL
+ abel.gif
+SHA1-Digest: Z0jjfoA/jkiZXDx0VqRYVgm+6LQ=
+
+Name: org/eclipse/gmf/gmfgraph/provider/AlignmentFacetItemProvider.cla
+ ss
+SHA1-Digest: DJ9TS6d0mmq/fhkM9UnwjMXFNHo=
+
+Name: org/eclipse/gmf/gmfgraph/provider/LabelItemProvider.class
+SHA1-Digest: EAa40uYNmP1+/oCnfyh4oVojPNE=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_SVGFigure.gif
+SHA1-Digest: syjO7IhbIYkry2kvzwBKKC1xD60=
+
+Name: icons/full/ctool16/CreateRealFigure_children_PolygonDecoration.g
+ if
+SHA1-Digest: hj4OMe3ofGyr+otWCSvazxatFPk=
+
+Name: icons/full/ctool16/CreateCompoundBorder_inner_MarginBorder.gif
+SHA1-Digest: rv774vGWAkkmndK2mozmLuTgS24=
+
+Name: icons/full/ctool16/CreateRealFigure_children_FigureRef.gif
+SHA1-Digest: KoJPPD6KZPH9tWT6Qh2JAsqr8uE=
+
+Name: icons/full/ctool16/CreateCompoundBorder_inner_CustomBorder.gif
+SHA1-Digest: Wfoz5qPS3fmQUaluvwQ2GZohMPI=
+
+Name: icons/full/ctool16/CreateRealFigure_children_InvisibleRectangle.
+ gif
+SHA1-Digest: 7PcgkMGRMi3EwaEm2kExwBLfcTI=
+
+Name: icons/full/obj16/BasicFont.gif
+SHA1-Digest: MZEqK/VaeXNzV8AsLlg4P+pDqDQ=
+
+Name: icons/full/obj16/VerticalLabel.gif
+SHA1-Digest: c9ghkzhwtb6iTUHrGepB7GORjb0=
+
+Name: icons/full/obj16/ChildAccess.gif
+SHA1-Digest: hkJ/Ly9VuzhlYKKoibkfrlXZeyE=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphActionBarContribut
+ or$1.class
+SHA1-Digest: u1ZEJ9YYKLZub2CQ3Vvj7wUDOcs=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_Polygon.gif
+SHA1-Digest: xD2zkK4aG1cJQS/q5Cq6FfOO5io=
+
+Name: icons/full/obj16/ScalablePolygon.gif
+SHA1-Digest: tcEBQLzkI2x7wRj+fu1sIxvnqyw=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$11.class
+SHA1-Digest: ScTt9O2U//Azl6Upn2Dhi3NNSBU=
+
+Name: icons/full/obj16/XYLayout.gif
+SHA1-Digest: KyfI2CGq1ru+bN/5FVMlSheV5zc=
+
+Name: icons/full/obj16/CustomAttribute.gif
+SHA1-Digest: LG5g0iru6EDw1BmNqO4+Q585IjA=
+
+Name: org/eclipse/gmf/gmfgraph/provider/BorderLayoutItemProvider.class
+SHA1-Digest: V2dBvyT+BpQOaPQ26wNFhJnxBoI=
+
+Name: icons/full/obj16/FigureDescriptor.gif
+SHA1-Digest: hkJ/Ly9VuzhlYKKoibkfrlXZeyE=
+
+Name: org/eclipse/gmf/gmfgraph/provider/MarginBorderItemProvider.class
+SHA1-Digest: WM1La/kfNpdtY6N18aChyoIhSmA=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$2.class
+SHA1-Digest: okQ1gFAlu/fDnJ7YqRCCxsYeIBU=
+
+Name: icons/full/ctool16/CreateDiagramElement_facets_LabelOffsetFacet.
+ gif
+SHA1-Digest: 1hp5N2YC1eB1taZif3DE0CjX/70=
+
+Name: org/eclipse/gmf/gmfgraph/provider/EllipseItemProvider.class
+SHA1-Digest: 4L4SgNKthtfuU8GZma2GaYiyHAE=
+
+Name: org/eclipse/gmf/gmfgraph/provider/LineBorderItemProvider.class
+SHA1-Digest: 4lxPOUdF/dI8nc/ALcrtBmSUAgY=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_CustomDecoration.
+ gif
+SHA1-Digest: OkOwXngJvv5lXmYXytXaekEb/Io=
+
+Name: icons/full/obj16/Node.gif
+SHA1-Digest: qVNvkjWIhR/bpGQmozX46fYWzL0=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$3$1.class
+SHA1-Digest: RZg9QUFzQfzeBP4lNn2oCwjaSwY=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomAttributeItemProvider.cl
+ ass
+SHA1-Digest: zUTL31YCWfLcybv7cx7Nkgakt1Q=
+
+Name: icons/full/obj16/BorderRef.gif
+SHA1-Digest: sp33IwukHB8+lYxsOTbjRb/sMDI=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_ScalableP
+ olygon.gif
+SHA1-Digest: OxQEXhDo9FKgf1VVpzLGcD3arrQ=
+
+Name: org/eclipse/gmf/gmfgraph/provider/ConnectionItemProvider.class
+SHA1-Digest: YJ8a+jqcQUmi/p/Fx12OjeMefhw=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_Rectangle
+ .gif
+SHA1-Digest: zZrbiqmxRRKAt1Pjth5Ro542+AY=
+
+Name: icons/full/obj16/SVGProperty.gif
+SHA1-Digest: xoDd74HHX/Dr3zanONNlODTHO48=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_CenterLayout.gif
+SHA1-Digest: bMwAlcYpbr7whsfijeSwTUByX0E=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GMFGraphEditPlugin.class
+SHA1-Digest: Rg3lo7x/QR/AEkstrcXKwxQPpnc=
+
+Name: icons/full/obj16/Ellipse.gif
+SHA1-Digest: jJvbEj/AnQDDiWrvW+EYo4EE5co=
+
+Name: org/eclipse/gmf/gmfgraph/provider/LayoutRefItemProvider.class
+SHA1-Digest: Q6ZS2MOj8jgXjr/b/cgpSyoxkc4=
+
+Name: icons/full/ctool16/CreateDiagramElement_facets_GradientFacet.gif
+SHA1-Digest: 0rMfbNuI+b80ayR9udngOyxfFbc=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor.class
+SHA1-Digest: SHyNG0RTh1qrBW8GrY+LiyKJ5Dc=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_XYLayout.gif
+SHA1-Digest: +fv5YjgN+9eHBlV9vhjwrPIrZcY=
+
+Name: org/eclipse/gmf/gmfgraph/provider/FigureDescriptorItemProvider.c
+ lass
+SHA1-Digest: VfCuGOOwkv6WPjxSCLrTCqz8iEM=
+
+Name: icons/full/obj16/LabeledContainer.gif
+SHA1-Digest: FwIULsnDPaW05GBgAj22h3/p3AY=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$16.class
+SHA1-Digest: Ymz+BXE4GFydeVUoebOERRpQ4jo=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_CustomFigure.gif
+SHA1-Digest: VcZ7yolDV5mgknMezWLW9XUi4u8=
+
+Name: icons/full/ctool16/CreateCanvas_figures_FigureGallery.gif
+SHA1-Digest: cKlk6R+86s/+J8b8H/f0giJlHHI=
+
+Name: icons/full/obj16/ColorPin.gif
+SHA1-Digest: Bss8mGIBHqWtp7K3IB7x/w27ZmI=
+
+Name: icons/full/ctool16/CreateGridLayout_spacing_Dimension.gif
+SHA1-Digest: ARhIKQwf3UrRomZOAtt8vfkS3lM=
+
+Name: icons/full/ctool16/CreateCompoundBorder_outer_BorderRef.gif
+SHA1-Digest: l62vy5H9COIN9ZSqE4zuezkgMpc=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_InvisibleRec
+ tangle.gif
+SHA1-Digest: 3oJm4guGDBnDeAMXsJlyTA9NOKk=
+
+Name: icons/full/ctool16/CreateFigure_font_BasicFont.gif
+SHA1-Digest: RtMLNmy34gmxHRc2YxkDnR8w4gE=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomLayoutItemProvider.class
+SHA1-Digest: jmMDudxkvDhL9SZiIOG0/NV8uZo=
+
+Name: icons/full/obj16/CustomFigure.gif
+SHA1-Digest: G6zho+wW7esPg77zqC/aH06dFy8=
+
+Name: icons/full/obj16/XYLayoutData.gif
+SHA1-Digest: vP7VlJDcmf9WJkkxqLGmhXvo68E=
+
+Name: icons/full/ctool16/CreatePolyline_template_Point.gif
+SHA1-Digest: z+0fDL+nUK2V47AFLpZN6lx9o2w=
+
+Name: icons/full/ctool16/CreateFigureGallery_descriptors_FigureDescrip
+ tor.gif
+SHA1-Digest: 0DbouQhh1rGbOb4/+JK82GpHtFw=
+
+Name: icons/full/ctool16/CreateDefaultSizeFacet_defaultSize_Dimension.
+ gif
+SHA1-Digest: BH8dodqwjGa9e6G/SayyIyCG4rg=
+
+Name: icons/full/ctool16/CreateRealFigure_children_Rectangle.gif
+SHA1-Digest: +YP7XWFdo91pc6l5LDi3hG3YPrc=
+
+Name: org/eclipse/gmf/gmfgraph/provider/PolylineItemProvider.class
+SHA1-Digest: c4WJPXLzM9OpWv2ZNmxSi7anva0=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_Polyline.gif
+SHA1-Digest: nnTCG7gVCr7GgB4GbNgDknvjDqM=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_CustomLayout.gif
+SHA1-Digest: N413zCSbFYfwUS6dG7Faf/UwIB0=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$7.class
+SHA1-Digest: kCMRWBCbnQ/FhqSt/xTwHGGbrik=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomDecorationItemProvider.c
+ lass
+SHA1-Digest: p0wL42nKv/V1nvtdnOgMuWBG42s=
+
+Name: icons/full/obj16/GMFGraphModelFile.gif
+SHA1-Digest: la9gxaDrz0ghpatARchRdXPaLcA=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_Invisible
+ Rectangle.gif
+SHA1-Digest: BgJeuPqKxozpf3nZOTYnoKIZdxw=
+
+Name: org/eclipse/gmf/gmfgraph/provider/RoundedRectangleItemProvider.c
+ lass
+SHA1-Digest: zDI5lpnVgRftbJXQGrWFGS2eqf4=
+
+Name: icons/full/ctool16/CreateFigure_insets_Insets.gif
+SHA1-Digest: YTTJqJ86LM+0q+9IjWlP2ppjhJQ=
+
+Name: icons/full/obj16/PolylineConnection.gif
+SHA1-Digest: HkztcHenka8VEe7RvgSXDldhBSA=
+
+Name: icons/full/ctool16/CreateSVGFigure_areaOfInterest_Rectangle2D.gi
+ f
+SHA1-Digest: 4pnaepen5Gd4T+4FHiDIlrZwogw=
+
+Name: icons/full/obj16/RoundedRectangle.gif
+SHA1-Digest: F2xKYRa+HZ5CdKmh1Jda4OFSiG0=
+
+Name: icons/full/ctool16/CreateRealFigure_children_Polygon.gif
+SHA1-Digest: Ac/Lf7TfbK9mM8P+nh4h8SDmqq0=
+
+Name: icons/full/ctool16/CreateCanvas_compartments_Compartment.gif
+SHA1-Digest: 8jFA7xoG9PLugUHnjlREsnqlYMc=
+
+Name: org/eclipse/gmf/gmfgraph/provider/PolylineDecorationItemProvider
+ .class
+SHA1-Digest: fRn4wG/a7zBWHQzscdQpyB+xhZA=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_PolylineDecoratio
+ n.gif
+SHA1-Digest: mM2vJzw3Zb+KLq3jMV6RjHvvFB0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_Ellipse.gif
+SHA1-Digest: v61afwTHY2+foRZKzt+TqWTp3vo=
+
+Name: icons/full/ctool16/CreateCompoundBorder_outer_MarginBorder.gif
+SHA1-Digest: rv774vGWAkkmndK2mozmLuTgS24=
+
+Name: icons/full/obj16/FigureRef.gif
+SHA1-Digest: lWmo7ZrF8xnTWBuI04DT2NWotWo=
+
+Name: icons/full/ctool16/CreateDiagramElement_facets_GeneralFacet.gif
+SHA1-Digest: kXvid0tQ+sBBjDvmd7hnMv9NRW0=
+
+Name: org/eclipse/gmf/gmfgraph/provider/PolygonItemProvider.class
+SHA1-Digest: mGNWX7K29ouP0Pf0p+ZmAJermzo=
+
+Name: icons/full/ctool16/CreateCompoundBorder_outer_CustomBorder.gif
+SHA1-Digest: Wfoz5qPS3fmQUaluvwQ2GZohMPI=
+
+Name: icons/full/ctool16/CreateRealFigure_children_PolylineConnection.
+ gif
+SHA1-Digest: 9JOj5RTc83hjaOytnP+WrtTizQU=
+
+Name: icons/full/ctool16/CreateFigure_size_Point.gif
+SHA1-Digest: XTrp+co7UraKpRQVqusSxQnRJIc=
+
+Name: icons/full/obj16/GridLayoutData.gif
+SHA1-Digest: 16X0dKE/zXuxEi04biiLcgxB91g=
+
+Name: org/eclipse/gmf/gmfgraph/provider/RealFigureItemProvider.class
+SHA1-Digest: DmJxrfatJIviL2MlgbiAPF8hht0=
+
+Name: icons/full/obj16/Connection.gif
+SHA1-Digest: YOl3x9Xxy/tnV3hFuy0Bwm/Q5UQ=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_CustomConnec
+ tion.gif
+SHA1-Digest: IkHHn8vzhGkqThqK1KU0HIaXwI8=
+
+Name: icons/full/obj16/DiagramLabel.gif
+SHA1-Digest: B+jg93rgQRB9oABTjUOTS3rSA/4=
+
+Name: org/eclipse/gmf/gmfgraph/provider/BorderRefItemProvider.class
+SHA1-Digest: qGcWMlTXhkJeJsOg5tKGkOcnxtc=
+
+Name: icons/full/obj16/ConstantColor.gif
+SHA1-Digest: Fw0COYVZufvtYThnaPEdKqw+S6s=
+
+Name: icons/full/ctool16/CreateFigure_preferredSize_Dimension.gif
+SHA1-Digest: q3/rzpvb777KteIV9/Jws0iRwzQ=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphModelWizard.class
+SHA1-Digest: F3xzj7RQlxR5FqRkxDrAxA5ze84=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphActionBarContribut
+ or$3.class
+SHA1-Digest: l8rdxqW8c805f1EEadu1QNIM6y8=
+
+Name: icons/full/ctool16/CreateLayoutable_layoutData_BorderLayoutData.
+ gif
+SHA1-Digest: JNngYyx/nzSPd8t7Z9fWVCufcFI=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_CustomCon
+ nection.gif
+SHA1-Digest: gcAhawVfQSUQ50akeL/6CZdlgsw=
+
+Name: icons/full/ctool16/CreateFigureGallery_borders_BorderRef.gif
+SHA1-Digest: 1lxpE7BOOrHWm03lZujLWmJQvT8=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef.edit/pom.xml
+SHA1-Digest: IdTctfMOU01QcyVDBGQ7NrQqif0=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$13.class
+SHA1-Digest: EHjT+39bNGbaQklrG+3iyn0e2/0=
+
+Name: org/eclipse/gmf/gmfgraph/provider/StackLayoutItemProvider.class
+SHA1-Digest: l/FHMQ4MHql++VMHYeX6N+pLf8Q=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphModelWizard$2.clas
+ s
+SHA1-Digest: 6CT0ultR2ENLEaVwmGThKoP/DtY=
+
+Name: icons/full/obj16/DefaultSizeFacet.gif
+SHA1-Digest: cpEMYuqSLE+jwyHABKKUD7i634k=
+
+Name: icons/full/obj16/BorderLayout.gif
+SHA1-Digest: AZqPBp+pHWyW5egqe3lHqOoL4Zo=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$4.class
+SHA1-Digest: PQGscpXePBxm+E/MGiK2x0+4KuU=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_StackLayout.gif
+SHA1-Digest: TUyghM4c1xdtRKou3UCrY97nFcc=
+
+Name: icons/full/obj16/FlowLayout.gif
+SHA1-Digest: YsqCtNqEsLbJuSYl50Dg7yE8a7c=
+
+Name: org/eclipse/gmf/gmfgraph/provider/VerticalLabelItemProvider.clas
+ s
+SHA1-Digest: vbusYsE+rI/mJFSq3DdW9Lv8QA4=
+
+Name: plugin.properties
+SHA1-Digest: weiWoq9iopCIT0j7Fwa45N1yGSo=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomLayoutDataItemProvider.c
+ lass
+SHA1-Digest: YLnMhkyQy6jv0ZmeClZfyRQrdHc=
+
+Name: org/eclipse/gmf/gmfgraph/provider/ScalablePolygonItemProvider.cl
+ ass
+SHA1-Digest: L0He2c6XCFD+mYBEgSeSbSiAEo0=
+
+Name: icons/full/obj16/CustomDecoration.gif
+SHA1-Digest: B+jg93rgQRB9oABTjUOTS3rSA/4=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GMFGraphEditPlugin$Implementat
+ ion.class
+SHA1-Digest: SWEusi+HWZo9OxcT3Jy7bGS9deQ=
+
+Name: plugin.xml
+SHA1-Digest: bEiCqpT7Go0v/MRz3+zj1gxYNQw=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_Ellipse.gif
+SHA1-Digest: itisyO5vqhQoK9lbbqxvFJ0/0vE=
+
+Name: icons/full/ctool16/CreateRealFigure_children_CustomConnection.gi
+ f
+SHA1-Digest: jtfdFWRmcShuvnaEfOBRn22HOUE=
+
+Name: icons/full/ctool16/CreateFigure_location_Point.gif
+SHA1-Digest: XTrp+co7UraKpRQVqusSxQnRJIc=
+
+Name: icons/full/ctool16/CreateCompoundBorder_outer_CompoundBorder.gif
+SHA1-Digest: 1z5Sdkmbhe80TCaEiLoUU5Nj+DQ=
+
+Name: icons/full/obj16/GridLayout.gif
+SHA1-Digest: DKzRo64i7IAPgvU5URATYqMyngI=
+
+Name: icons/full/ctool16/CreateRealFigure_children_CustomFigure.gif
+SHA1-Digest: R0r0l+fhTpE6s03JFu56r+uz3Dg=
+
+Name: icons/full/obj16/FigureGallery.gif
+SHA1-Digest: 8wQpjQRHUIE/3rJfgOLg1Ime+jY=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_SVGFigure
+ .gif
+SHA1-Digest: H2IK75++MuKfaQ5t7NRyg+JFV/g=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GridLayoutDataItemProvider.cla
+ ss
+SHA1-Digest: /e7Ww62nYSNBmZc5TgJlz66ISdo=
+
+Name: icons/full/ctool16/CreateCompoundBorder_outer_LineBorder.gif
+SHA1-Digest: 74KyH3HwhcPt3BQLGIouYCNGzy8=
+
+Name: icons/full/ctool16/CreateBorderLayout_spacing_Dimension.gif
+SHA1-Digest: aj4HsSKo+/oyNt+kjI9Rhn7zOEk=
+
+Name: org/eclipse/gmf/gmfgraph/provider/DiagramLabelItemProvider.class
+SHA1-Digest: rXUrsVg2AcK9QaWGcB49WG8AYGA=
+
+Name: icons/full/ctool16/CreateFigure_foregroundColor_RGBColor.gif
+SHA1-Digest: iVYkRVbmqsgA4QJcPbHN3RQhaGQ=
+
+Name: icons/full/ctool16/CreateLayoutable_layout_StackLayout.gif
+SHA1-Digest: tbKdvqAB9oYMbCvpTDKQFXjN6T8=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_Polygon.g
+ if
+SHA1-Digest: yC8ivKYtgIQ90VA94y5xMhvzOQg=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_Label.gif
+SHA1-Digest: Tt0TrYDY8LsWUizmVhuWjKasf+8=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$10.class
+SHA1-Digest: Am2SOTfgFfh3oFi8Bp7ZcIyO2lM=
+
+Name: icons/full/ctool16/CreateLayoutable_layout_BorderLayout.gif
+SHA1-Digest: h/ZFGjYeLH5elkd6rQVNjhKEsws=
+
+Name: org/eclipse/gmf/gmfgraph/provider/FigureRefItemProvider.class
+SHA1-Digest: 4SJtzFkdacnFH5JC4LPcXdFDWtQ=
+
+Name: icons/full/obj16/GradientFacet.gif
+SHA1-Digest: HkztcHenka8VEe7RvgSXDldhBSA=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_PolylineConn
+ ection.gif
+SHA1-Digest: UwzXk8ML9HXg5GfA67kRw+gMwZI=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$18.class
+SHA1-Digest: l5dT5raqddmHs9zdLR5YR+LUCnk=
+
+Name: org/eclipse/gmf/gmfgraph/provider/FlowLayoutItemProvider.class
+SHA1-Digest: 1O3ayK6Q+X0GrpxTIFixespHUEg=
+
+Name: icons/full/ctool16/CreateRealFigure_children_SVGFigure.gif
+SHA1-Digest: F3lKQQK8bXozs39oCVV8AfFjxQU=
+
+Name: icons/full/obj16/Rectangle.gif
+SHA1-Digest: T+eAHuq7XeqH1C84ymKDSHf0l3Y=
+
+Name: icons/full/ctool16/CreateCustomClass_attributes_CustomAttribute.
+ gif
+SHA1-Digest: bozm3zhqGjurY79gT1avbMD6wKM=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$1.class
+SHA1-Digest: gbdXyLVOHqUDQMvj/Jn+GRt7Pas=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomBorderItemProvider.class
+SHA1-Digest: 6rEL+SFbYRJ7iHXsuq8z+c4/d8I=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_PolylineC
+ onnection.gif
+SHA1-Digest: ntKvlJ+10glOBBD5XEq+96HrQJs=
+
+Name: icons/full/obj16/Label.gif
+SHA1-Digest: 6zAHWDfUJyjeg2mlOpuGFoGqSOM=
+
+Name: icons/full/ctool16/CreateFigureGallery_borders_CompoundBorder.gi
+ f
+SHA1-Digest: mM2vJzw3Zb+KLq3jMV6RjHvvFB0=
+
+Name: org/eclipse/gmf/gmfgraph/provider/BorderLayoutDataItemProvider.c
+ lass
+SHA1-Digest: 3qJLTdp5y2Z+Pd86GYqQuDZoGnc=
+
+Name: org/eclipse/gmf/gmfgraph/provider/ChildAccessItemProvider.class
+SHA1-Digest: 2XDFtD4SFF1PeQbQowDb9vtfqh0=
+
+Name: icons/full/ctool16/CreateFigureGallery_borders_MarginBorder.gif
+SHA1-Digest: N413zCSbFYfwUS6dG7Faf/UwIB0=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$9.class
+SHA1-Digest: 7nDuJb89QZ+W3HMU5L3VY5vs38s=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_PolygonDecor
+ ation.gif
+SHA1-Digest: WvDOzSgAYooiMD/WpvdiC4MOFyo=
+
+Name: icons/full/ctool16/CreateRealFigure_children_Label.gif
+SHA1-Digest: pM9D3R+0O1qjAl90IepjZlNB77E=
+
+Name: icons/full/ctool16/CreateFigureGallery_borders_CustomBorder.gif
+SHA1-Digest: kLkq+vgKWDa+Ifl51aRUZNFD9lE=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomPinItemProvider.class
+SHA1-Digest: Xx/NbKvNN4Rg2xAKIQMLbJtqDr8=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GMFGraphItemProviderAdapterFac
+ tory.class
+SHA1-Digest: 72BoqOWmrMzw9dS3/sUQaI759yo=
+
+Name: icons/full/obj16/VisiblePin.gif
+SHA1-Digest: Fw0COYVZufvtYThnaPEdKqw+S6s=
+
+Name: org/eclipse/gmf/gmfgraph/provider/LabelOffsetFacetItemProvider.c
+ lass
+SHA1-Digest: RLtOWeLjtHAy1ZaGQiUlvXRxNec=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GridLayoutItemProvider.class
+SHA1-Digest: NxMYxokV9byAZV7QUEKjV+30yGU=
+
+Name: icons/full/ctool16/CreateCompoundBorder_inner_BorderRef.gif
+SHA1-Digest: l62vy5H9COIN9ZSqE4zuezkgMpc=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_VerticalLabe
+ l.gif
+SHA1-Digest: TvhOW+YI/Q38UPVQzh7pXrGMd8k=
+
+Name: icons/full/ctool16/CreateMarginBorder_insets_Insets.gif
+SHA1-Digest: qdOeyHigQbNUbmuMkbQ+mCnlG2s=
+
+Name: icons/full/ctool16/CreateFigure_backgroundColor_ConstantColor.gi
+ f
+SHA1-Digest: 5ddwtJgR+/NHuXhna1uva/PuBto=
+
+Name: icons/full/ctool16/CreateCompoundBorder_inner_CompoundBorder.gif
+SHA1-Digest: 1z5Sdkmbhe80TCaEiLoUU5Nj+DQ=
+
+Name: icons/full/obj16/Canvas.gif
+SHA1-Digest: ughyu2sf9tjdSsux4ArtI6B9UPY=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_accessors_ChildAccess.
+ gif
+SHA1-Digest: bru5fIYMgZS/dp946UkXPWqmFXI=
+
+Name: org/eclipse/gmf/gmfgraph/provider/Rectangle2DItemProvider.class
+SHA1-Digest: peaIj80QUxyTwBOB0vqzz3Cw/zM=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_LabeledConta
+ iner.gif
+SHA1-Digest: Lm7vgFj3a0HpyNrchrSowylL6VY=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_Label.gif
+SHA1-Digest: sgzqU1lhgkHefsm6zr1O+SsDSbY=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_LabeledCo
+ ntainer.gif
+SHA1-Digest: tfrjaGHB7v85OVu27Gz2cI5ITak=
+
+Name: icons/full/ctool16/CreateRealFigure_children_VerticalLabel.gif
+SHA1-Digest: WfBOauDviuVWkEhwVhvVPBcshWU=
+
+Name: icons/full/ctool16/CreateRealFigure_children_Ellipse.gif
+SHA1-Digest: OwSWG0ugdCmm4CK5X/sphQgcGiM=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomConnectionItemProvider.c
+ lass
+SHA1-Digest: GEusEA/7absKrqaZ47hCZZ0DZTY=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GeneralFacetItemProvider.class
+SHA1-Digest: yA6Xp6WF73ozU4KbkcgJzMvXJpg=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CompartmentItemProvider.class
+SHA1-Digest: 90MMsC9POobL+vu1IXhtq62H4sM=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$15.class
+SHA1-Digest: Qju7LCwRuIqctIdK9EwbGP5J/L0=
+
+Name: icons/full/ctool16/CreateLayoutable_layoutData_CustomLayoutData.
+ gif
+SHA1-Digest: LUbJ6ruizblvEPVhzt/7OsPK8dQ=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_LayoutRef.gif
+SHA1-Digest: FYT1Sa6PXU4LMXTy1AAxjQHxbgw=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_RoundedRecta
+ ngle.gif
+SHA1-Digest: Wr9Cr5aGn7XHcKdY9E6k6hPQ+FM=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_PolygonDecoration
+ .gif
+SHA1-Digest: AcEwK4rY1WQc7hTM7Wjaj5RHXik=
+
+Name: icons/full/ctool16/CreateGridLayout_margins_Dimension.gif
+SHA1-Digest: ARhIKQwf3UrRomZOAtt8vfkS3lM=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$ReverseAdap
+ terFactoryContentProvider.class
+SHA1-Digest: DGvMb2hEQMEAzfAI60jw1GxUZFQ=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_FlowLayout.gif
+SHA1-Digest: 0DbouQhh1rGbOb4/+JK82GpHtFw=
+
+Name: org/eclipse/gmf/gmfgraph/provider/PolylineConnectionItemProvider
+ .class
+SHA1-Digest: TExuHyODToxhlXON0KQArEIgdIg=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$6.class
+SHA1-Digest: jNGnupeYjyvCUQ798+usJvgLn/c=
+
+Name: icons/full/ctool16/CreateDiagramElement_facets_AlignmentFacet.gi
+ f
+SHA1-Digest: b7ZO6jHijd+e6nCvveFoZDPtXkY=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_RoundedRe
+ ctangle.gif
+SHA1-Digest: WK/8JyZSiZrV0qWmZMu4YuZAZDw=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_InvisibleRectangl
+ e.gif
+SHA1-Digest: 1lxpE7BOOrHWm03lZujLWmJQvT8=
+
+Name: icons/full/ctool16/CreateLineBorder_color_ConstantColor.gif
+SHA1-Digest: K8LJdzibjxj9BzbYG6phjIa4/0o=
+
+Name: icons/full/ctool16/CreateCanvas_nodes_DiagramLabel.gif
+SHA1-Digest: TklajxgQ0qC1jbFVFtzwICDWVp4=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$2$1.class
+SHA1-Digest: b1WYQv1bfALcL+cb/hnPAaFID2U=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$4$1.class
+SHA1-Digest: 1A/MFYgCc4hlNfT4VVfmKzitkHI=
+
+Name: icons/full/ctool16/CreateFigure_maximumSize_Dimension.gif
+SHA1-Digest: q3/rzpvb777KteIV9/Jws0iRwzQ=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_VerticalLabel.gif
+SHA1-Digest: m8fL4b0inEuyVjuPy/3ZgtpGTJQ=
+
+Name: icons/full/ctool16/CreateRealFigure_children_LabeledContainer.gi
+ f
+SHA1-Digest: IzZvPAGEASTtbsA3wZa4KcjeU80=
+
+Name: org/eclipse/gmf/gmfgraph/provider/RectangleItemProvider.class
+SHA1-Digest: v3s1DDFdB7ytfLDZMF2QUzPM4vA=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_GridLayout.gif
+SHA1-Digest: xCv2Of7qsHXNAsTUf3J1ECAduFw=
+
+Name: icons/full/obj16/PolylineDecoration.gif
+SHA1-Digest: T+eAHuq7XeqH1C84ymKDSHf0l3Y=
+
+Name: icons/full/obj16/AlignmentFacet.gif
+SHA1-Digest: anDrqczTKuP24CH3saEL4lXNjT4=
+
+Name: icons/full/obj16/StackLayout.gif
+SHA1-Digest: NKLRFh/rISarQKWgYpUHbYwlA0w=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_ScalablePoly
+ gon.gif
+SHA1-Digest: 3tuwTipPFsvJGc6mFsJTFtTQKOc=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CenterLayoutItemProvider.class
+SHA1-Digest: kK4YAXsNvzdMHsS2zu+ajsFomOc=
+
+Name: icons/full/ctool16/CreateDiagramElement_facets_DefaultSizeFacet.
+ gif
+SHA1-Digest: 5K1N2RDJjWI9gGoZ6U0bVzhEOsw=
+
+Name: icons/full/ctool16/CreateRealFigure_children_RoundedRectangle.gi
+ f
+SHA1-Digest: AUQo/ovVFzew+jprBgj4kzyEdoo=
+
+Name: icons/full/ctool16/CreateLayoutable_layout_XYLayout.gif
+SHA1-Digest: KUIFb5oTpHM/HSbZN8p2kKmD4lE=
+
+Name: icons/full/ctool16/CreateFigure_foregroundColor_ConstantColor.gi
+ f
+SHA1-Digest: 5ddwtJgR+/NHuXhna1uva/PuBto=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_Rectangle.gi
+ f
+SHA1-Digest: gpZ43cEWpgtf+7MbpHA9jGW+FTo=
+
+Name: org/eclipse/gmf/gmfgraph/provider/XYLayoutItemProvider.class
+SHA1-Digest: 0jXxCLkUMSguCxhhJCe2SDElXvw=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphActionBarContribut
+ or$2.class
+SHA1-Digest: f5Ol5f8VipC2MpvhanF9QlfvBOg=
+
+Name: org/eclipse/gmf/gmfgraph/provider/LabeledContainerItemProvider.c
+ lass
+SHA1-Digest: mlX7RVdJHAyA4vMGsWsj/TacKhs=
+
+Name: icons/full/obj16/CustomPin.gif
+SHA1-Digest: 6rFSuAHnNB54QQ1XYMtkFALb+R4=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_CustomConnection.
+ gif
+SHA1-Digest: 1m1TBCp59XXi4CR3PHXasaXXLqQ=
+
+Name: org/eclipse/gmf/gmfgraph/provider/FigureGalleryItemProvider.clas
+ s
+SHA1-Digest: fmYqr6jUoPFOkkj8lHfSrspP1Rw=
+
+Name: icons/full/obj16/Dimension.gif
+SHA1-Digest: c9ghkzhwtb6iTUHrGepB7GORjb0=
+
+Name: icons/full/ctool16/CreateLayoutable_layout_FlowLayout.gif
+SHA1-Digest: C+kXJBDN9wvMC/Y+37u7ZRHsWGo=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$12.class
+SHA1-Digest: /9U7OHF37gEuoI0JKZvgB+khpEI=
+
+Name: icons/full/ctool16/CreateRealFigure_children_PolylineDecoration.
+ gif
+SHA1-Digest: +YP7XWFdo91pc6l5LDi3hG3YPrc=
+
+Name: org/eclipse/gmf/gmfgraph/provider/ColorPinItemProvider.class
+SHA1-Digest: 56qXvsTN+EeNCfp50qMcsBt7/j0=
+
+Name: icons/full/obj16/SVGFigure.gif
+SHA1-Digest: rw4VY33aZuUltGDueBzQiVgy5M0=
+
+Name: org/eclipse/gmf/gmfgraph/provider/DefaultSizeFacetItemProvider.c
+ lass
+SHA1-Digest: m2J+87iZRzvbs/EidSPsZR5Jgqk=
+
+Name: icons/full/obj16/GeneralFacet.gif
+SHA1-Digest: Sk87peqtjGOl7ixDme+ldSvxyvY=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CompoundBorderItemProvider.cla
+ ss
+SHA1-Digest: bixnEXYh0zqjAWboetR+zWqzRpg=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_CustomDecora
+ tion.gif
+SHA1-Digest: GBTiSI0O2GYl1O/INMTZVhz7FJs=
+
+Name: icons/full/ctool16/CreateCanvas_labels_DiagramLabel.gif
+SHA1-Digest: TklajxgQ0qC1jbFVFtzwICDWVp4=
+
+Name: icons/full/wizban/NewGMFGraph.gif
+SHA1-Digest: hiFQFTuNLT+K3rrd2pWCZTq2aW0=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphModelWizard$1.clas
+ s
+SHA1-Digest: YTSoXfVJsd8AO//Ah2C2X1r9Zxk=
+
+Name: org/eclipse/gmf/gmfgraph/provider/SVGPropertyItemProvider.class
+SHA1-Digest: HcVYHE7WbGbouFG1fTE/2nJudzI=
+
+Name: icons/full/ctool16/CreateFigureGallery_layouts_BorderLayout.gif
+SHA1-Digest: itisyO5vqhQoK9lbbqxvFJ0/0vE=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$3.class
+SHA1-Digest: S8iJ42RYN7m3U7Xd1vwDSV+UXvQ=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.g
+ raphdef.edit/pom.properties
+SHA1-Digest: yygH1crmbw79df5JxC2KsvVtNmU=
+
+Name: org/eclipse/gmf/gmfgraph/provider/ConstantColorItemProvider.clas
+ s
+SHA1-Digest: L8X64ZcWYQDfWWtz/2khx9HGnAw=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_CustomDec
+ oration.gif
+SHA1-Digest: m3Hj641f3FhLsagKitukEN4aGZY=
+
+Name: icons/full/ctool16/CreateXYLayoutData_topLeft_Point.gif
+SHA1-Digest: LMAPhAnubHPDCOo4QqCg6LxbPQo=
+
+Name: org/eclipse/gmf/gmfgraph/provider/ShapeItemProvider.class
+SHA1-Digest: Vdshr1WYgl9qZFoC6h8W7t9bo/k=
+
+Name: org/eclipse/gmf/gmfgraph/provider/AbstractNodeItemProvider.class
+SHA1-Digest: cneNwGLHi2MXw2Qh+I2IEvO/T+4=
+
+Name: icons/full/obj16/BorderLayoutData.gif
+SHA1-Digest: BC69qmeawLBuLguLVPHAxPp5G2g=
+
+Name: icons/full/ctool16/CreateFigureGallery_borders_LineBorder.gif
+SHA1-Digest: VcZ7yolDV5mgknMezWLW9XUi4u8=
+
+Name: org/eclipse/gmf/gmfgraph/provider/DimensionItemProvider.class
+SHA1-Digest: T1euJpB7dKSMz+MGknRERPqcIns=
+
+Name: icons/full/ctool16/CreateLayoutable_layout_GridLayout.gif
+SHA1-Digest: mZ3MFoFnRQA2gWAFBflHHYF1Uf0=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$3$2.class
+SHA1-Digest: DwsnvTdnWZ2YDira1lcC0IFamO8=
+
+Name: icons/full/ctool16/CreateCustomFigure_customChildren_FigureAcces
+ sor.gif
+SHA1-Digest: bozm3zhqGjurY79gT1avbMD6wKM=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_Ellipse.g
+ if
+SHA1-Digest: DgHJJzT9jVah9ZcV6B8EaANMHu4=
+
+Name: icons/full/ctool16/CreateFigure_border_MarginBorder.gif
+SHA1-Digest: QdgA9UCP8WQFmwfqV4g2ESFj6Ig=
+
+Name: icons/full/obj16/FigureAccessor.gif
+SHA1-Digest: nsQeX0sVxi8Bjr0kI6lPjKF9zSI=
+
+Name: icons/full/obj16/LayoutRef.gif
+SHA1-Digest: xoDd74HHX/Dr3zanONNlODTHO48=
+
+Name: icons/full/ctool16/CreateFigure_border_CustomBorder.gif
+SHA1-Digest: fao4gHRfGhVVlYVN02BEKsjqAx0=
+
+Name: icons/full/obj16/PolygonDecoration.gif
+SHA1-Digest: AUyZYH7KuCJQIePO6lB59JW3UfM=
+
+Name: icons/full/obj16/LabelOffsetFacet.gif
+SHA1-Digest: EizJcIkJg98p73F6F5ja5Zj11jU=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_ScalablePolygon.g
+ if
+SHA1-Digest: me2zMFhmgGJk+9kjlqLQWhknYOI=
+
+Name: icons/full/obj16/Point.gif
+SHA1-Digest: B+jg93rgQRB9oABTjUOTS3rSA/4=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$1MyContentO
+ utlinePage.class
+SHA1-Digest: 1Unl2+Ps2QRRfR+xtrpOQ4Ox1Bo=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_Rectangle.gif
+SHA1-Digest: mM2vJzw3Zb+KLq3jMV6RjHvvFB0=
+
+Name: icons/full/ctool16/CreateCanvas_connections_Connection.gif
+SHA1-Digest: z/9yyOk4vWfwLbzk11Kq40KtyB4=
+
+Name: icons/full/ctool16/CreateRealFigure_children_CustomDecoration.gi
+ f
+SHA1-Digest: PCeTr9fVGJ6OYgaiGRmFhHCDxrg=
+
+Name: icons/full/ctool16/CreateLayoutable_layoutData_XYLayoutData.gif
+SHA1-Digest: EQT2ioMJApHiIcJt0jexPvEqFO0=
+
+Name: icons/full/ctool16/CreateLineBorder_color_RGBColor.gif
+SHA1-Digest: +0XonvPLjz5jMPiR4lsMlzgCFpU=
+
+Name: icons/full/ctool16/CreateCompoundBorder_inner_LineBorder.gif
+SHA1-Digest: 74KyH3HwhcPt3BQLGIouYCNGzy8=
+
+Name: icons/full/obj16/CenterLayout.gif
+SHA1-Digest: zQtjXniQvLE/hL1niFuMWxxoe0o=
+
+Name: org/eclipse/gmf/gmfgraph/provider/AbstractFigureItemProvider.cla
+ ss
+SHA1-Digest: MnvVKbJs5TE6VgKFqbBlgvhKsL0=
+
+Name: icons/full/ctool16/CreateGridLayoutData_sizeHint_Dimension.gif
+SHA1-Digest: kfjIUr5B0qWVdxZPWqFBC+FiHvk=
+
+Name: org/eclipse/gmf/gmfgraph/provider/PolygonDecorationItemProvider.
+ class
+SHA1-Digest: pGLgRF+ymCxeYv9j2IUneY/mm4Y=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_CustomFigure
+ .gif
+SHA1-Digest: hnS7M1MUYsPpUXwkbv0Xk+CicUQ=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$3$1Resource
+ DeltaVisitor.class
+SHA1-Digest: pcWOQCZcJWxMEun7TclFvrTTQSw=
+
+Name: org/eclipse/gmf/gmfgraph/provider/PointItemProvider.class
+SHA1-Digest: uFXYN5Rrh9tWdvmDBIhZDcTshWM=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CustomFigureItemProvider.class
+SHA1-Digest: hmlxO9fMYpLJgHBmq82FmGs3cB4=
+
+Name: org/eclipse/gmf/gmfgraph/provider/XYLayoutDataItemProvider.class
+SHA1-Digest: uAlc54DKMTbUOdMxz/xEh0PnpGM=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_CustomFig
+ ure.gif
+SHA1-Digest: 7gRW7sHqUkeeJ6dHOMZXj5NY5R8=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$17.class
+SHA1-Digest: g3a5mQBhBWqpw2kIvIWuUxZc5/o=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_Polyline.gif
+SHA1-Digest: wU3HI4sZ83oNwckM1Am912e21V4=
+
+Name: icons/full/ctool16/CreateFigure_minimumSize_Dimension.gif
+SHA1-Digest: q3/rzpvb777KteIV9/Jws0iRwzQ=
+
+Name: icons/full/obj16/Insets.gif
+SHA1-Digest: Xg/E1wMKhipTUi/PMzIB+6ZHmyc=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_PolylineConnectio
+ n.gif
+SHA1-Digest: BH72Q1fkQpYIaS7Qiw6lc5BC8Vk=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_Polyline.
+ gif
+SHA1-Digest: oq4hwcT/VWrRFfTYL3eFHts79I4=
+
+Name: icons/full/obj16/MarginBorder.gif
+SHA1-Digest: +Ntvcq4997BNYPYLZR/UjlAixTo=
+
+Name: icons/full/obj16/CustomLayout.gif
+SHA1-Digest: 3B9spZMlGRC9QMqS+Bdfp/A+gks=
+
+Name: org/eclipse/gmf/gmfgraph/provider/NodeItemProvider.class
+SHA1-Digest: vgIYlwcfIhntZ/MR0cbhg3qI+8w=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphEditor$8.class
+SHA1-Digest: 9rmDrq60VtrYb1yhseBc85B7Fek=
+
+Name: org/eclipse/gmf/gmfgraph/provider/InvisibleRectangleItemProvider
+ .class
+SHA1-Digest: feUSPLqNpBbTvEUB/82y9xPCYAY=
+
+Name: icons/full/obj16/CustomBorder.gif
+SHA1-Digest: zGsVzige34RisrKC51p5TwyPbZU=
+
+Name: icons/full/obj16/Polygon.gif
+SHA1-Digest: 6rFSuAHnNB54QQ1XYMtkFALb+R4=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_PolylineDeco
+ ration.gif
+SHA1-Digest: gpZ43cEWpgtf+7MbpHA9jGW+FTo=
+
+Name: icons/full/ctool16/CreateLayoutable_layoutData_GridLayoutData.gi
+ f
+SHA1-Digest: OcmP+qAjlBMhVBLmBwFYfiyBI0Q=
+
+Name: org/eclipse/gmf/gmfgraph/provider/GradientFacetItemProvider.clas
+ s
+SHA1-Digest: ImFYJorsnZxoGisUNbjxdPFJKFc=
+
+Name: icons/full/ctool16/CreateFigure_border_CompoundBorder.gif
+SHA1-Digest: cKHMmwEFX3vU1dB7OdYuKeKz+tQ=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_PolylineD
+ ecoration.gif
+SHA1-Digest: zZrbiqmxRRKAt1Pjth5Ro542+AY=
+
+Name: org/eclipse/gmf/gmfgraph/provider/RGBColorItemProvider.class
+SHA1-Digest: 7OMYzmBG283JwGGvOsGSDugYMLQ=
+
+Name: icons/full/ctool16/CreateFigure_border_LineBorder.gif
+SHA1-Digest: Erl1spunI9p2hRbCBCCtsx8mheQ=
+
+Name: org/eclipse/gmf/gmfgraph/provider/CanvasItemProvider.class
+SHA1-Digest: JqmxU8LreWfKUEpE88pLoT29+ng=
+
+Name: icons/full/obj16/RGBColor.gif
+SHA1-Digest: anDrqczTKuP24CH3saEL4lXNjT4=
+
+Name: icons/full/obj16/Compartment.gif
+SHA1-Digest: VaUNsc7JdwfTbeX9TR3QsutFMGc=
+
+Name: org/eclipse/gmf/gmfgraph/presentation/GMFGraphActionBarContribut
+ or.class
+SHA1-Digest: uJEFSzz/gsqkUgBXKMuj/aK8V7U=
+
+Name: icons/full/ctool16/CreateRealFigure_children_Polyline.gif
+SHA1-Digest: EgAFWjZ2NQqiHCczpdbo6E26qBg=
+
+Name: icons/full/ctool16/CreateFigureAccessor_typedFigure_SVGFigure.gi
+ f
+SHA1-Digest: iRGe2awYfESrAekAjzANwE+zxtQ=
+
+Name: icons/full/ctool16/CreateFigureDescriptor_actualFigure_Label.gif
+SHA1-Digest: 8KD9P2onaSdAsOuJqBnb16D2+dE=
+
+Name: org/eclipse/gmf/gmfgraph/provider/DiagramElementItemProvider.cla
+ ss
+SHA1-Digest: 8wEvqFYJI5SI0ySc9RoyN/7Lx5g=
+
+Name: icons/full/ctool16/CreateCanvas_nodes_Node.gif
+SHA1-Digest: CU/OvgxLNqOD42lprKCIgm5RjIY=
+
+Name: icons/full/ctool16/CreateFigureGallery_figures_LabeledContainer.
+ gif
+SHA1-Digest: x15GyBHOh8MNekaUXh+zISFBNlQ=
+

@@ -1,0 +1,407 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.gmf.tooling.runtime;singleton:=true
+Bundle-Activator: org.eclipse.gmf.tooling.runtime.GMFToolingRuntimePlu
+ gin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.expressions,
+ org.eclipse.emf.ecore,org.eclipse.emf.edit.ui,org.eclipse.draw2d;visi
+ bility:=reexport,org.eclipse.gef;visibility:=reexport,org.eclipse.gmf
+ .runtime.emf.commands.core,org.eclipse.gmf.runtime.common.ui.services
+ ,org.eclipse.gmf.runtime.emf.type.core,org.eclipse.gmf.runtime.diagra
+ m.core,org.eclipse.gmf.runtime.diagram.ui,org.eclipse.gmf.runtime.dia
+ gram.ui.properties,org.eclipse.ocl,org.eclipse.ocl.ecore,org.eclipse.
+ gmf.runtime.notation
+Export-Package: org.eclipse.gmf.tooling.runtime,org.eclipse.gmf.toolin
+ g.runtime.actions,org.eclipse.gmf.tooling.runtime.directedit,org.ecli
+ pse.gmf.tooling.runtime.directedit.locator,org.eclipse.gmf.tooling.ru
+ ntime.draw2d,org.eclipse.gmf.tooling.runtime.draw2d.labels,org.eclips
+ e.gmf.tooling.runtime.edit.helpers,org.eclipse.gmf.tooling.runtime.ed
+ it.policies,org.eclipse.gmf.tooling.runtime.edit.policies.effect,org.
+ eclipse.gmf.tooling.runtime.edit.policies.labels,org.eclipse.gmf.tool
+ ing.runtime.edit.policies.reparent,org.eclipse.gmf.tooling.runtime.oc
+ l.tracker,org.eclipse.gmf.tooling.runtime.parsers,org.eclipse.gmf.too
+ ling.runtime.part,org.eclipse.gmf.tooling.runtime.providers,org.eclip
+ se.gmf.tooling.runtime.sheet,org.eclipse.gmf.tooling.runtime.structur
+ e,org.eclipse.gmf.tooling.runtime.update
+Bundle-Version: 3.1.0.201306121424
+Build-Jdk: 1.6.0_21
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/gmf/tooling/runtime/draw2d/CenterLayout.class
+SHA1-Digest: Jetu1IlImB1A0RdqCeTstFsMmO4=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/OclTrackerWrapper.class
+SHA1-Digest: UEXkeHVbshQuDhErcEdGTO/NEAY=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/AbstractFeatureParser$In
+ validValue.class
+SHA1-Digest: LDyKBOFl7PYEqrq1EjmJOL4Jkm4=
+
+Name: org/eclipse/gmf/tooling/runtime/part/DefaultDiagramEditorUtil$2.
+ class
+SHA1-Digest: n5Dk1PYiqVjgfTcXGmMCWckJpI4=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.t
+ ooling.runtime/pom.properties
+SHA1-Digest: 8GK63+Yyq5H7t15WNBbRK3+d6Og=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Conte
+ xtDataWithAdapter$1.class
+SHA1-Digest: FoDrgPJm8gAUy7PrcE7jItJalnQ=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/DirectEditManagerBase
+ $1.class
+SHA1-Digest: DyKjX12N4YmdBZD/WP7RfiMMqS0=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/effect/AbstractOcl
+ VisualEffectEditPolicy.class
+SHA1-Digest: Im0QvFCqsulMmTamWbPLIELDZjo=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/DirectEditManagerBase
+ $5.class
+SHA1-Digest: MkzDhAiS4+LI0wHsea3OJa/lQ4I=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/AbstractAttributeParser.
+ class
+SHA1-Digest: wnT7mlxp6l8SaeIMBTldpZsMaEE=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/TextDirectEditManager
+ 2.class
+SHA1-Digest: bK015qBkVpNmmQ7fO4UrRQDyCSw=
+
+Name: org/eclipse/gmf/tooling/runtime/part/DefaultDiagramEditorUtil$Fi
+ leExistenceCheck.class
+SHA1-Digest: fNHbi5H0VNBrAdtCAKwoiUwVbj8=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/locator/LabelCellEdit
+ orLocator.class
+SHA1-Digest: SXtJJpIrGtBvvWuqU/XQXUGs5+U=
+
+Name: org/eclipse/gmf/tooling/runtime/sheet/DefaultPropertySection$ROE
+ ntry.class
+SHA1-Digest: w6G9cR1CfZNYGy4gVEscQUkVPLk=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/DefaultNodeLabelDr
+ agPolicy.class
+SHA1-Digest: blI76tXlBbmmKAkNwBV+uZfae4g=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/locator/CellEditorLoc
+ atorAccess.class
+SHA1-Digest: 3pYdMQyW4E4LIdCbgxwyCRE9m/M=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/DefaultLinkLabelDr
+ agPolicy.class
+SHA1-Digest: STBOfw4qiMM0bqDAm2UxPpLLYNs=
+
+Name: org/eclipse/gmf/tooling/runtime/draw2d/labels/VerticalLabelCellE
+ ditorLocator.class
+SHA1-Digest: YSIQoF9esrbCU8ORq9zc9CZSSZ4=
+
+Name: org/eclipse/gmf/tooling/runtime/ocl/tracker/OclTrackerFactory.cl
+ ass
+SHA1-Digest: Nz0tCMrHFZF5Rl6HAldF1nX6iuk=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/locator/TextCellEdito
+ rLocator.class
+SHA1-Digest: OXhqLQUFrg7WtTuAyKnU5ToS2mI=
+
+Name: org/eclipse/gmf/tooling/runtime/providers/DefaultEditPartProvide
+ r.class
+SHA1-Digest: zzj8qZYfyxSgxi+C7BNDHUBcP0k=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/labels/IRefreshabl
+ eFeedbackEditPolicy.class
+SHA1-Digest: O45Izc5elGRRi/QyFVY4w3RuqMs=
+
+Name: org/eclipse/gmf/tooling/runtime/providers/DiagramElementTypeImag
+ es.class
+SHA1-Digest: aF6FsQDfVfqAuQkzYTkKCBUPHwU=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/helpers/GeneratedEditHelper
+ Base.class
+SHA1-Digest: 2+tNxnLeiesOHm5XdVNPjTccPW0=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Depen
+ dencyEvaluator.class
+SHA1-Digest: HkYoe0A4WnyQZiT9IN5Ofyy31cA=
+
+Name: org/eclipse/gmf/tooling/runtime/update/UpdaterLinkDescriptor.cla
+ ss
+SHA1-Digest: WNI6AD0G0q64QI/ZL2kAAg7EtYU=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Conte
+ xtDataWithAdapter.class
+SHA1-Digest: 4+Ew4TNDlucZI8Bdjf8PNI1JLdo=
+
+Name: org/eclipse/gmf/tooling/runtime/update/UpdaterNodeDescriptor.cla
+ ss
+SHA1-Digest: jVdmVI4spLcIh0EogejOZPS+Kic=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/OclChoiceParser$Tracker.
+ class
+SHA1-Digest: WB2RMD8WY/THcXYMHaWUtOzGBy4=
+
+Name: org/eclipse/gmf/tooling/runtime/actions/DefaultDeleteElementActi
+ on.class
+SHA1-Digest: qPmgbqsVlLcopJi3HryM8D/lQLU=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/DirectEditManagerBase
+ $2.class
+SHA1-Digest: b3Za5x6AxJNy4NKxsIvc1RSR0Us=
+
+Name: org/eclipse/gmf/tooling/runtime/sheet/DefaultPropertySection.cla
+ ss
+SHA1-Digest: uDwVUSfQkHe1GFBEcmZurPNtovo=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Conte
+ xtData.class
+SHA1-Digest: MIjYDBn7VJpJRuXtr2zGT4pwTh8=
+
+Name: org/eclipse/gmf/tooling/runtime/update/DiagramUpdater.class
+SHA1-Digest: jXesLq2R63dJNj/pcGQFlzmSL0o=
+
+Name: about.html
+SHA1-Digest: m//+sZd+LYcO5OY/bjEiZVm0dk0=
+
+Name: org/eclipse/gmf/tooling/runtime/part/DefaultModelElementSelectio
+ nPage.class
+SHA1-Digest: pKnLolZrtIYWPO/BR/xyJ/M794Q=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/CellEditorExDelegate.
+ class
+SHA1-Digest: EBWaqxttzaVSno1nyVL2BTkp7BQ=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/OclTrackerChoiceParser$1
+ .class
+SHA1-Digest: +TK2V1J0mw6aTOA8+K+Q2vGXLbE=
+
+Name: org/eclipse/gmf/tooling/runtime/Messages.class
+SHA1-Digest: ls46JPMpClZAUqujW5RaGYz6k9U=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/ComboCellEditorEx.cla
+ ss
+SHA1-Digest: oKgwuL7DD2zlvHD9uSsRFQd869M=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Activ
+ eOclEvaluatorImpl.class
+SHA1-Digest: V4kovjdKTHaKusgweIgAHItBkXk=
+
+Name: org/eclipse/gmf/tooling/runtime/ocl/tracker/OclTracker$Registrat
+ or.class
+SHA1-Digest: a6MdrzYYHHS4uHHrMDF0BZyFEHA=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Activ
+ eOclDependencyCollectorBase.class
+SHA1-Digest: RrWDvVR0/XWk/ck19O9a0VLqDsc=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/CellEditorEx.class
+SHA1-Digest: izQ6G1oOKwuY6lP+yYkv9hcVi/c=
+
+Name: org/eclipse/gmf/tooling/runtime/ocl/tracker/OclTrackerFactory$Ty
+ pe.class
+SHA1-Digest: HBz7v0m9yKRKxwMdond/M8lzTPQ=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/reparent/CreationE
+ ditPolicyWithCustomReparent$MoveRequestWithParentInfo.class
+SHA1-Digest: MB98DXnSdi60A3EtSFTERz2nrhQ=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/activeocl/ActiveOclEval
+ uator.class
+SHA1-Digest: I2YtAAVH2mpeFBKg11tPXoaP+Ik=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Activ
+ eOclTracker.class
+SHA1-Digest: kwvp/MdfPgDtm3AqV8etTqiMDAw=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/reparent/CreationE
+ ditPolicyWithCustomReparent.class
+SHA1-Digest: Q0/YghiHtt+7TkmxNMDW99E7K8g=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Evalu
+ ationVisitorImplEx.class
+SHA1-Digest: U9RXI43DpMlEFxXOZekKvucI7Ow=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/TextCellEditorEx.clas
+ s
+SHA1-Digest: m6wO8KhJniohfG7xoef5SGLM+fA=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/DirectEditManagerBase
+ .class
+SHA1-Digest: CNSz9H48gob7teRCTRqEoFbu4VA=
+
+Name: org/eclipse/gmf/tooling/runtime/draw2d/labels/VerticalLabelDeleg
+ ate.class
+SHA1-Digest: S+TGcRpHAWT8TL2cAfRchdE7JSs=
+
+Name: org/eclipse/gmf/tooling/runtime/ocl/tracker/HasOclTracker.class
+SHA1-Digest: w2Gvxr0fkYP5kWyMu92VcwQ3h2g=
+
+Name: org/eclipse/gmf/tooling/runtime/draw2d/labels/SimpleLabelDelegat
+ e.class
+SHA1-Digest: H7RjX6zXCokanLY2YDLjsxpyyvE=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Activ
+ eOclResultImpl.class
+SHA1-Digest: WXOBoFFSr6+3Z4umm2Dy8CjzbX4=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Simpl
+ eDependencyCollector.class
+SHA1-Digest: j6lNCU3Of7ExQwyC996v30YcGBQ=
+
+Name: org/eclipse/gmf/tooling/runtime/update/UpdaterLinkDescriptor$1.c
+ lass
+SHA1-Digest: 1/ZiXWUQGHVy48TK5nM1dkZCSzM=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/EnumParser.class
+SHA1-Digest: rQrmfcJ/PfxLNBRD1eivID2Ptqg=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/gmf/tooling/runtime/structure/DiagramStructure.class
+SHA1-Digest: UMhrn+UzGTkss1r9vGinE7G7Qms=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/reparent/MoveViewC
+ ommand.class
+SHA1-Digest: 99KFjc4hWXAZfG/3YI7ZEo/uaNc=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/DirectEditManagerBase
+ $3.class
+SHA1-Digest: NYwgVUx+QIWHhwth9IroNOyYlPM=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Activ
+ eOclTrackerFactory.class
+SHA1-Digest: TMAWwe1N5esRni4ghwspg+mvGUA=
+
+Name: org/eclipse/gmf/tooling/runtime/draw2d/labels/VerticalLabel.clas
+ s
+SHA1-Digest: ltuh5MgGFQHAbzbKIorl/jvWcQc=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/activeocl/ActiveOclResu
+ lt.class
+SHA1-Digest: kHfdRWFSVizoGZ1YnIwtOaROJH4=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/effect/AbstractOcl
+ VisualEffectEditPolicy$1.class
+SHA1-Digest: 8PUHXqvS6I10IR6OXBlfx5jtdyA=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/ComboDirectEditManage
+ r.class
+SHA1-Digest: fHykNGQ8VCY9UG0Ne+1QX/XXUmI=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/ChoiceParserBase.class
+SHA1-Digest: RfmiTp9W+BbnSgScFkqjD89UCxc=
+
+Name: org/eclipse/gmf/tooling/runtime/providers/DefaultElementTypeIcon
+ Provider.class
+SHA1-Digest: sWmY9sUmTauPdAB3HkBcFqP93PA=
+
+Name: org/eclipse/gmf/tooling/runtime/ocl/tracker/OclTracker.class
+SHA1-Digest: HVPrXczPhRQ4RAzqzdV+mR1hpvk=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/ExpressionLabelParserBas
+ e.class
+SHA1-Digest: OjtMNh+Ap8M2fqDEkAkLnS/M+MM=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/AbstractFeatureParser.cl
+ ass
+SHA1-Digest: hSec731gvim22AnduIYRc9lY7Rk=
+
+Name: org/eclipse/gmf/tooling/runtime/part/DefaultDiagramEditorUtil.cl
+ ass
+SHA1-Digest: cvPC5TQgHdgudXf4sa7rgbTZy/k=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/locator/VerticalLabel
+ CellEditorLocator.class
+SHA1-Digest: pyruH0scjwJEDG3j0Albml6yodo=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/ExpressionLabelParserBas
+ e$1.class
+SHA1-Digest: sQbBAt4iz8MXmpHEN1/X9+W/FS8=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/activeocl/ActiveOclList
+ ener.class
+SHA1-Digest: BqCuEsFZ6+cDes/bFqEgFuZ6NXk=
+
+Name: org/eclipse/gmf/tooling/runtime/GMFToolingRuntimePlugin.class
+SHA1-Digest: Y1HCf+fWoEoBAHvYqIAm3ROna2w=
+
+Name: plugin.properties
+SHA1-Digest: BWH+QScvWwrNMzG2uXQiql2kdVU=
+
+Name: org/eclipse/gmf/tooling/runtime/providers/DiagramElementTypes.cl
+ ass
+SHA1-Digest: 7UF0RgtMHDIHSyUwEDpw/wY34w0=
+
+Name: META-INF/maven/org.eclipse.gmf-tooling.plugins/org.eclipse.gmf.t
+ ooling.runtime/pom.xml
+SHA1-Digest: IchxGPIFglFl9E6TgiMEPe40n4o=
+
+Name: org/eclipse/gmf/tooling/runtime/update/UpdateDiagramCommand.clas
+ s
+SHA1-Digest: 8SBPsLxiI/tCiyrqElUNuzdlVwA=
+
+Name: org/eclipse/gmf/tooling/runtime/part/DefaultDiagramEditorUtil$1.
+ class
+SHA1-Digest: 5bX+efTX5+Gvv6jpq5M5IXJOk+k=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/ComboDirectEditManage
+ r$IChoiceParser.class
+SHA1-Digest: qZGkf6qUo5L2ePnTWZCPR2LK7vM=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Ecore
+ EnvironmentFactoryEx.class
+SHA1-Digest: ToBcHzoNIWmshQ12d3jwyj6hYmg=
+
+Name: plugin.xml
+SHA1-Digest: jkagUwIjqBKnsnrHBaMbqt3Hdz0=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/activeocl/ActiveOclDepe
+ ndencyCollector.class
+SHA1-Digest: OfqDxBTLAQVqtyORQUQv5LkBH4s=
+
+Name: org/eclipse/gmf/tooling/runtime/update/UpdaterLinkDescriptor$2.c
+ lass
+SHA1-Digest: ffu9B+fv5wi0wOWODSVCZhxs338=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/OclTrackerChoiceParser.c
+ lass
+SHA1-Digest: 03C7nYlI+EwAeugBMZH/6LfX44M=
+
+Name: org/eclipse/gmf/tooling/runtime/actions/DefaultLoadResourceActio
+ n.class
+SHA1-Digest: 2+71EVNka67eomCNlPgcb1IJG/E=
+
+Name: org/eclipse/gmf/tooling/runtime/ocl/tracker/OclTrackerBase.class
+SHA1-Digest: +DCKvpvK2ha9BEZOvAzUFsgmW7E=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/DirectEditManagerBase
+ $4.class
+SHA1-Digest: szha6cYDRAAa2Un4q1k+6MPlI3Q=
+
+Name: org/eclipse/gmf/tooling/runtime/parsers/OclChoiceParser.class
+SHA1-Digest: cNawfrDaOYjx32uIv51C+eDRStM=
+
+Name: org/eclipse/gmf/tooling/runtime/impl/ocl/tracker/activeocl/Liste
+ ningDependencyCollector.class
+SHA1-Digest: hT+yGqMVDw43cGsruWEVBC4olco=
+
+Name: org/eclipse/gmf/tooling/runtime/directedit/WrapTextCellEditor.cl
+ ass
+SHA1-Digest: 4I5KRvpuUygvq2xF80g5I2Yh30w=
+
+Name: org/eclipse/gmf/tooling/runtime/edit/policies/effect/AbstractOcl
+ VisualEffectEditPolicy$2.class
+SHA1-Digest: wTIcT99nEiJXZUxbFbQNBUEhOvA=
+
+Name: org/eclipse/gmf/tooling/runtime/part/DefaultModelElementSelectio
+ nPage$1.class
+SHA1-Digest: ym0tsjSbK/ADm208+JNJUVovP24=
+
